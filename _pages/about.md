@@ -23,7 +23,7 @@ The Decision Lab is headed by Winston Chiong, MD PhD, and is part of the [Memory
 
 2. **Ethical and Policy Implications of Alterations to Brain Function**
 
-   We also use conceptual and empirical/ethnographic methods to investigate the broader effects of brain diseases and of interventions (pharmacological and technological) that influence brain function. As the brain is the physical basis for our experiences, personalities and decisions, we are particularly interested in how changes to the brain affect patients' senses of identity, autonomy and authenticity.
+   We also use conceptual and empirical/ethnographic methods to investigate the broader effects of brain diseases and of interventions (pharmacological and technological) that influence brain function. As the brain is the physical basis for our experiences, personalities and choices, we are particularly interested in how changes to the brain affect patients' senses of themselves and of their autonomy in decision-making.
 
 ---
 
