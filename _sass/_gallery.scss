@@ -15,7 +15,6 @@ figcaption {
     width: 100%;
     overflow: hidden;
     box-sizing:border-box;
-    position: relative;
 }
 .col {
     width: 100%;
@@ -36,13 +35,6 @@ figcaption {
 
 .onefourth {
     width:25%;
-}
-
-.onevcenter {
-    width:33.33%;
-    top: 50%;
-    position: absolute;
-    transform: translate(0, -50%) 
 }
 
 .caption {
