@@ -1,7 +1,7 @@
 <footer>
 
   <div class="wrapper">
-    <a href="http://www.ucsf.edu/" target="_blank"><img class="inline-block" src="{{ '/assets/img/UCSF20.png/' | prepend: site.baseurl | prepend: site.url }}"></a>
+    <a href="http://www.ucsf.edu/" target="_blank"><img class="inline-block" src="{{ 'UCSF20.png' | prepend: '/assets/img/'| prepend: site.baseurl | prepend: site.url }}"></a>
     {{ site.footer_text }}
     {% if site.last_updated %}
         Last updated: {{ site.last_updated }}.
