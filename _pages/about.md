@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <strong>Decision Lab</strong> @ UCSF
+title: Decision Lab @ UCSF
 description: 
 
 profile: 
@@ -19,7 +19,7 @@ The Decision Lab is headed by Winston Chiong, MD PhD, and is part of the [Memory
 
 1. **Decision Neuroscience in Aging and Disorders of Aging**
 
-   We study the neural bases of decision-making in the aging brain in both health and disease, using techniques such as task-based functional MRI, large-scale online population-based methods, and computational behavioral modeling. We hope to understand brain changes underlying vulnerability to financial fraud and other mistakes, in order to inform future strategies to prevent these risks.
+   We study the neural bases of decision-making in the aging brain in both health and disease, using techniques such as task-based functional MRI, online population-based methods, and computational behavioral modeling. We hope to understand brain changes underlying vulnerability to financial fraud and other mistakes, in order to inform future strategies to prevent these risks.
 
 2. **Ethical and Policy Implications of Alterations to Brain Function**
 
