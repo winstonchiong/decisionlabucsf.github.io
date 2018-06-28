@@ -1,6 +1,10 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
-- citation: "Chiong W, Leonard MK, Chang EF. Neurosurgical Patients as Human Research Subjects: 
-            Ethical Considerations in Intracranial Electrophysiology Research. Neurosurgery. 2018; 83(1):29-37."
+- citation: " Neurosurgical Patients as Human Research Subjects: 
+            Ethical Considerations in Intracranial Electrophysiology Research. ."
+  authors: "**Chiong W**, Leonard MK, Chang EF."
+  title: "Neurosurgical patients as human research subjects: 
+          Ethical considerations in intracranial electrophysiology research."
+  details: Neurosurgery. 2018; 83(1):29-37
   year: 2018
   image: nyx361fig4.jpeg
   pmid: 28973530
@@ -9,9 +13,13 @@
   github:
 
 - citation: "Chiong W. Challenges in Communicating and Understanding Predictive Biomarker
-Imaging for Alzheimer Disease. JAMA neurology. 2018; 75(1):18-19."
+            Imaging for Alzheimer Disease. JAMA neurology. 2018; 75(1):18-19."
+  authors: "**Chiong W**"
+  title: "Challenges in communicating and understanding predictive biomarker
+          imaging for Alzheimer disease."
+  details: JAMA Neurology. 2018; 75(1):18-19.
   year: 2018
-  image: 
+  image: pet-scans1.jpg
   pmid: 29059264
   pmcid: 
   pdf:
@@ -23,6 +31,13 @@ Schenk AK, Heunis J, Ong P, Cook KM, Bowhay AD, Gearhart R, Chodos A, Naasan G,
 Bindman AB, Dohan D, Ritchie C, Miller BL. Development of an adaptive,
 personalized, and scalable dementia care program: Early findings from the Care
 Ecosystem. PLoS medicine. 2017; 14(3):e1002260."
+  authors: "Possin KL, Merrilees J, Bonasera SJ, Bernstein A, **Chiong W**, Lee K, Wilson L,
+            Hooper SM, Dulaney S, Braley T, Laohavanich S, Feuer JE, Clark AM, Schaffer MW,
+            Schenk AK, **Heunis J**, Ong P, Cook KM, Bowhay AD, Gearhart R, Chodos A, Naasan G,
+            Bindman AB, Dohan D, Ritchie C, Miller BL"
+  title: "Development of an adaptive, personalized, and scalable dementia care program: Early 
+          findings from the Care Ecosystem."
+  details: PLoS medicine. 2017; 14(3):e1002260.
   year: 2017
   image: 
   pmid: 28323819
@@ -32,6 +47,9 @@ Ecosystem. PLoS medicine. 2017; 14(3):e1002260."
 
 - citation: "Feldman WB, Kim AS, Chiong W. Trends in Recruitment Rates for Acute Stroke
 Trials, 1990-2014. Stroke. 2017; 48(3):799-801."
+  authors: "**Feldman WB**, Kim AS, **Chiong W**"
+  title: "Trends in recruitment rates for acute stroke trials, 1990-2014."
+  details: Stroke. 2017; 48(3):799-801.
   year: 2017
   image: 
   pmid: 28104835
@@ -39,177 +57,3 @@ Trials, 1990-2014. Stroke. 2017; 48(3):799-801."
   pdf:
   github:
 
-
-- citation: 'Frei AP\*, Bava FA\*, **Zunder ER**, Hsieh EW, Chen SY, Nolan GP, Gherardini PF. Highly multiplexed simultaneous detection of RNAs and proteins in single cells. *Nature Methods*. 2016. \*contributed equally'
-  date: 201601
-  image: '/static/img/pub/frei_nm_2016.jpg'
-  pmid: 26808670
-  pdf: '/static/pdf/Frei 2016 Nature Methods.pdf'
-  links:
-    - name: "Nolan Lab"
-      url: 'http://web.stanford.edu/group/nolan/'
-    - name: "PLAYRDesign Software"
-      url: 'https://github.com/nolanlab/PLAYRDesign'
-    - name: "Nature Education Bio 2.0 Blog: Rapid RNA analysis at a single cell level: a PLAYR's story"
-      url: 'http://www.nature.com/scitable/blog/bio2.0/rapid_rna_analysis_at_a'
-
-- citation: 'Spitzer MH\*, Gherardini PF\*, Fragiadakis GK, Bhattacharya N, Yuan RT, Hotson AN, Finck R, Carmi Y, **Zunder ER**, Fantl WJ, Bendall SC, Engleman EG, Nolan GP. A dynamic immune system reference map: system-wide organization with functional correlates. *Science*. 2015. \*contributed equally'
-  date: 201507
-  image: '/static/img/pub/spitzer_science_2015.jpg'
-  pmid: 26160952
-  pdf: '/static/pdf/Spitzer 2015 Science.pdf'
-  cytobank_report: http://www.cytobank.org/nolanlab/reports/Spitzer2015.html
-  links:
-    - name: "Engleman Lab"
-      url: 'https://med.stanford.edu/profiles/edgar-engleman'
-    - name: "Nolan Lab"
-      url: 'http://web.stanford.edu/group/nolan/'
-    - name: "Sciencescape: Mass Cytometry: A First Time Glimpse at the Dynamic Immune System"
-      url: 'http://blog.sciencescape.org/2015/07/16/mass-cytometry-a-first-time-glimpse-at-the-dynamic-immune-system/'
-
-- citation: 'Levine JH\*, Simonds EF\*, Bendall SC\*, Davis KL, Amir ED, Litvin O, Fienberg H, Jager A, Pinkus L, **Zunder ER**, Finck R, Gedman AL, Radtke I, Downing JR, Pe’er D, Nolan GP. Data-Driven Phenotypic Dissection of AML Reveals Progenitor-like Cells that Correlate with Prognosis. *Cell*. 2015. \*contributed equally'
-  date: 201506
-  image: '/static/img/pub/levine_cell_2015.jpg'
-  pmid: 26095251
-  pdf: '/static/pdf/Levine 2015 Cell.pdf'
-  cytobank_report: http://www.cytobank.org/nolanlab/reports/Levine2015.html
-  links:
-    - name: "Pe'er Lab"
-      url: 'http://www.c2b2.columbia.edu/danapeerlab/html/'
-    - name: "Nolan Lab"
-      url: 'http://web.stanford.edu/group/nolan/'
-    - name: "From mass cytometry to cancer prognosis"
-      url: 'http://www.nature.com/nbt/journal/v33/n9/abs/nbt.3346.html'
-
-- citation: 'Lujan E\*, **Zunder ER**\*, Nolan GP, Wernig M.  Early regulators of iPSC reprogramming identified by a novel set of transient intermediates. *Nature*. 2015. **\*contributed equally**'
-  date: 201505
-  image: '/static/img/pub/lujan_nature_2015.jpg'
-  pmid: 25830878
-  pmcid: PMC4441548
-  pdf: '/static/pdf/Lujan 2015 Nature.pdf'
-  links:
-    - name: "Wernig Lab"
-      url: 'http://stemcell.stanford.edu/about/Laboratories/wernig/index.html'
-    - name: "Nolan Lab"
-      url: 'http://web.stanford.edu/group/nolan/'
-    - name: "Stem Cell Portal: Reprogramming Revealed Using a Mass-terly Strategy"
-      url: 'http://stemcellsportal.com/reprogramming-revealed-using-mass-terly-strategy/'
-
-- citation: '**Zunder ER**\*, Lujan E\*, Goltsev Y, Wernig M, and Nolan GP. A Continuous Molecular Roadmap to iPSC Reprogramming Through Progression Analysis of Single Cell Mass Cytometry. *Cell Stem Cell*. 2015. **\*contributed equally**'
-  date: 201503
-  image: '/static/img/pub/zunder_csc_2015.png'
-  pmid: 25748935
-  pmcid: PMC4401090
-  pdf: '/static/pdf/Zunder 2015 Cell Stem Cell.pdf'
-  geo: GSE56764
-  cytobank_report: https://www.cytobank.org/cytobank/experiments?project=688
-  links:
-    - name: "Nolan Lab"
-      url: 'http://web.stanford.edu/group/nolan/'
-    - name: "Wernig Lab"
-      url: 'http://stemcell.stanford.edu/about/Laboratories/wernig/index.html'
-    - name: "Cell Stem Cell: Charting a map through the cellular reprogramming landscape"
-      url: 'http://www.sciencedirect.com/science/article/pii/S1934590915000661'
-
-- citation: '**Zunder ER**\*, Finck R\*, Behbehani GK, Amir ED, Krishnaswamy S, Gonzalez VD, Lorang CG, Bjornson Z, Spitzer MH, Bodenmiller B, Fantl WJ, Pe’er D, Nolan GP. Palladium-based Mass-Tag Cell Barcoding with a Doublet-Filtering Scheme and Single Cell Deconvolution Algorithm. *Nature Protocols*. 2015. **\*contributed equally**'
-  date: 201502
-  image: '/static/img/pub/zunder_natureprot_2015.png'
-  pmid: 25612231
-  pmcid: PMC4347881
-  pdf: '/static/pdf/Zunder 2015 Nature Protocols.pdf'
-  cytobank_report: https://www.cytobank.org/cytobank/experiments?project=645
-  links:
-    - name: "Nolan Lab"
-      url: 'http://web.stanford.edu/group/nolan/'
-    - name: "Pe'er Lab"
-      url: 'http://www.c2b2.columbia.edu/danapeerlab/html/'
-    - name: "Single-Cell Debarcoding Software"
-      url: 'https://github.com/nolanlab/single-cell-debarcoder'
-    - name: "Single-Cell Debarcoding Manual"
-      url: 'https://github.com/nolanlab/single-cell-debarcoder/wiki/Debarcoding-FCS-Files'
-    - name: "Fluidigm Spotlight: Exploring Impossible Science"
-      url: 'https://www.fluidigm.com/articles/exploring-impossible-science'
-    - name: "Fluidigm Cell-ID 20-Plex Pd Barcoding Kit"
-      url: 'http://www.dvssciences.com/products/pdf/TDS_201060.pdf'
-
-- citation: 'Behbehani GK, Thom C, **Zunder ER**, Finck R, Gaudilliere B, Fragiadakis GK, Fantl WJ, Nolan GP. Transient partial permeabilization with saponin enables cellular barcoding prior to surface marker staining. *Cytometry Part A*. 2014.'
-  date: 201412
-  image: '/static/img/pub/behbehani_cytometry_2014.jpg'
-  pmid: 25274027
-  pmcid: PMC4361015
-  pdf: '/static/pdf/Behbehani 2014 Cytometry.pdf'
-  cytobank_report: https://www.cytobank.org/cytobank/experiments?project=627
-  links:
-    - name: "Nolan Lab"
-      url: 'http://web.stanford.edu/group/nolan/'
-
-- citation: 'Bodenmiller B\*, **Zunder ER**\*, Finck R\*, Chen TJ, Savig ES, Bruggner RV, Simonds EF, Bendall SC, Sachs K, Krutzik PO, Nolan GP. Multiplexed mass cytometry profiling of cellular states perturbed by small-molecule regulators. *Nature Biotechnology*. 2012. **\*contributed equally**'
-  date: 201209
-  image: '/static/img/pub/bodenmiller_nbt_2012.png'
-  pmid: 22902532
-  pmcid: PMC3627543
-  pdf: '/static/pdf/Bodenmiller 2012 Nature Biotechnology.pdf'
-  cytobank_report: http://reports.cytobank.org/105/v2
-  links:
-    - name: "Nolan Lab"
-      url: 'http://web.stanford.edu/group/nolan/'
-    - name: "Nature Methods: Research Highlights"
-      url: 'http://www.nature.com/nmeth/journal/v9/n10/full/nmeth.2200.html'
-    - name: "The Scientist: No-Mo-Slow-Flow"
-      url: 'http://www.the-scientist.com/?articles.view/articleNo/31538/title/No-Mo--Slow-Flow/'
-
-- citation: 'Cheng CK, Gustafson WC, Charron E, Houseman BT, **Zunder ER**, Goga A, Gray NS, Pollok B, Oakes SA, James CD, Shokat KM, Weiss WA, Fan QW. Dual blockade of lipid and cyclin-dependent kinases induces synthetic lethality in malignant glioma. *Proceedings of the National Academy of Sciences, USA.* 2012.'
-  date: 201207
-  image: '/static/img/pub/cheng_pnas_2012.jpg'
-  pmid: 22802621
-  pmcid: PMC3411950
-  pdf: '/static/pdf/Cheng 2012 PNAS.pdf'
-  links:
-    - name: "Weiss Lab"
-      url: 'http://waweisslab.ucsf.edu/'
-    - name: "Shokat Lab"
-      url: 'http://shokatlab.ucsf.edu/'
-
-- citation: '**Zunder ER**, Knight ZA, Houseman BT, Apsel B, Shokat KM. Discovery of drug-resistant and drug-sensitizing mutations in the oncogenic PI3K isoform p110alpha. *Cancer Cell*. 2008.'
-  date: 200807
-  image: '/static/img/pub/zunder_cancercell_2008.jpg'
-  pmid: 18691552
-  pmcid: PMC2720137
-  pdf: '/static/pdf/Zunder 2008 Cancer Cell.pdf'
-  links:
-    - name: "Shokat Lab"
-      url: 'http://shokatlab.ucsf.edu/'
-    - name: "Cancer Cell: Drug-resistant phosphatidylinositol 3-kinase: guidance for the preemptive strike"
-      url: 'http://www.sciencedirect.com/science/article/pii/S1535610808002316'
-    - name: "HHMI: Studies Aim to Preempt Resistance to New Class of Cancer Drugs"
-      url: 'http://www.hhmi.org/news/studies-aim-preempt-resistance-new-class-cancer-drugs'
-
-- citation: 'Knight ZA, Gonzalez B, Feldman ME, **Zunder ER**, Goldenberg DD, Williams O, Loewith R, Stokoe D, Balla A, Toth B, Balla T, Weiss WA, Williams RL, Shokat KM. A pharmacological map of the PI3-K family defines a role for p110alpha in insulin signaling. *Cell*. 2006.'
-  date: 200605
-  image: '/static/img/pub/2CHW.gif'
-  pmid: 16647110
-  pmcid: PMC2946820
-  pdf: '/static/pdf/Knight 2006 Cell.pdf'
-  pdbs:
-    - 2CHW
-    - 2CHX
-    - 2CHZ
-  links:
-    - name: "Shokat Lab"
-      url: 'http://shokatlab.ucsf.edu/'
-    - name: "Williams Lab"
-      url: 'http://www.mrc-lmb.cam.ac.uk/rlw/text/rlw_homepage/Home.html'
-    - name: "Weiss Lab"
-      url: 'http://waweisslab.ucsf.edu/'
-    - name: "Balla Lab"
-      url: 'https://www.nichd.nih.gov/about/org/dir/pdn/balla/Pages/overview.aspx'
-    - name: "Stokoe Lab"
-      url: 'http://www.gene.com/scientists/our-scientists/david-stokoe'
-    - name: "Loewith Lab"
-      url: 'http://www.molbio.unige.ch/eng/research_groups/loewith/lab'
-    - name: "Cell: Using isoform-specific inhibitors to target lipid kinases"
-      url: 'http://www.sciencedirect.com/science/article/pii/S0092867406005745'
-    - name: "HHMI: Chemical Biology Suggests New Way to Thwart Brain Cancer"
-      url: 'http://www.hhmi.org/news/chemical-biology-suggests-new-way-thwart-brain-cancer'
-    - name: "Faculty of 1000 Evaluation"
-      url: 'http://f1000.com/prime/1032226'

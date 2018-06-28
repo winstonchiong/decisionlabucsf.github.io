@@ -34,13 +34,13 @@ Our work is funded by grants [R01AG022983](https://projectreporter.nih.gov/proje
 organizational partners, alongside our scientific collaborators (listed on the ["team"]({{ '/team/' | prepend: site.baseurl | prepend: site.url }}) page):
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/ucconsortium.jpg"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/ucconsortium.png"/>
     <img class="col one left" src="{{ site.baseurl }}/assets/img/gbhi.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/artfl_lefftds.png" alt="" title="example image"/>
 </div>
 
 ---
 
-This website is open-source and is available on [GitHub](https://github.com/winstonchiong/winstonchiong.github.io){:target="\_blank"}. It is based on the [al-folio](https://github.com/alshedivat/al-folio){:target="\_blank"} theme and borrows additional code from the [Fraser lab](http://fraserlab.com){:target="\_blank"} website.
+This website is open-source and available on [GitHub](https://github.com/winstonchiong/winstonchiong.github.io){:target="\_blank"}. It is based on the [al-folio](https://github.com/alshedivat/al-folio){:target="\_blank"} theme and borrows additional code from the [Fraser lab](http://fraserlab.com){:target="\_blank"} website.
 
 

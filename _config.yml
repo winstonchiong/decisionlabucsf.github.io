@@ -6,7 +6,7 @@ name: Decision Lab @ UCSF
 email: decisionlab@ucsf.edu
 description: > # this means to ignore newlines until "url:"
   Neuroethics and Decision Neuroscience. Research group headed by Winston Chiong, MD PhD in the 
-  University of California, San Francisco Department of Neurology, Memory and Aging Center.
+  University of California, San Francisco Weill Institute for Neurosciences, Memory and Aging Center.
 footer_text: >
   <a href="http://weill.ucsf.edu/" target="_blank">Weill Institute for Neurosciences</a> |
   <a href="http://memory.ucsf.edu" target="_blank">Memory and Aging Center</a>
@@ -31,8 +31,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: Decision Lab @ UCSF
+blog_description: neuroethics + decision neuroscience
 
 # Pagination
 paginate: 4
