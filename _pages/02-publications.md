@@ -13,7 +13,7 @@ years: [2018, 2017, 2016, 2014]
 {% for paper in site.data.publications %}
 
 {% if {{y}} == paper.year %}
-<div width="100%" class="img_row" style="padding-top: 5px; padding-bottom: 10px;">
+<div id = "{{paper.title}}" width="100%" class="img_row" style="padding-top: 5px; padding-bottom: 10px;">
 <div class="profile col onefourth left">
         <img src="{{ paper.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" valign="top"> 
 </div>

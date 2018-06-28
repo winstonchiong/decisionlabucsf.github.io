@@ -11,22 +11,25 @@ description:
 <div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     <img class="col one right" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
     <div>
-        <h4>{{person.name}}</h4> <br>
+        <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> <br>
         {{person.position}} <br>
-        <em>{{person.email}}</em> <br>
-        {% if person.website %}
-          <a href= "{{person.website}}">{{person.website}}</a> <br>
+        <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
+        {% if person.twitter %}
+          <i class="fab fa-twitter"></i> <a href= "http://twitter.com/{{person.twitter}}" target="_blank"> @{{person.twitter}} </a> <br>
         {% endif %}
-        {% if person.orcid %}
-          <a href="http://orcid.org"><img class="inline-block" src="/static/img/orcid_logo.png"></a>
-          <a href="http://{{person.orcid}}"> {{person.orcid}}</a> <br>
+        {% if person.website %}
+          <i class="fa fa-globe"></i> <a href= "{{person.website}}" target="_blank">{{person.website}}</a> <br>
+        {% endif %}
+        {% if person.github %}
+          <i class="fab fa-github"></i> <a href= "https://github.com/{{person.github}}" target="_blank"> {{person.github}} </a> <br>
         {% endif %}
         {% if person.scholar %}
-          <a href= "http://scholar.google.com/citations?user={{person.scholar}}"> Scholar Citations </a> <br>
+          <i class="ai ai-google-scholar"></i> <a href= "http://scholar.google.com/citations?user={{person.scholar}}" target="_blank"> Scholar Citations </a> <br>
         {% endif %}
-        {% if person.twitter %}
-          <a href= "http://twitter.com/{{person.twitter}}"> @{{person.twitter}} </a> <br>
+        {% if person.orcid %}
+          <i class="ai ai-orcid"></i> <a href="http://{{person.orcid}}" target="_blank"> {{person.orcid}}</a> <br>
         {% endif %}
+
     </div>
     <div class="col-sm-8">
         <p class="text-justify">{{person.description | markdownify}}</p>
@@ -41,7 +44,7 @@ description:
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{student.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-  <b>{{student.name}}</b> <br>
+  <b>{{student.name}}{% if student.degrees %}, {{student.degrees}} {% endif %}</b> <br>
   {{student.position}} <br>
   <em>{{student.email}}</em> <br>
   {{student.description | markdownify}}
