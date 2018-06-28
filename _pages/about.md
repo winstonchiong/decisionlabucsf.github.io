@@ -34,9 +34,9 @@ Our work is funded by grants [R01AG022983](https://projectreporter.nih.gov/proje
 organizational partners, alongside our scientific collaborators (listed on the ["team"]({{ '/team/' | prepend: site.baseurl | prepend: site.url }}) page):
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/ucconsortium.png"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/gbhi.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/artfl_lefftds.png" alt="" title="example image"/>
+    <img class="col one left" valign="center" src="{{ site.baseurl }}/assets/img/ucconsortium.png"/>
+    <img class="col one left" valign="center" src="{{ site.baseurl }}/assets/img/gbhi.jpg"/>
+    <img class="col one left" valign="center" src="{{ site.baseurl }}/assets/img/artfl_lefftds.png"/>
 </div>
 
 ---
