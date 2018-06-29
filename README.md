@@ -1,9 +1,34 @@
-# al-folio
+# Decision Lab website
 
-[![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
-[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
-[![gitter](https://badges.gitter.im/alshedivat/al-folio.svg)](https://gitter.im/alshedivat/al-folio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+A quick way for everyone to learn how to use GitHub and Markdown. (Site design based on [al-folio](https://github.com/alshedivat/al-folio).)
+
+## The super-basics
+Hopefully, everyone in the lab will be able to:
+- Update their own "team" profile
+- Update the list of publications
+- Add news posts
+
+To do this, you'll first need to understand a little about: 
+1. **GitHub**. For our purposes, you can think of GitHub as being like Google Docs, but for pieces of code. Multiple people can work on the same code in GitHub, and it keeps track of who made what changes and when, and makes it easy to reverse changes that have been made. One really nice feature for this site: instead of directly editing the HTML (which is not really meant for humans to understand), you'll be giving GitHub information in two human-readable formats, which a GitHub tool called Jekyll will use to generate the HTML. 
+2. **Markdown**. This README.md file is written in Markdown. Markdown allows for simple formatting like **bold** (double asterisks like this: `**bold**`), *italics* (single asterisks like this: `*italics*`), and [hyperlinks](http://www.ucsf.edu) (put the linked text in square brackets immediately followed by the address in parens, like: `[hyperlinks](http://www.ucsf.edu)`). See [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for more details; you can also check out the markdown in this README file by opening [winstonchiong.github.io/README.md](https://github.com/winstonchiong/winstonchiong.github.io/blob/master/README.md) and clicking "Raw."
+3. **YAML**. YAML is a structured data format that uses space-indents (no tabs!) to show structure and colons to associate fields and values. For example:
+    ```
+    - name: Alex Beagle
+      position: Medical Student
+      email: alex.beagle (at) ucsf.edu
+    - name: Julia Heunis
+      position: Medical Student
+      email: julia.heunis (at) ucsf.edu
+    - name: Carson Quinn
+      position: Medical Student
+      email: carson.quinn (at) ucsf.edu
+    ```
+    This list has three entries. Each entry has fields for name, position, and e-mail address. Note that you don't have to put strings within quotation marks, although sometimes this is helpful if your string has special characters like colons or quotation marks.
+    
+## How to update (or add) a team profile
+Two steps:
+### Edit the team member data in the YAML file /_data/members.yml
+
 
 A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
 
