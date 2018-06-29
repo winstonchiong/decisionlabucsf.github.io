@@ -47,8 +47,8 @@ UCSF Memory and Aging Center
 675 Nelson Rising Lane, Suite 190F  
 San Francisco CA 94158  
 
-*decisionlab (#!) ucsf.edu*
+<i class="fa fa-envelope"></i> *decisionlab (#!) ucsf.edu*
 
 ---
 
-This site is open-source and available on [GitHub](https://github.com/winstonchiong/winstonchiong.github.io){:target="\_blank"}. It is based on the [al-folio](https://github.com/alshedivat/al-folio){:target="\_blank"} theme and also uses code from the [Fraser lab](http://fraserlab.com){:target="\_blank"} website.
+This site is open-source and available on [GitHub](https://github.com/winstonchiong/winstonchiong.github.io){:target="\_blank"}. It is built on the [al-folio](https://github.com/alshedivat/al-folio){:target="\_blank"} theme using code from the [Fraser lab](http://fraserlab.com){:target="\_blank"} website.

@@ -1,21 +1,37 @@
 ---
+title: news
+description: 
 layout: default
+
 ---
 
-<div class="header-bar">
-  <h1>{{ site.blog_name }}</h1>
-  <h2>{{ site.blog_description }}</h2>
+<div class="post">
+  <div style="float: right; width:230px">
+        {% include twitter_sidebar.html %}
+  </div>
+  <div style="overflow: hidden;">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <h5 class="post-description">{{ page.description }}</h5>
+  
+
+  {% for post in paginator.posts %}
+  <hr>
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="author">
+    <span class="author"><a href="/team/index.html#{{post.author}}">{{post.author}}</a></span><br>
+    <span class="date"><em>{{ post.date | date_to_long_string }}</em></span>
+  </p>
+  <div class="content">
+    {{ post.content }}
+  </div>
+{% endfor %}
+<hr>
+
+ <div>
+  {% include pagination.html %}
+  </div>
+  </div>
 </div>
 
 
-<ul class="post-list">
-  {% for post in paginator.posts %}
-    <li>
-      <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
-      <p>{{ post.description }}</p>
-    </li>
-  {% endfor %}
-</ul>
 
-{% include pagination.html %}

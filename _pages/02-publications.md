@@ -17,7 +17,7 @@ years: [2018, 2017, 2016, 2014]
 <div class="profile col onefourth left">
         <img src="{{ paper.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" valign="top"> 
 </div>
-    <div valign="top">
+    <div valign="top" style="overflow: hidden">
   {{paper.authors | markdownify}}
   {% if paper.pmid %}
     <a href="https://www.ncbi.nlm.nih.gov/pubmed/{{paper.pmid}}" target="_blank">{{paper.title}}</a>

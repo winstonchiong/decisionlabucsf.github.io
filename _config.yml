@@ -5,7 +5,7 @@ title: Decision Lab
 name: Decision Lab @ UCSF
 email: decisionlab@ucsf.edu
 description: > # this means to ignore newlines until "url:"
-  Neuroethics and Decision Neuroscience. Research group headed by Winston Chiong, MD PhD in the 
+  Neuroethics + Decision Neuroscience. Research group headed by Winston Chiong, MD PhD in the 
   University of California, San Francisco Weill Institute for Neurosciences, Memory and Aging Center.
 footer_text: >
   <a href="http://weill.ucsf.edu/" target="_blank">Weill Institute for Neurosciences</a> |
@@ -36,8 +36,8 @@ blog_description: neuroethics + decision neuroscience
 
 # Pagination
 paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
+permalink: /news/:year/:title/
+paginate_path: "news/page:num"
 
 text:
   pagination:
@@ -45,7 +45,7 @@ text:
     older: 'Older'
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname:  # put your disqus shortname
 
 # Optional features
 show_social_icons:  false
@@ -60,7 +60,7 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /news/:path/
+    permalink: /updates/:path/
   projects:
     output: true
     permalink: /projects/:path/
@@ -73,7 +73,7 @@ news_limit: 5
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 # Includes & excludes
 include: ['_pages']
@@ -83,32 +83,8 @@ exclude: [vendor]
 plugins:
     - jekyll-email-protect
     - jekyll-paginate
-    - jekyll/scholar
     - jemoji
 
-# Jekyll-Scholar
-scholar:
-
-  last_name: Einstein
-
-  style: apa
-  locale: en
-
-  sort_by: year
-  order: descending
-
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-
-  query: "@*"
 
 # -----------------------------------------------------------------------------
 # Other settings
