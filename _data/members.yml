@@ -1,6 +1,6 @@
 - name: Winston Chiong
   degrees: MD PhD
-  image: WinstonChiong.jpg
+  image: team_WinstonChiong.jpg
   altimage: 
   position: Principal Investigator
   email: winston.chiong (#!) ucsf.edu
@@ -38,7 +38,7 @@
 
 - name: Tobias Häusermann
   degrees: PhD
-  image: tobias.haeusermann.jpg
+  image: team_tobias.haeusermann.jpg
   altimage: 
   position: Postdoc
   email: tobias.haeusermann (#!) ucsf.edu
@@ -64,7 +64,7 @@
                 and qualitative research methodologies.
 
 - name: Ali Zahir
-  image: AliZahir.jpg
+  image: team_AliZahir.jpg
   altimage: 
   position: Research Coordinator
   email: ali.zahir (#!) ucsf.edu
@@ -84,7 +84,7 @@
               hiking, playing sports, fantasy sports and photography.
 
 - name: Mia Borzello
-  image: Mia_Borzello.JPG
+  image: team_Mia_Borzello.JPG
   altimage: 
   position: Research Coordinator
   email: mia.borzello (#!) ucsf.edu
