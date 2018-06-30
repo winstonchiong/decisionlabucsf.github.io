@@ -5,8 +5,8 @@ A quick way for everyone to learn how to use GitHub and Markdown. (Site design b
 ## The super-basics
 Hopefully, everyone in the lab will be able to:
 - [Update their own "team" profile](#how-to-update-or-add-a-team-profile)
-- Update the list of publications
-- Add news posts
+- [Update the list of publications](#how-to-update-the-publication-list)
+- [Add news posts](#how-to-add-news-posts)
 
 To do this, you'll first need to understand a little about: 
 1. **GitHub**. For our purposes, you can think of GitHub as being like supercharged Google Docs for code. Multiple people can work on the same code, it keeps track of who made what changes and when, it's easy to reverse changes that have been made, and different versions can be developed at the same time. One nice feature for our site: instead of directly editing in HTML (which is not a language really meant for humans to understand), you'll be giving GitHub information in two human-readable formats, which a GitHub tool called Jekyll will use to generate the HTML. 
@@ -98,7 +98,7 @@ For this you will create a Markdown file containing the news post. Navigate to [
 
 ![Screenshot-post-edit](/assets/img/site_readme_05_create_post.png)
 
-The filename should begin with the date in YYYY-MM-DD format, then a brief title delimited by hyphens and the extension `.md`. The post must begin with these six lines:
+The filename should begin with the date in YYYY-MM-DD format, followed by a brief title delimited by hyphens and then the extension `.md`. The post must begin with these six lines:
 ```
 ---
 title: 
@@ -107,7 +107,7 @@ layout: post
 group: news
 ---
 ```
-For `title: `, enter the title as you want it to appear on the News page. For `author: `, enter your own name as it is spelled in [/_data/members.yml](https://github.com/winstonchiong/winstonchiong.github.io/blob/master/_data/members.yml). If you would like to include an image, upload a JPEG or PNG file to [/assets/img/](https://github.com/winstonchiong/winstonchiong.github.io/tree/master/assets/img) and include a tag in your post using the format:
+For `title: `, enter the post title as you want it to appear on the News page. For `author: `, enter your own name as it is spelled in [/_data/members.yml](https://github.com/winstonchiong/winstonchiong.github.io/blob/master/_data/members.yml). If you would like to include an image, upload a JPEG or PNG file to [/assets/img/](https://github.com/winstonchiong/winstonchiong.github.io/tree/master/assets/img) and include a tag in your post using the format:
 ```
 ![ALT-TITLE](/assets/img/FILENAME.png)
 ```
