@@ -28,7 +28,7 @@ To do this, you'll first need to understand a little about:
 ## How to update (or add) a team profile
 Two steps:
 ### 1. If you don't have one yet, add a picture to /assets/img/
-A good size for team member pictures on this site is 580x580 pixels, in jpeg or png format. Name your picture file something descriptive that won't be mistaken for any other image on the site (like your_name.jpg). Navigate to [/assets/img/](https://github.com/winstonchiong/winstonchiong.github.io/tree/master/assets/img) and drag-and-drop the picture file from your desktop into the browser window. You'll then be asked to make a "commit":
+A good size for team member pictures on this site is 580x580 pixels, in jpeg or png format. Name your picture file something descriptive that won't be mistaken for any other image on the site (like members_your_name.jpg). Navigate to [/assets/img/](https://github.com/winstonchiong/winstonchiong.github.io/tree/master/assets/img) and drag-and-drop the picture file from your desktop into the browser window. You'll then be asked to make a "commit":
 
 ![Screenshot-commit-image](/assets/img/site_readme_02_commit_image.png)
 
