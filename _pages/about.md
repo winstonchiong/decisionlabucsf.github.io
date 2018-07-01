@@ -9,8 +9,6 @@ profile:
   image: prof_pic.jpg
   address: > 
     <p>Sandler Neurosciences Center</p>
-    <p>675 Nelson Rising Lane</p>
-    <p>San Francisco, CA 94158</p>
 
 news: false
 social: false
