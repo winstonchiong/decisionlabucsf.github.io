@@ -1,0 +1,373 @@
+/**
+ * Site header
+ */
+.site-header {
+    border-top: 1px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-title {
+    font-size: 26px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    margin-bottom: 0;
+    float: left;
+
+    &,
+    &:visited {
+        color: $grey-color-dark;
+    }
+}
+
+/* UCSF Banner */
+
+/* Layout */
+.top-banner, .top-banner div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.top-banner {
+    background: #052049;
+    height: 32px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+.top-banner .inner {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.top-banner div.inner div {
+    float: left;
+    padding: 8px 0 7px 30px;
+    text-align: left;
+}
+
+.top-banner.logo div.inner div {
+    padding: 13px 0 13px 0;
+}
+
+.top-banner.logo,.top-banner.logo .inner,.top-banner.logo div.inner div {
+    height: 40px;
+}
+
+.top-banner div.inner div.nav {
+    float: right;
+    padding-right: 16px;
+    text-align: right;
+}
+
+.top-banner ul, .top-banner li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.top-banner a {
+    color: #ffffff;
+    display: inline;
+    text-decoration: none;
+}
+
+.top-banner a:hover {
+    text-decoration: none;
+    color: #052049;
+}
+
+.top-banner.logo .inner {
+    height: 40px;
+    background: url("../assets/img/ucsf-logo-banner.png") 30px 50% no-repeat;
+    padding-left: 97px;
+}
+
+/**
+  * Browser-hack, targets everything but IE8 and below.
+  * @link http://browserhacks.com/#hack-1aaa2cce9e371d212109d5b1b8229ef6
+  */
+:root .top-banner.logo .inner {
+    background: url("../assets/img/ucsf-logo-banner.svg") 30px 50% no-repeat;
+    background-size: 45px 22px;
+}
+
+.top-banner-menu a {
+    padding: 0 14px;
+}
+
+.top-banner.teal {
+    background: #18a3ac;
+}
+
+.top-banner.light-blue {
+    background: #007cbe
+}
+
+/* Responsive */
+@media screen and (min-width:660px) and (max-width:1229px) {
+    .top-banner .inner {
+        width: 100%;
+    };
+}
+
+@media screen and (max-width:659px) {
+    .top-banner.logo, .top-banner.logo .inner, .top-banner.logo div.inner div {
+        height: 30px;
+    }
+
+    .top-banner .inner {
+        width: 100%;
+    }
+
+    .top-banner.logo .inner {
+        background: url("../assets/img/ucsf-logo-banner-mobile.png") 30px 50% no-repeat;
+        padding-left: 87px;
+    }
+
+    :root .top-banner.logo .inner {
+        background-size: 37px 18px;
+    }
+
+    .top-banner div.inner div {
+        height: 30px;
+        padding: 8px 0 8px 30px;
+        width: 100%;
+    }
+
+    .top-banner.logo div.inner div {
+        padding: 8px 0 8px 0;
+    }
+
+    .top-banner .logo span,.top-banner div.inner div.nav {
+        display: none;
+    }
+
+    .news-tweets {
+        display: none;
+    }
+}
+
+/*end of the UCSF banner*/
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: $text-color;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+
+        &:hover {
+            color: #007cbe;
+            text-decoration: none;
+        }
+    }
+
+    // hamburger settings
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: 30px;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+        }
+    }
+}
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-col-wrapper {
+    font-size: 15px;
+    color: $grey-color;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+.footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+
+    .footer-col-3 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+@include media-query($on-palm) {
+    .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}

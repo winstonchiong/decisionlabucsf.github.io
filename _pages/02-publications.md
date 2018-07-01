@@ -13,11 +13,9 @@ years: [2018, 2017, 2016, 2014]
 {% for paper in site.data.publications %}
 
 {% if {{y}} == paper.year %}
-<div id = "{{paper.title}}" width="100%" class="img_row" style="padding-top: 5px; padding-bottom: 10px;">
-<div class="profile col onefourth left">
-        <img src="{{ paper.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" valign="top"> 
-</div>
-    <div valign="top" style="overflow: hidden">
+<div id = "{{paper.title}}" class="clearfix" width="100%" style="padding-top: 5px; padding-bottom: 40px; clear: both;">
+<img style="float: left; width: 25%; padding-right: 20px; padding-bottom:40px;" src="{{ paper.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="publication image"> 
+<div valign="top" style="overflow: hidden">
   {{paper.authors | markdownify}}
   {% if paper.pmid %}
     <a href="https://www.ncbi.nlm.nih.gov/pubmed/{{paper.pmid}}" target="_blank">{{paper.title}}</a>
@@ -29,6 +27,8 @@ years: [2018, 2017, 2016, 2014]
   {{paper.details | markdownify}}
     </div>
 </div>
+
+
 {% endif %}
 {% endfor %}
 {% endfor %}

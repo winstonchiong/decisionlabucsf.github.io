@@ -1,35 +1,19 @@
-# -----------------------------------------------------------------------------
 # Site settings
-# -----------------------------------------------------------------------------
-title: Decision Lab
-name: Decision Lab @ UCSF
+title: Decision Lab @ UCSF
+name: Decision Lab at UCSF
 email: decisionlab@ucsf.edu
-description: > # this means to ignore newlines until "url:"
+description: > # this means to ignore newlines until "baseurl:"
   Neuroethics + Decision Neuroscience. Research group headed by Winston Chiong, MD PhD in the 
   University of California, San Francisco Weill Institute for Neurosciences, Memory and Aging Center.
-footer_text: >
-  <a href="http://weill.ucsf.edu/" target="_blank">Weill Institute for Neurosciences</a> |
-  <a href="http://memory.ucsf.edu" target="_blank">Memory and Aging Center</a>
-
+baseurl: "" # the subpath of your site, e.g. /blog/
 url:   # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
+#twitter_username: jekyllrb
+#github_username:  jekyll
 
 # -----------------------------------------------------------------------------
-# Social integration
-# -----------------------------------------------------------------------------
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
-
-# -----------------------------------------------------------------------------
-# Blog
+# News
 # -----------------------------------------------------------------------------
 blog_name: Decision Lab @ UCSF
 blog_description: neuroethics + decision neuroscience
@@ -44,13 +28,12 @@ text:
     newer: 'Newer'
     older: 'Older'
 
-# Comments
-disqus_shortname:  # put your disqus shortname
 
 # Optional features
 show_social_icons:  false
 enable_anchorjs:    false
 enable_katex:       true
+
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -67,9 +50,6 @@ collections:
 
 news_limit: 5
 
-# -----------------------------------------------------------------------------
-# Jekyll settings
-# -----------------------------------------------------------------------------
 
 # Build settings
 markdown: kramdown

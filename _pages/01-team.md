@@ -9,7 +9,7 @@ description:
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-    <img class="col one right" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+    <img style="float: right; width: 30%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
     <div>
         <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> <br>
         {{person.position}} <br>
