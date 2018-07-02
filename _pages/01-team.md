@@ -11,7 +11,7 @@ description:
 <div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     <img style="float: right; width: 30%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
     <div>
-        <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> <br>
+        <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
         {{person.position}} <br>
         <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
         {% if person.twitter %}
@@ -39,15 +39,50 @@ description:
 {% endfor %}
 
 
-### students
+## students
 {% for student in site.data.students %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-<div id = "{{student.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+<div id = "{{student.name}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
   <b>{{student.name}}{% if student.degrees %}, {{student.degrees}} {% endif %}</b> <br>
   {{student.position}} <br>
-  <em>{{student.email}}</em> <br>
-  {{student.description | markdownify}}
+  <i class="fa fa-envelope"></i> <em>{{student.email}}</em> <br>
+  {% if student.description %}
+  <div style="margin-left: 2.5em; padding-top: 8px; padding-bottom: 5px; ">{{student.description}}</div>
+  {% else %}
+  {% for paper in site.data.publications %}
+  {% if paper.authors contains student.pubmed_name %}
+  <div style="margin-left: 2.5em; padding-top: 8px; padding-bottom: 5px; ">{{paper.authors | remove: '**'}} <a href="/publications/index.html#{{paper.title}}">{{paper.title}}</a> {{paper.details}}</div>
+  {% endif %}
+  {% endfor %}
+  {% endif %}
 </div>
 
+{% endfor %}
+---
+
+## alumni
+{% for alum in site.data.alumni %}
+
+<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
+<div id = "{{alum.name}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
+  <b>{{alum.name}}{% if alum.degrees %}, {{alum.degrees}} {% endif %}</b> <br>
+  <i>previously:</i> {{alum.previously}} <br>
+  <i>now:</i> {{alum.now}}<br>
+    {% for paper in site.data.publications %}
+  {% if paper.authors contains alum.pubmed_name %}
+  <div style="margin-left: 2.5em; padding-top: 8px; padding-bottom: 5px; ">{{paper.authors | remove: '**'}} <a href="/publications/index.html#{{paper.title}}">{{paper.title}}</a> {{paper.details}}</div>
+  {% endif %}
+  {% endfor %}
+</div>
+{% endfor %}
+
+---
+
+## collaborators
+
+{% for collaborator in site.data.collaborators %}
+- <b>{{collaborator.name}}{% if collaborator.degrees %}, {{collaborator.degrees}} {% endif %}</b>  
+  {{collaborator.position}}  
+  {% if collaborator.website %} <i class="fa fa-globe"></i> <a href= "{{collaborator.website}}" target="_blank">{{collaborator.website}}</a>  {% endif %}
 {% endfor %}

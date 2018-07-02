@@ -4,10 +4,10 @@
           Ethical considerations in intracranial electrophysiology research."
   details: "Neurosurgery. 2018; 83(1):29-37."
   year: 2018
-  image: pubs_nyx361fig4.jpeg
+  image: pubs_2018_nyx361fig4.jpeg
   pmid: 28973530
   pmcid: PMC5777911
-  doi:
+  doi: 10.1093/neuros/nyx361
   pdf:
   github:
 
@@ -16,10 +16,10 @@
           imaging for Alzheimer disease."
   details: "JAMA Neurology. 2018; 75(1):18-19."
   year: 2018
-  image: pubs_pet-scans1.jpg
+  image: pubs_2018_pet-scans1.jpg
   pmid: 29059264
   pmcid: 
-  doi:
+  doi: 10.1001/jamaneurol.2017.2558
   pdf:
   github:
 
@@ -31,10 +31,10 @@
           findings from the Care Ecosystem."
   details: "PLoS medicine. 2017; 14(3):e1002260."
   year: 2017
-  image: pubs_careeco.jpg
+  image: pubs_2017_careeco.jpg
   pmid: 28323819
   pmcid: PMC5360211
-  doi: 
+  doi: 10.1371/journal.pmed.1002260
   pdf:
   github:
 
@@ -42,10 +42,10 @@
   title: "Trends in recruitment rates for acute stroke trials, 1990-2014."
   details: "Stroke. 2017; 48(3):799-801."
   year: 2017
-  image: pubs_recruitmentrate.jpg
+  image: pubs_2017_recruitmentrate.jpg
   pmid: 28104835
   pmcid: PMC5330837
-  doi: 
+  doi: 10.1161/STROKEAHA.116.014458
   pdf:
   github:
 
@@ -53,7 +53,7 @@
   title: "Effect of waivers of consent on recruitment in acute stroke trials: A systematic review."
   details: "Neurology. 2016 Apr 19;86(16):1543-51."
   year: 2016
-  image: pubs_waivers_consent_acute_stroke.jpg
+  image: pubs_2016_waivers_consent_acute_stroke.jpg
   pmid: 27009262
   pmcid: PMC4836887
   doi: 10.1212/WNL.0000000000002587 
