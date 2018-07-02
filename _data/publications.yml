@@ -49,9 +49,21 @@
   pdf:
   github:
 
+- authors: "Xian Y, **Chiong W**."
+  title: "Failures to discuss and document preferences: Preventable medical errors in stroke care."
+  details: "Neurology. 2016 May 31; 6(22):2032-3."
+  year: 2016
+  image:
+  pmid: 27060164
+  pmcid: 
+  doi: 10.1212/WNL.0000000000002626
+  pdf:
+  github:
+
+
 - authors: "**Feldman WB**, Kim AS, Josephson SA, Lowenstein DH, **Chiong W**."
   title: "Effect of waivers of consent on recruitment in acute stroke trials: A systematic review."
-  details: "Neurology. 2016 Apr 19;86(16):1543-51."
+  details: "Neurology. 2016 Apr 19; 86(16):1543-51."
   year: 2016
   image: pubs_2016_waivers_consent_acute_stroke.jpg
   pmid: 27009262
