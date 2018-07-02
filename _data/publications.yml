@@ -101,7 +101,7 @@
   image: pubs_2014_inabilitytoconsent.jpg
   pmid: 24980651
   pmcid: PMC4957557
-  doi: 10.1002/ana.24209.
+  doi: 10.1002/ana.24209
   pdf:
   github:
 
@@ -112,6 +112,18 @@
   image: pubs_2014_testingpresumption.jpg
   pmid: 24756520
   pmcid: PMC4126238
-  doi: 10.1002/ana.24209.
+  doi: 10.1002/ana.24209
   pdf:
   github:
+  
+- authors: "**Chiong W**."
+  title: "Dementia and personal identity: Implications for decision-making."
+  details: "Handbook of Clinical Neurology. 2013; 118(1):409-18."
+  year: 2013
+  image: 
+  pmid: 24182394
+  pmcid: 
+  doi: 10.1016/B978-0-444-53501-6.00032-9
+  pdf:
+  github:
+
