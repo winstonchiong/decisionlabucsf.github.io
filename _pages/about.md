@@ -56,4 +56,4 @@ San Francisco CA 94158
 
 ---
 
-This site is open-source and available on [GitHub](https://github.com/winstonchiong/winstonchiong.github.io){:target="\_blank"}. It is built on the [ucsf_jekyll_basic](https://github.com/ucsf-web-services/ucsf_jekyll_basic){:target="\_blank"} template using code from the [al-folio](https://github.com/alshedivat/al-folio){:target="\_blank"} theme and the [Fraser lab](http://fraserlab.com){:target="\_blank"} website.
+This site is open-source and available on [GitHub](https://github.com/decisionlabucsf/decisionlabucsf.github.io){:target="\_blank"}. It is built on the [ucsf_jekyll_basic](https://github.com/ucsf-web-services/ucsf_jekyll_basic){:target="\_blank"} template using code from the [al-folio](https://github.com/alshedivat/al-folio){:target="\_blank"} theme and the [Fraser lab](http://fraserlab.com){:target="\_blank"} website.

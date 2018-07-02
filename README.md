@@ -10,7 +10,7 @@ Hopefully, everyone in the lab will be able to:
 
 To do this, you'll first need to understand a little about: 
 1. **GitHub**. For our purposes, you can think of GitHub as being like supercharged Google Docs for code. Multiple people can work on the same code, it keeps track of who made what changes and when, it's easy to reverse changes that have been made, and different versions can be developed at the same time. One nice feature for our site: instead of directly editing in HTML (which is not a language really meant for humans to understand), you'll be giving GitHub information in two human-readable formats, which a GitHub tool called Jekyll will use to generate the HTML. 
-. **Markdown**. This README.md file is written in Markdown. Markdown allows for simple formatting like **bold** (double asterisks like this: `**bold**`), *italics* (single asterisks like this: `*italics*`), and [hyperlinks](http://www.ucsf.edu) (put the linked text in square brackets immediately followed by the address in parens, like: `[hyperlinks](http://www.ucsf.edu)`). See [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for more details; you can also check out the markdown in this README file by opening [winstonchiong.github.io/README.md](https://github.com/winstonchiong/winstonchiong.github.io/blob/master/README.md) and clicking "Raw."
+. **Markdown**. This README.md file is written in Markdown. Markdown allows for simple formatting like **bold** (double asterisks like this: `**bold**`), *italics* (single asterisks like this: `*italics*`), and [hyperlinks](http://www.ucsf.edu) (put the linked text in square brackets immediately followed by the address in parens, like: `[hyperlinks](http://www.ucsf.edu)`). See [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for more details; you can also check out the markdown in this README file by opening [decisionlabucsf.github.io/README.md](https://github.com/decisionlabucsf/decisionlabucsf.github.io/blob/master/README.md) and clicking "Raw."
 3. **YAML**. YAML is a structured data format that uses space-indents (no tab-indents!) to show structure and uses colons to associate fields with values. For example:
     ```
     - name: Alex Beagle
@@ -28,14 +28,14 @@ To do this, you'll first need to understand a little about:
 ## How to update (or add) a team profile
 Two steps:
 ### 1. If you don't have one yet, add a picture to /assets/img/
-A good size for team member pictures on this site is 580x580 pixels, in jpeg or png format. Name your picture file something descriptive that won't be mistaken for any other image on the site (like `team_your_name.jpg`). Navigate to [/assets/img/](https://github.com/winstonchiong/winstonchiong.github.io/tree/master/assets/img) and drag-and-drop the picture file from your desktop into the browser window. You'll then be asked to make a "commit":
+A good size for team member pictures on this site is 580x580 pixels, in jpeg or png format. Name your picture file something descriptive that won't be mistaken for any other image on the site (like `team_your_name.jpg`). Navigate to [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img) and drag-and-drop the picture file from your desktop into the browser window. You'll then be asked to make a "commit":
 
 ![Screenshot-commit-image](/assets/img/site_readme_02_commit_image.png)
 
 In the box below **Commit changes**, instead of "Add files via upload" type in a more informative description like "upload `YOUR FILENAME` for members.yml" and click the green button to commit the file directly to the master branch.
 
 ### 2. Edit the team member data in the YAML file /_data/members.yml
-Navigate to [/_data/members.yml](https://github.com/winstonchiong/winstonchiong.github.io/blob/master/_data/members.yml) and click the pencil for "Edit this file":
+Navigate to [/_data/members.yml](https://github.com/decisionlabucsf/decisionlabucsf.github.io/blob/master/_data/members.yml) and click the pencil for "Edit this file":
 
 ![Screenshot-edit-members](/assets/img/site_readme_01_edit_data_members.png)
 
@@ -75,10 +75,10 @@ This will send a citation or citations to your desktop in Vancouver format. Now 
 At the bottom in **Images from this publication**, see if you can pick the most interesting or revealing image from the paper, and save it to your computer in PNG or JPEG format with a short descriptive name like `pubs_YEAR_ARTICLE_KEYWORDS.png`"`. 
 
 ### 2. Upload publication image if you have one
-Use the same methods described above *(1. If you don't have one yet, add a picture to /assets/img/)* to upload the publication image to [/assets/img/](https://github.com/winstonchiong/winstonchiong.github.io/tree/master/assets/img). 
+Use the same methods described above *(1. If you don't have one yet, add a picture to /assets/img/)* to upload the publication image to [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img). 
 
 ### 3. Edit the publication data in /_data/publications.yml
-Use the same methods described above *(2. Edit the team member data in the YAML file /_data/members.yml)* to edit [publications.yml](https://github.com/winstonchiong/winstonchiong.github.io/blob/master/_data/publications.yml). This list contains publications in reverse chronological order, try to put the new article in the right place. Use the Vancouver-formatted text file that you downloaded to your computer to fill out these data entries, roughly matching the format of the existing entries, e.g.:
+Use the same methods described above *(2. Edit the team member data in the YAML file /_data/members.yml)* to edit [publications.yml](https://github.com/decisionlabucsf/decisionlabucsf.github.io/blob/master/_data/publications.yml). This list contains publications in reverse chronological order, try to put the new article in the right place. Use the Vancouver-formatted text file that you downloaded to your computer to fill out these data entries, roughly matching the format of the existing entries, e.g.:
 ```
 - authors: "**Feldman WB**, Kim AS, Josephson SA, Lowenstein DH, **Chiong W**."
   title: "Effect of waivers of consent on recruitment in acute stroke trials: A systematic review."
@@ -91,10 +91,10 @@ Use the same methods described above *(2. Edit the team member data in the YAML 
   pdf:
   github:
 ```
-In `authors: ` use double asterisks (`**Name**`) to highlight lab members' names. For consistency, keep the final period `.` at the end of the string for `authors: `, `title: ` and `details: `, and change the title to [sentence case](https://en.wikipedia.org/wiki/Letter_case#Sentence_case) if necessary. After `image: `, enter the name of the publication image you uploaded to [/assets/img/](https://github.com/winstonchiong/winstonchiong.github.io/tree/master/assets/img) in the previous step. **Commit changes** when you're done, using the green button to commit the file directly to the master branch and the description box below to leave a brief description. 
+In `authors: ` use double asterisks (`**Name**`) to highlight lab members' names. For consistency, keep the final period `.` at the end of the string for `authors: `, `title: ` and `details: `, and change the title to [sentence case](https://en.wikipedia.org/wiki/Letter_case#Sentence_case) if necessary. After `image: `, enter the name of the publication image you uploaded to [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img) in the previous step. **Commit changes** when you're done, using the green button to commit the file directly to the master branch and the description box below to leave a brief description. 
 
 ## How to add news posts
-For this you will create a Markdown file containing the news post. Navigate to [/_posts/](https://github.com/winstonchiong/winstonchiong.github.io/tree/master/_posts) and click **Create new file**. 
+For this you will create a Markdown file containing the news post. Navigate to [/_posts/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/_posts) and click **Create new file**. 
 
 ![Screenshot-post-edit](/assets/img/site_readme_05_create_post.png)
 
@@ -107,11 +107,11 @@ layout: post
 group: news
 ---
 ```
-For `title: `, enter the post title as you want it to appear on the News page. For `author: `, enter your own name as it is spelled in [/_data/members.yml](https://github.com/winstonchiong/winstonchiong.github.io/blob/master/_data/members.yml). If you would like to include an image, upload a JPEG or PNG file to [/assets/img/](https://github.com/winstonchiong/winstonchiong.github.io/tree/master/assets/img) and include a tag in your post using the format:
+For `title: `, enter the post title as you want it to appear on the News page. For `author: `, enter your own name as it is spelled in [/_data/members.yml](https://github.com/decisionlabucsf/decisionlabucsf.github.io/blob/master/_data/members.yml). If you would like to include an image, upload a JPEG or PNG file to [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img) and include a tag in your post using the format:
 ```
 ![ALT-TITLE](/assets/img/FILENAME.png)
 ```
-where for `ALT-TITLE` you put in a brief description and for `FILENAME` you enter the filename of the image you uploaded to [/assets/img/](https://github.com/winstonchiong/winstonchiong.github.io/tree/master/assets/img). 
+where for `ALT-TITLE` you put in a brief description and for `FILENAME` you enter the filename of the image you uploaded to [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img). 
 
 When you're done, **commit changes**, using the green button to commit the file directly to the master branch and the description box below to leave a brief description.
 
