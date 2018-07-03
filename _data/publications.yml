@@ -53,7 +53,8 @@
   title: "Failures to discuss and document preferences: Preventable medical errors in stroke care."
   details: "Neurology. 2016; 6(22):2032-3."
   year: 2016
-  image:
+  image: pubs_2016_failurestodiscuss.jpg
+  imagealt: Photo by Cytonn Photography on Unsplash
   pmid: 27060164
   pmcid: 
   doi: 10.1212/WNL.0000000000002626
@@ -87,7 +88,7 @@
   title: "Neuroeconomic dissociation of semantic dementia and behavioural variant frontotemporal dementia."
   details: "Brain. 2016; 139(2):578-87."
   year: 2016
-  image: pubs_2016_neuroecondissocsdbvftd.jpg
+  image: pubs_2016_neuroecondissocsdbvftd.png
   pmid: 26667277
   pmcid: PMC4861653
   doi: 10.1093/brain/awv344
@@ -106,6 +107,17 @@
   github:
   osf: https://osf.io/4cv2x/
 
+- authors: "**Chiong W**, Hsu M, Wudka D, Miller BL, Rosen HJ."
+  title: "Financial errors in dementia: Testing a neuroeconomic conceptual framework."
+  details: "Neurocase. 2014; 20(4):389-96."
+  year: 2014
+  image: pubs_2013_financialerrors.png
+  pmid: 23550884
+  pmcid: PMC3770748
+  doi: 10.1080/13554794.2013.770886
+  pdf:
+  github:
+  
 - authors: "**Chiong W**, Kim AS, **Huang IA**, Farahany NA, Josephson SA."
   title: "Testing the presumption of consent to emergency treatment for acute ischemic stroke."
   details: "JAMA. 2014; 311(16):1689-91."
@@ -122,7 +134,8 @@
   title: "Dementia and personal identity: Implications for decision-making."
   details: "Handbook of Clinical Neurology. 2013; 118(1):409-18."
   year: 2013
-  image: 
+  image: pubs_2013_dementiapersonalidentity.jpg
+  imagealt: Photo by Hans-Peter Gauster on Unsplash
   pmid: 24182394
   pmcid: 
   doi: 10.1016/B978-0-444-53501-6.00032-9
@@ -140,14 +153,62 @@
   pdf:
   github:
   
-- authors: "**Chiong W**, Hsu M, Wudka D, Miller BL, Rosen HJ."
-  title: "Financial errors in dementia: Testing a neuroeconomic conceptual framework."
-  details: "Neurocase. 2013; 20(4):389-96."
-  year: 2013
-  image: pubs_2013_financialerrors.jpg
-  pmid: 23550884
-  pmcid: PMC3770748
-  doi: 10.1080/13554794.2013.770886
+- authors: "**Chiong W**."
+  title: "The self: From philosophy to cognitive neuroscience."
+  details: Neurocase. 2011; 17(3):190-200. 
+  year: 2011
+  image: pubs_2011_theself.jpg
+  imagealt: Photo by Kyle Glenn on Unsplash
+  pmid: 21506043
+  pmcid: 
+  doi: 10.1080/13554794.2010.532808
+  pdf:
+  github:
+
+- authors: "**Chiong W**."
+  title: "Therapeutic misconceptions and moral conflict in clinical research."
+  details: 
+  year: 2010
+  image: pubs_2010_therapeuticmisconception.jpg
+  imagealt: Photo by rawpixel on Unsplash
+  pmid: 
+  pmcid: 
+  doi: 
+  pdf:
+  github:
+
+- authors: "**Chiong W**."
+  title: "Justifying patient risks associated with medical education."
+  details: 
+  year: 2007
+  image: pubs_2007_justifyingpatientrisks.jpg
+  imagealt: Photo by Piron Guillaume on Unsplash
+  pmid: 
+  pmcid: 
+  doi: 
   pdf:
   github:
   
+- authors: "**Chiong W**."
+  title: "The real problem with equipoise."
+  details: 
+  year: 2006
+  image: pubs_2006_realproblemwithequipoise.jpg
+  imagealt: 
+  pmid: 
+  pmcid: 
+  doi: 
+  pdf:
+  github:
+
+- authors: "**Chiong W**."
+  title: "Brain death without definitions."
+  details: 
+  year: 2005
+  image: pubs_2005_braindeath.jpg
+  imagealt: 
+  pmid: 
+  pmcid: 
+  doi: 
+  pdf:
+  github:
