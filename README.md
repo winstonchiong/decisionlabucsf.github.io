@@ -28,7 +28,7 @@ To do this, you'll first need to understand a little about:
 ## How to update (or add) a team profile
 Two steps:
 ### 1. If you don't have one yet, add a picture to /assets/img/
-A good size for team member pictures on this site is 580x580 pixels, in jpeg or png format. Name your picture file something descriptive that won't be mistaken for any other image on the site (like `team_your_name.jpg`). Navigate to [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img) and drag-and-drop the picture file from your desktop into the browser window. You'll then be asked to make a "commit":
+A good size for team member pictures on this site is 222x222 pixels, in jpeg or png format. Name your picture file something descriptive that won't be mistaken for any other image on the site (like `team_your_name.jpg`). Navigate to [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img) and drag-and-drop the picture file from your desktop into the browser window. You'll then be asked to make a "commit":
 
 ![Screenshot-commit-image](/assets/img/site_readme_02_commit_image.png)
 
@@ -72,7 +72,7 @@ This will send a citation or citations to your desktop in Vancouver format. Now 
 
 ![Screenshot-pubmed-abstract](/assets/img/site_readme_03_pubmed.png)
 
-At the bottom in **Images from this publication**, see if you can pick the most interesting or revealing image from the paper, and save it to your computer in PNG or JPEG format with a short descriptive name like `pubs_YEAR_ARTICLE_KEYWORDS.png`"`. 
+At the bottom in **Images from this publication**, see if you can pick the most interesting or revealing image from the paper, and save it to your computer in PNG or JPEG format with a short descriptive name like `pubs_YEAR_ARTICLE_KEYWORDS.png`". (Even better: use Photoshop or other editing software to resize to a width of 185 pixels.)
 
 ### 2. Upload publication image if you have one
 Use the same methods described above *(1. If you don't have one yet, add a picture to /assets/img/)* to upload the publication image to [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img). 
