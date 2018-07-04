@@ -7,7 +7,7 @@ description:
 
 <div id="gbd" class="project-container" style="margin-top: 0px">
   <img src="{{ site.baseurl }}/assets/img/projects-gbd.jpg" alt="project image unsplash..." style="width: 100%;">
-  <div class="project-title" style="color: #052049">Genes, Brains &amp; Decisions</div>
+  <div class="project-title" style="color: #052049">Genes, Brains and Decisions</div>
 </div>
 Patients with frontotemporal dementia (FTD) are prone to making bad decisions; unfortunately, FTD is often only diagnosed after patients have made significant errors. Such delays reflect the absence of objective clinical tests for decision-making, and represent missed opportunities to prevent serious harms. 
 
