@@ -110,13 +110,14 @@
 }
 
 .project-title {
-    font-size: 44px;
+    font-size: 46px;
     font-weight: bold;
     position: absolute;
-    line-height: 1;
+    line-height: 0.94;
     top: 50%;
     left: 50%;
     width: 60%;
+    letter-spacing: -0.04em;
     transform: translate(-50%, -50%);
 }
 
@@ -166,14 +167,16 @@
     }
 
     .project-title {
-        font-size: 26px;
+        font-size: 30px;
         position: absolute;
         font-weight: bold;
+        line-height: 0.88;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         margin: 0px;
-        width: 93%;
+        letter-spacing: -0.05em;
+        width: 96%;
     }
 }
 
