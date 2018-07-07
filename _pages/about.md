@@ -27,8 +27,8 @@ The Decision Lab is headed by [Winston Chiong, MD PhD]({{ '/team/index.html#Wins
 
 ## partners
 
-Our work is funded by grants [R01AG022983](https://projectreporter.nih.gov/project_info_description.cfm?aid=9460967&icde=40045081&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC&pball=){:target="\_blank"}, 
-[R01MH114860](https://projectreporter.nih.gov/project_info_description.cfm?aid=9564973&icde=40045083&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC&pball=){:target="\_blank"}, [U01NS098971](https://projectreporter.nih.gov/project_info_description.cfm?aid=9356341&icde=40045087&ddparam=&ddvalue=&ddsub=&cr=3&csb=default&cs=ASC&pball=){:target="\_blank"}, and [R01AG056715](https://projectreporter.nih.gov/project_info_description.cfm?aid=9368243&icde=40045089&ddparam=&ddvalue=&ddsub=&cr=6&csb=default&cs=ASC&pball=){:target="\_blank"} from the [National Institutes of Health](http://www.nih.gov){:target="\_blank"}. In addition to our [research collaborators]({{ '/team/index.html#collaborators' | prepend: site.baseurl | prepend: site.url }}), we are affiliated with:
+Our work is funded by grants R01AG022983, 
+R01MH114860, U01NS098971, and R01AG056715 from the [National Institutes of Health](http://www.nih.gov){:target="\_blank"}. In addition to our [research collaborators]({{ '/team/index.html#collaborators' | prepend: site.baseurl | prepend: site.url }}), we are affiliated with:
 
 <div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
 
