@@ -115,6 +115,3 @@ where for `ALT-TITLE` you put in a brief description and for `FILENAME` you ente
 
 When you're done, **commit changes**, using the green button to commit the file directly to the master branch and the description box below to leave a brief description.
 
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
