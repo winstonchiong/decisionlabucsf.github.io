@@ -20,9 +20,8 @@
   <div class="wrapper">
 
     {% if page.layout != "about" %}
-    <span class="site-title">
-      <div style="font-size:32px; padding-top:12px;">Decision Lab</div>
-    </span>
+    <a class="site-title" href="{{ site.baseurl | prepend: site.url }}/"><img style="display: inline-block; vertical-align: middle; padding-right: 2px; margin-bottom: 8px" src="{{ 'rbrain4-45.png' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">Decision Lab</a>
+    
     {% endif %}
 
     <nav class="site-nav">

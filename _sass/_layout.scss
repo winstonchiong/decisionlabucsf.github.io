@@ -11,16 +11,23 @@
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
+    font-size: 32px;
+    line-height: 46px;
     letter-spacing: -0.5px;
     margin-bottom: 0;
+    padding-top: 12px;
     float: left;
+    color: $text-color;
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
+    &:hover {
+        color: #007cbe;
+        text-decoration: none;
     }
+
+    /// &,
+    /// &:visited {
+    ///     color: $grey-color-dark;
+    /// }
 }
 
 /* UCSF Banner */
