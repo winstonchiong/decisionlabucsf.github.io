@@ -71,7 +71,7 @@
   scholar: 
   twitter: 
   description:  As a San Francisco native who is interested in how social, behavioral, and cultural factors influence the trajectory
-                of disease outcomes, I was naturally drawn to the interdisplinary nature of the work being done by the UCSF Decision Lab.
+                of disease outcomes, I was naturally drawn to the interdisciplinary nature of the UCSF Decision Lab.
                 My current role in the lab includes providing overall lab support, testing patients for the [Decision-Making in Alzheimer's and Related Dementias]]({{ '/projects/index.html#dma' | prepend: site.baseurl | prepend: site.url }})
                 project, helping screen patients for the [Neuroethics in Novel Neurotechnologies]({{ '/projects/index.html#neurotech' | prepend: site.baseurl | prepend: site.url }}) project,
                 and coordinating recruitment and reimbursements for the [Genes, Brains and Decisions]({{ '/projects/index.html#gbd' | prepend: site.baseurl | prepend: site.url }})
