@@ -70,21 +70,23 @@
   email: ali.zahir (at) ucsf.edu
   scholar: 
   twitter: 
-  description:  I provide varying levels of support to our research projects, and the degree to which I provide support
-                is dependent on the context and constraints of each individual project. Much of my work involves shifting
-                between the "big picture" of our research interests and the small-but-crucial details that are 
-                necessary to conduct our research aims. In addition to this work, I am involved in research on the psychosocial 
-                factors associated with caring for patients with neurodegenerative disease. I studied molecular toxicology as
-                an undergraduate at UC Berkeley, where I conducted research on the social, behavioral, and psychological factors
-                associated with HIV transmission and acquisition rates amongst substance-using populations.  
+  description:  As a San Francisco native who is interested in how social, behavioral, and cultural factors influence the trajectory
+                of disease outcomes, I was naturally drawn to the interdisplinary nature of the work being done by the UCSF Decision Lab.
+                My current role in the lab includes: providing overall lab support, testing patients for the [Decision-Making in Alzheimer's and Related Dementias]]({{ '/projects/index.html#dma' | prepend: site.baseurl | prepend: site.url }})
+                project, helping screen patients for the [Neuroethics in Novel Neurotechnologies]({{ '/projects/index.html#neurotech' | prepend: site.baseurl | prepend: site.url }}) project,
+                and coordinating recruitment and reimbursements for the [Genes, Brains and Decisions]({{ '/projects/index.html#gbd' | prepend: site.baseurl | prepend: site.url }})
+                and [Online Studies of Decision-Making in Healthy Aging]({{ '/projects/index.html#agingcog' | prepend: site.baseurl | prepend: site.url }}).
+                Additionally, I am involved in research on the psychosocial factors associated with caring for patients with neurodegenerative disease,
+                and help coordinate diversity and outreach efforts targeted at increasing the number of underrepresented students in medicine. 
+                I studied molecular toxicology as an undergraduate at UC Berkeley, and previously conducted research on the structural factors
+                associated with HIV transmission and acquisition rates amongst substance-using populations. Outside of work, 
+                I am either volunteering at the Berkeley Free Clinic, photographing scenic landscapes, or training in mixed-martial arts.
+                     
                 
                 
-                
-                My interests lie at the intersection of the social sciences and medicine, with a particular interest
-                in how social determinants of health shape and influence disease outcomes. I was drawn to the 
-                UCSF Decision Lab for both the interdisciplinary nature of the research and Dr. Chiong's longstanding
-                interest in diversity and outreach. Outside of work, I am either volunteering
-                at the Berkeley Free Clinic or training in mixed-martial arts.         
+               
+              
+                     
                
 - name: Mia Borzello
   image: team_Mia_Borzello.JPG
