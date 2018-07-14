@@ -1,0 +1,51 @@
+---
+title: seminar
+description: 
+layout: default
+
+---
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h5 class="post-description">{{ page.description }}</h5>
+     <p> With Jalayne Arias, we co-host a recurring Neuroethics Seminar at the 
+      UCSF Mission Bay Campus. The group usually meets twice-monthly, usually on the 2nd and 
+      4th Monday afternoons of each month. We aim to...</p>
+      
+      <p>To be added to the mailing list, contact Ali Zahir at 
+      <em>ali.zahir (at) ucsf.edu</em>.</p>
+  </header>
+  <div>
+    <div style="float: right; width:35%; padding-left:20px;">
+      <h2>upcoming:</h2>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTYGRFtMsdt1JdOUZkeOSQazeYk8rXybnvjzOWngYScNbYA44LKQzvl3YmUYpeuPaXUriBnmxWLedGo/pubhtml?gid=2068471357&amp;single=true&amp;widget=true&amp;headers=false" height=600></iframe>
+    </div>
+    <div>
+      <h2>past sessions: </h2>
+      {% for session in site.pastsem reversed %}
+      <hr>
+  <h2>{{ session.title }}</h2>
+  <p class="author">
+    <span class="author">{{session.presenters}}</span><br>
+    <span class="date"><em>{{ session.date | date_to_long_string }}</em></span>
+  </p>
+{% if session.image %}
+  <div class="sem-image-container">
+  <img style="width: 50%;" src="{{ session.image | prepend: '/assets/img/' | 
+  prepend: site.baseurl | prepend: site.url }}" alt="photo of {{session.title}}">
+  {% if session.caption %}
+    <div class="image-caption">{{ session.caption }}</div>
+  {% endif %}
+  </div>
+{% endif %}
+  <div class="content">
+    {{ session.content }}
+
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+

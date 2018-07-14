@@ -11,7 +11,7 @@ layout: default
   {% else %}
   <header class="post-header">
     <h1 class="post-title" style="margin-bottom: 2px"><img style="display: inline-block; vertical-align: -5px; padding-right: 3px; margin-bottom: -11px;" src="{{ 'rbrain4-65.png' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</h1>
-    <div style="font-size: 1.9rem; color: #007cbe; line-height:90%">{{ page.description }}</div>
+    <div class="post-tagline">{{ page.description }}</div>
   </header>
   {% endif %}    
 

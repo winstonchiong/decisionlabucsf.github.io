@@ -258,6 +258,18 @@
     }
 }
 
+/* classes for seminar image and caption, maybe remove */
+
+.sem-image-container {
+    margin-top:8px;
+    margin-bottom:14px;
+}
+
+.image-caption {
+    font-size: $small-font-size;
+}
+
+/* end of seminar image and caption classes */
 
 /**
  * Site footer
@@ -390,6 +402,17 @@
 
     @include media-query($on-laptop) {
         font-size: 36px;
+    }
+}
+
+.post-tagline {
+    font-size: 32px;
+    color: #007cbe;
+    letter-spacing: -0.7px;
+    line-height:90%;
+
+    @include media-query($on-laptop) {
+        font-size: 28px;
     }
 }
 
