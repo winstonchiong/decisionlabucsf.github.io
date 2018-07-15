@@ -10,42 +10,40 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <h5 class="post-description">{{ page.description }}</h5>
      <p> With <a href="/team/index.html#collaborators">Jalayne Arias</a>, we co-host a recurring Neuroethics Seminar at the 
-      UCSF Mission Bay Campus. The group usually meets twice-monthly, usually on the 2nd and 
+      UCSF Mission Bay Campus. The group typically meets twice-monthly, usually on the 2nd and 
       4th Monday afternoons of each month. We aim to...</p>
       
       <p>To be added to the mailing list, contact Ali Zahir at 
       <em>ali.zahir (at) ucsf.edu</em>.</p>
   </header>
-  <div>
-    <div style="float: right; width:35%; padding-left:20px;">
-      <h2>upcoming:</h2>
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTYGRFtMsdt1JdOUZkeOSQazeYk8rXybnvjzOWngYScNbYA44LKQzvl3YmUYpeuPaXUriBnmxWLedGo/pubhtml?gid=2068471357&amp;single=true&amp;widget=true&amp;headers=false" height=400></iframe>
-    </div>
-    <div>
-      <h2>past sessions: </h2>
-      {% for session in site.pastsem reversed %}
-      <hr>
-  <h2>{{ session.title }}</h2>
+  <h2>upcoming:</h2>
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTYGRFtMsdt1JdOUZkeOSQazeYk8rXybnvjzOWngYScNbYA44LKQzvl3YmUYpeuPaXUriBnmxWLedGo/pubhtml?gid=2068471357&amp;single=true&amp;widget=true&amp;headers=false" 
+    style="height:250px; margin-bottom: 20px" width="100%"></iframe>
+  <h2>past sessions: </h2>
+  {% for session in site.pastsem reversed %}
+  {% if forloop.index != 1 %}
+    <hr>
+  {% endif %}
+  <h3>{{ session.title }}</h3>
   <p class="author">
     <span class="author">{{session.presenters}}</span><br>
-    <span class="date"><em>{{ session.date | date_to_long_string }}</em></span>
+    <span class="date"><em>{{ session.date | date: "%B %e, %Y" }}</em></span>
   </p>
-{% if session.image %}
+  {% if session.image %}
   <div class="sem-image-container">
-  <img style="width: 50%;" src="{{ session.image | prepend: '/assets/img/' | 
-  prepend: site.baseurl | prepend: site.url }}" alt="photo of {{session.title}}">
-  {% if session.caption %}
+    <img style="width: 80%;" src="{{ session.image | prepend: '/assets/img/' | 
+    prepend: site.baseurl | prepend: site.url }}" alt="photo of {{session.title}}">
+    {% if session.caption %}
     <div class="image-caption">{{ session.caption }}</div>
-  {% endif %}
+    {% endif %}
   </div>
-{% endif %}
+  {% endif %}
   <div class="content">
     {{ session.content }}
-
-      {% endfor %}
-    </div>
   </div>
+  {% endfor %}
 </div>
+
 
 
 
