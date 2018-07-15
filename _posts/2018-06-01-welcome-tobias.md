@@ -3,8 +3,8 @@ title: Welcome Tobias!
 author: Winston Chiong
 layout: post
 group: news
-image: seminar_2018-06-25_capacity-to-marry.jpg
-caption: Example caption lorem ipsum dolor
+image: 
+caption: 
 ---
 
 We're very excited to welcome [Tobias Häusermann](/team/index.html#Tobias Häusermann) as our first neuroethics postdoc! Toby joins the lab from 
