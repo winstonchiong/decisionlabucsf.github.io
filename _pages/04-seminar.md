@@ -10,7 +10,7 @@ description:
     <h1 class="post-title">{{ page.title }}</h1>
     <h5 class="post-description">{{ page.description }}</h5>
      <p> Since May 2016, we have convened a twice-monthly Neuroethics Seminar at the UCSF Mission Bay campus, 
-       co-hosted by <a href="/team/index.html#collaborators">Jalayne Arias</a>. The purpose of the seminar is 
+       in collaboration with <a href="/team/index.html#collaborators">Jalayne Arias</a>. The purpose of the seminar is 
        to engage neuroscientists and clinicians in broad, interdisciplinary conversations about ethical and 
        policy issues arising in their work. In addition to providing a forum for stakeholders to explore their 
        own ethical concerns about situations they face, we also aim to foster new scholarly collaborations that 
