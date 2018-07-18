@@ -1,17 +1,23 @@
 ---
-title: seminar
-description: 
 layout: default
-
+title: seminar
+permalink: /seminar/
+description: 
 ---
 
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <h5 class="post-description">{{ page.description }}</h5>
-     <p> With <a href="/team/index.html#collaborators">Jalayne Arias</a>, we co-host a recurring Neuroethics Seminar at the 
-      UCSF Mission Bay Campus. The group typically meets twice-monthly, usually on the 2nd and 
-      4th Monday afternoons of each month. We aim to...</p>
+     <p> Since May 2016, we have convened a twice-monthly Neuroethics Seminar at the UCSF Mission Bay campus, 
+       co-hosted by <a href="/team/index.html#collaborators">Jalayne Arias</a>. The purpose of the seminar is 
+       to engage neuroscientists and clinicians in broad, interdisciplinary conversations about ethical and 
+       policy issues arising in their work. In addition to providing a forum for stakeholders to explore their 
+       own ethical concerns about situations they face, we also aim to foster new scholarly collaborations that 
+       emerge from new questions at the forefront of research and clinical practice. In general, our meetings 
+       follow one of three formats: (1) case discussions arising from ethically complex clinical encounters or 
+       research developments, (2) journal clubs drawn either from recent neuroscience or neuroethics literature, 
+       and (3) works-in-progress to refine upcoming grants, conference abstracts and manuscripts. </p>
       
       <p>To be added to the mailing list, contact Ali Zahir at 
       <em>ali.zahir (at) ucsf.edu</em>.</p>

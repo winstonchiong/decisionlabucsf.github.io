@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
+permalink: /papers/
+title: papers
 description: 
 years: [2018, 2017, 2016, 2014, 2013, 2011, 2010, 2007, 2006, 2005]
 ---

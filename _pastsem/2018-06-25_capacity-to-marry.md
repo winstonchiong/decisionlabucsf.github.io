@@ -10,6 +10,12 @@ attachment:
 outlink: 
 ---
 
-Joanna Hellmuth and Mahnoor Allawala presented two recent clinical cases from MAC Clinic and Care Ecosystem. Sed laoreet magna ut justo viverra ultrices. Nullam commodo quam et imperdiet molestie. Donec sem sapien, porta in dui vitae, blandit fermentum lorem. Donec non massa venenatis turpis efficitur ultricies sed ac odio. Sed venenatis posuere dolor sit amet venenatis.
+We were pleased to be joined by guests from the City and County of San Francisco's Department of Aging and Adult Services, who provided institutional context for a discussion of challenges to the capacity of patients with dementia to marry and to consent to sex. We began by considering two cases from the UCSF Memory and Aging Center clinic and from the [Care Ecosystem](http://careecosystem.org){:target="\_blank"} program, illustrating more general questions that commonly arise for clinicians and family members. 
 
-Donec eu diam pulvinar, suscipit risus iaculis, hendrerit libero. Etiam aliquam maximus odio. Sed lobortis aliquam ipsum, in porttitor ipsum pulvinar eget. Sed porttitor diam et ultricies suscipit. Maecenas non eros neque. Etiam tempor, mi dignissim bibendum mattis, felis nunc fringilla tellus, ac scelerisque orci nunc ac risus. Etiam id urna tellus. Suspendisse potenti. Quisque in eros odio. Nam vel fringilla risus. Sed ullamcorper nisi vel bibendum volutpat. Maecenas pellentesque nunc in vestibulum consectetur. 
+We reviewed a somewhat surprising (for some members) passage from the [suggested reading](http://jaapl.org/content/45/3/292){:target="\_blank"}:
+
+> In a California appellate case, the court opined that ‘[M]ental capacity can be measured on a sliding 
+> scale, with marital capacity requiring the least amount of capacity, followed by testamentary capacity,
+> and on the high end of the scale is the mental capacity required to enter contracts.’
+
+In our discussion, we examined potential conflicts between respect for patient's privacy interests and the value of protecting patients from exploitation, the need for individualized consideration of patients' different circumstances, and whether current debates over sexual norms focusing on young adults and college students can be applied to patients with dementia. Challenged by our other [suggested reading](https://www.thehastingscenter.org/sex-consent-and-dementia/){:target="\_blank"}, we considered whether in these patients, our focus should shift from consent capacity to a more challenging question of how to ascertain whether a patient is being abused.
