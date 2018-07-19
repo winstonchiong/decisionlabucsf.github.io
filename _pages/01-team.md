@@ -38,6 +38,23 @@ description:
 <hr>
 {% endfor %}
 
+{% if site.data.affiliates %}
+  <h2>affiliate members</h2>
+  {% for person in site.data.affiliates %}
+<div id="{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
+  <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4>
+  {{person.position}} <br>
+  <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
+  {% if person.website %}
+    <i class="fa fa-globe"></i> <a href= "{{person.website}}" target="_blank">{{person.website}}</a> <br>
+  {% endif %}
+</div>
+<div class="col-sm-8">
+  <p class="text-justify">{{person.description | markdownify}}</p>
+</div>
+<hr>
+  {% endfor %}
+{% endif %}
 
 ## students
 {% for student in site.data.students %}

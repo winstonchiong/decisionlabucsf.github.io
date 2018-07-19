@@ -14,7 +14,7 @@ description:
        to engage neuroscientists and clinicians in broad, interdisciplinary conversations about ethical and 
        policy issues arising in their work. In addition to providing a forum for stakeholders to explore their 
        own ethical concerns about situations they face, we also aim to foster new scholarly collaborations that 
-       emerge from new questions at the forefront of research and clinical practice. In general, our meetings 
+       emerge from novel questions at the forefront of research and clinical practice. In general, our meetings 
        follow one of three formats: (1) case discussions arising from ethically complex clinical encounters or 
        research developments, (2) journal clubs drawn either from recent neuroscience or neuroethics literature, 
        and (3) works-in-progress to refine upcoming grants, conference abstracts and manuscripts. </p>
