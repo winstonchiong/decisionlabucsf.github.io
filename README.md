@@ -43,10 +43,10 @@ If you already have a profile, you'll see fields for your name, degrees, positio
 
 ```
 - name: Ali Zahir
-  image: AliZahir.jpg
+  image: team_Ali-Zahir.jpg
   altimage: 
   position: Research Coordinator
-  email: ali.zahir (#!) ucsf.edu
+  email: ali.zahir (at) ucsf.edu
   scholar: 
   twitter: 
   description: Ali, a clinical research coordinator working for Dr. Winston Chiong, currently oversees 
@@ -111,7 +111,7 @@ For `title: `, enter the post title as you want it to appear on the News page. F
 ```
 ![ALT-TITLE](/assets/img/FILENAME.png)
 ```
-where for `ALT-TITLE` you put in a brief description and for `FILENAME` you enter the filename of the image you uploaded to [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img). 
+where for `ALT-TITLE` you put in a brief description and for `FILENAME` you enter the filename of the image you uploaded to [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img). (I suggest naming it something like "news_YEAR_key-words.png".)
 
 When you're done, **commit changes**, using the green button to commit the file directly to the master branch and the description box below to leave a brief description.
 

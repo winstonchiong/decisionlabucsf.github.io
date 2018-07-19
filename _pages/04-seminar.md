@@ -30,7 +30,7 @@ description:
   {% if forloop.index != 1 %}
     <hr>
   {% endif %}
-  <h3>{{ session.title }}</h3>
+  <h3 id="{{session.date | date: "%Y-%m-%d" }}">{{ session.title }}</h3>
   <p class="author">
     <span class="author">{{session.presenters}}</span><br>
     <span class="date"><em>{{ session.date | date: "%B %e, %Y" }}</em></span>
