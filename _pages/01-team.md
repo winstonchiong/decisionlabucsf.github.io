@@ -61,7 +61,7 @@ description:
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{student.name}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
-  <b>{{student.name}}{% if student.degrees %}, {{student.degrees}} {% endif %}</b> <br>
+  <strong>{{student.name}}{% if student.degrees %}, {{student.degrees}} {% endif %}</strong> <br>
   {{student.position}} <br>
   <i class="fa fa-envelope"></i> <em>{{student.email}}</em> <br>
   {% if student.description %}
@@ -83,7 +83,7 @@ description:
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{alum.name}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
-  <b>{{alum.name}}{% if alum.degrees %}, {{alum.degrees}} {% endif %}</b> <br>
+  <strong>{{alum.name}}{% if alum.degrees %}, {{alum.degrees}} {% endif %}</strong> <br>
   <i>previously:</i> {{alum.previously}} <br>
   <i>now:</i> {{alum.now}}<br>
     {% if alum.website %} <i class="fa fa-globe"></i> <a href= "{{alum.website}}" target="_blank">{{alum.website}}</a>  {% endif %}
@@ -100,7 +100,7 @@ description:
 ## collaborators
 
 {% for collaborator in site.data.collaborators %}
-- <b>{{collaborator.name}}{% if collaborator.degrees %}, {{collaborator.degrees}} {% endif %}</b>  
+- <strong>{{collaborator.name}}{% if collaborator.degrees %}, {{collaborator.degrees}} {% endif %}</strong>  
   {{collaborator.position}}  
   {% if collaborator.website %} <i class="fa fa-globe"></i> <a href= "{{collaborator.website}}" target="_blank">{{collaborator.website}}</a>  {% endif %}
 {% endfor %}
