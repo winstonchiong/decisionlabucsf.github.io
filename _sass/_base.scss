@@ -55,6 +55,12 @@ body {
     font-family: "decisionlab", $base-font-family;
 }
 
+/* try to fix bold font behavior in Firefox on PC */
+
+strong {
+    font-weight: 600;
+}
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
