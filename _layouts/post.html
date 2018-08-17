@@ -8,6 +8,15 @@ layout: default
     <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • <a href="/team/index.html#{{page.author}}">{{page.author}}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
+  {% if page.image %}
+    <div class="sem-image-container">
+    <img style="width: 80%;" src="{{ page.image | prepend: '/assets/img/' | 
+    prepend: site.baseurl | prepend: site.url }}" alt="photo of {{page.title}}">
+    {% if page.caption %}
+    <div class="image-caption">{{ page.caption }}</div>
+    {% endif %}
+    </div>
+  {% endif %}
   <article class="post-content">
     {{ content }}
   </article>

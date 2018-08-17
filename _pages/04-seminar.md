@@ -25,12 +25,18 @@ description:
   <h2>upcoming:</h2>
   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTYGRFtMsdt1JdOUZkeOSQazeYk8rXybnvjzOWngYScNbYA44LKQzvl3YmUYpeuPaXUriBnmxWLedGo/pubhtml?widget=false&amp;headers=false&amp;chrome=false" 
             style="height:150px; margin-bottom: 20px" width="100%"></iframe>
-  <h2>past sessions: </h2>
+  <h2>recent sessions: </h2>
   {% for session in site.pastsem reversed %}
+
+  {% if forloop.index == 6 %}
+    {% break %}
+  {% endif %}
+
   {% if forloop.index != 1 %}
     <hr>
   {% endif %}
-  <h3 id="{{session.date | date: "%Y-%m-%d" }}">{{ session.title }}</h3>
+
+  <h3 id="{{session.date | date: "%Y-%m-%d" }}"><a href="{{ session.url }}">{{ session.title }}</a></h3>
   <p class="author">
     <span class="author">{{session.presenters}}</span><br>
     <span class="date"><em>{{ session.date | date: "%B %e, %Y" }}</em></span>
@@ -49,6 +55,18 @@ description:
   </div>
   {% endfor %}
 </div>
+
+{% if site.pastsem.size > 5 %}
+  {% assign mylimit = site.pastsem.size | minus: 5 %}
+  <hr>
+  <h2>previous sessions: </h2>
+
+  {% for session in site.pastsem reversed limit:mylimit %}
+<em>{{ session.date | date: "%B %e, %Y" }}</em> - <a href="{{ session.url }}">{{ session.title }}</a>
+
+  {% endfor %}
+
+{% endif %}
 
 
 
