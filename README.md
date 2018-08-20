@@ -107,7 +107,7 @@ layout: post
 group: news
 ---
 ```
-For `title: `, enter the post title as you want it to appear on the News page. For `author: `, enter your own name as it is spelled in [/_data/members.yml](https://github.com/decisionlabucsf/decisionlabucsf.github.io/blob/master/_data/members.yml). If you would like to include an image, upload a JPEG or PNG file to [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img) and include a tag in your post using the format:
+For `title: `, enter the post title as you want it to appear on the News page. For `author: `, enter your own name as it is spelled in [/_data/members.yml](https://github.com/decisionlabucsf/decisionlabucsf.github.io/blob/master/_data/members.yml). If you would like to include an image, upload a JPEG or PNG file to [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img) (ideally, with a width of 490 pixels) and include a tag in your post using the format:
 ```
 ![ALT-TITLE](/assets/img/FILENAME.png)
 ```
