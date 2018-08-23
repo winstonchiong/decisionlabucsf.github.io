@@ -19,8 +19,8 @@ description:
        research developments, (2) journal clubs drawn either from recent neuroscience or neuroethics literature, 
        and (3) works-in-progress to refine upcoming grants, conference abstracts and manuscripts. </p>
       
-      <p>To be added to the mailing list, contact Ali Zahir at 
-      <em>ali.zahir (at) ucsf.edu</em>.</p>
+      <p>To be added to the mailing list, contact Cailin Lechner at 
+      <em>cailin.lechner (at) ucsf.edu</em>.</p>
   </header>
   <h2>upcoming:</h2>
   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTYGRFtMsdt1JdOUZkeOSQazeYk8rXybnvjzOWngYScNbYA44LKQzvl3YmUYpeuPaXUriBnmxWLedGo/pubhtml?widget=false&amp;headers=false&amp;chrome=false" 
