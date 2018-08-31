@@ -1,6 +1,6 @@
 ---
 title: Position paper on dementia care ethics
-presenter: Winston Chiong
+presenters: Winston Chiong
 layout: post
 group: pastsem
 date: 2018-08-27
