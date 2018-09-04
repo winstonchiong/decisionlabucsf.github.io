@@ -27,8 +27,8 @@ The Decision Lab is headed by [Winston Chiong, MD PhD]({{ '/team/index.html#Wins
 
 ## partners
 
-Our work is funded by grants R01AG022983, 
-R01MH114860, U01NS098971, and R01AG056715 from the [National Institutes of Health](http://www.nih.gov){:target="\_blank"}. In addition to our [research collaborators]({{ '/team/index.html#collaborators' | prepend: site.baseurl | prepend: site.url }}), we are affiliated with:
+Our work is funded by grants R01AG058817, R01MH114860, R01AG022983, 
+U01NS098971, and R01AG056715 from the [National Institutes of Health](http://www.nih.gov){:target="\_blank"}. In addition to our [research collaborators]({{ '/team/index.html#collaborators' | prepend: site.baseurl | prepend: site.url }}), we are affiliated with:
 
 <div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
 
