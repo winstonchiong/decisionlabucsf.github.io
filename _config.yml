@@ -67,6 +67,7 @@ plugins:
     - jekyll-email-protect
     - jekyll-paginate
     - jemoji
+    - jekyll-sitemap
 
 
 # -----------------------------------------------------------------------------
