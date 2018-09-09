@@ -4,7 +4,7 @@ presenters: Tobias Häusermann
 layout: post
 group: pastsem
 date: 2018-06-11
-image: seminar_2018-06-11_dementia-village.png
+image: seminar_2018-06-11_dementia-village.jpg
 caption: Still from promotional video for Tönebön am See
 attachment:
 outlink: 

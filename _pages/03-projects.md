@@ -17,7 +17,7 @@ We are studying decision-making in familial FTD kindreds from two large NIH-fund
 
 <div id="neurotech" class="project-container">
   <img src="{{ site.baseurl }}/assets/img/projects-neurotech.jpg" alt="Background iamge for Neuroethics in Novel Neurotechnologies. Photo by Tim Marshall on Unsplash." style="width: 100%;">
-  <span class="project-transparency" style="background: rgba(1,0,0,0.2);"></span>
+  <span class="project-transparency" style="background: rgba(128,60,0,0.3);"></span>
   <div class="project-title" style="color: #007cbe">Neuroethics in Novel Neurotechnologies</div>
 </div>
 New technologies that modulate brain function have tremendous potential for alleviating the burden of neuropsychiatric illness, but raise challenging ethical and societal questions. The President’s Bioethics Commission and other experts have called for the integration of ethics and neuroscience, which will require collaboration across humanistic and scientific disciplines as well as the engagement of patients and researchers at the forefront of novel neurotechnologies. 
@@ -26,7 +26,7 @@ To address these issues, we have built a cohesive interdisciplinary team with ex
 
 <div id="dma" class="project-container">
   <img src="{{ site.baseurl }}/assets/img/projects-dma.jpg" alt="Background image for Decision-Making in Alzheimer's and Related Dementias. Photo by Oliver Roos on Unsplash." style="width: 100%;">
-  <span class="project-transparency" style="background: rgba(0.5,0.5,0.5,0.4);"></span>
+  <span class="project-transparency" style="background: rgba(0,40,90,.2);"></span>
   <div class="project-title" style="color: #f26d04">Decision-Making in Alzheimer's and Related Dementias</div>
 </div>
 Decisional impairments in Alzheimer’s disease and related dementias can have disastrous consequences for patients and their families. While recent research in decision neuroscience and neuroeconomics holds great promise for elucidating neural mechanisms underlying these impairments, in many cases it remains unclear how neuroscientific findings can be applied to the decision-making errors that patients exhibit in real life. 
