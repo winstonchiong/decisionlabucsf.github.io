@@ -25,7 +25,7 @@ description:
   <h2>upcoming:</h2>
   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTYGRFtMsdt1JdOUZkeOSQazeYk8rXybnvjzOWngYScNbYA44LKQzvl3YmUYpeuPaXUriBnmxWLedGo/pubhtml?widget=false&amp;headers=false&amp;chrome=false" 
             style="height:150px; margin-bottom: 20px" width="100%"></iframe>
-  <h2>recent sessions: </h2>
+  <h2>recent meetings: </h2>
   {% for session in site.pastsem reversed %}
 
   {% if forloop.index == 6 %}
