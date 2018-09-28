@@ -59,15 +59,30 @@ description:
 {% if site.pastsem.size > 5 %}
   {% assign mylimit = site.pastsem.size | minus: 5 %}
   <hr>
-  <h2>previous sessions: </h2>
+  <h2>previous meetings: </h2>
 
   {% for session in site.pastsem reversed limit:mylimit %}
-<em>{{ session.date | date: "%B %e, %Y" }}</em> - <a href="{{ session.url }}">{{ session.title }}</a>
+<em>{{ session.date | date: "%B %e, %Y" }}</em> - <a href="{{ session.url }}">{{ session.title }}</a> (session.presenters)
 
   {% endfor %}
 
 {% endif %}
 
+<em>May 14, 2018</em> - Opiods in elder populations (Monroe Butler)
+
+<em>April 16, 2018</em> - Patient and caregiver perspectives on physician assisted death in ALS (Catherine Lomen-Hoerth)
+
+<em>April 2, 2018</em> - FAA regulations and preclinical Alzheimer's biomarkers (Matt Lawrence)
+
+<em>March 25, 2018</em> - California End of Life Option Act working meeting
+
+<em>March 12, 2018</em> - Brain death and the Jahi McMath case (Sharon Kaufman)
+
+<em>February 12, 2018</em> - Cognitive testing and political leaders (Jalayne Arias)
+
+<em>January 25, 2018</em> - Palliative medicine (Krista Harrison)
+
+<em>January 11, 2018</em> - Ethical issues in the management of patients with dementia (Winston Chiong)
 
 
 
