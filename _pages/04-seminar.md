@@ -68,7 +68,7 @@ description:
 
 {% endif %}
 
-<em>May 14, 2018</em> - Opiods in elder populations (Monroe Butler)
+<em>May 14, 2018</em> - Opioids in elder populations (Monroe Butler)
 
 <em>April 16, 2018</em> - Patient and caregiver perspectives on physician assisted death in ALS (Catherine Lomen-Hoerth)
 
