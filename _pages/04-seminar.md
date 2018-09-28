@@ -62,7 +62,7 @@ description:
   <h2>previous meetings: </h2>
 
   {% for session in site.pastsem reversed limit:mylimit %}
-<em>{{ session.date | date: "%B %e, %Y" }}</em> - <a href="{{ session.url }}">{{ session.title }}</a> (session.presenters)
+<em>{{ session.date | date: "%B %e, %Y" }}</em> - <a href="{{ session.url }}">{{ session.title }}</a> ({{ session.presenters }})
 
   {% endfor %}
 
