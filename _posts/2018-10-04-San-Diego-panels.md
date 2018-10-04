@@ -14,7 +14,7 @@ On Thursday, November 1 from 2:15-3:45pm I will be joining Jonathan Pugh, Cynthi
 [International Neuroethics Society panel](https://www.neuroethicssociety.org/meeting-program){:target="\_blank"} 
 moderated by Hannah Maslen on the topic of personality changes after deep brain stimulation. As a behavioral neurologist, 
 I hope to contribute some lessons from frontotemporal dementia about challenges in recognizing potentially subtle 
-and difficult-to-characterize personality changes in a clinical setting
+and difficult-to-characterize personality changes in clinical settings.
 
 Then on Sunday, November 4 from 6:45-8:45pm I will be on a panel hosted by Elba Serrano and  Marcello Ienca, also 
 featuring Andrea Giuffrida, Khara Ramos, Karen Rommelfanger, Ilina Singh, Tim Brown, Edda Thiels, Hank Greely, 
