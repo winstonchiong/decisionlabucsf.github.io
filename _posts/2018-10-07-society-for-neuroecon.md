@@ -1,5 +1,5 @@
 ---
-title: Mia Borzello presents at Society for Neuroeconomics in Philadelphia 2018
+title: Mia Borzello presents at Society for Neuroeconomics 2018 in Philadelphia
 author: Winston Chiong
 layout: post
 group: news
