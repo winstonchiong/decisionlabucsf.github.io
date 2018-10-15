@@ -10,7 +10,7 @@ image: 2018-10-08_seminar-group-photo.jpg
 Joncarmen (JC) Mergenthaler led a works-in-progress seminar about his current investigation into consent and recruitment within 
 intracranial electrophysiology studies, which require utilization of patients with preexisting cause for neurosurgical treatment, 
 such as epilepsy or Parkinson’s disease. Tacking research onto neurosurgery introduces an array of ethical concerns, from increased 
-time on the operating table to conflict of interest to therapeutic misconception. JC presented preliminary findings from 11 of 25 
+time on the operating table to conflict of interest to therapeutic misconception. JC presented preliminary findings from 11 of 26 
 semi-structured interviews with members of neurophysiology research teams, and our group discussed common themes, including 
 standardization, consent processes, unique risks, and vulnerability.
 
