@@ -4,7 +4,7 @@ presenters: Joncarmen Mergenthaler
 layout: post
 group: pastsem
 date: 2018-10-08
-image: 2018-10-08_seminar-group-photo.jpg
+image: seminar_2018-10-08_group-photo.jpg
 ---
 
 Joncarmen (JC) Mergenthaler led a works-in-progress seminar about his current investigation into consent and recruitment within 
