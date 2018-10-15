@@ -1,4 +1,17 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
+# filetype options: "pdf - published version" "pdf - accepted manuscript" "docx - accepted manuscript"...
+- authors: "**Vaishnav NH**, **Chiong W**."
+  title: "Informed consent for the human research subject with a neurologic disorder."
+  details: "Seminars in Neurology. 2018; 38(5):539-547."
+  year: 2018
+  image: pubs_2018_informedconsent.jpg
+  pmid: 
+  pmcid: 
+  doi: 10.1055/s-0038-1668077
+  file: "Vaishnav, Chiong - Informed consent for the human research subject with a neurologic disorder.pdf"
+  filetype: "pdf - published version"
+  github:
+
 - authors: "**Chiong W**, Leonard MK, Chang EF."
   title: "Neurosurgical patients as human research subjects: 
           Ethical considerations in intracranial electrophysiology research."
@@ -8,7 +21,8 @@
   pmid: 28973530
   pmcid: PMC5777911
   doi: 10.1093/neuros/nyx361
-  pdf:
+  file: 
+  filetype:
   github:
 
 - authors: "**Chiong W**."
@@ -21,7 +35,7 @@
   pmid: 29059264
   pmcid: 
   doi: 10.1001/jamaneurol.2017.2558
-  pdf:
+  file:
   github:
 
 - authors: "Possin KL, Merrilees J, Bonasera SJ, Bernstein A, **Chiong W**, Lee K, Wilson L,
@@ -36,7 +50,7 @@
   pmid: 28323819
   pmcid: PMC5360211
   doi: 10.1371/journal.pmed.1002260
-  pdf:
+  file:
   github:
 
 - authors: "**Feldman WB**, Kim AS, **Chiong W**."

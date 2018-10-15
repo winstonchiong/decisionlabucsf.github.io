@@ -19,12 +19,13 @@ years: [2018, 2017, 2016, 2014, 2013, 2011, 2010, 2007, 2006, 2005]
   {{paper.authors | markdownify | remove: '<p>' | remove: '</p>'}}<br>
   {% if paper.pmid %}
     <a href="https://www.ncbi.nlm.nih.gov/pubmed/{{paper.pmid}}" target="_blank">{{paper.title}}</a>
-  {% elsif paper.pdf %}
-    <a href="{{ paper.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">{{paper.title}}</a>
+  {% elsif paper.file %}
+    <a href="{{ paper.file | prepend: '/assets/papers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">{{paper.title}}</a>
   {% else %}
     {{paper.title}}
   {% endif %}
   {{paper.details | markdownify}}
+  {% if paper.file %}<i class="far fa-file-alt"></i> <a href="{{ paper.file | prepend: '/assets/papers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">{{paper.filetype}}</a>
   {% if paper.pmcid %}<i class="ai ai-open-access"></i> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{paper.pmcid}}" target="_blank">PubMed Central {{paper.pmcid}}</a><br>{% endif %}
   {% if paper.doi %}<i class="ai ai-doi"></i> <a href="https://doi.org/{{paper.doi}}" target="_blank">https://doi.org/{{paper.doi}}</a><br>{% endif %}
   {% if paper.github %}<i class="fab fa-github"></i> <a href="{{paper.github}}" target="_blank">GitHub</a><br>{% endif %}
