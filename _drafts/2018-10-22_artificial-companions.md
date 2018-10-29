@@ -7,7 +7,7 @@ date: 2018-10-22
 image: seminar_2018-10-22_photo.jpeg
 ---
 
-UCSF Assistant Professor of Sociology, Elena Portocolone, explained the genesis of her work-in-progress on the ethical 
+UCSF Assistant Professor of Sociology, Elena Portacolone, explained the genesis of her work-in-progress on the ethical 
 conundrums of artificial companions designed for adults with cognitive impairment, and solicited feedback from the group. 
 We specifically discussed issues associated with a pet avatar that expresses words of affection and is controlled by 
 remote technicians. Throughout our conversation, problems of deception, privacy, and informed consent proved to be ethical 
@@ -23,5 +23,4 @@ its behind-the-scenes operations. We referred to an earlier seminar on [dementia
 and a recent [New Yorker article](https://www.newyorker.com/magazine/2018/10/08/the-comforting-fictions-of-dementia-care){:target="\_blank"} 
 when evaluating this controversial approach to care, which supports patients’ wellbeing and happiness while reinforcing their 
 altered sense of reality. Regarding insufficient regulation of artificial companion technologies, we were concerned about 
-the lack of public awareness of the lag between innovation and policy. We also expressed curiosity about how marketing 
-strategies impact public perception of artificial companions. 
+the lack of public awareness of the lag between innovation and policy.
