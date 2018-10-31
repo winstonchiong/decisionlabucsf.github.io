@@ -72,7 +72,7 @@ This will send a citation or citations to your desktop in Vancouver format. Now 
 
 ![Screenshot-pubmed-abstract](/assets/img/site_readme-03-pubmed.png)
 
-At the bottom in **Images from this publication**, see if you can pick the most interesting or revealing image from the paper, and save it to your computer in PNG or JPEG format with a short descriptive name like `pubs_YEAR_ARTICLE-KEYWORDS.png`". (Even better: use Photoshop or other editing software to resize to a width of 185 pixels.)
+At the bottom in **Images from this publication**, see if you can pick the most interesting or revealing image from the paper, and save it to your computer in PNG or JPEG format with a short descriptive name like "`pubs_YEAR_ARTICLE-KEYWORDS.png`". (Even better: use Photoshop or other editing software to resize to a width of 185 pixels.)
 
 ### 2. Upload publication image if you have one
 Use the same methods described above *(1. If you don't have one yet, add a picture to /assets/img/)* to upload the publication image to [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img). 
@@ -80,18 +80,25 @@ Use the same methods described above *(1. If you don't have one yet, add a pictu
 ### 3. Edit the publication data in /_data/publications.yml
 Use the same methods described above *(2. Edit the team member data in the YAML file /_data/members.yml)* to edit [publications.yml](https://github.com/decisionlabucsf/decisionlabucsf.github.io/blob/master/_data/publications.yml). This list contains publications in reverse chronological order, try to put the new article in the right place. Use the Vancouver-formatted text file that you downloaded to your computer to fill out these data entries, roughly matching the format of the existing entries, e.g.:
 ```
-- authors: "**Feldman WB**, Kim AS, Josephson SA, Lowenstein DH, **Chiong W**."
-  title: "Effect of waivers of consent on recruitment in acute stroke trials: A systematic review."
-  details: "Neurology. 2016 Apr 19;86(16):1543-51."
-  year: 2016
-  image: pubs_2016_waivers-consent-acute-stroke.jpg
-  pmid: 27009262
-  pmcid: PMC4836887
-  doi: 10.1212/WNL.0000000000002587 
-  pdf:
+- authors: "**Vaishnav NH**, **Chiong W**."
+  title: "Informed consent for the human research subject with a neurologic disorder."
+  details: "Seminars in Neurology. 2018; 38(5):539-547."
+  year: 2018
+  image: pubs_2018_informedconsent.jpg
+  imagealt: Photo by Marcelo Leal on Unsplash
+  pmid: 30321892
+  pmcid: 
+  doi: 10.1055/s-0038-1668077
+  file: "Vaishnav, Chiong - Informed consent for the human research subject with a neurologic disorder.pdf"
+  filetype: "pdf - published version"
   github:
 ```
-In `authors: ` use double asterisks (`**Name**`) to highlight lab members' names. For consistency, keep the final period `.` at the end of the string for `authors: `, `title: ` and `details: `, and change the title to [sentence case](https://en.wikipedia.org/wiki/Letter_case#Sentence_case) if necessary. After `image: `, enter the name of the publication image you uploaded to [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img) in the previous step. **Commit changes** when you're done, using the green button to commit the file directly to the master branch and the description box below to leave a brief description. 
+In `authors: ` use double asterisks (`**Name**`) to highlight lab members' names. For consistency, keep the final period `.` at the end of the string for `authors: `, `title: ` and `details: `, and change the title to [sentence case](https://en.wikipedia.org/wiki/Letter_case#Sentence_case) if necessary. Also under `details: `, remove "The" at the beginning of journal titles, e.g. "~~The~~ Journal of XYZ." After `image: `, enter the name of the publication image you uploaded to [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img) in the previous step. **Commit changes** when you're done, using the green button to commit the file directly to the master branch and the description box below to leave a brief description. 
+
+### 4. Extra-credit: self-hosting documents
+In some cases, we will want to host PDFs of our papers so that people who don't have journal subscriptions can read them. Each journal has different policies about this--check with Winston or Madhu if this is allowed. In some cases we can host the "published version" (which has all the nice journal formatting) or the "accepted manuscript" (final text including changes from peer review, but without the fancy journal formatting). We don't want to host the "pre-print" or "original version," which is the version of papers prior to peer review. 
+
+If we are self-hosting a paper on our website, rename the document file as "`AUTHORS` - `TITLE`.pdf" and place it in [/assets/papers/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/papers). Then in the entry for `file: ` enter the document name, and in the entry for `filetype: ` indicate whether this is a "pdf - published version" or a "pdf - accepted manuscript."
 
 ## How to add news posts
 For this you will create a Markdown file containing the news post. Navigate to [/_posts/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/_posts) and click **Create new file**. 
