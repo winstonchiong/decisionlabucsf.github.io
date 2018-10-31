@@ -187,6 +187,12 @@
     }
 }
 
+@media screen and (max-width:459px) {
+    .ghost {
+        display: none;
+    }
+
+}
 /*end of the UCSF banner*/
 
 .site-nav {
@@ -416,6 +422,16 @@
     }
 }
 
+@media screen and (max-width:459px) {
+
+    .post-tagline {
+        font-size: 19.6px;
+        color: #007cbe;
+        letter-spacing: -0.7px;
+        line-height:90%;
+    }
+
+}
 .post-content {
     margin-bottom: $spacing-unit;
 
