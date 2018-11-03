@@ -1,5 +1,5 @@
 ---
-title: [UPDATED] JC Mergenthaler awarded Best Poster at International Neuroethics Society 2018
+title: UPDATED: JC Mergenthaler awarded Best Poster at International Neuroethics Society 2018
 author: Winston Chiong
 layout: post
 group: news
