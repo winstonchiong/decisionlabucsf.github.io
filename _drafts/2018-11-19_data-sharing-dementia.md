@@ -12,8 +12,8 @@ data sharing within dementia research, specifically commenting on the arguments 
 for research and international data sharing involving persons with dementia* by Adrian Thorogood et al. 
 
 
-Jalayne initially provided an historical review of the Bermuda Policies, the Henrietta Lacks case, and Havasupai Tribe 
-of Havasupai Reservation v. Arizona Board of Regents. Keeping this background knowledge in mind, we communicated our 
+Jalayne initially provided an historical review of the Bermuda Policies, the Henrietta Lacks case, and *Havasupai Tribe 
+of Havasupai Reservation v. Arizona Board of Regents*. Keeping this background knowledge in mind, we communicated our 
 views on the article of interest, starting with the missed opportunity to address issues unique to patients with dementia 
 and to data sharing in a research context. Rather than describing the complexity of capacity assessment for individuals 
 with varying degrees of cognitive impairment, the difficulty of balancing duty to protect patients from exploitation and
