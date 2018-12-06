@@ -7,21 +7,21 @@ date: 2018-11-19
 image: seminar_2018-11-19_photo.jpg
 ---
 
-In a journal club seminar led by Jalayne Arias, Renaud La Roie, and Jen Yokoyama, we discussed consent for 
-data sharing within dementia research, specifically commenting on the arguments presented in *Consent recommendations 
-for research and international data sharing involving persons with dementia* by Adrian Thorogood et al. 
+In a journal club led by Jalayne Arias, Renaud La Joie, and Jen Yokoyama, we discussed consent for 
+data sharing within dementia research, focusing on arguments presented in [*Consent recommendations 
+for research and international data sharing involving persons with dementia*](https://www.ncbi.nlm.nih.gov/pubmed/30293575){:target="_blank"} by Adrian Thorogood et al. 
 
 
 Jalayne initially provided an historical review of the Bermuda Policies, the Henrietta Lacks case, and *Havasupai Tribe 
-of Havasupai Reservation v. Arizona Board of Regents*. Keeping this background knowledge in mind, we communicated our 
-views on the article of interest, starting with the missed opportunity to address issues unique to patients with dementia 
+of Havasupai Reservation v. Arizona Board of Regents*. With this background in mind, some felt that the article missed an 
+opportunity to address issues unique to patients with dementia 
 and to data sharing in a research context. Rather than describing the complexity of capacity assessment for individuals 
 with varying degrees of cognitive impairment, the difficulty of balancing duty to protect patients from exploitation and
 duty to respect patients’ right to participate in research, or the barrier to international research collaboration presented 
-by inconsistent data sharing laws, the article examines vulnerable populations and consenting challenges in general. Multiple 
-members of our group shared personal experiences addressing contradictory patient and caregiver claims, managing double 
-de-identified patient data, and hesitating to share data within a competitive research environment. Additionally, we stressed 
-the importance of clarifying the concept of data sharing in an effort to accurately inform patients and debunk slippery slope
+by inconsistent data sharing laws, the article addresses vulnerable populations and consenting challenges in general. Members 
+of our group shared personal experiences addressing contradictory patient and caregiver claims, managing double 
+de-identified patient data, and hesitating to share data within a competitive research environment. It can be challenge to 
+clarify the concept of data sharing so as to accurately inform patients and debunk slippery slope
 arguments about what researchers can and cannot achieve with an individual’s data.
 
 
