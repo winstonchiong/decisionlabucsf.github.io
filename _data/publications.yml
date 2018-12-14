@@ -1,5 +1,17 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - accepted manuscript" "docx - accepted manuscript"...
+- authors: "Merrilees JJ, Bernstein A, Dulaney S, **Heunis J**, Walker R, Rah E, Choi J, Gawlas K, Carroll S, Ong P, Feuer J, Braley T, Clark AM, Lee K, **Chiong W**, Bonasera SJ, Miller BL, Possin KL."
+  title: "The Care Ecosystem: Promoting self-efficacy among dementia family caregivers."
+  details: "Dementia (London). 2018."
+  year: 2018
+  image: pubs_2018_CareEcosystem.jpg 
+  pmid: 30497302
+  pmcid: 
+  doi: 10.1177/1471301218814121
+  file: "Vaishnav, Chiong - Informed consent for the human research subject with a neurologic disorder.pdf"
+  filetype: "pdf - published version"
+  github:
+
 - authors: "**Vaishnav NH**, **Chiong W**."
   title: "Informed consent for the human research subject with a neurologic disorder."
   details: "Seminars in Neurology. 2018; 38(5):539-547."
@@ -9,8 +21,8 @@
   pmid: 30321892
   pmcid: 
   doi: 10.1055/s-0038-1668077
-  file: "Vaishnav, Chiong - Informed consent for the human research subject with a neurologic disorder.pdf"
-  filetype: "pdf - published version"
+  file: 
+  filetype: 
   github:
 
 - authors: "**Chiong W**, Leonard MK, Chang EF."
