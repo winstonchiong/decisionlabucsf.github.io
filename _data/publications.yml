@@ -8,8 +8,8 @@
   pmid: 30497302
   pmcid: 
   doi: 10.1177/1471301218814121
-  file: "Vaishnav, Chiong - Informed consent for the human research subject with a neurologic disorder.pdf"
-  filetype: "pdf - published version"
+  file:
+  filetype: 
   github:
 
 - authors: "**Vaishnav NH**, **Chiong W**."
@@ -21,8 +21,8 @@
   pmid: 30321892
   pmcid: 
   doi: 10.1055/s-0038-1668077
-  file: 
-  filetype: 
+  file:"Vaishnav, Chiong - Informed consent for the human research subject with a neurologic disorder.pdf"
+  filetype: "pdf - published version"
   github:
 
 - authors: "**Chiong W**, Leonard MK, Chang EF."
