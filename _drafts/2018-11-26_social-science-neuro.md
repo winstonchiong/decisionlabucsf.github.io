@@ -7,25 +7,23 @@ date: 2018-11-26
 image: seminar_2018-11-26_photo.jpg
 ---
 
-[Dan Dohan](https://profiles.ucsf.edu/dan.dohan){:target="\_blank"} and [Kate Rankin](https://memory.ucsf.edu/people/katherine-rankin-phd){:target="\_blank"} 
-represented their academic specialties, sociology of medicine and neuropsychology, respectively, in this journal club seminar about 
-*The Emerging Social Neuroscience of Justice Motivation* by Jean Decety and Keith J. Yoder. In addition to discussing the article, 
-we broadly explored the connections between social neuroscience and the traditional social sciences. 
+Today we hosted an interdisciplinary conversation led by [Dan Dohan](https://profiles.ucsf.edu/dan.dohan){:target="\_blank"}, 
+a sociologist of medicine, and [Kate Rankin](https://memory.ucsf.edu/people/katherine-rankin-phd){:target="\_blank"}, 
+a neuropsychologist and researcher of socioemotional function in the brain. We considered links as well as gaps between 
+the traditional social sciences (such as sociology, anthropology, political science and economics) and the growing 
+field of *social neuroscience*, examining different discipinary perspectives on a recent review in social neuroscience, 
+["The Emerging Social Neuroscience of Justice Motivation"](https://www.ncbi.nlm.nih.gov/pubmed/27865787){:target="\_blank"} 
+by Jean Decety and Keith J. Yoder. 
 
 
-We began by distinguishing between cognitive neuroscience, a field which attempts to elucidate the neural mechanisms of knowledge 
-acquisition and other mental processes, and *social* cognitive neuroscience, a sub-field which studies the correlation between brain 
-systems and social behavior. We recognized sources of tension between these two disciplines, like neuroscientists’ critique of 
-patient-based research methods within social neuroscience, and applauded examples of productive collaboration, particularly social 
-neuroscientists’ contributions to research on personality change in neurodegenerative diseases.
-
-
-We then asked whether social neuroscience, a field primarily concerned with workings “inside the head,” is capable of answering 
-questions native to social science about phenomena “outside the head.” For instance, how can social neuroscientists truly understand 
-justice, a principle that operates via social interactions, through analysis of individuals’ brains? Social scientists in our group 
-also criticized the misappropriation of social science terminology in hard science research, and shed light on the academic insecurity 
-felt within the social sciences in response to limited funding. We underscored the need for improved communication between social 
-science and social neuroscience experts in order to refine interdisciplinary research questions and enhance comprehension of borrowed 
-concepts. Regarding the value of social neuroscientific research about justice, we suggested that the data might reinforce existing 
-evidence from social science literature, inform policy, and/or advance general knowledge, a scientific contribution valuable in and 
-of itself.
+Dan observed that social scientists and social neuroscientists, despite their shared interest in social phenomena, are largely 
+interested in two very different aspects: social neuroscience being concerned primarily with workings “inside the head" and 
+the social sciences being concerned primarily with interactions among people.  Furthermore, some of the lines of 
+evidence considered in the paper (such as behaviors of macaques and cleaner fish, or the expectations of infants) may have 
+mechanistic relevance for describing the evolutionary or developmental origins of prosocial motivation, but are not 
+straightforwardly applicable to political or cultural understandings of justice. We also considered the worry that different 
+terms may be used for different referents in different contexts, as well as more general transdisciplinary tensions over 
+issues like funding and recognition. In addition, in reviewing the history of other domains in which cognitive neuroscience has been applied to examine  
+behaviors originally addressed in other fields (e.g., neuroeconomics, the neurobiology of language, and the neuroscience of 
+moral reasoning), we noted that cognitive neuroscience often builds and borrows older disciplines without radically changing 
+the explanatory frameworks built by those disciplines themselves. 
