@@ -23,7 +23,8 @@ evidence considered in the paper (such as behaviors of macaques and cleaner fish
 mechanistic relevance for describing the evolutionary or developmental origins of prosocial motivation, but are not 
 straightforwardly applicable to political or cultural understandings of justice. We also considered the worry that different 
 terms may be used for different referents in different contexts, as well as more general transdisciplinary tensions over 
-issues like funding and recognition. In addition, in reviewing the history of other domains in which cognitive neuroscience has been applied to examine  
-behaviors originally addressed in other fields (e.g., neuroeconomics, the neurobiology of language, and the neuroscience of 
-moral reasoning), we noted that cognitive neuroscience often builds and borrows older disciplines without radically changing 
-the explanatory frameworks built by those disciplines themselves. 
+issues like funding and recognition. In addition, in reviewing the history of other domains in which cognitive neuroscience 
+has been applied to examine behaviors originally addressed in other fields (e.g., neuroeconomics, the neurobiology of language, and the neuroscience of 
+moral reasoning), we noted that cognitive neuroscience has often built upon and borrowed from explanatory frameworks developed 
+in older disciplines without radically altering how those original fields (e.g., economics, linguistics, moral theory) 
+conduct their work.
