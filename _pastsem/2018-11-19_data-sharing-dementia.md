@@ -20,7 +20,7 @@ with varying degrees of cognitive impairment, the difficulty of balancing duty t
 duty to respect patients’ right to participate in research, or the barrier to international research collaboration presented 
 by inconsistent data sharing laws, the article addresses vulnerable populations and consenting challenges in general. Members 
 of our group shared personal experiences addressing contradictory patient and caregiver claims, managing double 
-de-identified patient data, and hesitating to share data within a competitive research environment. It can be challenge to 
+de-identified patient data, and hesitating to share data within a competitive research environment. It can be a challenge to 
 clarify the concept of data sharing so as to accurately inform patients and debunk slippery slope
 arguments about what researchers can and cannot achieve with an individual’s data.
 
