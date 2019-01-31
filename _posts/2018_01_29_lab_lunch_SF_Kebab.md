@@ -4,7 +4,7 @@ author: Mia Borzello
 layout: post
 group: news
 image: news_2019_01_29_SF_Kebab.jpeg
-caption
+caption:
 ---
 
 another successful lab lunch! 🧠
