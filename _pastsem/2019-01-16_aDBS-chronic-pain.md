@@ -10,7 +10,7 @@ UCSF neurologist and interventional pain specialist, [Prasad Shirvalkar](https:/
 and his team encounter in their ongoing research on adaptive deep brain stimulation (aDBS) for chronic pain. Informed by the 2016 
 *Neuromodulation* article, [“Unexpected complications of novel deep brain stimulation treatments: ethical issues and clinical 
 recommendations”](https://onlinelibrary.wiley.com/doi/full/10.1111/ner.12613){:target="\_blank"} by Hannah Maslen et al., we deliberated how to obtain consent for unintended side-effects, and how to manage the 
-researcher-patient relationship in highly collaborative, small-n trials.
+investigator-participant relationship in highly collaborative, small-n trials.
 
 
 Prasad’s study aims to identify new targets for chronic pain and develop a more personalized brain stimulation paradigm. However, stimulation of cortical targets at high intensities, which may be required for pain relief, 
