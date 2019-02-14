@@ -1,5 +1,18 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - accepted manuscript" "docx - accepted manuscript"...
+
+- authors: "Ramos KM, Grady C, Greely HT, **Chiong W**, Eberwine J, Farahany NA, Johnson LS, Hyman SE, Rommelfanger KS, Serrano EE, Churchill JD, Gordon JA, Koroshetz WJ."
+  title: "The NIH BRAIN initiative: Integrating Neuroethics and Neuroscience."
+  details: "Neuron. 2019. 101(3):394-398."
+  year: 2019
+  image: BRAINpicresized.png
+  pmid: 30731065
+  pmcid: 
+  doi: 10.1016/j.neuron.2019.01.024
+  file:
+  filetype: 
+  github:
+
 - authors: "Greely HT, Grady C, Ramos KM, **Chiong W**, Eberwine J, Farahany NA, Johnson LS, Hyman BT, Hyman SE, Rommelfanger KS, Serrano EE."
   title: "Neuroethics guiding princples for the NIH BRAIN initiative."
   details: "Journal of Neuroscience. 2018. 38(50):10586-10588."
