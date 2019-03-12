@@ -16,8 +16,9 @@ The PD “mortality myth” refers to the misleading, yet ubiquitous characteriz
 expectancy, rather than as a terminal, neurodegenerative illness. We recognized the unfortunate perpetuation of this myth within cultural 
 and clinical settings alike, criticizing inaccurate news media coverage and inadequate end-of-life planning for PD patients. Upon
 examining cause-of-death statistics, we discovered that PD side-effects, such as aspiration pneumonia and sudden falls,
-account for the majority of PD cases instead of the disease itself. These reports ignited conversation about the myth's positive-feedback-
-loop quality, its influence on the production of information that further supports its validity. Informed by anecdotes of frustrated
-caregivers and the disproportionately high rate of PD hospital deaths, we advocated for palliative care strategies as a means of reducing
-caregiver burden and improving patient quality of life. Additionally, we called for a patient-centered approach to diagnosis delivery, as
-well as ongoing conversations about prognosis that address disease heterogeneity, cognitive decline, and potential comorbidities.
+account for the majority of PD cases instead of the disease itself. These reports ignited conversation about the myth's 
+positive-feedback-loop quality, its influence on the production of information that further supports its validity. Informed by anecdotes
+of frustrated caregivers and the disproportionately high rate of PD hospital deaths, we advocated for palliative care strategies as a
+means of reducing caregiver burden and improving patient quality of life. Additionally, we called for a patient-centered approach to
+diagnosis delivery, as well as ongoing conversations about prognosis that address disease heterogeneity, cognitive decline, and potential
+comorbidities.
