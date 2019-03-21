@@ -1,10 +1,10 @@
-'''
+---
 title: Care for persons with Down syndrome who develop dementia
 presenters: Melanie Stephens
 layout: post
 group: pastsem
 date: 2019-02-25
-'''
+---
 
 For this journal club, we discussed the ethical challenges associated with neuropsychological testing and general care for patients 
 with Down syndrome (DS), nearly 100 percent of whom develop Alzheimer’s disease (AD) neuropathological findings by age 40. [Melanie 
