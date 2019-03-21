@@ -6,8 +6,8 @@ group: pastsem
 date: 2019-02-25
 ---
 
-For this journal club, we discussed the ethical challenges associated with neuropsychological testing and general care for patients 
-with Down syndrome (DS), nearly 100 percent of whom develop Alzheimer’s disease (AD) neuropathological findings by age 40. [Melanie 
+For this journal club, we discussed the ethical challenges associated with neuropsychological testing and care for patients 
+with Down syndrome (DS), nearly 100 percent of whom develop Alzheimer’s disease (AD) neuropathological findings by adulthood. [Melanie 
 Stephens](https://profiles.ucsf.edu/melanie.stephens){:target="\_blank"}, a neuropsychologist, directed our conversation, during 
 which we referenced two articles: [“Association of dementia with mortality among adults with Down Syndrome older than 35 years”](https://jamanetwork.com/journals/jamaneurology/fullarticle/2714719){:target="\_blank"} by Rosalyn Hithersay et al. (JAMA Neurology, 2019) 
 and [“Enduring and emerging challenges of informed consent”](https://www.idcrp.org/sites/default/files/2-26%20Grady%20C%20%20%282015%29%20%20Enduring%20and%20Emerging%20Challenges%20of%20Informed%20Conse....pdf){:target="\_blank"} 
