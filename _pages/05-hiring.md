@@ -27,3 +27,33 @@ The postdoctoral fellow will design and conduct task-based functional MRI, struc
 
 ### How to apply
 Please e-mail Ali Zahir at *ali.zahir (at) ucsf.edu* with your CV, cover letter, and names and contact information for three references. Informal inquiries are welcome. Applications will be reviewed on an ongoing basis until the position is filled. 
+
+<div id="ra-neurotech" class="project-container" style="margin-top: 0px">
+  <img src="{{ site.baseurl }}/assets/img/hiring_ra-neurotech.jpg" alt="Background image for neurotech RA position.  Photo by Daniel Hjalmarsson on Unsplash." style="width: 100%;">
+  <div class="project-title" style="color: #eb093c">Research assistant in neuroethics</div>
+</div>
+
+Under the supervision of Principal Investigator [Winston Chiong, MD PhD]({{ '/team/index.html#Winston Chiong' | prepend: site.baseurl | prepend: site.url }}), the Assistant Clinical Research Coordinator (Assistant CRC) will perform entry-level duties related to the support and coordination of an National Institutes of Health (NIH) BRAIN Initiative-funded research study that aims to investigate patient experiences with novel implanted neurotechnologies for the treatment of mood, movement, and seizure disorders; and how patient experiences and concerns can be incorporated in clinicians’ and researchers’ views about the ethical development of neurotechnology.
+
+Under direct supervision, the Assistant CRC will be responsible for: assisting / help with recruitment of research participants, applying understanding of inclusion / exclusion eligibility criteria for protocols; assisting in scheduling and coordinating study participant interviews; completing study forms to submit to sponsors and / or appropriate agencies; collecting, entering, and cleaning data in study databases; maintaining data quality; assisting with data analysis; assisting with preparation of reports and tables; attending team meetings; accompanying researchers to participant interviews.
+
+### Required qualifications
+- HS graduation and sufficient experience and demonstrated skills to successfully perform the assigned duties and responsibilities
+- Proficiency with Microsoft Word, PowerPoint, and Windows
+- Prior interest / experience in bioethics and / or social sciences, as evidenced by coursework or extracurricular activities
+- Excellent verbal and written communications and presentation skills; excellent organizational skills; and excellent interpersonal skills to work effectively in a diverse team
+- Comfort in learning new computer programs
+- Excellent analytical and problem-solving skills
+- Ability to work effectively in a fast-paced, team-based environment; project management and coordination skills; ability to prioritize tasks and meet multiple deadlines on concurrent projects
+- Ability to establish cooperative working relationships with research participants, co-workers, & physicians
+- Self-motivated with the ability to prioritize multiple projects and meet deadlines
+- Proven ability to work independently and keen attention to detail
+
+### Preferred qualifications
+- Valid driver’s license (for accompanying researchers to interviews at participants’ preferred locations)
+- Experience and / or comfort in working with patients with neurological disease
+- Proficiency with medical terminology
+- Ability to abstract data from medical records and transfer it to data collection forms or directly into databases
+
+### How to apply
+Please apply at https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=6495&siteid=5226#jobDetails=2831923_5226
