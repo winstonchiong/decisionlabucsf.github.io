@@ -30,7 +30,7 @@ Please e-mail Ali Zahir at *ali.zahir (at) ucsf.edu* with your CV, cover letter,
 
 ---
 
-<div id="ra-neurotech" class="project-container" style="margin-top: 0px">
+<div id="ra-neurotech" class="project-container">
   <img src="{{ site.baseurl }}/assets/img/hiring_ra-neurotech.jpg" alt="Background image for neurotech RA position.  Photo by Daniel Hjalmarsson on Unsplash." style="width: 100%;">
   <div class="project-title" style="color: #000000">Research assistant in neuroethics</div>
 </div>
