@@ -28,6 +28,8 @@ The postdoctoral fellow will design and conduct task-based functional MRI, struc
 ### How to apply
 Please e-mail Ali Zahir at *ali.zahir (at) ucsf.edu* with your CV, cover letter, and names and contact information for three references. Informal inquiries are welcome. Applications will be reviewed on an ongoing basis until the position is filled. 
 
+---
+
 <div id="ra-neurotech" class="project-container" style="margin-top: 0px">
   <img src="{{ site.baseurl }}/assets/img/hiring_ra-neurotech.jpg" alt="Background image for neurotech RA position.  Photo by Daniel Hjalmarsson on Unsplash." style="width: 100%;">
   <div class="project-title" style="color: #000000">Research assistant in neuroethics</div>
