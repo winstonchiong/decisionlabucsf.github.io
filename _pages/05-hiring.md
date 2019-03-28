@@ -30,7 +30,7 @@ Please e-mail Ali Zahir at *ali.zahir (at) ucsf.edu* with your CV, cover letter,
 
 <div id="ra-neurotech" class="project-container" style="margin-top: 0px">
   <img src="{{ site.baseurl }}/assets/img/hiring_ra-neurotech.jpg" alt="Background image for neurotech RA position.  Photo by Daniel Hjalmarsson on Unsplash." style="width: 100%;">
-  <div class="project-title" style="color: #eb093c">Research assistant in neuroethics</div>
+  <div class="project-title" style="color: #000000">Research assistant in neuroethics</div>
 </div>
 
 Under the supervision of Principal Investigator [Winston Chiong, MD PhD]({{ '/team/index.html#Winston Chiong' | prepend: site.baseurl | prepend: site.url }}), the Assistant Clinical Research Coordinator (Assistant CRC) will perform entry-level duties related to the support and coordination of an National Institutes of Health (NIH) BRAIN Initiative-funded research study that aims to investigate patient experiences with novel implanted neurotechnologies for the treatment of mood, movement, and seizure disorders; and how patient experiences and concerns can be incorporated in clinicians’ and researchers’ views about the ethical development of neurotechnology.
@@ -56,4 +56,4 @@ Under direct supervision, the Assistant CRC will be responsible for: assisting /
 - Ability to abstract data from medical records and transfer it to data collection forms or directly into databases
 
 ### How to apply
-Please apply at https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=6495&siteid=5226#jobDetails=2831923_5226
+Please apply at [https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=6495&siteid=5226#jobDetails=2831923_5226](https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=6495&siteid=5226#jobDetails=2831923_5226){:target="_blank"}
