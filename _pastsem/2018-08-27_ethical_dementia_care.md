@@ -7,7 +7,7 @@ date: 2018-08-27
 ---
 
 We held a works-in-progress seminar for a draft manuscript of a position paper for the American Academy of 
-Neurology on ethical considerations in dementia care, drafted by [Winston Chiong](/team/index.html#Winston Chiong).
+Neurology on ethical considerations in dementia care, drafted by [Winston Chiong](/team/index.html#Winston-Chiong).
 We began by considering opportunities and challenges in presenting ethical arguments, not from one's own 
 point of view, but instead on behalf of a large organization. 
 

@@ -8,7 +8,7 @@ description:
 {% for person in site.data.members %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+<div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
     <div>
         <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
@@ -41,7 +41,7 @@ description:
 {% if site.data.affiliates %}
   <h2>affiliate members</h2>
   {% for person in site.data.affiliates %}
-<div id="{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
+<div id="{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
   <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4>
   {{person.position}} <br>
   <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
@@ -60,7 +60,7 @@ description:
 {% for student in site.data.students %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-<div id = "{{student.name}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
+<div id = "{{student.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
   <strong>{{student.name}}{% if student.degrees %}, {{student.degrees}} {% endif %}</strong> <br>
   {{student.position}} <br>
   <i class="fa fa-envelope"></i> <em>{{student.email}}</em> <br>
@@ -82,7 +82,7 @@ description:
 {% for alum in site.data.alumni %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-<div id = "{{alum.name}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
+<div id = "{{alum.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
   <strong>{{alum.name}}{% if alum.degrees %}, {{alum.degrees}} {% endif %}</strong> <br>
   <i>previously:</i> {{alum.previously}} <br>
   <i>now:</i> {{alum.now}}<br>

@@ -18,7 +18,7 @@ layout: default
   <hr>
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <p class="author">
-    <span class="author"><a href="/team/index.html#{{post.author}}">{{post.author}}</a></span><br>
+    <span class="author"><a href="/team/index.html#{{post.author | replace: ' ', '-'}}">{{post.author}}</a></span><br>
     <span class="date"><em>{{ post.date | date: "%B %e, %Y" }}</em></span>
   </p>
   <div class="content">
