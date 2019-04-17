@@ -1,6 +1,18 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - accepted manuscript" "docx - accepted manuscript"...
 
+- authors: "Butler PM, **Chiong W**, Perry DC, Miller ZA, Gennatas ED, Brown JA, Pasquini L, Karydas A, Dokuru D, Coppola G, Sturm VE, Boxer AL, Gorno-Tempini ML, Rosen HJ, Kramer JH, Miller BL, Seeley WW."
+  title: "Dopamine receptor D4 (DRD4) polymorphisms with reduced functional potency intensify atrophy in syndrome-specific sites of frontotemporal dementia."
+  details: "Neuron. 2019. 101(3):394-398."
+  year: 2019
+  image: pubs_2019_dopamine.jpg
+  pmid: 
+  pmcid: 
+  doi: 10.1016/j.nicl.2019.101822
+  file:
+  filetype: 
+  github:
+  
 - authors: "Ramos KM, Grady C, Greely HT, **Chiong W**, Eberwine J, Farahany NA, Johnson LS, Hyman SE, Rommelfanger KS, Serrano EE, Churchill JD, Gordon JA, Koroshetz WJ."
   title: "The NIH BRAIN initiative: Integrating neuroethics and neuroscience."
   details: "Neuron. 2019. 101(3):394-398."
