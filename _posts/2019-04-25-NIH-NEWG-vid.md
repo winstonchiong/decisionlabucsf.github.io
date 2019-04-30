@@ -1,5 +1,5 @@
 ---
-title:  NIH BRAIN Initiative Working Group Video!
+title: NIH BRAIN Initiative Working Group Video!
 author: Ali Zahir
 layout: post
 group: news
