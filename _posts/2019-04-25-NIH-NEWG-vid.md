@@ -3,7 +3,7 @@ title: NIH BRAIN Initiative Working Group Video!
 author: Ali Zahir
 layout: post
 group: news
-image: ![NIH NEWG(/assets/img/Video.JPG)](https://www.youtube.com/watch?v=l9GbblvuEao)
+image: ![NIH NEWG(/assets/img/Video.JPG)(https://www.youtube.com/watch?v=l9GbblvuEao)]
 
 ---
 
