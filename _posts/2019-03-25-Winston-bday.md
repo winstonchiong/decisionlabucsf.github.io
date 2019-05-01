@@ -6,4 +6,4 @@ group: news
 image: winston-cake.jpg
 ---
 
-In celebration of our illustrious leader's birthday our lab members came together to surprise him with perhaps the most picturesque birthday cake ever.
+In celebration of our Winston's birthday our lab members came together to surprise him with perhaps the most picturesque cake ever.
