@@ -3,7 +3,7 @@ title: NIH BRAIN Initiative Working Group Video!
 author: Ali Zahir
 layout: post
 group: news
-image: ![NIH NEWG (http://img.youtube.com/vi/l9GbblvuEao/0.jpg)(http://www.youtube.com/watchv=l9GbblvuEao)
+image: ![NIH NEWG (https://imgur.com/qQl8zUq)(http://www.youtube.com/watchv=l9GbblvuEao)
 ---
 
 Our very own Winston Chiong was featured in a video where he and other members of the NIH BRAIN Initiative's Neuroethics Working group (NEWG)
