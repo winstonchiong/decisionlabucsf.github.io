@@ -1,5 +1,5 @@
 ---
-title: Winston's Birthday!
+title: Happy Birthday Winston!
 author: Ali Zahir
 layout: post
 group: news
