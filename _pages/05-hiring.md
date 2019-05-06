@@ -58,9 +58,9 @@ Under direct supervision, the Assistant CRC will be responsible for: assisting/h
 ### How to apply
 Please apply at [https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=6495&siteid=5226#jobDetails=2831923_5226](https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=6495&siteid=5226#jobDetails=2831923_5226){:target="_blank"}
 
-<div id="ra-decision-making" class="project-container">
-  <img src="{{ site.baseurl }}/assets/img/hiring_ra-decision.jpg" alt="Background image for decision-making RA position.  Photo by Victoriano Izquierdo on Unsplash." style="width: 100%;">
-  <div class="project-title" style="color: #00004c">Research assistant in decision-making</div>
+<div id="ra-decision neuroscience" class="project-container">
+  <img src="{{ site.baseurl }}/assets/img/hiring_ra-decision.jpg" alt="Background image for decision neuroscience RA position.  Photo by Victoriano Izquierdo on Unsplash." style="width: 100%;">
+  <div class="project-title" style="color: #00004c">Research assistant in decision neuroscience</div>
 </div>
 
 Under the supervision of Principal Investigator [Winston Chiong, MD PhD]({{ '/team/index.html#Winston-Chiong' | prepend: site.baseurl | prepend: site.url }}), the Assistant Clinical Research Coordinator (Assistant CRC) will perform entry-level duties related to the support and coordination of two research studies utilizing on-line computer-based assessments and functional MRI to study brain mechanisms of decision-making in patients with dementia and healthy adults with a genetic susceptibility to developing dementia.
