@@ -57,3 +57,35 @@ Under direct supervision, the Assistant CRC will be responsible for: assisting/h
 
 ### How to apply
 Please apply at [https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=6495&siteid=5226#jobDetails=2831923_5226](https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=6495&siteid=5226#jobDetails=2831923_5226){:target="_blank"}
+
+<div id="ra-decision-making" class="project-container">
+  <img src="{{ site.baseurl }}/assets/img/hiring_ra-decision.jpg" alt="Background image for decision-making RA position.  Photo by Victoriano Izquierdo on Unsplash." style="width: 100%;">
+  <div class="project-title" style="color: #00004c">Research assistant in decision-making</div>
+</div>
+
+Under the supervision of Principal Investigator [Winston Chiong, MD PhD]({{ '/team/index.html#Winston-Chiong' | prepend: site.baseurl | prepend: site.url }}), the Assistant Clinical Research Coordinator (Assistant CRC) will perform entry-level duties related to the support and coordination of two research studies utilizing on-line computer-based assessments and functional MRI to study brain mechanisms of decision-making in patients with dementia and healthy adults with a genetic susceptibility to developing dementia.
+
+Under direct supervision, the Assistant CRC will be responsible for: assisting / help with the recruiting of research participants, apply understanding of inclusion / exclusion eligibility criteria for protocols;assist in the scheduling and coordinating of study participant visits; administering tasks to participants; completing study forms to submit to sponsors and / or appropriate agencies; collecting, entering, and cleaning data into study databases; maintaining data quality; assisting with data analysis; assisting with preparation of reports and tables; attending team meetings. 
+
+### Required qualifications
+- HS graduation and sufficient experience and demonstrated skills to successfully perform the assigned duties and responsibilities
+- Proficiency with Microsoft Word, PowerPoint, and Windows
+- Comfort in learning new computer programs
+- Excellent verbal and written communications and presentation skills; excellent organizational skills; and excellent interpersonal skills to work effectively in a diverse team
+- Excellent analytical and problem-solving skills
+- Ability to work effectively in a fast-paced, team-based environment; project management and coordination skills; ability to prioritize tasks and meet multiple deadlines on concurrent projects
+- Ability to establish cooperative working relationships with research participants, co-workers, & physicians
+- Self-motivated with the ability to prioritize multiple projects and meet deadlines
+
+### Preferred qualifications
+- Prior coursework in neuroscience
+- Experience in functional MRI data collection or analysis
+- Familiarity with coding in HTML and JavaScript
+- Demonstrated proficiency with medical terminology
+- Ability to abstract data from medical records and transfer it to data collection forms or directly into databases
+- Experience and/or comfort in working with patients with neurological disease
+- Interest and/or working knowledge of neuroanatomy and of cognitive neuroscience research techniques, including functional MRI (fMRI)
+- Proven ability to work independently and keen attention to detail
+
+### How to apply
+Please apply at [https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=6495&siteid=5226#jobDetails=2846487_5226](https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=6495&siteid=5226#jobDetails=2846487_5226){:target="_blank"}
