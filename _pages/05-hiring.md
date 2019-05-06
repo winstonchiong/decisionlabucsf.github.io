@@ -58,7 +58,7 @@ Under direct supervision, the Assistant CRC will be responsible for: assisting/h
 ### How to apply
 Please apply at [https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=6495&siteid=5226#jobDetails=2831923_5226](https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=6495&siteid=5226#jobDetails=2831923_5226){:target="_blank"}
 
-<div id="ra-decision neuroscience" class="project-container">
+<div id="ra-decision" class="project-container">
   <img src="{{ site.baseurl }}/assets/img/hiring_ra-decision.jpg" alt="Background image for decision neuroscience RA position.  Photo by Victoriano Izquierdo on Unsplash." style="width: 100%;">
   <div class="project-title" style="color: #00004c">Research assistant in decision neuroscience</div>
 </div>
