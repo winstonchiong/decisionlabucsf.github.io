@@ -11,7 +11,7 @@ about the integration of social neuroscience and the traditional social sciences
 Led by [Dan Dohan](https://profiles.ucsf.edu/dan.dohan){:target="\_blank"} and [Kate Rankin](https://memory.ucsf.edu/people/katherine-rankin-phd){:target="\_blank"}, 
 we discussed the benefits and pitfalls of scientific research in comparison to those of qualitative research, dissecting their
 methods, metrics, and models in search of biases. We called for the immersion of social scientists within scientific research 
-settings, and vice versa, in order to mutually enhance their own knowledge as well as their appreciation for other’s expertise. 
+settings, and vice versa, in order to mutually enhance their own knowledge as well as their appreciation for others' expertise. 
 Throughout our conversation, we drew from arguments presented in [“Proving or Improving: On Health Care Research as a Form of 
 Self-Reflection”](https://journals.sagepub.com/doi/abs/10.1177/1049732305285856){:target="\_blank"} 
 (Qualitative Health Research, 2006) by Annemarie Mol and [“The Heart of the Matter. About Good Nursing and Telecare”](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2970812/){:target="\_blank"} 
