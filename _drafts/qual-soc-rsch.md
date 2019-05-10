@@ -38,10 +38,8 @@ Social scientists in our group shared their strategy for embedding social struct
 singular component, or simplified model that explains a more complicated picture, citing the [Care Ecosystem](https://memory.ucsf.edu/care-ecosystem){:target="\_blank"} 
 survey intended to reveal the unmet needs of care-recipients with dementia and their caregivers as a relevant example. Those 
 with neuroscience backgrounds felt similarly about their own models for explaining complex brain systems, like the basal ganglia, 
-describing them as useful yet simplified tools for distilling complicated information.
-
-We proposed that researchers borrow techniques from their disciplinary counterparts to improve the robustness of their methods, metrics, and models, 
-for example by designing statistical analyses that take into account social factors, or incorporating the unique perspectives of investigators alongside those 
-of patients. Dan commended the neuroscience field, in particular, for its hummility and openness to engage in the ethnographic element of working with patients.
+describing them as useful yet simplified tools for distilling complicated information. We proposed that researchers borrow techniques from their disciplinary counterparts to improve the robustness of their methods, metrics, and models, 
+for example by designing statistical analyses that take into account social factors, or incorporating the unique perspectives of investigators alongside those of patients. Dan commended the neuroscience field, in particular, for its hummility and openness 
+to engage in the ethnographic element of working with patients.
 
 
