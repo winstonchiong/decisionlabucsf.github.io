@@ -9,7 +9,7 @@ date: 2019-03-11
 This journal club served as the sequel to a previous [neuroethics seminar](https://decisionlab.ucsf.edu/pastsem/2018-11-26_social-science-neuro/){:target="\_blank"} 
 about the integration of social neuroscience and the traditional social sciences, this time with a focus on research. 
 Led by [Dan Dohan](https://profiles.ucsf.edu/dan.dohan){:target="\_blank"} and [Kate Rankin](https://memory.ucsf.edu/people/katherine-rankin-phd){:target="\_blank"}, 
-we discussed the benefits and pitfalls of scientific research in comparison to those of qualitative research, dissecting their
+we discussed the benefits and pitfalls of scientific research in comparison to those of qualitative research, dissecting 
 methods, metrics, and models in search of biases. We called for the immersion of social scientists within scientific research 
 settings, and vice versa, in order to mutually enhance their own knowledge as well as their appreciation for others' expertise. 
 Throughout our conversation, we drew from arguments presented in [“Proving or Improving: On Health Care Research as a Form of 
