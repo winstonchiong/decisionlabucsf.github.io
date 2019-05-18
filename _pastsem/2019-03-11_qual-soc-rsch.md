@@ -7,8 +7,8 @@ date: 2019-03-11
 ---
 
 Following-up on a previous [neuroethics seminar](https://decisionlab.ucsf.edu/pastsem/2018-11-26_social-science-neuro/) 
-about the integration of social neuroscience and the traditional social sciences, [Dan Dohan](https://profiles.ucsf.edu/dan.dohan)
-{:target="\_blank"} and [Kate Rankin](https://memory.ucsf.edu/people/katherine-rankin-phd){:target="\_blank"} led a discussion 
+about the integration of social neuroscience and the traditional social sciences, [Dan Dohan](https://profiles.ucsf.edu/dan.dohan){:target="\_blank"} 
+and [Kate Rankin](https://memory.ucsf.edu/people/katherine-rankin-phd){:target="\_blank"} led a discussion 
 contrasting research in the natural and social sciences. Throughout our conversation, we drew from arguments presented in 
 [“Proving or Improving: On Health Care Research as a Form of 
 Self-Reflection”](https://journals.sagepub.com/doi/abs/10.1177/1049732305285856){:target="\_blank"} 
