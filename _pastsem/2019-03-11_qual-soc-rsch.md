@@ -12,9 +12,9 @@ and [Kate Rankin](https://memory.ucsf.edu/people/katherine-rankin-phd){:target="
 contrasting research in the natural and social sciences. Throughout our conversation, we drew from arguments presented in 
 [“Proving or Improving: On Health Care Research as a Form of 
 Self-Reflection”](https://journals.sagepub.com/doi/abs/10.1177/1049732305285856){:target="\_blank"} 
-(Qualitative Health Research, 2006) by Annemarie Mol and [“The Heart of the Matter. About Good Nursing and Telecare”]
-(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2970812/){:target="\_blank"} 
-(Health Care Analysis, 2010) by Jeannette Pols.
+by Annemarie Mol and 
+[“The Heart of the Matter. About Good Nursing and Telecare”](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2970812/){:target="\_blank"} 
+by Jeannette Pols.
 
 In response to Mol, who critiques clinical trials for merely addressing the biological aspects of disease without 
 incorporating individuals’ lived experiences with illness, we questioned in what ways clinical research methods and 
