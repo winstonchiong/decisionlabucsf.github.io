@@ -13,7 +13,7 @@ profile:
 news: false
 social: false
 ---
-The Decision Lab is headed by [Winston Chiong, MD PhD]({{ '/team/index.html#Winston-Chiong' | prepend: site.baseurl | prepend: site.url }}), and is part of the [Memory and Aging Center](http://memory.ucsf.edu){:target="\_blank"} in the [UCSF Weill Institute for Neurosciences](http://weill.ucsf.edu){:target="\_blank"}. Our interdisciplinary research is informed by clinical neurology, cognitive neuroscience, the social sciences, philosophy and law, with two main themes:
+The Decision Lab is led by [Winston Chiong, MD PhD]({{ '/team/index.html#Winston-Chiong' | prepend: site.baseurl | prepend: site.url }}), and is part of the [Memory and Aging Center](http://memory.ucsf.edu){:target="\_blank"} in the [UCSF Weill Institute for Neurosciences](http://weill.ucsf.edu){:target="\_blank"}. Our interdisciplinary research is informed by clinical neurology, cognitive neuroscience, the social sciences, philosophy and law, with two main themes:
 
 1. **Decision Neuroscience in Aging and Disorders of Aging**
 
