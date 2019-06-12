@@ -1,6 +1,19 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - accepted manuscript" "docx - accepted manuscript"...
 
+- authors: "Thomas ML, Martin AS, Eyler L, Lee EE, Macagno E, Devereaux M, **Chiong W**, Jeste DV."
+  title: "Individual differences in level of wisdom are associated with brain activation during a moral decision‐making task."
+  details: "Brain and Behavior. 2019. e01302"
+  year: 2019
+  image: pubs2019_wisdom.jpg
+  pmid: 31044549 
+  pmcid: 
+  doi: 10.1002/brb3.1302
+  file:
+  filetype: 
+  github:
+  contentshare: https://rdcu.be/bzRVl
+
 - authors: "Butler PM, **Chiong W**, Perry DC, Miller ZA, Gennatas ED, Brown JA, Pasquini L, Karydas A, Dokuru D, Coppola G, Sturm VE, Boxer AL, Gorno-Tempini ML, Rosen HJ, Kramer JH, Miller BL, Seeley WW."
   title: "Dopamine receptor D4 (DRD4) polymorphisms with reduced functional potency intensify atrophy in syndrome-specific sites of frontotemporal dementia."
   details: "NeuroImage: Clinical. 2019. 101822."
