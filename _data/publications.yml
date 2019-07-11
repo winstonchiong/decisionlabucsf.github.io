@@ -1,6 +1,18 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - accepted manuscript" "docx - accepted manuscript"...
 
+- authors: "Guterman EL, Allen IE, Josephson SA, Merrilees JJ, Dulaney S, **Chiong W**, Lee K, Bonasera SJ, Miller BL, Possin KL."
+  title: "Association between caregiver depression and emergency department use among patients with dementia."
+  details: "JAMA Neurol. 2019. 1820"
+  year: 2019
+  image: pubs_2019_emergency.jpeg
+  pmid: 31282955
+  pmcid: 
+  doi: 10.1001/jamaneurol.2019.1820
+  file:
+  filetype: 
+  github:
+
 - authors: "Thomas ML, Martin AS, Eyler L, Lee EE, Macagno E, Devereaux M, **Chiong W**, Jeste DV."
   title: "Individual differences in level of wisdom are associated with brain activation during a moral decision‐making task."
   details: "Brain and Behavior. 2019. e01302"
