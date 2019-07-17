@@ -12,4 +12,4 @@ qualitative work on addressing financial vulnerability in dementia within the
 (Madhu is representing the lab alongside a huge contingent from the UCSF Memory and Aging Center and 
 Global Brain Health Institute at the 
 [Alzheimer's Association International Conference](https://www.alz.org/aaic/overview.asp){:target="_blank"} 
-in LA. We're looking forward to hearing feedback on this project!
+in LA.) We're looking forward to hearing feedback on this project!
