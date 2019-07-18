@@ -7,14 +7,15 @@ date: 2019-05-13
 ---
 
 The NIH BRAIN Initiative [Neuroethics Roadmap](https://braininitiative.nih.gov/strategic-planning/acd-working-group/neuroethics-roadmap){:target="_blank"},
-released by the Neuroethics Subgroup of the Advisory Committee to the Director Working Group, served as the topic of this neuroethics seminar
+released by the Neuroethics Subgroup of the ACD BRAIN 2.0 Working Group, served as the topic of this neuroethics seminar
 led by Winston Chiong. After our discussion, which largely focused on Chapter 6, “Integrating Neuroethics and Neuroscience,” participants 
 of this session composed a public comment in response to the Roadmap. 
 
 The Roadmap calls for the expansion of the neuroethics arm of BRAIN 2.0, with specific recommendations including a compulsory neuroethics 
 section on all BRAIN Initiative grant applications and a notable budget increase from 1.8% to 5% of the BRAIN Initiative’s total 
-annual funds. Like the Roadmap’s authors, we reflected on outcomes of the Human Genome Project’s Ethical, Legal and Social Implications 
-(ELSI) group in envisioning the role of the BRAIN Initiative within the field of neuroethics. We expressed interest in fostering a 
+annual funds. Our discussion was informed by accomplishments and critiques of the Human Genome Project’s Ethical, Legal and 
+Social Implications (ELSI) program, which in some ways served as a model for the Neuroethics Roadmap. We discussed the need to 
+foster a 
 dedicated neuroethics workforce that includes neuroscientists with firsthand knowledge of medical applications, as well as junior 
 researchers with the potential to commit to long-term neuroethics pursuits. Also of great concern was myopia within neuroethics research 
 questions and the squandering of scientific creativity through funding restrictions, which could create intellectual blind spots and 
