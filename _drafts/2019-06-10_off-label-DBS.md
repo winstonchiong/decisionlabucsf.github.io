@@ -10,7 +10,7 @@ In today’s seminar, we discussed ethical issues concerning the growing phenome
 treat uncommon pediatric disorders. As an example, [Dr. Philip Starr](https://profiles.ucsf.edu/philip.starr){:target="_blank"}
 from the [UCSF Surgical Movement Disorders Clinic](https://surgicalmovementdisorders.ucsf.edu/){:target="_blank"} presented 
 the case of a family pursuing deep brain stimulation to treat their 5-year-old child with a rare form of dystonia. Throughout 
-our conversation, we referenced the [American _____](){}. 
+our conversation, we referenced the American Academy of Pediatrics’ policy statement, [“Off-Label Use of Medical Devices in Children”](https://pediatrics.aappublications.org/content/139/1/e20163439){:target="_blank"}. 
 
 Whole-genome sequencing has enabled identification of genetic mutations responsible for less common variants of movement 
 disorders in children, for whom traditional therapies are unsuitable. Increasingly, parents of these patients seek experimental 
