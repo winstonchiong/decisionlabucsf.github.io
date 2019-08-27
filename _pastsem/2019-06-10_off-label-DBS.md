@@ -16,12 +16,12 @@ off-label (i.e., not FDA approved) use of medical devices. Off-label use, howeve
 members of the [UCSF Surgical Movement Disorders Center](https://surgicalmovementdisorders.ucsf.edu/){:target="_blank"} presented the case of 
 a child with a rare form of dystonia whose parents sought treatment via off-label deep brain stimulation (DBS).
 The clinical team expressed concerns about the family’s ability to pay for treatment in the event of health insurance coverage 
-denial, noting the likelihood of accruing millions of dollars in medical bills over time. We questioned the ethical 
+denial, noting the possibility of accruing millions of dollars in medical bills over time. We questioned the ethical 
 permissibility of screening for socioeconomic status when determining treatment eligibility, asking whether rejection of 
 low-income families constitutes an unjust barrier to access or a justifiable protection against financial turmoil. We also 
 addressed the hyperbolic, miraculous language used to describe off-label DBS in an online crowd-sourcing 
-campaign, which the patient's parents created in an attempt to raise sufficient funds. The group reflected on the informed consent 
+campaign, which the patient's parents created in an attempt to raise funds. The group reflected on the informed consent 
 process, and wondered whether this inaccurate portrayal of treatment benefits reflected the parents’ genuine expectations 
 or constituted a strategy to induce sympathy from donors. We also shared concerns about parents’ sense of desperation 
 potentially clouding their ability to appreciate the financial burden, clinical limitations, and scarcity of research 
-knowledge regarding off-label DBS for their child's condition.
+knowledge regarding off-label DBS for their children's conditions.
