@@ -1,7 +1,7 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - accepted manuscript" "docx - accepted manuscript"...
 
-- authors: "24.	Bernstein A, Harrison KL, Dulaney S, Merrilees J, Bowhay A, **Heunis J**, Choi J, Feuer JE, Clark AM, **Chiong W**, Lee K, Braley TL, Bonasera SJ, Ritchie C, Dohan D, Miller BL, Possin KL."
+- authors: "Bernstein A, Harrison KL, Dulaney S, Merrilees J, Bowhay A, **Heunis J**, Choi J, Feuer JE, Clark AM, **Chiong W**, Lee K, Braley TL, Bonasera SJ, Ritchie C, Dohan D, Miller BL, Possin KL."
   title: "The role of care navigators working with people with dementia and their caregivers."
   details: "J Alzheimers Dis. 2019."
   year: 2019
