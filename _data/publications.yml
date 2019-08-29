@@ -1,11 +1,24 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - accepted manuscript" "docx - accepted manuscript"...
 
+- authors: "Rosa TD, Possin KL, Bernstein A, Merrilees J, Dulaney S, Matuoka J, Lee KP, **Chiong W**, Bonasera SJ, Harrison KL, Kahn JG."
+  title: "Variations in costs of a collaborative care model for dementia."
+  details: "J Am Geriatr Soc. 2019."
+  year: 2019
+  image: pubs_2019_CostsCollabCare.jpg
+  pmid: 31317539
+  pmcid: 
+  doi: 10.1111/jgs.16076
+  file:
+  filetype: 
+  github:
+  contentshare:
+
 - authors: "Bernstein A, Harrison KL, Dulaney S, Merrilees J, Bowhay A, **Heunis J**, Choi J, Feuer JE, Clark AM, **Chiong W**, Lee K, Braley TL, Bonasera SJ, Ritchie C, Dohan D, Miller BL, Possin KL."
   title: "The role of care navigators working with people with dementia and their caregivers."
   details: "J Alzheimers Dis. 2019."
   year: 2019
-  image: pubs_2019_CostsCollabCare.jpg
+  image: pubs_2018_CareEcosystem(1).png
   pmid: 331322558
   pmcid: 
   doi: 10.3233/JAD-180957
