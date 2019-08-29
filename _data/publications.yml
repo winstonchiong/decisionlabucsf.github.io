@@ -1,6 +1,19 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - accepted manuscript" "docx - accepted manuscript"...
 
+- authors: "24.	Bernstein A, Harrison KL, Dulaney S, Merrilees J, Bowhay A, **Heunis J**, Choi J, Feuer JE, Clark AM, **Chiong W**, Lee K, Braley TL, Bonasera SJ, Ritchie C, Dohan D, Miller BL, Possin KL."
+  title: "The role of care navigators working with people with dementia and their caregivers."
+  details: "J Alzheimers Dis. 2019."
+  year: 2019
+  image: pubs_2019_CostsCollabCare.jpg
+  pmid: 331322558
+  pmcid: 
+  doi: 10.3233/JAD-180957
+  file:
+  filetype: 
+  github:
+  contentshare:
+  
 - authors: "Guterman EL, Allen IE, Josephson SA, Merrilees JJ, Dulaney S, **Chiong W**, Lee K, Bonasera SJ, Miller BL, Possin KL."
   title: "Association between caregiver depression and emergency department use among patients with dementia."
   details: "JAMA Neurol. 2019. 1820."
@@ -19,7 +32,7 @@
   details: "Alzheimers Dement. 2019; 15(7): 899-906."
   year: 2019
   image: pubs_2019_medicare.jpg
-  pmid: 31282955
+  pmid: 31175026
   pmcid: 
   doi: 10.1016/j.jalz.2019.03.015
   file:
