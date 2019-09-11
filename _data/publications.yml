@@ -1,12 +1,77 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - accepted manuscript" "docx - accepted manuscript"...
 
+- authors: "Rosa TD, Possin KL, Bernstein A, Merrilees J, Dulaney S, Matuoka J, Lee KP, **Chiong W**, Bonasera SJ, Harrison KL, Kahn JG."
+  title: "Variations in costs of a collaborative care model for dementia."
+  details: "J Am Geriatr Soc. 2019."
+  year: 2019
+  image: pubs_2019_CostsCollabCare.jpg
+  pmid: 31317539
+  pmcid: 
+  doi: 10.1111/jgs.16076
+  file:
+  filetype: 
+  github:
+  contentshare:
+
+- authors: "Bernstein A, Harrison KL, Dulaney S, Merrilees J, Bowhay A, **Heunis J**, Choi J, Feuer JE, Clark AM, **Chiong W**, Lee K, Braley TL, Bonasera SJ, Ritchie C, Dohan D, Miller BL, Possin KL."
+  title: "The role of care navigators working with people with dementia and their caregivers."
+  details: "J Alzheimers Dis. 2019."
+  year: 2019
+  image: pubs_2019_Mahnoor.png
+  pmid: 331322558
+  pmcid: 
+  doi: 10.3233/JAD-180957
+  file:
+  filetype: 
+  github:
+  contentshare:
+  
+- authors: "Guterman EL, Allen IE, Josephson SA, Merrilees JJ, Dulaney S, **Chiong W**, Lee K, Bonasera SJ, Miller BL, Possin KL."
+  title: "Association between caregiver depression and emergency department use among patients with dementia."
+  details: "JAMA Neurol. 2019. 1820."
+  year: 2019
+  image: pubs_2019_emergency.jpeg
+  pmid: 31282955
+  pmcid: 
+  doi: 10.1001/jamaneurol.2019.1820
+  file:
+  filetype: 
+  github:
+  contentshare: https://jamanetwork.com/journals/jamaneurology/fullarticle/2737045?guestAccessKey=81a5e442-ed21-4913-a9b9-090bfd9e2c92&utm_source=jps&utm_medium=email&utm_campaign=author_alert-jamanetwork&utm_content=author-author_engagement&utm_term=1m
+
+- authors: "Chen Y, Wilson L, Kornak J, Dudley RA, Merrilees J, Bonasera SJ, Byrne CM, Lee K, **Chiong W**, Miller BL, Possin KL."
+  title: "The costs of dementia subtypes to California Medicare fee-for-service, 2015."
+  details: "Alzheimers Dement. 2019; 15(7): 899-906."
+  year: 2019
+  image: pubs_2019_medicare.jpg
+  pmid: 31175026
+  pmcid: 
+  doi: 10.1016/j.jalz.2019.03.015
+  file:
+  filetype: 
+  github:
+  contentshare:
+  
+- authors: "Thomas ML, Martin AS, Eyler L, Lee EE, Macagno E, Devereaux M, **Chiong W**, Jeste DV."
+  title: "Individual differences in level of wisdom are associated with brain activation during a moral decision‐making task."
+  details: "Brain and Behavior. 2019. e01302."
+  year: 2019
+  image: pubs_2019_wisdom.jpg
+  pmid: 31044549 
+  pmcid: 
+  doi: 10.1002/brb3.1302
+  file:
+  filetype: 
+  github:
+  contentshare: https://rdcu.be/bzRVl
+
 - authors: "Butler PM, **Chiong W**, Perry DC, Miller ZA, Gennatas ED, Brown JA, Pasquini L, Karydas A, Dokuru D, Coppola G, Sturm VE, Boxer AL, Gorno-Tempini ML, Rosen HJ, Kramer JH, Miller BL, Seeley WW."
   title: "Dopamine receptor D4 (DRD4) polymorphisms with reduced functional potency intensify atrophy in syndrome-specific sites of frontotemporal dementia."
   details: "NeuroImage: Clinical. 2019. 101822."
   year: 2019
   image: pubs_2019_dopamine.jpg
-  pmid: 
+  pmid: 31003069
   pmcid: 
   doi: 10.1016/j.nicl.2019.101822
   file:
