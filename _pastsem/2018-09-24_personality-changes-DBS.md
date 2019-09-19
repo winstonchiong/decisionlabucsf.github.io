@@ -1,12 +1,12 @@
 ---
 title: Personality changes in deep brain stimulation
-presenters: Tobias Häusermann
+presenters: Tobias Haeusermann
 layout: post
 group: pastsem
 date: 2018-09-24
 ---
 
-In a journal club facilitated by [Tobias Häusermann](/team/index.html#Tobias-Häusermann), we discussed concerns within the 
+In a journal club facilitated by [Tobias Haeusermann](/team/index.html#Tobias-Haeusermann), we discussed concerns within the 
 neuroethics community that patients undergoing deep brain simulation (DBS) could experience changes in personality, identity, agency, 
 authenticity, autonomy, and self. Using Frederic Gilbert *et al.*, 
 ["Deflating the ‘DBS Causes Personality Changes’ Bubble"](https://link.springer.com/article/10.1007%2Fs12152-018-9373-8){:target="\blank"} 
