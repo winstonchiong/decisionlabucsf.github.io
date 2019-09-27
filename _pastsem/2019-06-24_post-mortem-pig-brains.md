@@ -16,10 +16,11 @@ Neuroethics Working Group, who consulted the study investigators on ethical rese
 We considered how future access to whole-brain models may contribute to medicine and neuroscience, for example, by aiding 
 stroke research and enabling deeper investigation into the structural organization of the brain than currently feasible using 
 neural tissues and cells. A potentially revolutionary tool, the BrainEx perfusion system and its success in restoring limited 
-function to post-mortem brains challenges the existing notion that brains incur irreversible damage within seconds to minutes 
-of blood flow disruption. At once partly alive and partly dead, brain models like those in BrainEx raise questions regarding 
-moral status and sentience. We wondered if perfusion closer to time of death might enable restoration of human capacities, 
-namely consciousness and pain perception, and if so, how researchers ought to detect (e.g., EEG, TMS) and suppress (e.g., 
+function to post-mortem brains challenges a widely-held notion that brains incur irreversible damage within seconds to minutes 
+of blood flow disruption; although there was already substantial clinical evidence to suggest that this view was outdated. 
+Brain models like those in BrainEx raise troubling questions questions regarding 
+moral status and sentience. We wondered if perfusion closer to time of death might enable restoration of more complex capacities, 
+such as consciousness and pain perception, and if so, how researchers ought to detect (e.g., EEG, TMS) and suppress (e.g., 
 anesthetics, neuronal activity blockers) their presence. We also discussed how partial restoration of brain function might 
 impact public understanding of brain death, the future of organ donation and transplantation, and animal welfare laws, which 
 presently do not protect research specimens obtained from animals raised for food production.
