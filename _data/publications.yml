@@ -1,6 +1,19 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - accepted manuscript" "docx - accepted manuscript"...
 
+- authors: "Butler PM, **Chiong W.**"
+  title: "Chapter 21 - Neurodegenerative disorders of the human frontal lobes."
+  details: "Handb Clin Neurol, 2019."
+  year: 2019
+  image: pubs_2019_Neurodegen.jpg
+  pmid: 31590743
+  pmcid: 
+  doi: 10.1016/B978-0-12-804281-6.00021-5
+  file:
+  filetype: 
+  github:
+  contentshare:
+
 - authors: "Rosa TD, Possin KL, Bernstein A, Merrilees J, Dulaney S, Matuoka J, Lee KP, **Chiong W**, Bonasera SJ, Harrison KL, Kahn JG."
   title: "Variations in costs of a collaborative care model for dementia."
   details: "J Am Geriatr Soc. 2019."
