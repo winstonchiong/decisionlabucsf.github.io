@@ -14,8 +14,7 @@ paper, “[Research ethics and intellectual disability: Broadening the debates](
 we addressed participant capacity and decision-making, disability rights and stigma, and challenges with protocol execution 
 and outcome measurement.
 
-We began by acknowledging the historical context of conducting research with persons with intellectual disability,  
-referencing research abuses at Willowbrook and other sites, and our consequentially heightened concerns about avoiding 
+We began by acknowledging the historical context of conducting research with persons with intellectual disability, referencing research abuses at Willowbrook and other sites, and our consequentially heightened concerns about avoiding 
 exploitation of this vulnerable population. We discussed the need to balance protection and inclusion of persons with 
 intellectual disability within research as a matter of justice, since clinical trials, for instance, may 
 benefit those with access to enrollment and provide an appropriate evidence base for the development of future therapies. 
