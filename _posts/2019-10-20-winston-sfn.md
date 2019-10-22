@@ -21,7 +21,7 @@ grateful to Adrienne Fairhall and Charles Liu for the invite, and to Adrienne,
 John Donoghue, Richard Andersen and Zoran Nenadic for co-leading the neuroethics 
 breakouts with me. 
 
-On Saturday we held our [Neuroethics Social](https://www.sfn.org/Meetings/Neuroscience-2019/Sessions-and-Events/SfN-Sponsored-Socials#Neuroethics-Social){:target="\_blank"}. 
+On Sunday we held our [Neuroethics Social](https://www.sfn.org/Meetings/Neuroscience-2019/Sessions-and-Events/SfN-Sponsored-Socials#Neuroethics-Social){:target="\_blank"}. 
 Khara Ramos and I hosted two brief panels focused on the integration of neuroethics 
 in neuroscience training and careers. Our first panel focused on the 
 individual/trainee perspective with a spectrum of panelists at different career 
