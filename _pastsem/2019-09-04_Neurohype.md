@@ -1,6 +1,6 @@
 ---
 title: “Neurohype” and public impressions of research
-presenters: 
+presenters: Winston Chiong
 layout: post
 group: pastsem
 date: 2019-09-04
