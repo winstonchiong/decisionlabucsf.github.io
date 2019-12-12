@@ -7,8 +7,8 @@ date: 2019-09-18
 ---
 
 During this week’s seminar, Sarah Dulaney and Jennifer Merrilees led a discussion on hypersexuality in Lewy Body Dementia. Throughout our 
-conversation, we drew connections from Bronner and Korczyn’s [article]( https://onlinelibrary.wiley.com/doi/10.1002/mdc3.12561)
-{:target="_blank"}, “The Role of Sex Therapy in the Management of Patients with Parkinson’s Disease” (Movement Disorders Clinical Practice,
+conversation, we drew connections from Bronner and Korczyn’s 
+[article](https://onlinelibrary.wiley.com/doi/10.1002/mdc3.12561){:target="_blank"}, “The Role of Sex Therapy in the Management of Patients with Parkinson’s Disease” (Movement Disorders Clinical Practice,
 2018). We focused on ethical considerations related to patients and caregivers’ concerns about issues with intimacy as a result of 
 dementia.
 
