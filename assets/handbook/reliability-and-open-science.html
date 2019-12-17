@@ -182,7 +182,8 @@ needing to rebuild your analyses from scratch.</p>
 <p>There are some broad principles and practices that we use in the lab to promote
 the reliability of our work, that everyone (particularly those engaged in
 quantitative research) should understand:
-1. <strong>Distinguishing exploratory vs. hypothesis-driven design.</strong> One of the
+<ul>
+  <li>1. <strong>Distinguishing exploratory vs. hypothesis-driven design.</strong> One of the
 major problems in quantitative research is that many scientists’ aims are in fact
 exploratory (e.g., trying to look for new things and elucidate processes that
 haven’t yet been discovered), but our accepted statistical thresholds for
@@ -197,8 +198,8 @@ exploratory
 research remains an open question that the scientific community is still working
 out. Still, we should remain careful in our thinking about when our aims are
 exploratory and when they’re hypothesis-driven, and we should not try to pass
-off exploratory work as hypothesis-driven.
-2. <strong>Study pre-registration when feasible; in all cases, pre-planning.</strong> In
+    off exploratory work as hypothesis-driven.</li>
+<li>2. <strong>Study pre-registration when feasible; in all cases, pre-planning.</strong> In
 general, if we are conducting a hypothesis-driven study, it makes good sense to
 pre-register our study design. Generally we use the
 <a href="http://osf.io">Open Science Framework</a>.
@@ -208,8 +209,8 @@ Even when we are not pre-registering studies or we are planning purely
 exploratory work, it is generally a useful exercise to think
 in advance about what questions we are interested in, and what would be the best
 approaches to answer these questions, before we start poking around in datasets.
-Hopefully this can help us avoid treating noise in our dataset as signal.
-3. <strong>Documentation.</strong> This is something I struggle with, but is crucially
+Hopefully this can help us avoid treating noise in our dataset as signal.</li>
+<li>3. <strong>Documentation.</strong> This is something I struggle with, but is crucially
 important for other members of the lab and also for yourself. It’s natural to
 assume, when you’re totally cognitive engaged in a problem, that it will be very
 easy for you to recall later what you did and why. In fact we all tend to
@@ -218,14 +219,14 @@ problems. It’s really important to use our electronic lab notebooks in the
 private Github repo to document our thought processes. (This will help you in
 the future as well.) This is particularly crucial for recording a paper trail of
 analytic decisions, data cleaning, and other decisions affecting findings (e.g.,
-leaving out outliers and why).
-4. <strong>“Literate programming.”</strong> This refers to a different way of thinking about
+leaving out outliers and why).</li>
+<li>4. <strong>“Literate programming.”</strong> This refers to a different way of thinking about
 work that we do in code. As expressed by the computer scientist Donald Knuth:</p>
 <pre><code>&gt; &quot;Let us change our traditional attitude to the construction of programs. Instead 
 <p>of imagining that our main task is to instruct a computer what to do, let us
 concentrate rather on explaining to humans what we want the computer to do."</p></code></pre>
-<ul>
-<li>In other words, think of your code (whether in R, Stata, Matlab, or any other
+</li>
+In other words, think of your code (whether in R, Stata, Matlab, or any other
 language) as like an essay intended to communicate to other human beings.
 This should follow the order and logic of human
 thought, and not just the forms imposed by the computer. It is not only
@@ -234,10 +235,8 @@ operations that you intend); it’s also important that people who read
 your scripts (including your future self) can understand the flow of your
 thinking and what each piece of code is intended to do.
 <a href="09-rstudio-analysis-pathway.md">Section 9: RStudio Analysis Pathway</a> provides a
-detailed tutorial to one implementation of literate programming.</li>
-</ul>
-<ol start="5" style="list-style-type: decimal">
-<li><strong>Coming soon: code review.</strong> As above, human error is common and expected.
+detailed tutorial to one implementation of literate programming.
+<li>5. <strong>Coming soon: code review.</strong> As above, human error is common and expected.
 We should all be diligent about checking our own work, but in most cases we also
 need other people to help us find errors that we can’t find ourselves. Software
 developers don’t rely solely on individual programmers to find errors in their
@@ -248,7 +247,7 @@ desktop computers. In the coming year, I’m hoping to start using collaborative
 tools in Github that facilitate review of our code by other lab members. This is
 another reason why it’s important to write “literate code” that can be readily
 understood by others, and not just a series of computational operations.</li>
-<li><strong>Also coming soon: publishing our code.</strong> Increasingly, it will be an
+<li>6. <strong>Also coming soon: publishing our code.</strong> Increasingly, it will be an
 expectation that when someone publishes a scientific study, that they also
 make their datasets and code publicly accessible so that other scientists can
 check their work. After all, if you’re not confident enough in your code to
