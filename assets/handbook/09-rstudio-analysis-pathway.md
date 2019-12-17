@@ -85,7 +85,7 @@ Open RStudio and go to
 fine for now), put in your name, and select HTML as the default output format. 
 Now you'll see an RStudio screen with four windows:
 
-![rstudio-windows](../assets/img/handbook_09_rstudio-01-windows.png)
+![rstudio-windows](../img/handbook_09_rstudio-01-windows.png)
 
 - The top left window is the source window, used for editing code. Here we're 
 editing an R Markdown (.Rmd) file. (If you're familiar with Stata, this is like 
@@ -127,13 +127,13 @@ To make RStudio use your code, you have two options: **run** and **knit**. Often
 when you're working on your code you'll use **run**. To explore options, pull 
 down the menu for "Run" at the top of the source window:
 
-![rstudio-run-menu](../assets/img/handbook_09_rstudio-02-run-menu.png)
+![rstudio-run-menu](../img/handbook_09_rstudio-02-run-menu.png)
 
 Now click inside the source window and navigate so that your cursor is inside of 
 the second code chunk (named "cars")--that is, on on lines 18-20. Pull down on 
 "Run" and select Run Current Chunk". 
 
-![rstudio-run-curr-chunk](../assets/img/handbook_09_rstudio-03-run-curr-chunk.png)
+![rstudio-run-curr-chunk](../img/handbook_09_rstudio-03-run-curr-chunk.png)
 
 Look in the console window at bottom left--there you'll see that RStudio behaves 
 as if you had typed `summary(cars)` into the console, and displays the output. 
