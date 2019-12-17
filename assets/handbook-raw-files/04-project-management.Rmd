@@ -1,0 +1,15 @@
+# Project Management
+
+Our work centers around four primary projects: 
+1. Genes, Brains, and Decisions (GBD)
+2. Neuroethics in Novel Neurotechnologies (Neurotech)
+3. Decision-Making in Alzheimier’s Disease and Related Dementias (DMA)   
+4. Aging and Cognition 
+
+Guidelines for managing each project can be found in the associated Standard Operating Procedure (SOP), each of which are 
+located on the R-Drive:
+* __DMA:__ R:\chiong\DMA
+  
+* __GBD:__ R:\chiong\GBD
+  
+* __Neurotech:__ R:\chiong\Neurotech

@@ -1,0 +1,45 @@
+# Guidelines for clinical interactions
+
+*Originally from Ali Zahir and Madhu Manivannan*
+
+Our work is centered around learning about and caring for older adults and patients with neurological disorders. As such, it is extremely 
+important to us that we treat our research participants with respect, kindness, and understanding. After all, they are voluntarily devoting
+their time to help us, often with little to gain for themselves. These guidelines are by no means exhaustive, and are meant to highlight
+some considerations to take into account when interacting with our unique patient population.
+
+* Please make sure to use person-centered language. (i.e. refer to our participants as patient with bvFTD as opposed to the “she’s a bvFTD”). 
+In general, "person-with-x" is preferred to "x person": i.e., "person 
+with dementia" vs. "demented patient," and similarly for terms such as 
+"diabetic," "epileptic," etc.
+* When greeting the patient: Introduce yourself, shake their hand, look them in the eyes, and treat them with the dignity they deserve.
+  * Acknowledge that they are providing us their time and energy by participating in our study. Our patients endure some rather grueling 
+    days and we want them to understand we appreciate them.
+  * Walk at their pace. At times, patients (or even healthy controls) can have a slow gait and speed and therefore you may need to slow 
+    your pace.
+* In the room, allow the patient to be seated by the door. We don’t want them to feel trapped in our exam rooms.
+* When obtaining consent from a patient, make sure to speak slowly and clearly. Avoid acronyms, esoteric terms, and jargon. Make the information in 
+the consent form digestible for them. It helps to have a script prepared in your head that covers the following:
+  * Purpose of the study/what our lab is interested in
+  * What participation entails
+  * Risks and Benefits
+  * Rights as a participant
+  * Provide opportunity for questions
+* Similarly, when explaining a task, please speak slowly. Pause frequently for questions and always check-in to see if the patient 
+  understands what you are saying. 
+  * Always provide a patient enough space; do not dominate the interaction and allow them time to speak.
+  * Listen with intent. Make sure to listen to what the patient is saying, rather than focusing only on what you want the 
+    patient to do. Provide affirmations and reflect back to the patient what they have said so that they know you are listening.
+* When interacting with a patient and their caregiver, be sure to remain neutral. You do not want to side with one party. If there 
+  is a disagreement between the caregiver and patient, do not interfere but make sure you are physically on the side of the patient. 
+  I’ve learned this allows the patient to not feel alienated.
+* As you take patients through the task, be mindful of their capabilities and frustrations. If they appear agitated, uncomfortable, 
+overly exhausted, or confused, pause the task and remind them that they can stop at any time. Be sensitive to their needs. Our tasks 
+can be cognitively taxing, so it is important to continuously monitor the patient’s comfort level.
+  * Patients will sometimes directly tell you they do not want to complete the task. Assure them that this is perfectly fine, and 
+    thank them for their time and their willingness to come in for this research visit.
+  * Some patients will apologize for not understanding the task, asking lots of questions, or not being able to perform well on the task. 
+    Take the time to listen to their concerns, and sympathize (e.g. if a patient is frustrated at not being able to come up with words for 
+    a memory task, you might respond by acknowledging their difficulties and encouraging them on their performance). 
+  * Don’t be condescending or patronizing--when in doubt, listen to what patients are saying. Sometimes that’s better than responding or 
+    trying to provide solutions. Always thank them for participating in our research--this is completely voluntary and our patients travel 
+    long distances and undergo hours of exhausting tasks and scans to help us with our research!

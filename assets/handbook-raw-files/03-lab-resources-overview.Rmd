@@ -1,0 +1,184 @@
+# Lab Resources Overview
+
+Here is a very general overview of lab-wide resources that everyone in both 
+sides of the lab should be familiar with. (Some projects 
+also use specific tools that should be separately documented.) As one broad 
+principle to keep in mind: research coordinators in the lab 
+typically stay 2-3 years, but many of our projects span a much longer period of 
+time. We need everyone to perform protocols consistently, 
+and to document their work carefully, so that the people who follow you can 
+continue your work.
+
+## [Slack](http://ucsfdecisionlab.slack.com)
+
+Slack is the primary method of communication within the lab. You can customize 
+your notification preferences (particularly important on the mobile app) so you 
+are notified of important messages but also are not overwhelmed. Use the '@' 
+feature to get my attention if I need to get involved in a conversation, and 
+make sure that you're subscribed to the right channels (#general and #random for 
+everyone, and as of this writing #agingcog, #code, #diversity, #dma, #gbd, and 
+#neurotech depending on role/interests).
+
+Two important caveats about Slack:
+1. Slack is not considered secure or HIPAA-compliant. No PHI (protected health 
+information) belongs there, and in general any discussion involving individual 
+research participants should be conducted via SECURE: e-mail rather than Slack. 
+2. Slack is not an archive. Our free lab account only allows us to view the last 
+10,000 messages, and to store 5gb of files--everything older than that 
+disappears. So we use Slack for rapid, concurrent conversation--but anything that 
+we might want 
+to refer to later needs to be documented, most likely in GitHub.
+
+## [Lab website](https://decisionlab.ucsf.edu)
+
+Our lab website is where we communicate what we do and share our work with the 
+outside world. This is hosted on our public GitHub repository, which you will 
+need a GitHub account to edit. See the README at 
+https://github.com/DecisionLabUCSF/decisionlabucsf.github.io to learn how to add 
+your team profile. Because this is a public repository, anyone can read the code 
+that we use to build the website, and it also has an open license inviting other 
+investigators to use this code to design their own websites if they wish. (Kate 
+Rankin's lab is building a new website based on our website's code…)
+
+As I say in the README, you can think of GitHub as like a supercharged Google 
+Docs for code, allowing multiple people to work on code together, keeping track 
+of who made what changes and when, making it easy to reverse changes that have 
+been made, and allowing different versions to be developed at the same time. 
+Tools like this are commonly used by software companies to maintain quality and 
+avoid/fix bugs. We won't be using all of the sophisticated tools in GitHub that 
+they use, but generally I think scientists have a lot to learn from software 
+developers: Facebook and Google can't survive with sloppy code and neither can we.
+
+## [Private Github repo](https://github.com/UCSFMemoryAndAging/decisionlab)
+
+In addition to our public repository, we also have a private repository that 
+only lab members can view, which is where we document and edit our code, and 
+maintain 
+electronic lab notebooks. See the README at 
+https://github.com/UCSFMemoryAndAging/decisionlab for details once your account 
+is fully set up with permissions. A basic way of working with GitHub is just 
+editing files on the GitHub website. However, to use GitHub for code that can be 
+utilized by statistical/analytic packages like R and MATLAB, you will need to 
+synchronize the lab repo to a folder on your computer (like a more technical 
+version of Dropbox or Box). For more details on how to do this, see Chapter 9 of 
+this lab handbook, 
+[RStudio analysis pathway](09-rstudio-analysis-pathway.md).
+
+Here are some key initial points:
+1. As with Slack, no protected data. PIDNs and other assigned identifiers can 
+pop up infrequently, but we should avoid other participant-level data, and 
+especially PHI and participant identifiers (names, dates of birth, addresses, 
+demographics, etc.)
+2. GitHub works best with text-editable files: code, markdown files, HTML, 
+notebooks and the like. GitHub is much less useful for big files like images, 
+Word and Powerpoint files, and they tend to clog things up for everyone else who 
+is syncing to the repo. Images should be reduced in size whenever possible, and 
+Microsoft Office files (Word, Powerpoint) should stay out of GitHub and go on 
+the R: drive somewhere. 
+3. Please be consistent about naming and file organization, and be obsessive 
+about documentation and comments! Again, other people will pick your work up 
+after you, so please be kind to them in advance.
+4. Try to keep line length to about 80 characters, and commit-pull-push!
+
+## R: drive (R:\groups\chiong)
+
+To recap some points from above: Slack can't be used for protected data or 
+discussion of individual research participants, and isn't an archive. GitHub is 
+an archive for code and documentation, but also shouldn't be used for protected 
+data or identifiers (and documentation about individual participants should be 
+limited), and shouldn't be used for large files such as Microsoft Office 
+documents. So: we use the R: drive for large datasets, especially those 
+including personal identifiers, and other useful resources that are too large to 
+put in GitHub. (Quick personal note: I'm often working from my laptop and home 
+computer, on which I only mount the R: drive intermittently--so if you need me 
+to look at something, it will often be a lot faster if it lives in GitHub or is 
+temporarily available in Slack.) For instructions on how to mount the R: drive 
+on your computer, see the Technology section of [MACipedia](https://wiki.library.ucsf.edu/display/MACipedia/MACipedia+Home).
+
+For using statistical packages, a model for how to utilize the R: drive with the 
+GitHub repo is described in 
+[Section 9: RStudio Analysis Pathway](09-rstudio-analysis-pathway.md). As a 
+general overview, the pathway is:
+1. Clone the decisionlab GitHub repo to your computer.
+2. Save original dataset (e.g., a .csv or Excel file from Qualtrics or E-Prime) 
+on the R: drive, and never write to this file again. 
+3. Clean the data, using a script and a logging file that are saved in GitHub, 
+creating a cleaned data file that is saved back on the R: drive. 
+4. Analyze the data using other script and logging files that are saved in 
+GitHub, generating new data files and graphics as necessary that are saved on 
+the R: drive. 
+
+Since everyone is using the R: drive for a variety of projects (which will 
+continue on after you leave), keeping our group folder organized is a challenge! 
+Please refer to Guide.docx on the R: drive which explains how the subfolders are 
+organized. The subfolder R:\groups\chiong\Resources includes a number of files that I 
+hope you find useful, including the subfolder "Biostat_212" (lots of resources 
+here on using Stata), the subfolders for "Papers" that include an archive of 
+some classic papers and other ones that influence my thinking and our work 
+together, and some other resources (fonts, scanned books) that I've posted in a 
+perhaps questionably broad interpretation of their UCSF licenses...
+
+## [LAVA and LAVAquery](https://lava.ucsf.edu)
+
+LAVA is the MAC’s primary database for all research-related patient and 
+participant information, e.g. demographics, visits and scheduling, research 
+diagnoses, specimens. It can only be accessed on a UCSF network, so if you need 
+to access it remotely, you’ll need to sign in to the UCSF VPN through Pulse 
+Secure (check out https://it.ucsf.edu/services/vpn for how to get the VPN set 
+up).
+
+For our current projects, we use LAVA for the following:
+* Getting participants’ contact information to call/email them about enrolling 
+in one of our studies
+* Enrolling participants under the ‘Enrollment’ and ‘Scheduling’ tabs once we 
+have seen them for a study
+* Looking up participants’ most recent (and past) diagnoses for tracking 
+enrollment numbers or running data analysis
+
+LAVAQuery is a (fairly) user-friendly querying tool that allows you to pull 
+information from a selected subgroup of (or all) participants from the main LAVA 
+dataset. There is both an older excel-based version and a newer web-based 
+version. You can access these on the front page of the LAVA website.
+
+If you will be running any kind of analysis, you’ll most likely use LAVAquery to 
+pull relevant participant information, download it as a csv file, and merge with 
+your study data files.
+
+For training, visit the [LAVA](https://wiki.library.ucsf.edu/display/MACipedia/LAVA) section of MACipedia and 
+watch the training videos under the ‘My Lava’ tab on the website.
+
+## Deprecated/discouraged tools
+
+**~~Excel.~~** In general, Microsoft Excel is not an appropriate tool for data 
+analysis or manipulations that are intended for presentation or publication. It 
+can be used to explore datasets, but usually this is best done within a proper 
+statistical/analytic software package such as R, Stata or Matlab. Excel does not 
+preserve a record of changes that are made to a data file, so if errors are 
+accidentally introduced they can be impossible to diagnose. Excel also has very 
+poor tools for automation and replication: if transformations are made to a 
+dataset and the dataset is later expanded with more observations, the same 
+transformations must usually be applied manually to the new entries. We do use 
+Excel sometimes to create or input data (e.g., for tracking participants) that 
+is then imported to stats packages, but here again the potential for introduced 
+errors is high so please proceed carefully! (Tools like REDCap and Access may be 
+better for this.) Finally, some of the data tools we use (Qualtrics, LAVAquery) 
+export csv and xls files--our general practice is to save them somewhere on the 
+R: drive and avoid ever touching or rewriting to them directly, only importing 
+from saved files into a proper stats package. 
+
+**Google Docs.** In general, we have found that Google Docs is useful for 
+sharing short-term projects, such as an abstract or IRB submission that needs to 
+be edited by multiple people before submission. However, it has proven to be 
+unwieldy for archiving/storage/documentation--we've noted problems with 
+moving/deleting files, with governing permissions and file access, and in 
+general with organization. So anything that we might want to refer back to in a 
+matter of months or years should be appropriately organized in GitHub or the R: 
+drive. 
+
+**Box.** In theory, Box should be awesome. It's supported by UCSF, can handle 
+secure data like PHI, and can sync local copies to people's individual 
+computers--so this should be one tool that can do most of what we use GitHub and 
+the R: Drive for. In practice, whenever we try to use Box for anything it 
+becomes super-frustrating and never seems to work appropriately. So we don't use 
+it, but if anyone figures out how to use it effectively for shared work please 
+let me know...
