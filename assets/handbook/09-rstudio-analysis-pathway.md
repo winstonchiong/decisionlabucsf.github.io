@@ -213,14 +213,14 @@ repo here, not the public "decisionlabucsf" repo that we use for the website)
 by finding the green button for "Clone or download" and copying the URL for the 
 repository:
 
-![github-clone-or-download](../assets/img/handbook_09_rstudio-04-clone.png)
+![github-clone-or-download](../img/handbook_09_rstudio-04-clone.png)
 
 Now open SourceTree, and go to File > Clone/New... This will open a window as 
 seen below. For "Source Path/URL:" paste in the URL from GitHub for cloning. For 
 "Destination Path:" give the address of the local folder you've just created. 
 When ready, press "Clone."
 
-![screenshot-SourceTree](../assets/img/handbook_09_rstudio-05-sourcetree.png)
+![screenshot-SourceTree](../img/handbook_09_rstudio-05-sourcetree.png)
 
 Now you'll have a local copy of the repository on your computer, and everyone 
 else in lab will have a local copy of the repository on their computers. 
@@ -250,7 +250,7 @@ To help you remember, when you look at the top of SourceTree, you'll see the
 last 3 operations in order: **Commit-Pull-Push**. This is what you always do 
 when saving your work to GitHub:
 
-![screenshot-commit-pull-push](../assets/img/handbook_09_rstudio-06-commit-pull-push.png)
+![screenshot-commit-pull-push](../img/handbook_09_rstudio-06-commit-pull-push.png)
 
 Now that you've set up your local repo, let's take a look at it and the R: 
 drive. Let's suppose you've just collected data for a new task we'll just call 
@@ -258,7 +258,7 @@ drive. Let's suppose you've just collected data for a new task we'll just call
 you make a new folder for your data on the R: drive and create a new 
 folder for "blah" inside your local GitHub repo:
 
-![screenshot-empty-folders](../assets/img/handbook_09_rstudio-07-empty-folders.png)
+![screenshot-empty-folders](../img/handbook_09_rstudio-07-empty-folders.png)
 
 ## Step 2: Save the original dataset to the R: drive
 
@@ -267,7 +267,7 @@ e.g. directly from Qualtrics, in your new folder on the R: drive. Usually this
 will either be in CSV or Excel format. (Qualtrics will export the CSV file using 
 its own ugly naming convention, which you don't need to change.)
 
-![screenshot-orig-dataset](../assets/img/handbook_09_rstudio-08-orig-dataset.png)
+![screenshot-orig-dataset](../img/handbook_09_rstudio-08-orig-dataset.png)
 
 From now on we **only read** this data file. We don't save any changes to it. If 
 we ever had to re-download the data file from Qualtrics to the R: drive again 
@@ -331,7 +331,7 @@ the decisionlab repo local folder on your computer, which you created in Step 1.
 Now you'll have two files: your original data file on the R: drive, and the 
 .Rmd file that you're currently working on in your local repo:
 
-![screenshot-cleaning-rmd](../assets/img/handbook_09_rstudio-09-cleaning-rmd.png)
+![screenshot-cleaning-rmd](../img/handbook_09_rstudio-09-cleaning-rmd.png)
 
 Note that, since you haven't actually knit this file yet, you haven't 
 created an .html file. Select "Knit" from the top of the source window. You'll 
@@ -339,14 +339,14 @@ see some output run by in an "R Markdown" tab of the console window, and then
 R will display an .html file based upon your R Markdown file, displaying the two 
 code blocks we have so far: 
 
-![screenshot-knit-html](../assets/img/handbook_09_rstudio-10-html.png)
+![screenshot-knit-html](../img/handbook_09_rstudio-10-html.png)
 
 Note the white box in which it displays the output from `Sys.time()`--this is a
 timestamp of exactly when the .html was knit from the .Rmd file. This .html file 
 will also show up in your local repo subfolder, preserving a log of what you've 
 done:
 
-![screenshot-cleaning-html](../assets/img/handbook_09_rstudio-11-cleaning-html.png)
+![screenshot-cleaning-html](../img/handbook_09_rstudio-11-cleaning-html.png)
 
 Okay, let's keep working on your .Rmd file. Again, see the example file for 
 moral-dilemma in AgingCog for an example. In general, what you'll do is test out 
@@ -376,7 +376,7 @@ your R Markdown script.
 select "More > Go To Working Directory." This should show you the datafolder 
 that you've specified. 
 
-![screenshot-setwd](../assets/img/handbook_09_rstudio-12-setwd.png)
+![screenshot-setwd](../img/handbook_09_rstudio-12-setwd.png)
 
 The next step is to import the Qualtrics data into RStudio so that you can start 
 cleaning the dataset. Here, you'll use the GUI in RStudio to perform some 
@@ -385,7 +385,7 @@ Now the panel at bottom right should show your datafolder, which includes the
 CSV file that you imported from Qualtrics. Click on this file and select 
 "Import Dataset..."
 
-![screenshot-import](../assets/img/handbook_09_rstudio-13-import-dataset.png)
+![screenshot-import](../img/handbook_09_rstudio-13-import-dataset.png)
 
 This will open a new window with options for importing this dataset, and a handy 
 preview of what the dataset will look like with those options once imported. 
@@ -393,7 +393,7 @@ More importantly, on the bottom right is a "Code Preview" window--this shows you
 what you would need to write in R code in order to perform the same operation. 
 Also, there's a clipboard icon that will copy out this code for you to use:
 
-![screenshot-import-text-data](../assets/img/handbook_09_rstudio-14-import-text-data.png)
+![screenshot-import-text-data](../img/handbook_09_rstudio-14-import-text-data.png)
 
 Change the "Name" to something more reasonable, like "blah_qualtrics_df." You 
 will notice (you might need to click out of the text field, so that it updates) 
@@ -410,7 +410,7 @@ Now you can paste this code into the console window to make sure that the code
 works as intended. Press Enter, and you should see the dataframe 
 "blah_qualtrics_df" in your workspace:
 
-![screenshot-import-text-data](../assets/img/handbook_09_rstudio-15-imported.png)
+![screenshot-import-text-data](../img/handbook_09_rstudio-15-imported.png)
 
 If you like the code and want to keep it, paste it into the R Markdown file. 
 Below the "setup" code chunk, start a new section with a header such as 
@@ -418,7 +418,7 @@ Below the "setup" code chunk, start a new section with a header such as
 chunk is supposed to do, and you can create a new code chunk--call it 
 "file-import":
 
-![screenshot-import-text-data](../assets/img/handbook_09_rstudio-16-import-code-block.png)
+![screenshot-import-text-data](../img/handbook_09_rstudio-16-import-code-block.png)
 
 There will be a lot of other cleaning to do before the data can be analyzed. For 
 instance, when Qualtrics exports CSV files the first three rows are different 
@@ -479,7 +479,7 @@ and will also re-write the .html file to your local repository in your user
 folder. (This is good, now you also have a timestamp of when the .Rda file on 
 the R: drive was most recently created.)
 
-![screenshot-clean-datafile](../assets/img/handbook_09_rstudio-17-clean-datafile.png)
+![screenshot-clean-datafile](../img/handbook_09_rstudio-17-clean-datafile.png)
 
 Don't forget to save your completed .Rmd file, and **commit-pull-push** to get 
 your updated .Rmd and .html files on to the shared GitHub repository. 
@@ -494,7 +494,7 @@ include manipulations of the data that we want to keep (like parameter estimates
 from a regression), then we save these in a new .Rda file on the R: drive. For 
 instance: 
 
-![screenshot-new-datafile](../assets/img/handbook_09_rstudio-18-new-datafile.png)
+![screenshot-new-datafile](../img/handbook_09_rstudio-18-new-datafile.png)
 
 As a general principle, if an R Markdown script reads data from a given .Rda 
 file, then that .Rmd should not also save changes to that same .Rda file. 
@@ -511,7 +511,7 @@ re-create the data sets, and how all the files are related to one another.)
 Just to complete the illustration, here's a hypothetical later stage of the 
 project: 
 
-![screenshot-more-files](../assets/img/handbook_09_rstudio-19-more-files.png)
+![screenshot-more-files](../img/handbook_09_rstudio-19-more-files.png)
 
 For these later stages (creating the tables and figures), there are no 
 manipulations of the data that need to be recorded, so there's no need to create 
