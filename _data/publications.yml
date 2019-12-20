@@ -3,7 +3,7 @@
 
 - authors: " **Chiong W**, **Haeusermann T**."
   title: "Commentary 1: Researcher integrity and contrasting obligations in interdisciplinary research."
-  details: "J Empir Res Hum Res Ethics. 2019."
+  details: "J Empir Res Hum Res Ethics. 2019; 14(5):487-489.."
   year: 2019
   image: pubs_2019_teamwork.jpg
   pmid: 31779555
@@ -29,7 +29,7 @@
 
 - authors: "Hendriks S, Grady C, Ramos KM, **Chiong W**, Fins JJ, Ford P, Goering S, Greely HT, Hutchison K, Kelly ML, Kim SYH, Klein E, Lisanby SH, Mayberg H, Maslen H, Miller FG, Rommelfanger K, Sheth SA, Wexler A."
   title: "Ethical challenges of risk, informed consent, and posttrial responsibilities in human research with neural devices: A review."
-  details: "JAMA Neurol. 2019."
+  details: "JAMA Neurol. 2019; 76(12):1506-1514."
   year: 2019
   image: pubs_2019_hendriks.png
   pmid: 31621797
@@ -42,7 +42,7 @@
 
 - authors: "Possin KL, Merrilees JJ, Dulaney S, Bonasera SJ, **Chiong W**, Lee KP, Hooper SM, Allen IE, Braley T, Bernstein A, Rosa TD, Harrison K, Begert-Hellings H, Kornak J, Kahn JG, Naasan G, Lanata S, Clark AM, Chodos A, Gearhart R, Ritchie C, Miller BL."
   title: "Effect of collaborative dementia care via telephone and internet on quality of life, caregiver well-being, and health care use: The Care Ecosystem randomized clinical trial."
-  details: "JAMA Intern Med. 2019."
+  details: "JAMA Intern Med. 2019; 179(12):1658-1667."
   year: 2019
   image: pubs_2019_map_resized.jpg
   pmid: 31566651
@@ -53,9 +53,23 @@
   github:
   contentshare:
 
+- authors: "**Quinn CM**, **Borzello M**, **Zahir A**, Kramer JH, **Chiong W**." 
+  title: "COMT Val158Met polymorphism associated with greater susceptibility to framing effects in healthy older adults."
+  details: "biorXiv. 2019. [unreferred preprint]"
+  year: 2019
+  image: pubs_2019_comt_framing.png
+  pmid:
+  pmcid: 
+  doi: 10.1101/790808
+  file: 
+  filetype: 
+  github: 
+  contentshare:
+  biorxiv: https://www.biorxiv.org/content/10.1101/790808v1
+
 - authors: "Butler PM, **Chiong W.**"
   title: "Neurodegenerative disorders of the human frontal lobes."
-  details: "Handb Clin Neurol. 2019."
+  details: "Handb Clin Neurol. 2019;163:391-410."
   year: 2019
   image: pubs_2019_Neurodegen_resized.jpg
   pmid: 31590743
@@ -68,7 +82,7 @@
 
 - authors: "Rosa TD, Possin KL, Bernstein A, Merrilees J, Dulaney S, Matuoka J, Lee KP, **Chiong W**, Bonasera SJ, Harrison KL, Kahn JG."
   title: "Variations in costs of a collaborative care model for dementia."
-  details: "J Am Geriatr Soc. 2019."
+  details: "J Am Geriatr Soc. 2019; 67(12):2628-2633."
   year: 2019
   image: pubs_2019_CostsCollabCare_resized.jpg
   pmid: 31317539
@@ -81,7 +95,7 @@
 
 - authors: "Bernstein A, Harrison KL, Dulaney S, Merrilees J, Bowhay A, **Heunis J**, Choi J, Feuer JE, Clark AM, **Chiong W**, Lee K, Braley TL, Bonasera SJ, Ritchie C, Dohan D, Miller BL, Possin KL."
   title: "The role of care navigators working with people with dementia and their caregivers."
-  details: "J Alzheimers Dis. 2019."
+  details: "J Alzheimers Dis. 2019; 71(1):45-55."
   year: 2019
   image: pubs_2019_Mahnoor_resized.png
   pmid: 31322558
@@ -94,7 +108,7 @@
   
 - authors: "Guterman EL, Allen IE, Josephson SA, Merrilees JJ, Dulaney S, **Chiong W**, Lee K, Bonasera SJ, Miller BL, Possin KL."
   title: "Association between caregiver depression and emergency department use among patients with dementia."
-  details: "JAMA Neurol. 2019. 1820."
+  details: "JAMA Neurol. 2019; 76(10):1166-1173."
   year: 2019
   image: pubs_2019_emergency_resized.jpeg
   pmid: 31282955
@@ -120,7 +134,7 @@
   
 - authors: "Thomas ML, Martin AS, Eyler L, Lee EE, Macagno E, Devereaux M, **Chiong W**, Jeste DV."
   title: "Individual differences in level of wisdom are associated with brain activation during a moral decision‐making task."
-  details: "Brain and Behavior. 2019. e01302."
+  details: "Brain and Behavior. 2019; 9(6):e01302."
   year: 2019
   image: pubs_2019_wisdom_resized.jpg
   pmid: 31044549 
@@ -133,7 +147,7 @@
 
 - authors: "Butler PM, **Chiong W**, Perry DC, Miller ZA, Gennatas ED, Brown JA, Pasquini L, Karydas A, Dokuru D, Coppola G, Sturm VE, Boxer AL, Gorno-Tempini ML, Rosen HJ, Kramer JH, Miller BL, Seeley WW."
   title: "Dopamine receptor D4 (DRD4) polymorphisms with reduced functional potency intensify atrophy in syndrome-specific sites of frontotemporal dementia."
-  details: "NeuroImage: Clinical. 2019. 101822."
+  details: "NeuroImage: Clinical. 2019; 23:101822."
   year: 2019
   image: pubs_2019_dopamine.jpg
   pmid: 31003069
