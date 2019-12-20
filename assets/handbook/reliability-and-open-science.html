@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2019-12-18" />
+<meta name="date" content="2019-12-20" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -135,9 +135,8 @@ the value of science into question (see
 <a href="01-organizing-principles.md">Section 1: Organizing Principles</a>). Lack of
 reproducibility has many sources, which we should understand so as to minimize
 their influence in our work (and also to avoid being misled when reading papers
-by other labs):</p>
-<ol style="list-style-type: decimal">
-<li><strong>Dependence on unreliable methods.</strong> This includes “p-hacking” (abuse of
+by other labs):
+1. <strong>Dependence on unreliable methods.</strong> This includes “p-hacking” (abuse of
 excessive researcher degrees of freedom in study methods)
 “HARKing” (hypothesizing after results are known), and widespread
 misunderstandings of statistical approaches appropriate to exploratory as
@@ -145,9 +144,8 @@ opposed to confirmatory analyses; also, use of underpowered study designs and
 related confusions about the difference between power and positive predictive
 value. For more backfground see Simmons, Nelson &amp; Simonsohn 2011, Button et al
 2013, and Ioannidis 2005 in the Resources-methods-and-reliability folder
-of the R: drive.<br />
-</li>
-<li><strong>Human error.</strong> Every time someone touches or manipulates a dataset, this
+of the R: drive.
+2. <strong>Human error.</strong> Every time someone touches or manipulates a dataset, this
 intoduces the possibility of unintended errors. We expect human beings to make
 errors, so we have to be vigilant about checking our own work and asking other
 members of our team to help check our work. This means that we have to use
@@ -157,9 +155,8 @@ strongly prefer that manipulations be performed in code, rather than manually in
 programs like Excel (see again “Deprecated/discouraged tools” in
 <a href="03-lab-resources-overview.md#deprecateddiscouraged-tools">Section 3: Lab Resources Overview</a>).
 We also always want to preserve and archive our raw, unmanipulated datasets so
-that we can always start over if absolutely necessary.<br />
-</li>
-<li><strong>“Bad” luck.</strong> Suppose that 20 different research teams are investigating
+that we can always start over if absolutely necessary.
+3. <strong>“Bad” luck.</strong> Suppose that 20 different research teams are investigating
 the same false hypothesis. Even if the null hypothesis holds (there is no true
 finding), given a conventional significance value of 0.05 it is likely that one
 of these teams will reach a statistically significant result by chance. Given a
@@ -167,15 +164,13 @@ publishing bias for positive over negative studies (see point 4 below), this
 false finding is likely to be published while the 19 correct, negative studies
 would be ignored. This is often a hollow accomplishment, as labs tend to base
 future studies on previous findings, so publishing a paper based on a false
-chance finding can lead to years of wasted work pursuing scientific dead ends.<br />
-</li>
-<li><strong>Perverse incentives in science.</strong> Researchers face tremendous career
+chance finding can lead to years of wasted work pursuing scientific dead ends.
+4. <strong>Perverse incentives in science.</strong> Researchers face tremendous career
 pressures to publish in order to keep their jobs or secure funding, and
 publishers generally favor positive over negative results and “surprising”
 findings over those that follow more directly from what is already known. All of
 these incentives promote the production and dissemination of false positive
-findings.</li>
-</ol>
+findings.</p>
 <p>Finally, there’s one more sense of “reproducibility” that is important for the
 organization of our lab. As emphasized earlier, most members of the lab only
 stay for 2-3 years, so much of the work you’re doing now will be completed by
@@ -202,7 +197,7 @@ exploratory
 research remains an open question that the scientific community is still working
 out. Still, we should remain careful in our thinking about when our aims are
 exploratory and when they’re hypothesis-driven, and we should not try to pass
-off exploratory work as hypothesis-driven.<br />
+off exploratory work as hypothesis-driven.
 2. <strong>Study pre-registration when feasible; in all cases, pre-planning.</strong> In
 general, if we are conducting a hypothesis-driven study, it makes good sense to
 pre-register our study design. Generally we use the
@@ -213,7 +208,7 @@ Even when we are not pre-registering studies or we are planning purely
 exploratory work, it is generally a useful exercise to think
 in advance about what questions we are interested in, and what would be the best
 approaches to answer these questions, before we start poking around in datasets.
-Hopefully this can help us avoid treating noise in our dataset as signal.<br />
+Hopefully this can help us avoid treating noise in our dataset as signal.
 3. <strong>Documentation.</strong> This is something I struggle with, but is crucially
 important for other members of the lab and also for yourself. It’s natural to
 assume, when you’re totally cognitive engaged in a problem, that it will be very
@@ -223,13 +218,14 @@ problems. It’s really important to use our electronic lab notebooks in the
 private Github repo to document our thought processes. (This will help you in
 the future as well.) This is particularly crucial for recording a paper trail of
 analytic decisions, data cleaning, and other decisions affecting findings (e.g.,
-leaving out outliers and why).<br />
+leaving out outliers and why).
 4. <strong>“Literate programming.”</strong> This refers to a different way of thinking about
 work that we do in code. As expressed by the computer scientist Donald Knuth:</p>
-<pre><code>&gt; &quot;Let us change our traditional attitude to the construction of programs. Instead 
-of imagining that our main task is to instruct a computer what to do, let us 
-concentrate rather on explaining to humans what we want the computer to do.&quot; </code></pre>
-<p>In other words, think of your code (whether in R, Stata, Matlab, or any other
+<pre><code>&gt; &quot;Let us change our traditional attitude to the construction of programs. Instead </code></pre>
+<p>of imagining that our main task is to instruct a computer what to do, let us
+concentrate rather on explaining to humans what we want the computer to do."</p>
+<ul>
+<li>In other words, think of your code (whether in R, Stata, Matlab, or any other
 language) as like an essay intended to communicate to other human beings.
 This should follow the order and logic of human
 thought, and not just the forms imposed by the computer. It is not only
@@ -238,8 +234,10 @@ operations that you intend); it’s also important that people who read
 your scripts (including your future self) can understand the flow of your
 thinking and what each piece of code is intended to do.
 <a href="09-rstudio-analysis-pathway.md">Section 9: RStudio Analysis Pathway</a> provides a
-detailed tutorial to one implementation of literate programming.<br />
-5. <strong>Coming soon: code review.</strong> As above, human error is common and expected.
+detailed tutorial to one implementation of literate programming.</li>
+</ul>
+<ol start="5" style="list-style-type: decimal">
+<li><strong>Coming soon: code review.</strong> As above, human error is common and expected.
 We should all be diligent about checking our own work, but in most cases we also
 need other people to help us find errors that we can’t find ourselves. Software
 developers don’t rely solely on individual programmers to find errors in their
@@ -249,8 +247,8 @@ Github repository, rather than just being distributed across different people’
 desktop computers. In the coming year, I’m hoping to start using collaborative
 tools in Github that facilitate review of our code by other lab members. This is
 another reason why it’s important to write “literate code” that can be readily
-understood by others, and not just a series of computational operations.<br />
-6. <strong>Also coming soon: publishing our code.</strong> Increasingly, it will be an
+understood by others, and not just a series of computational operations.</li>
+<li><strong>Also coming soon: publishing our code.</strong> Increasingly, it will be an
 expectation that when someone publishes a scientific study, that they also
 make their datasets and code publicly accessible so that other scientists can
 check their work. After all, if you’re not confident enough in your code to
@@ -259,7 +257,8 @@ publish findings based on this code? If you’re reading a study but the authors
 are not willing to publish their code, should you believe what they report? We
 will start producing our code in a manner that facilitates such sharing, as
 described further in
-<a href="09-rstudio-analysis-pathway.md">Section 9: RStudio Analysis Pathway</a>.</p>
+<a href="09-rstudio-analysis-pathway.md">Section 9: RStudio Analysis Pathway</a>.</li>
+</ol>
 </div>
 <div id="open-science" class="section level2">
 <h2><span class="header-section-number">8.2</span> Open science</h2>
