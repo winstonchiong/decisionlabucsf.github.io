@@ -1,6 +1,19 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - accepted manuscript" "docx - accepted manuscript"...
 
+- authors: " **Chiong W**, **Haeusermann T."
+  title: "Commentary 1: Researcher Integrity and Contrasting Obligations in Interdisciplinary Research."
+  details: "J Empir Res Hum Res Ethics. 2019."
+  year: 2019
+  image: pubs_2019_teamwork.jpg
+  pmid: 31779555
+  pmcid:
+  doi: 10.1177/1556264619853198a
+  file: 
+  filetype: 
+  github:
+  contentshare:
+
 - authors: "**Beagle AJ**, **Zahir A**, **Borzello M**, Kayser AS, Hsu M, Miller BL, Kramer JH, **Chiong W**."
   title: "Amount and delay insensitivity during intertemporal choice in three neurodegenerative diseases reflects dorsomedial prefrontal atrophy."
   details: "Cortex. 2019."
@@ -11,6 +24,19 @@
   doi: 10.1016/j.cortex.2019.10.009
   file: "Beagle - Amount and delay insensitivity during intertemporal choice.pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
+  github:
+  contentshare:
+
+- authors: "Hendriks S, Grady C, Ramos KM, **Chiong W**, Fins JJ, Ford P, Goering S, Greely HT, Hutchison K, Kelly ML, Kim SYH, Klein E, Lisanby SH, Mayberg H, Maslen H, Miller FG, Rommelfanger K, Sheth SA, Wexler A."
+  title: "Ethical Challenges of Risk, Informed Consent, and Posttrial Responsibilities in Human Research With Neural Devices: A Review."
+  details: "JAMA Neurol. 2019."
+  year: 2019
+  image: pubs_2019_hendriks.png
+  pmid: 31621797
+  pmcid:
+  doi: 10.1001/jamaneurol.2019.3523
+  file: 
+  filetype: 
   github:
   contentshare:
 
