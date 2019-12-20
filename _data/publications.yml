@@ -1,12 +1,12 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - accepted manuscript" "docx - accepted manuscript"...
 
-- authors: "**Beagle AJ**, **Zahir A**, **Borzello M**, Hsu M, Miller BL, Kramer JH, **Chiong W**."
+- authors: "**Beagle AJ**, **Zahir A**, **Borzello M**, Kayser AS, Hsu M, Miller BL, Kramer JH, **Chiong W**."
   title: "Amount and delay insensitivity during intertemporal choice in three neurodegenerative diseases reflects dorsomedial prefrontal atrophy."
   details: "Cortex. 2019."
   year: 2019
   image: pubs_2019_25aIRP.png
-  pmid: 
+  pmid: 31837518
   pmcid:
   doi: 10.1016/j.cortex.2019.10.009
   file: "Beagle - Amount and delay insensitivity during intertemporal choice.pdf"
