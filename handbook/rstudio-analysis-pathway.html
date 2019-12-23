@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 9 RStudio Analysis Pathway | UCSF Decision Lab Handbook</title>
+  <meta name="description" content="Handbook for the UCSF Decision Lab." />
+  <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 9 RStudio Analysis Pathway | UCSF Decision Lab Handbook" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Handbook for the UCSF Decision Lab." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 9 RStudio Analysis Pathway | UCSF Decision Lab Handbook" />
+  
+  <meta name="twitter:description" content="Handbook for the UCSF Decision Lab." />
+  
+
+
+
+<meta name="date" content="2019-12-22" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="reliability-and-open-science.html"/>
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">UCSF Decision Lab Handbook</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Organizing Principles</a></li>
+<li class="chapter" data-level="2" data-path="hours-and-expectations.html"><a href="hours-and-expectations.html"><i class="fa fa-check"></i><b>2</b> Hours and Expectations</a></li>
+<li class="chapter" data-level="3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html"><i class="fa fa-check"></i><b>3</b> Lab Resources Overview</a><ul>
+<li class="chapter" data-level="3.1" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#slack"><i class="fa fa-check"></i><b>3.1</b> <span>Slack</span></a></li>
+<li class="chapter" data-level="3.2" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#lab-website"><i class="fa fa-check"></i><b>3.2</b> <span>Lab website</span></a></li>
+<li class="chapter" data-level="3.3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#private-github-repo"><i class="fa fa-check"></i><b>3.3</b> <span>Private Github repo</span></a></li>
+<li class="chapter" data-level="3.4" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#r-drive-rgroupschiong"><i class="fa fa-check"></i><b>3.4</b> R: drive (R:\groups\chiong)</a></li>
+<li class="chapter" data-level="3.5" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#lava-and-lavaquery"><i class="fa fa-check"></i><b>3.5</b> <span>LAVA and LAVAquery</span></a></li>
+<li class="chapter" data-level="3.6" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#deprecateddiscouraged-tools"><i class="fa fa-check"></i><b>3.6</b> Deprecated/discouraged tools</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="project-management.html"><a href="project-management.html"><i class="fa fa-check"></i><b>4</b> Project Management</a></li>
+<li class="chapter" data-level="5" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html"><i class="fa fa-check"></i><b>5</b> Guidelines for clinical interactions</a></li>
+<li class="chapter" data-level="6" data-path="hiring-and-onboarding.html"><a href="hiring-and-onboarding.html"><i class="fa fa-check"></i><b>6</b> Hiring and Onboarding</a></li>
+<li class="chapter" data-level="7" data-path="authorship.html"><a href="authorship.html"><i class="fa fa-check"></i><b>7</b> Authorship</a><ul>
+<li class="chapter" data-level="7.1" data-path="authorship.html"><a href="authorship.html#why-it-matters-and-what-it-means"><i class="fa fa-check"></i><b>7.1</b> Why it matters, and what it means</a><ul>
+<li class="chapter" data-level="7.1.1" data-path="authorship.html"><a href="authorship.html#authorship-order"><i class="fa fa-check"></i><b>7.1.1</b> Authorship order</a></li>
+<li class="chapter" data-level="7.1.2" data-path="authorship.html"><a href="authorship.html#involvement-of-rcs-and-students"><i class="fa fa-check"></i><b>7.1.2</b> Involvement of RCs and students</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="authorship.html"><a href="authorship.html#tips-for-writing-papers"><i class="fa fa-check"></i><b>7.2</b> Tips for writing papers</a><ul>
+<li class="chapter" data-level="7.2.1" data-path="authorship.html"><a href="authorship.html#choosing-a-journal"><i class="fa fa-check"></i><b>7.2.1</b> Choosing a journal</a></li>
+<li class="chapter" data-level="7.2.2" data-path="authorship.html"><a href="authorship.html#title"><i class="fa fa-check"></i><b>7.2.2</b> Title</a></li>
+<li class="chapter" data-level="7.2.3" data-path="authorship.html"><a href="authorship.html#introduction-present-tense-for-what-is-currently-known"><i class="fa fa-check"></i><b>7.2.3</b> Introduction (<em>present tense</em> for what is currently known)</a></li>
+<li class="chapter" data-level="7.2.4" data-path="authorship.html"><a href="authorship.html#methods-past-tense-for-what-you-did"><i class="fa fa-check"></i><b>7.2.4</b> Methods (<em>past tense</em> for what you did)</a></li>
+<li class="chapter" data-level="7.2.5" data-path="authorship.html"><a href="authorship.html#results-past-tense-for-what-you-found"><i class="fa fa-check"></i><b>7.2.5</b> Results (<em>past tense</em> for what you found)</a></li>
+<li class="chapter" data-level="7.2.6" data-path="authorship.html"><a href="authorship.html#discussion-past-tense-for-talking-about-what-you-found-present-tense-for-what-it-means"><i class="fa fa-check"></i><b>7.2.6</b> Discussion (<em>past tense</em> for talking about what you found, <em>present tense</em> for what it means)</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="authorship.html"><a href="authorship.html#more-about-figures"><i class="fa fa-check"></i><b>7.3</b> More about figures</a><ul>
+<li class="chapter" data-level="7.3.1" data-path="authorship.html"><a href="authorship.html#style-and-design"><i class="fa fa-check"></i><b>7.3.1</b> Style and design</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="authorship.html"><a href="authorship.html#notes-on-posters"><i class="fa fa-check"></i><b>7.4</b> Notes on posters</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html"><i class="fa fa-check"></i><b>8</b> Reliability and Open Science</a><ul>
+<li class="chapter" data-level="8.1" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html#approaches-to-promote-reliability"><i class="fa fa-check"></i><b>8.1</b> Approaches to promote reliability</a></li>
+<li class="chapter" data-level="8.2" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html#open-science"><i class="fa fa-check"></i><b>8.2</b> Open science</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html"><i class="fa fa-check"></i><b>9</b> RStudio Analysis Pathway</a><ul>
+<li class="chapter" data-level="9.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#basic-overview-of-the-pathway"><i class="fa fa-check"></i><b>9.1</b> Basic overview of the pathway</a><ul>
+<li class="chapter" data-level="9.1.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#other-resources"><i class="fa fa-check"></i><b>9.1.1</b> Other resources</a></li>
+</ul></li>
+<li class="chapter" data-level="9.2" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-0-review-software-tools"><i class="fa fa-check"></i><b>9.2</b> Step 0: Review software tools</a><ul>
+<li class="chapter" data-level="9.2.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#r"><i class="fa fa-check"></i><b>9.2.1</b> R</a></li>
+<li class="chapter" data-level="9.2.2" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#rstudio"><i class="fa fa-check"></i><b>9.2.2</b> RStudio</a></li>
+<li class="chapter" data-level="9.2.3" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#github"><i class="fa fa-check"></i><b>9.2.3</b> GitHub</a></li>
+<li class="chapter" data-level="9.2.4" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#sourcetree"><i class="fa fa-check"></i><b>9.2.4</b> SourceTree</a></li>
+</ul></li>
+<li class="chapter" data-level="9.3" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-1-clone-the-decisionlab-repository-to-your-computer"><i class="fa fa-check"></i><b>9.3</b> Step 1: Clone the decisionlab repository to your computer</a></li>
+<li class="chapter" data-level="9.4" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-2-save-the-original-dataset-to-the-r-drive"><i class="fa fa-check"></i><b>9.4</b> Step 2: Save the original dataset to the R: drive</a></li>
+<li class="chapter" data-level="9.5" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-3-clean-the-data-in-rstudio-using-an-rmarkdown-.rmd-and-creating-an-.html-log-creating-a-new-.rda-data-file-on-the-r-drive"><i class="fa fa-check"></i><b>9.5</b> Step 3: Clean the data in RStudio using an RMarkdown (.Rmd) and creating an .html log, creating a new .Rda data file on the R: drive</a></li>
+<li class="chapter" data-level="9.6" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-4-analyze-the-data-using-other-.rmd-files-saved-in-github-generating-more-.html-logs-in-github-and-more-.rda-files-as-necessary-on-the-r-drive"><i class="fa fa-check"></i><b>9.6</b> Step 4: Analyze the data using other .Rmd files (saved in GitHub), generating more .html logs (in GitHub) and more .Rda files as necessary on the R: drive</a><ul>
+<li class="chapter" data-level="9.6.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#some-observations"><i class="fa fa-check"></i><b>9.6.1</b> Some observations</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">UCSF Decision Lab Handbook</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="rstudio-analysis-pathway" class="section level1">
+<h1><span class="header-section-number">Chapter 9</span> RStudio Analysis Pathway</h1>
+<p><em>For lab members using quantitative methods (e.g., neuroscience); not critical
+but potentially of interest for those working in neuroethics/qualitative methods</em></p>
+<p>This analysis pathway represents one example of our preferred approach to
+quantitative code
+and data handling. This pathway has several key aims intended to promote
+reliable scientific practices (see <a href="reliability-and-open-science.html#reliability-and-open-science">Reliability and Open Science</a>):</p>
+<ul>
+<li>Ensure the integrity of the dataset. For this reason, after the dataset has
+been imported from Qualtrics or e-Prime, we never touch the original dataset.
+<strong>No cutting/copying/pasting in Excel!</strong></li>
+<li>Document all the steps that go into a paper or poster. If we exclude a
+subject, recode a variable or create a new variable, etc. we want to be able to
+say exactly what we’ve done.</li>
+<li>Keep the ability to repeat everything easily and accurately. For instance,
+what if…
+<ul>
+<li>You lose or accidentally write over your data files? (If your source data is still in Qualtrics,
+can you get back to where you were before without starting from scratch?)</li>
+<li>You collect more data? For instance, you submit a paper with 50 subjects from a Qualtrics
+instrument and your reviewers ask for a larger sample. So you collect another 50 subjects with the
+Qualtrics instrument. Can you download your new enlarged dataset and re-run your analyses without
+reinventing the wheel?</li>
+</ul></li>
+<li>Utilize <a href="reliability-and-open-science.html#approaches-to-promote-reliability">literate programming</a>
+to explain to other lab members and future reviewers what each step is intended
+to accomplish.</li>
+</ul>
+<div id="basic-overview-of-the-pathway" class="section level2">
+<h2><span class="header-section-number">9.1</span> Basic overview of the pathway</h2>
+<ol start="0" style="list-style-type: decimal">
+<li>Review software tools: R, RStudio, GitHub, SourceTree</li>
+<li>Clone the decisionlab repo to your computer (if you haven’t already)</li>
+<li>Save original dataset to the R: drive</li>
+<li>Clean the data with an RMarkdown (.Rmd) saved in GitHub, creating an
+.html log that is saved to GitHub and a new .Rda data file on the R: drive</li>
+<li>Analyze the data using other .Rmd files (saved in GitHub), generating more
+.html logs (in GitHub) and more .Rda files as necessary on the R: drive</li>
+</ol>
+<div id="other-resources" class="section level3">
+<h3><span class="header-section-number">9.1.1</span> Other resources</h3>
+<p>For more background info, start of course with the lab private repository
+(decisionlab) README.md file. There is an example data cleaning
+file in [AgingCog/analysis/moral-dilemma/moral-dilemma_01_clean-merge-split.Rmd].
+This pathway is based on the use of .do and .log files in Stata; for more info
+on that see the Powerpoint “Lecture 2” in
+R:/groups/chiong/Resources/Biostat_212.</p>
+<p>Also, for file naming, variable naming, and other conventions, we will try to
+follow the Tidyverse Style Guide at <a href="https://style.tidyverse.org/" class="uri">https://style.tidyverse.org/</a>.</p>
+</div>
+</div>
+<div id="step-0-review-software-tools" class="section level2">
+<h2><span class="header-section-number">9.2</span> Step 0: Review software tools</h2>
+<div id="r" class="section level3">
+<h3><span class="header-section-number">9.2.1</span> R</h3>
+<p>R is a free programming language and statistical/graphics environment, similar
+to programs like SAS, SPSS, Stata or Matlab. While R is in many respects harder
+to learn than many of those tools, it’s very useful to know because it’s
+becoming more widely used in a variety of fields. Because it’s free, it’s
+more commonly used in undergraduate teaching, and in resource-constrained
+(e.g. nonprofit or international) environments. Also, because it’s free, use of
+R is most consistent with principles of
+<a href="reliability-and-open-science.html#open-science">open science</a>.
+That is, if you post a dataset and code that requires paid software like Stata
+or Matlab, then only people who already
+own those programs can download and use what you share. Whereas, if you post a
+dataset and code in R, then anyone in the world can download and use what you
+share, because they can also download and use R for free. For these reasons,
+there’s now a very robust and committed user base of people who contribute to
+and improve R, and R now generally equals or exceeds paid software in
+reliability and capabilities. Download and install R from
+<a href="https://www.r-project.org" class="uri">https://www.r-project.org</a>.</p>
+<p>BTW, I haven’t read it all, but a very promising introduction to stats in R and
+RStudio is a free textbook by Russ Poldrack, “Statistical Thinking for the 21st
+Century,” at <a href="http://statsthinking21.org" class="uri">http://statsthinking21.org</a>.</p>
+</div>
+<div id="rstudio" class="section level3">
+<h3><span class="header-section-number">9.2.2</span> RStudio</h3>
+<p>RStudio is an open source interface for R that makes it much more user-friendly,
+and (crucial for our purposes) implements R Markdown, which allows us to create
+.html logs that preserve and communicate details of our analyses. After
+installing R, install RStudio from
+<a href="https://www.rstudio.com/products/rstudio/download/" class="uri">https://www.rstudio.com/products/rstudio/download/</a>.</p>
+<p>Let’s play a little bit with RStudio and R Markdown. (There’s also a useful
+quick tour at <a href="https://rmarkdown.rstudio.com/authoring_quick_tour.html" class="uri">https://rmarkdown.rstudio.com/authoring_quick_tour.html</a> .)
+Open RStudio and go to
+“File &gt; New File &gt; New R Markdown…”. Give the new file a title (“Untitled” is
+fine for now), put in your name, and select HTML as the default output format.
+Now you’ll see an RStudio screen with four windows:</p>
+<p><img src="img/handbook_09_rstudio-01-windows.png" /></p>
+<ul>
+<li><p>The top left window is the source window, used for editing code. Here we’re
+editing an R Markdown (.Rmd) file. (If you’re familiar with Stata, this is like
+the Script Editor.)</p></li>
+<li><p>The bottom left window is the console. This allows you to run quick
+operations that you’re not necessarily planning to save in your code file. You
+can type right next to the <strong>&gt;</strong> character. Type <code>1</code> and press Enter–this will
+return the output <code>[1] 1</code>. Now type <code>4+3</code> and press Enter–this should return
+the output <code>[1] 7</code>.</p></li>
+<li><p>The upper right window shows your workspace. (It can also be used to review the
+history of commands.) A nice thing about R is that you
+can use and manipulate many objects in your workspace (datasets, variables,
+etc.) at the same time. Back in the console, type <code>a &lt;- 4+3</code> and press Enter.
+(“<code>&lt;-</code>” is the assignment operator in R.)
+Now in the upper right window you should see <code>a</code> and its value, 7. You can now
+perform operations with this variable: in the console, type <code>sqrt(a)</code> and press
+Enter. Or, you can store these outputs in new variables: type <code>b &lt;- sqrt(a)</code> and
+press Enter.</p></li>
+<li><p>Finally, the bottom right window shows you the file structure, graphical
+output, available packages, and help documents.</p></li>
+</ul>
+<p>Look more closely at the source window at top left. If you look at the top,
+you may recognize this as an ordinary YAML header, similar to those we use
+to post news on our lab website. If you scroll through the starter R Markdown
+file provided, you’ll notice that some sections of the file have a white
+background, alternating with sections that have a grey background and are
+preceded and followed by 3 “backticks” that look like this: <code>```</code>. This is
+an implementation of [literate programming][Approaches-to-promote-reliability]:
+the sections in white are ordinary Markdown, which is used to explain one’s
+reasoning to the reader, and the sections in grey are “code chunks” that contain
+instructions for the computer. (The first line of a code chunk will have 3 backticks and then curly brackets enclosing <code>r</code> indicating that the code is in
+R language, then optionally a name for the code chunk, then optionally a comma
+followed by special parameters for the code chunk.)</p>
+<p>To make RStudio use your code, you have two options: <strong>run</strong> and <strong>knit</strong>. Often
+when you’re working on your code you’ll use <strong>run</strong>. To explore options, pull
+down the menu for “Run” at the top of the source window:</p>
+<p><img src="img/handbook_09_rstudio-02-run-menu.png" /></p>
+<p>Now click inside the source window and navigate so that your cursor is inside of
+the second code chunk (named “cars”)–that is, on on lines 18-20. Pull down on
+“Run” and select Run Current Chunk&quot;.</p>
+<p><img src="img/handbook_09_rstudio-03-run-curr-chunk.png" /></p>
+<p>Look in the console window at bottom left–there you’ll see that RStudio behaves
+as if you had typed <code>summary(cars)</code> into the console, and displays the output.
+In the source window at top left, the chunk output is also displayed immediately
+below the code chunk, inserted between lines 20 and 21. You can click on <code>︽</code> to
+collapse this output, or on <code>x</code> to clear it. You can try the same with graphics:
+click inside the third code chunk named “pressure,” on lines 26-28, and select
+“Run Current Chunk” again. This should display a plot in the source window.</p>
+<p>When your code is complete and ready to be officially run and timestamped, you
+will use <strong>knit</strong> to create the .html log of your code. Select “Knit” from the
+menu above the source window (to the right of the “Run” menu). This will open a
+dialog box asking you where to save the files you’re creating–for this one,
+<strong>don’t save to the repository</strong> (this is a test, other people don’t need
+these files). Just pick somewhere else on your hard drive and give a temporary
+name. Now you’ll see a nicely-formatted .html file with your formatted Markdown
+and the outputs of your R code.</p>
+<p>Okay, one more quick tweak. We will try to keep the line length of our code less
+than 80 characters. Go to “Tools &gt; Global Options… &gt; Code &gt; Display” and check
+the box for “Show margin” with “margin column” set to 80. This will draw a
+reminder line. When your code lines overrun the 80 character limit, break them
+up into multiple lines and use spaces to align them.</p>
+</div>
+<div id="github" class="section level3">
+<h3><span class="header-section-number">9.2.3</span> GitHub</h3>
+<p>Some of the uses of GitHub in our lab have been explained already in the
+<a href="https://github.com/DecisionLabUCSF/decisionlabucsf.github.io">decisionlabucsf website README</a>,
+the private <a href="https://github.com/UCSFMemoryAndAging/decisionlab">decisionlab repo README</a>,
+and in this handbook
+Chapter 3: <a href="lab-resources-overview.html#lab-resources-overview">Lab Resources Overview</a>. Like Google Docs, GitHub
+allows multiple people to work collaboratively on the same piece of code,
+keeping track of who made what changes and when, making it easy to reverse
+changes that have been made, and allowing different versions to be developed at
+the same time.</p>
+</div>
+<div id="sourcetree" class="section level3">
+<h3><span class="header-section-number">9.2.4</span> SourceTree</h3>
+<p>Up until now, you might have used GitHub directly thouugh the GitHub website
+at www.github.com –e.g., to update your lab profile or to update one of the lab
+notebooks. While this is fine for editing Markdown and YAML files, now we want
+to use our private GitHub repository to store scripts and code for use in
+RStudio. (Also for other packages like
+Matlab, Stata, etc.) RStudio can’t read files from the www.github.com website
+directly, so we’re going to use SourceTree to sync our repository to a local
+folder on your computer. Go to
+<a href="https://confluence.atlassian.com/get-started-with-sourcetree/install-sourcetree-847359094.html" class="uri">https://confluence.atlassian.com/get-started-with-sourcetree/install-sourcetree-847359094.html</a>
+and follow the instructions to insteall SourceTree on your computer. (It now
+appears that you need to create a “BitBucket Cloud account” to set up
+SourceTree, which you can do and then ignore the BitBucket account.) When
+SourceTree is installed, connect it to your GitHub account using your GitHub
+username and password.</p>
+<p>We’ll discuss using SourceTree in more detail in Step 1. One quick note here: we
+do want to be really careful with <strong>pulling</strong> (which will rewrite the contents
+of your local folder to match the GitHub repository) and <strong>pushing</strong> (which will
+rewrite the contents of the GitHub repository to match your local folder). So
+please pay attention to what SourceTree is doing here: if you’re trying to push
+changes to just one file but you notice that SourceTree is planning to make
+changes to a hundred files, slow down–that might be a sign that something has
+gone wrong. If you’re not sure what is happening, feel free to send me a
+question in Slack!</p>
+</div>
+</div>
+<div id="step-1-clone-the-decisionlab-repository-to-your-computer" class="section level2">
+<h2><span class="header-section-number">9.3</span> Step 1: Clone the decisionlab repository to your computer</h2>
+<p>In this pathway, we want RStudio to deal with files in two different places.
+The data files all stay on the R: drive, but the .Rmd and .html files go in
+GitHub. I’m assuming you already have the
+<a href="lab-resources-overview.html#r-drive-rgroupschiong">R: drive mounted</a>, so now
+let’s use SourceTree to get a copy of the repository on your computer. When you
+create this copy, this is called “cloning” a remote repository.</p>
+<p>Create a new local folder on your computer. To keep our scripts consistent, call this
+“decisionlab” and put it in your user directory. That is, if you’re using a
+PC this new folder should be <code>C:\Users\[YOURNAME]\decisionlab</code> (where <code>[YOURNAME]</code>
+is your username on the computer), and if you’re using a Mac this new folder
+should be <code>Users/[YOURNAME]/decisionlab</code>. Now obtain the URL for cloning the
+repository from the GitHub website (remember, you want the private “decisionlab”
+repo here, not the public “decisionlabucsf” repo that we use for the website)
+by finding the green button for “Clone or download” and copying the URL for the
+repository:</p>
+<p><img src="img/handbook_09_rstudio-04-clone.png" /></p>
+<p>Now open SourceTree, and go to File &gt; Clone/New… This will open a window as
+seen below. For “Source Path/URL:” paste in the URL from GitHub for cloning. For
+“Destination Path:” give the address of the local folder you’ve just created.
+When ready, press “Clone.”</p>
+<p><img src="img/handbook_09_rstudio-05-sourcetree.png" /></p>
+<p>Now you’ll have a local copy of the repository on your computer, and everyone
+else in lab will have a local copy of the repository on their computers.
+(Another reason why we don’t want to put huge files in the repository–they will
+clog up everyone’s hard drives and make syncing really slow for everyone.
+So keep the files light, no Word or Powerpoint files or datasets.) From now on,
+when you want to work with the files in the repository, you will:</p>
+<ol style="list-style-type: decimal">
+<li>Start SourceTree</li>
+<li><strong>Pull</strong>: get the most recent version of the files on your computer
+(otherwise if someone else has been editing the file since the last time you
+synced your local repo to the remote shared repo, you’re going to create a
+conflict)</li>
+<li>Do your work in RStudio, and save updated or new local copies of the files to
+your local repo folder</li>
+<li><strong>Commit</strong>: prepare any changed files in your local repository (e.g.,
+<code>C:\Users\[YOURNAME]\decisionlab</code>) to go in the shared repository, including a
+quick description of what you’ve done (“staging”)</li>
+<li><strong>Pull</strong>: check again that you’re totally up to date with the online files
+(e.g., in case other people have also been working on them without your
+knowledge)</li>
+<li><strong>Push</strong>: update the shared remote repository to include the new changes
+you’ve made, so now
+everything in local repository and the online repository should match again</li>
+</ol>
+<p>To help you remember, when you look at the top of SourceTree, you’ll see the
+last 3 operations in order: <strong>Commit-Pull-Push</strong>. This is what you always do
+when saving your work to GitHub:</p>
+<p><img src="img/handbook_09_rstudio-06-commit-pull-push.png" /></p>
+<p>Now that you’ve set up your local repo, let’s take a look at it and the R:
+drive. Let’s suppose you’ve just collected data for a new task we’ll just call
+“blah.” Right now, because this is the first time you’ll be looking at the data,
+you make a new folder for your data on the R: drive and create a new
+folder for “blah” inside your local GitHub repo:</p>
+<p><img src="img/handbook_09_rstudio-07-empty-folders.png" /></p>
+</div>
+<div id="step-2-save-the-original-dataset-to-the-r-drive" class="section level2">
+<h2><span class="header-section-number">9.4</span> Step 2: Save the original dataset to the R: drive</h2>
+<p>Most of our data will be collected in e-Prime or in Qualtrics. Save the file,
+e.g. directly from Qualtrics, in your new folder on the R: drive. Usually this
+will either be in CSV or Excel format. (Qualtrics will export the CSV file using
+its own ugly naming convention, which you don’t need to change.)</p>
+<p><img src="img/handbook_09_rstudio-08-orig-dataset.png" /></p>
+<p>From now on we <strong>only read</strong> this data file. We don’t save any changes to it. If
+we ever had to re-download the data file from Qualtrics to the R: drive again
+(e.g., if there was some crash or a data loss), we could reproduce every step in
+the analysis again, regardless of what we do from this point forward.</p>
+</div>
+<div id="step-3-clean-the-data-in-rstudio-using-an-rmarkdown-.rmd-and-creating-an-.html-log-creating-a-new-.rda-data-file-on-the-r-drive" class="section level2">
+<h2><span class="header-section-number">9.5</span> Step 3: Clean the data in RStudio using an RMarkdown (.Rmd) and creating an .html log, creating a new .Rda data file on the R: drive</h2>
+<p>Because we’re not going to save future changes to this CSV file, we’re going to
+use R code in an .Rmd file to create a clean data file in R format (.Rda). When
+this is complete, knitting this .Rmd file will run all of the embedded R code
+(so, rewriting the .Rda file if you have preliminary versions you created while
+editing the code) and create documentation in the form of an .html log. The .Rmd
+and .html files go in your local copy of the repository (to be pushed to GitHub
+by SourceTree), and the .Rda file goes on the R: drive. (This is a little
+contrary to how RStudio likes to work, which is having the code and data files
+in the same directory, but is necessary for us to preserve the confidentiality
+of our participant data.)</p>
+<p>As an example of a data cleaning file, see
+<a href="https://github.com/UCSFMemoryAndAging/decisionlab/blob/master/AgingCog/analysis/moral-dilemma/moral-dilemma_01_clean-merge-split.Rmd">AgingCog/analysis/moral-dilemma/moral-dilemma_01_clean-merge-split.Rmd</a>.
+At the top you’ll see two code chunks called “timestamp” and “setup,” a version
+of which we
+probably need in every R Markdown file that we run for the lab. When you create
+your own .Rmd file you’ll use “timestamp” to run the R command <code>Sys.time()</code> to
+note when the file is knit and write this
+into the .html log. When you create your own .Rmd file, you’ll use “setup”
+to tell RStudio which folders we want to use for the “repofolder” (the folder
+in the GitHub repository where we’re putting
+our .Rmd and .html files) and “datafolder” (the folder on the R: drive where the
+.csv and .RDa files will go). You’ll need to check these values twice, because
+we want the code to run regardless of whether someone else is doing this on a
+Windows machine or a Mac; the Windows code also includes a workaround to account
+for the fact that people have different usernames. This also includes an address
+for “rdrivepath” in case we want to reference other things on the R: drive–this
+points to different paths on Windows and Mac machines. Finally, the “setup”
+chunk will be used to load any special libraries that RStudio needs to run the
+code. For our hypothetical example for task “blah”:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="st">```</span><span class="dt">{r setup}</span></a>
+<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="dt">if (Sys.info()[&quot;sysname&quot;] == &quot;Windows&quot;){</span></a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"><span class="dt">  repofolder &lt;- paste(&quot;C:/Users/&quot;, Sys.getenv(&quot;USERNAME&quot;), &quot;/decisionlab/blah/analysis/&quot;, </span></a>
+<a class="sourceLine" id="cb1-4" data-line-number="4"><span class="dt">                      sep = &quot;&quot;)</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"><span class="dt">  datafolder &lt;- &quot;R:/groups/chiong/blahblah/blah/&quot;</span></a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"><span class="dt">  rdrivepath &lt;- &quot;R:/&quot;</span></a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"><span class="dt">} else if (Sys.info()[&quot;sysname&quot;] == &quot;Darwin&quot;){ # not sure why MacOS is &quot;Darwin&quot; but it is...</span></a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"><span class="dt">  repofolder &lt;- &quot;~/decisionlab/blah/analysis/&quot;</span></a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"><span class="dt">  datafolder &lt;- &quot;/Volumes/macdata/groups/chiong/blahblah/blah/&quot;</span></a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"><span class="dt">  rdrivepath &lt;- &quot;/Volumes/macdata/&quot;</span></a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"><span class="dt">} # probably good to add another condition for Unix, later on...</span></a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"></a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"><span class="dt">library(readr)</span></a>
+<a class="sourceLine" id="cb1-14" data-line-number="14"><span class="dt">library(readxl)</span></a>
+<a class="sourceLine" id="cb1-15" data-line-number="15"><span class="dt">knitr::opts_chunk$set(echo = TRUE)</span></a>
+<a class="sourceLine" id="cb1-16" data-line-number="16"><span class="dt">knitr::opts_knit$set(root.dir = datafolder)</span></a>
+<a class="sourceLine" id="cb1-17" data-line-number="17"><span class="st">```</span></a></code></pre></div>
+<p>Before we get too far along, let’s save the .Rmd file. Again, this goes within
+the decisionlab repo local folder on your computer, which you created in Step 1.
+(From where it can then be pushed to the lab GitHub repo.)
+Now you’ll have two files: your original data file on the R: drive, and the
+.Rmd file that you’re currently working on in your local repo:</p>
+<p><img src="img/handbook_09_rstudio-09-cleaning-rmd.png" /></p>
+<p>Note that, since you haven’t actually knit this file yet, you haven’t
+created an .html file. Select “Knit” from the top of the source window. You’ll
+see some output run by in an “R Markdown” tab of the console window, and then
+R will display an .html file based upon your R Markdown file, displaying the two
+code blocks we have so far:</p>
+<p><img src="img/handbook_09_rstudio-10-html.png" /></p>
+<p>Note the white box in which it displays the output from <code>Sys.time()</code>–this is a
+timestamp of exactly when the .html was knit from the .Rmd file. This .html file
+will also show up in your local repo subfolder, preserving a log of what you’ve
+done:</p>
+<p><img src="img/handbook_09_rstudio-11-cleaning-html.png" /></p>
+<p>Okay, let’s keep working on your .Rmd file. Again, see the example file for
+moral-dilemma in AgingCog for an example. In general, what you’ll do is test out
+code in the console and check that the code does what you want it to do (e.g.,
+by reviewing the variables and datasets created in the environment), and then
+copy the working code that you want to keep into code chunks into your .Rmd file
+in the source window.</p>
+<p>But there’s one finicky thing about directories. In general, R always executes
+commands relative to a “working directory”–that’s the folder where it’s reading
+and writing files. When R Markdown <strong>knits</strong> your html file, the code above
+includes <code>knitr::opts_knit$set(root.dir = datafolder)</code>–this tells it to
+use “datafolder” as the default directory for reading and writing files. But
+when you’re working interactively in the console and using <strong>run</strong> to test your
+code chunks, it doesn’t see that code and know to look in “datafolder.” So,
+you’ll need to do 3 things:</p>
+<ol style="list-style-type: decimal">
+<li>Run your “setup” code chunk by clicking in the source window at upper left,
+navigating to place your cursor somewhere inside the setup chunk, and selecting
+“Run Current Chunk.” In your
+workspace at upper right, this should create values for “datafolder,”
+“rdrivepath,” and “repofolder” with Windows locations if you’re in Windows and
+with Mac locations if you’re working on a Mac.</li>
+<li>In the console window at bottom left, type <code>setwd(datafolder)</code> and press
+Enter. This will change your current working directory to “datafolder” to match
+your R Markdown script.</li>
+<li>Just to check that you’ve done this correctly, in the panel at bottom right
+select “More &gt; Go To Working Directory.” This should show you the datafolder
+that you’ve specified.</li>
+</ol>
+<p><img src="img/handbook_09_rstudio-12-setw.png" /></p>
+<p>The next step is to import the Qualtrics data into RStudio so that you can start
+cleaning the dataset. Here, you’ll use the GUI in RStudio to perform some
+operations, for which the corresponding code will show up in the console window.
+Now the panel at bottom right should show your datafolder, which includes the
+CSV file that you imported from Qualtrics. Click on this file and select
+“Import Dataset…”</p>
+<p><img src="img/handbook_09_rstudio-13-import-dataset.png" /></p>
+<p>This will open a new window with options for importing this dataset, and a handy
+preview of what the dataset will look like with those options once imported.
+More importantly, on the bottom right is a “Code Preview” window–this shows you
+what you would need to write in R code in order to perform the same operation.
+Also, there’s a clipboard icon that will copy out this code for you to use:</p>
+<p><img src="img/handbook_09_rstudio-14-import-text-data.png" /></p>
+<p>Change the “Name” to something more reasonable, like “blah_qualtrics_df.” You
+will notice (you might need to click out of the text field, so that it updates)
+that the code in the “Code Preview” window changes accordingly. Also, uncheck
+the option for “Open Data Viewer.”</p>
+<p>You could now just click “Import” to import the dataset through the GUI.
+However, for our purposes we’re mainly interested in generating the code that
+will import the data, rather than just importing the data. So click on
+the clipboard icon to copy the code, and then click “Cancel” to exit this
+window.</p>
+<p>Now you can paste this code into the console window to make sure that the code
+works as intended. Press Enter, and you should see the dataframe
+“blah_qualtrics_df” in your workspace:</p>
+<p><img src="img/handbook_09_rstudio-15-imported.png" /></p>
+<p>If you like the code and want to keep it, paste it into the R Markdown file.
+Below the “setup” code chunk, start a new section with a header such as
+“Data cleaning.” After this you can write a description of what the next code
+chunk is supposed to do, and you can create a new code chunk–call it
+“file-import”:</p>
+<p><img src="img/handbook_09_rstudio-16-import-code-block.png" /></p>
+<p>There will be a lot of other cleaning to do before the data can be analyzed. For
+instance, when Qualtrics exports CSV files the first three rows are different
+versions of the header (info about the columns), but R will assume that the
+first row is the column name and rows 2 and 3 are your first two observations.
+So you’ll need to extract the column info you want, and then drop the first two
+rows because they’re not observations. You’ll also want to convert any date
+strings in the dataframe to proper R dates. So soon this part of your R Markdown
+file will look like this:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="co">## Data cleaning</span></a>
+<a class="sourceLine" id="cb2-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb2-3" data-line-number="3">First, load data from .csv file. Then drop first two rows from Qualtrics, and </a>
+<a class="sourceLine" id="cb2-4" data-line-number="4">convert Qualtrics datstrings to R dates. </a>
+<a class="sourceLine" id="cb2-5" data-line-number="5"></a>
+<a class="sourceLine" id="cb2-6" data-line-number="6"><span class="st">```</span><span class="dt">{r file-import}</span></a>
+<a class="sourceLine" id="cb2-7" data-line-number="7"><span class="dt">library(readr)</span></a>
+<a class="sourceLine" id="cb2-8" data-line-number="8"><span class="dt">blah_qualtrics_df &lt;- read_csv(&quot;ugly_Qualtrics_filename_Date_Time.csv&quot;)</span></a>
+<a class="sourceLine" id="cb2-9" data-line-number="9"></a>
+<a class="sourceLine" id="cb2-10" data-line-number="10"><span class="dt">blah_qualtrics_df &lt;- blah_qualtrics_df[-c(1,2),]</span></a>
+<a class="sourceLine" id="cb2-11" data-line-number="11"><span class="dt">blah_qualtrics_df$StartDate &lt;- as.POSIXct(blah_qualtrics_df$StartDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
+<a class="sourceLine" id="cb2-12" data-line-number="12"><span class="dt">blah_qualtrics_df$EndDate &lt;- as.POSIXct(blah_qualtrics_df$EndDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
+<a class="sourceLine" id="cb2-13" data-line-number="13"><span class="dt">blah_qualtrics_df$RecordedDate &lt;- as.POSIXct(blah_qualtrics_df$RecordedDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
+<a class="sourceLine" id="cb2-14" data-line-number="14"></a>
+<a class="sourceLine" id="cb2-15" data-line-number="15"><span class="st">```</span></a></code></pre></div>
+<p>You may also need to drop other observations (e.g., patients we collected data
+on who don’t have the diagnoses of interest, subjects who failed control
+conditions… though it might be better to create a new variable named something
+like “badobs” with 1s and 0s, which you can just use to exclude subjects from
+your analysis later on rather than delete entirely), recode variables, create
+new variables, etc. You probably won’t finish the code for data cleaning all in
+one sitting!</p>
+<p>When you’re done working for now, to save the work you’ve done so far you need
+to save your .Rmd file to the local repository folder. Then, to put this file
+(and your .html file if you’ve <strong>knit</strong> it) on the online shared repo, go back
+to SourceTree and <strong>commit</strong>-<strong>pull</strong>-<strong>push</strong>.</p>
+<p>When it’s time to come back and work on the files, <strong>pull</strong> using SourceTree to
+make sure that you have the most recent version of the files on your local
+machine, and then open the .Rmd file again in RStudio. When you’re done with the
+cleaning code, your .Rmd file needs to tell RStudio to create a new .Rda
+file that incorporates all of your changes, in the R: drive:</p>
+<pre><code>## Save dataset in R format
+
+```{r save-rda}
+save(blah_qualtrics_df, file=&quot;blah_clean_qualtrics_df.Rda&quot;)
+```</code></pre>
+<p>Now when you knit the .Rmd file, it will create a new .Rda file on the R: drive,
+and will also re-write the .html file to your local repository in your user
+folder. (This is good, now you also have a timestamp of when the .Rda file on
+the R: drive was most recently created.)</p>
+<p><img src="img/handbook_09_rstudio-17-clean-datafile.png" /></p>
+<p>Don’t forget to save your completed .Rmd file, and <strong>commit-pull-push</strong> to get
+your updated .Rmd and .html files on to the shared GitHub repository.</p>
+</div>
+<div id="step-4-analyze-the-data-using-other-.rmd-files-saved-in-github-generating-more-.html-logs-in-github-and-more-.rda-files-as-necessary-on-the-r-drive" class="section level2">
+<h2><span class="header-section-number">9.6</span> Step 4: Analyze the data using other .Rmd files (saved in GitHub), generating more .html logs (in GitHub) and more .Rda files as necessary on the R: drive</h2>
+<p>Again, once you’ve created a clean dataset, you won’t touch the original .csv or
+Excel data file in the R: drive anymore. Instead, you’ll create some new .Rmd
+files in your local GitHub repository that read the data from the clean dataset.
+We always want to be able to retrace our steps, so if these new .Rmd files
+include manipulations of the data that we want to keep (like parameter estimates
+from a regression), then we save these in a new .Rda file on the R: drive. For
+instance:</p>
+<p><img src="img/handbook_09_rstudio-18-new-datafile.png" /></p>
+<p>As a general principle, if an R Markdown script reads data from a given .Rda
+file, then that .Rmd should not also save changes to that same .Rda file.
+Instead, if there are any manipulations made to the data that need to be saved,
+then these should be saved in a new .Rda file. (In other words, if we’re drawing
+a map with arrows like the one above, showing the dependencies between .Rda and
+.Rmd files, there should be no “closed loops”–the flow between any two files
+should always be in only one direction.) Otherwise, we may not be able to
+retrace our steps if we need to reconstruct any of these files. (At this point,
+it might also be helpful to create a README.md file in the local GitHub
+repository, explaining what order the R Markdown scritps should be knit in to
+re-create the data sets, and how all the files are related to one another.)</p>
+<p>Just to complete the illustration, here’s a hypothetical later stage of the
+project:</p>
+<p><img src="img/handbook_09_rstudio-19-more-files.png" /></p>
+<p>For these later stages (creating the tables and figures), there are no
+manipulations of the data that need to be recorded, so there’s no need to create
+more .Rda files. In the first stage (in purple), we read out the original .Rda
+file to make some tables. The table output gets written in the .html file, and
+we don’t need to create new files on the R: drive. In the second stage (in
+orange), we use some of the created variables from our analysis (e.g.,
+parameters from a regression) to make a figure. This .Rmd file generates its own
+.html file, and we save a <strong>vector</strong> image (see again
+<a href="authorship.html#more-about-figures">More about figures</a> in Chapter 7 on
+Authorship) of the figure in the R: drive (to avoid cluttering the GitHub repo).</p>
+<div id="some-observations" class="section level3">
+<h3><span class="header-section-number">9.6.1</span> Some observations</h3>
+<p>Note now that:</p>
+<ul>
+<li>All datasets with PHI and identifiers (names, demographics, etc.) stay on the
+R: drive. All big files, including datasets and graphic files, stay on the R:
+drive.</li>
+<li>Worst case scenario: you accidentally overwrite files on the R: drive, or even
+the R: drive gets wiped out. You can still recover every step of your analysis.
+The original data file csv can be downloaded again from Qualtrics. GitHub keeps
+timestamped versions of every file in the online repository. All the information
+you need to reconstruct the .Rda and graphics files on the R: drive are
+contained in the .Rmd files in the GitHub repository.</li>
+<li>What if you collect more subjects, e.g. if journal reviewers ask for a larger
+sample? Download the new, csv export file from Qualtrics. Edit and rename the
+data cleaning .Rmd file that you made before, and inside this new .Rmd file
+create new filenames for the .html and .Rda files that are created. Now you can
+reliably reproduce all of the steps you used before on your new, expanded
+dataset.</li>
+</ul>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="reliability-and-open-science.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": null,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": null,
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+},
+"search": true
+});
+});
+</script>
+
+</body>
+
+</html>
