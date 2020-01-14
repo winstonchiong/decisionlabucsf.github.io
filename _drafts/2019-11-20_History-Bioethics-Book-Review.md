@@ -1,12 +1,12 @@
 ---
 title: Remembering and forgetting in bioethics
-presenters: Toby Hauesermann and Celeste Fong
+presenters: Toby Haeusermann and Celeste Fong
 layout: post
 group: pastsem
 date: 2019-11-20
 ---
 
-Today’s seminar was led by Toby Hauesermann and Celeste Fong, discussing a recent review they wrote with fellow Decision Lab member, 
+Today’s seminar was led by Toby Haeusermann and Celeste Fong, discussing a recent review they wrote with fellow Decision Lab member, 
 Cailin Lechner, on the book The Origins of Bioethics: Remembering When Medicine Went Wrong by John A. Lynch. They presented an overview 
 of the three case studies included in the book (the Tuskegee Syphilis Study, the Willowbrook Hepatitus Study, and the Cincinnati Whole 
 Body Radiation Study), followed by a summary of how, and why, the author depicted public remembrance of the events as either minimal 
