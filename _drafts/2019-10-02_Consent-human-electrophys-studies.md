@@ -7,8 +7,8 @@ date: 2019-10-02
 ---
 
 During today’s seminar, Cailin Lechner presented on a collaborative project investigating consent in human intracranial electrophysiology 
-studies. Regulations and policies often attempt to provide recommendations on 
-how to consent, yet fail to provide guidelines on which members of the study team could best obtain consent. This process can be further convoluted in studies involving human intracranial electrophysiology research because they require patients, who often have impaired decision-making capacity from neurological disease, to consent to technically complex and high-risk neurosurgeries for primarily investigative, non-therapeutic purposes. This means someone with a high degree of expertise, typically a clinician involved in the study, is the one obtaining consent. However, papers by
+studies. Regulations and policies attempt to provide recommendations on 
+how to consent, yet fail to provide guidelines on which members of the study team could best obtain consent. This can be further convoluted in studies involving human intracranial electrophysiology research because they require patients, who often have impaired decision-making capacity from neurological disease, to consent to technically complex and high-risk neurosurgeries for primarily investigative, non-therapeutic purposes. This means someone with a high degree of expertise, typically a clinician involved in the study, is the one obtaining consent. However, papers by
 [Morain et al.]( https://www.tandfonline.com/doi/full/10.1080/15265161.2019.1572811) {:target="_blank"} and 
 [Da Silva et al.]( https://www.tandfonline.com/doi/full/10.1080/15265161.2019.1572817) {:target="_blank"} have considered the ethical implications that this dual-role can have on the consent process such that a clinician-investigator's dual-role could lead to therapeutic misconception, conflicts of interest, or compromised voluntariness.
 
