@@ -7,16 +7,13 @@ date: 2019-10-02
 ---
 
 During today’s seminar, Cailin Lechner presented on a collaborative project investigating consent in human intracranial electrophysiology 
-studies. Generally, there is a regulatory gap in consent guidelines, where regulations and policies often attempt to provide recommendations on 
-how to consent, yet fail to provide guidelines on which members of the study team could best obtain consent. This process can be further 
-convoluted in studies involving human intracranial electrophysiology research because they require patients, who often have impaired 
-decision-making capacity as a result of neurological disease, to consent to technically complex and high-risk neurosurgeries for primarily 
-investigative, non-therapeutic purposes. In these studies, consent often involves someone with a high degree of expertise, often a neurosurgeon or clinician involved in the study. However, papers by
+studies. Regulations and policies often attempt to provide recommendations on 
+how to consent, yet fail to provide guidelines on which members of the study team could best obtain consent. This process can be further convoluted in studies involving human intracranial electrophysiology research because they require patients, who often have impaired decision-making capacity from neurological disease, to consent to technically complex and high-risk neurosurgeries for primarily investigative, non-therapeutic purposes. This means someone with a high degree of expertise, typically a clinician involved in the study, is the one obtaining consent. However, papers by
 [Morain et al.]( https://www.tandfonline.com/doi/full/10.1080/15265161.2019.1572811) {:target="_blank"} and 
 [Da Silva et al.]( https://www.tandfonline.com/doi/full/10.1080/15265161.2019.1572817) {:target="_blank"} have considered the ethical implications that this dual-role can have on the consent process such that a clinician-investigator's dual-role could lead to therapeutic misconception, conflicts of interest, or compromised voluntariness.
 
 Cailin’s project involved interviewing 26 investigators from various human intracranial electrophysiology studies using semi-structured
-interviews. The results found that most studies employed a hybrid approach to consent,
+interviews. Most studies included employed a hybrid approach,
 where more than one team member was involved in the consenting of potential participants. In these instances, a surgeon or principle 
 investigator would be responsible for detailing the complexity of the surgery, while a second team member, usually a research coordinator,
 would collect the consent. While there were different responses as to which team members or combination of team members ought to obtain 
