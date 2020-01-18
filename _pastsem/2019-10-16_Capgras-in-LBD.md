@@ -1,17 +1,17 @@
 ---
-title: Capgras in Lewy Body Dementia
+title: Capgras syndrome in Lewy Body Dementia
 presenters: Sarah Dulaney and Jennifer Merrilees
 layout: post
 group: pastsem
 date: 2019-10-16
 ---
 
-Sarah Dulaney and Jennifer Merrilees led another seminar on ethical concerns in the care and management of people with Capgras. 
-Capgras syndrome is common, though not exclusive, to patients with Lewy Body Dementia. It can lead people to believe that those close
+Sarah Dulaney and Jennifer Merrilees led another seminar on ethical concerns in the care and management of people with Capgras 
+syndrome which is common in, though not exclusive to, patients with Lewy Body Dementia. It can lead people to believe that those close
 to them have been replaced by imposters, or render them unable to recognize themselves, or their surroundings, pets, plants, etc. Drawing 
-from conclusions in Meeri Kim’s [article]( https://www.washingtonpost.com/national/health-science/this-strange-syndrome-causes-people-to-think-their-loved-ones-have-been-replaced-by-identical-impostors/2018/04/06/0091f168-1be6-11e8-9de1-147dd2df3829_story.html){:target="_blank"} 
+from conclusions in Meeri Kim’s [article](https://www.washingtonpost.com/national/health-science/this-strange-syndrome-causes-people-to-think-their-loved-ones-have-been-replaced-by-identical-impostors/2018/04/06/0091f168-1be6-11e8-9de1-147dd2df3829_story.html){:target="_blank"} 
 (The Washington Post, 2018) and Thaipisutikul et al.’s [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4004517/pdf/nihms-574645.pdf){:target="_blank"} 
-(International Psychogeriatrics, 2013), ethical concerns present in cases of Capgras acknowledge the effects of caregiver burden and the 
+(International Psychogeriatrics, 2013), ethical concerns present in cases of Capgras reflect the effects of caregiver burden and the 
 high rates of visual hallucinations and symptoms of anxiety in patients, which can lead to experiences of guilt or conflicts in value 
 systems for behaving in certain ways as a result of being unable to remember loved ones. 
 
