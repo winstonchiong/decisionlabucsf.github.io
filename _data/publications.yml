@@ -1,6 +1,19 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - accepted manuscript" "docx - accepted manuscript"...
 
+- authors: "**Haeusermann T**, **Fong C**, **Lechner, C**."
+  title: "Book Review: John, A.L. The Origins of Bioethics: Remembering When Medicine Went Wrong. Michigan State University Press. 2019. 228pp. £XXX (hbk). ISBN 9781611863413."
+  details: "Sociol. Health Illn. 2020."
+  year: 2020
+  image: pubs_2020_bioethics.jpg
+  pmid: 
+  pmcid:
+  doi: 10.1111/1467-9566.13060
+  file: 
+  filetype: 
+  github:
+  contentshare:
+
 - authors: " **Chiong W**, **Haeusermann T**."
   title: "Commentary 1: Researcher integrity and contrasting obligations in interdisciplinary research."
   details: "J Empir Res Hum Res Ethics. 2019; 14(5):487-489."
