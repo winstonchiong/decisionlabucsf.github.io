@@ -6,8 +6,10 @@ group: pastsem
 date: 2019-12-04
 ---
 
-The final seminar of the year ended with a works-in-progress by Dan Dohan. The group helped him brainstorm ideas for a grant he is 
-interested in developing on cultures of responsible research in STEM laboratories. Our meeting began with an overview of social theories
+The final seminar of the year featured a works-in-progress by Dan Dohan. The 
+group helped him brainstorm ideas for a grant he is 
+interested in developing on cultures of responsible research in STEM 
+laboratories. Our meeting began with an overview of social theories
 of culture, as explained by Lizardo and Strand in their 
 [article](https://www.sciencedirect.com/science/article/pii/S0304422X09000606?via%3Dihub) {:target="_blank"}, 
 “Skills, toolkits, contexts, and institutions: Clarifying the relationship between different approaches to cognition in cultural 
