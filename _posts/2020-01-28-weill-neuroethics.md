@@ -27,7 +27,7 @@ implications of this technology for biomedicine and society.
 [Hank Greely](https://profiles.stanford.edu/henry-greely){:target="\_blank"} 
 presented a brief yet comprehensive overview of potential domains of concern 
 in advancing neuroscience: prediction, mind-reading, responsibility, 
-treatment, enhancement, and ethical research.  
+treatment, enhancement, and ethical research. 
 [Laurie Zoloth](https://provost.uchicago.edu/directory/laurie-zoloth){:target="\_blank"} 
 then offered historical and humanistic insights cautioning that new technologies 
 may alleviate but cannot eliminate the uncertainties of parenthood. 
@@ -52,7 +52,7 @@ discussed decades of scholarship and self-examination regarding his team's use
 of deep brain stimulation to restore function in patients with disorders of 
 consciousness. Finally, 
 [Sara Goering](https://phil.washington.edu/people/sara-goering){:target="\_blank"} 
-drew upon ideas from the philosophy of disability and her group's empirical 
+drew upon ideas from disability studies and her group's empirical 
 research to argue that some conceptual worries about agency or self-ownership 
 may be mitigated by adopting a more constructive conception of "co-agency" 
 between neural devices and their users. 
