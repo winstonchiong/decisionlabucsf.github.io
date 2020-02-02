@@ -4,7 +4,7 @@ author: Winston Chiong
 layout: post
 group: news
 image: news_2020-01-28_weill-neuroethics.jpg
-caption: Neurogenetics & Parenthood Panel&#58; Stephan Sanders, Jennifer Doudna, Hank Greely & Laurie Zoloth, moderated by Winston Chiong
+caption: Neurogenetics & Parenthood panel&#58; Stephan Sanders, Jennifer Doudna, Hank Greely & Laurie Zoloth, moderated by Winston Chiong
 ---
 We were very pleased to help host the 
 [UCSF Weill Neuroethics Symposium](https://weill.ucsf.edu/neuroethics-symposium){:target="\_blank"}, 

@@ -5,7 +5,6 @@ layout: post
 group: pastsem
 date: 2019-11-20
 ---
-Book Review: Lynch, JA. The Origins of Bioethics: Remembering When Medicine Went Wrong. Michigan State University Press. 2019. 228pp. ISBN 9781611863413
 
 Today’s seminar was led by [Toby Haeusermann](/team/index.html#Tobias-Haeusermann) 
 and [Celeste Fong](/team/index.html#Celeste-Fong), discussing a recent 
