@@ -20,7 +20,7 @@
   year: 2019
   image: pubs_2019_teamwork.jpg
   pmid: 31779555
-  pmcid:
+  pmcid: PMC6980360
   doi: 10.1177/1556264619853198a
   file: 
   filetype: 
@@ -112,7 +112,7 @@
   year: 2019
   image: pubs_2019_Mahnoor_resized.png
   pmid: 31322558
-  pmcid: 
+  pmcid: PMC7004209
   doi: 10.3233/JAD-180957
   file:
   filetype: 
@@ -125,7 +125,7 @@
   year: 2019
   image: pubs_2019_emergency_resized.jpeg
   pmid: 31282955
-  pmcid: 
+  pmcid: PMC6618767
   doi: 10.1001/jamaneurol.2019.1820
   file:
   filetype: 
@@ -151,7 +151,7 @@
   year: 2019
   image: pubs_2019_wisdom_resized.jpg
   pmid: 31044549 
-  pmcid: 
+  pmcid: PMC6577614
   doi: 10.1002/brb3.1302
   file:
   filetype: 
@@ -164,7 +164,7 @@
   year: 2019
   image: pubs_2019_dopamine.jpg
   pmid: 31003069
-  pmcid: 
+  pmcid: PMC6475809
   doi: 10.1016/j.nicl.2019.101822
   file:
   filetype: 
@@ -220,7 +220,7 @@
   github:
 
 - authors: "**Chiong W**, Leonard MK, Chang EF."
-  title: "Neurosurgical patients as human research subjects: 
+  title: "patients as human research subjects: 
           Ethical considerations in intracranial electrophysiology research."
   details: "Neurosurgery. 2018; 83(1):29-37."
   year: 2018
