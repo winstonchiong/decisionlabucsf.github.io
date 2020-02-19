@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2019-12-29" />
+<meta name="date" content="2020-02-19" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -349,7 +349,15 @@ dialog box asking you where to save the files you’re creating–for this one,
 these files). Just pick somewhere else on your hard drive and give a temporary
 name. Now you’ll see a nicely-formatted .html file with your formatted Markdown
 and the outputs of your R code.</p>
-<p>Okay, one more quick tweak. We will try to keep the line length of our code less
+<p>Okay, two more quick tweaks. First, RStudio tends to want to autosave your
+workspace, which can be convenient for someone just working on their own
+computer but a potential source of confusion when multiple people are working
+collaboratively across multiple computers. Go to “Tools &gt; Global Options… &gt;
+General” and uncheck “Restore most recently opened project at startup,” “Restore
+previously open source documents at startup,” and “Restore .RData into workspace
+at startup,” and change “Save workspace to .RData on exit:” to “Never.”</p>
+<p><img src="img/handbook_09_rstudio-04-rstudio-restore.png" /></p>
+<p>Also, we will try to keep the line length of our code less
 than 80 characters. Go to “Tools &gt; Global Options… &gt; Code &gt; Display” and check
 the box for “Show margin” with “margin column” set to 80. This will draw a
 reminder line. When your code lines overrun the 80 character limit, break them
