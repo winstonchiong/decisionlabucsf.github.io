@@ -1,6 +1,19 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - accepted manuscript" "docx - accepted manuscript"...
 
+- authors: "**Beagle AJ**, **Zahir A**, **Borzello M**, Kayser AS, Hsu M, Miller BL, Kramer JH, **Chiong W**."
+  title: "Amount and delay insensitivity during intertemporal choice in three neurodegenerative diseases reflects dorsomedial prefrontal atrophy."
+  details: "Cortex. 2020; 124:54-65."
+  year: 2020
+  image: pubs_2019_25aIRP.png
+  pmid: 31837518
+  pmcid:
+  doi: 10.1016/j.cortex.2019.10.009
+  file: "Beagle - Amount and delay insensitivity during intertemporal choice.pdf"
+  filetype: "pdf - author manuscript version (peer-reviewed & edited)"
+  github:
+  contentshare:
+
 - authors: "**Haeusermann T**, **Fong C**, **Lechner, C**."
   title: "Book Review: Lynch, JA. The Origins of Bioethics: Remembering When Medicine Went Wrong. Michigan State University Press. 2019. 228pp. ISBN 9781611863413."
   details: "Sociol Health Illn. 2020."
@@ -24,19 +37,6 @@
   doi: 10.1177/1556264619853198a
   file: 
   filetype: 
-  github:
-  contentshare:
-
-- authors: "**Beagle AJ**, **Zahir A**, **Borzello M**, Kayser AS, Hsu M, Miller BL, Kramer JH, **Chiong W**."
-  title: "Amount and delay insensitivity during intertemporal choice in three neurodegenerative diseases reflects dorsomedial prefrontal atrophy."
-  details: "Cortex. 2019 Oct 31;124:54-65."
-  year: 2019
-  image: pubs_2019_25aIRP.png
-  pmid: 31837518
-  pmcid:
-  doi: 10.1016/j.cortex.2019.10.009
-  file: "Beagle - Amount and delay insensitivity during intertemporal choice.pdf"
-  filetype: "pdf - author manuscript version (peer-reviewed & edited)"
   github:
   contentshare:
 
