@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2020-02-19" />
+<meta name="date" content="2020-02-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -68,7 +68,7 @@ a.sourceLine { text-indent: -1em; padding-left: 1em; }
 pre.numberSource a.sourceLine
   { position: relative; left: -4em; }
 pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
+  { content: attr(title);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
     border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
@@ -140,7 +140,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.5" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#lava-and-lavaquery"><i class="fa fa-check"></i><b>3.5</b> <span>LAVA and LAVAquery</span></a></li>
 <li class="chapter" data-level="3.6" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#deprecateddiscouraged-tools"><i class="fa fa-check"></i><b>3.6</b> Deprecated/discouraged tools</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="project-management.html"><a href="project-management.html"><i class="fa fa-check"></i><b>4</b> Project Management</a></li>
+<li class="chapter" data-level="4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html"><i class="fa fa-check"></i><b>4</b> Intro to the Memory and Aging Center</a><ul>
+<li class="chapter" data-level="4.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#the-mac-in-the-context-of-ucsf-the-weill-institute"><i class="fa fa-check"></i><b>4.1</b> The MAC in the context of UCSF &amp; the Weill Institute</a></li>
+<li class="chapter" data-level="4.2" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#mac-clinic-mac-research"><i class="fa fa-check"></i><b>4.2</b> MAC clinic &amp; MAC research</a></li>
+<li class="chapter" data-level="4.3" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#mac-research-parent-projects"><i class="fa fa-check"></i><b>4.3</b> MAC research “parent projects”</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#our-lab-projects-in-context"><i class="fa fa-check"></i><b>4.3.1</b> Our lab projects in context</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-in-the-mac"><i class="fa fa-check"></i><b>4.4</b> Learning opportunities in the MAC</a><ul>
+<li class="chapter" data-level="4.4.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-within-our-lab"><i class="fa fa-check"></i><b>4.4.1</b> Learning opportunities within our lab</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#whos-who-at-the-mac"><i class="fa fa-check"></i><b>4.5</b> Who’s who at the MAC</a></li>
+</ul></li>
 <li class="chapter" data-level="5" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html"><i class="fa fa-check"></i><b>5</b> Guidelines for clinical interactions</a></li>
 <li class="chapter" data-level="6" data-path="hiring-and-onboarding.html"><a href="hiring-and-onboarding.html"><i class="fa fa-check"></i><b>6</b> Hiring and Onboarding</a></li>
 <li class="chapter" data-level="7" data-path="authorship.html"><a href="authorship.html"><i class="fa fa-check"></i><b>7</b> Authorship</a><ul>
@@ -332,7 +342,7 @@ down the menu for “Run” at the top of the source window:</p>
 <p><img src="img/handbook_09_rstudio-02-run-menu.png" /></p>
 <p>Now click inside the source window and navigate so that your cursor is inside of
 the second code chunk (named “cars”)–that is, on on lines 18-20. Pull down on
-“Run” and select Run Current Chunk&quot;.</p>
+“Run” and select Run Current Chunk".</p>
 <p><img src="img/handbook_09_rstudio-03-run-curr-chunk.png" /></p>
 <p>Look in the console window at bottom left–there you’ll see that RStudio behaves
 as if you had typed <code>summary(cars)</code> into the console, and displays the output.
@@ -503,23 +513,23 @@ for “rdrivepath” in case we want to reference other things on the R: drive�
 points to different paths on Windows and Mac machines. Finally, the “setup”
 chunk will be used to load any special libraries that RStudio needs to run the
 code. For our hypothetical example for task “blah”:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="st">```</span><span class="dt">{r setup}</span></a>
-<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="dt">if (Sys.info()[&quot;sysname&quot;] == &quot;Windows&quot;){</span></a>
-<a class="sourceLine" id="cb1-3" data-line-number="3"><span class="dt">  repofolder &lt;- paste(&quot;C:/Users/&quot;, Sys.getenv(&quot;USERNAME&quot;), &quot;/decisionlab/blah/analysis/&quot;, </span></a>
-<a class="sourceLine" id="cb1-4" data-line-number="4"><span class="dt">                      sep = &quot;&quot;)</span></a>
-<a class="sourceLine" id="cb1-5" data-line-number="5"><span class="dt">  datafolder &lt;- &quot;R:/groups/chiong/blahblah/blah/&quot;</span></a>
-<a class="sourceLine" id="cb1-6" data-line-number="6"><span class="dt">  rdrivepath &lt;- &quot;R:/&quot;</span></a>
-<a class="sourceLine" id="cb1-7" data-line-number="7"><span class="dt">} else if (Sys.info()[&quot;sysname&quot;] == &quot;Darwin&quot;){ # not sure why MacOS is &quot;Darwin&quot; but it is...</span></a>
-<a class="sourceLine" id="cb1-8" data-line-number="8"><span class="dt">  repofolder &lt;- &quot;~/decisionlab/blah/analysis/&quot;</span></a>
-<a class="sourceLine" id="cb1-9" data-line-number="9"><span class="dt">  datafolder &lt;- &quot;/Volumes/macdata/groups/chiong/blahblah/blah/&quot;</span></a>
-<a class="sourceLine" id="cb1-10" data-line-number="10"><span class="dt">  rdrivepath &lt;- &quot;/Volumes/macdata/&quot;</span></a>
-<a class="sourceLine" id="cb1-11" data-line-number="11"><span class="dt">} # probably good to add another condition for Unix, later on...</span></a>
-<a class="sourceLine" id="cb1-12" data-line-number="12"></a>
-<a class="sourceLine" id="cb1-13" data-line-number="13"><span class="dt">library(readr)</span></a>
-<a class="sourceLine" id="cb1-14" data-line-number="14"><span class="dt">library(readxl)</span></a>
-<a class="sourceLine" id="cb1-15" data-line-number="15"><span class="dt">knitr::opts_chunk$set(echo = TRUE)</span></a>
-<a class="sourceLine" id="cb1-16" data-line-number="16"><span class="dt">knitr::opts_knit$set(root.dir = datafolder)</span></a>
-<a class="sourceLine" id="cb1-17" data-line-number="17"><span class="st">```</span></a></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="st">```</span><span class="dt">{r setup}</span></a>
+<a class="sourceLine" id="cb1-2" title="2"><span class="dt">if (Sys.info()[&quot;sysname&quot;] == &quot;Windows&quot;){</span></a>
+<a class="sourceLine" id="cb1-3" title="3"><span class="dt">  repofolder &lt;- paste(&quot;C:/Users/&quot;, Sys.getenv(&quot;USERNAME&quot;), &quot;/decisionlab/blah/analysis/&quot;, </span></a>
+<a class="sourceLine" id="cb1-4" title="4"><span class="dt">                      sep = &quot;&quot;)</span></a>
+<a class="sourceLine" id="cb1-5" title="5"><span class="dt">  datafolder &lt;- &quot;R:/groups/chiong/blahblah/blah/&quot;</span></a>
+<a class="sourceLine" id="cb1-6" title="6"><span class="dt">  rdrivepath &lt;- &quot;R:/&quot;</span></a>
+<a class="sourceLine" id="cb1-7" title="7"><span class="dt">} else if (Sys.info()[&quot;sysname&quot;] == &quot;Darwin&quot;){ # not sure why MacOS is &quot;Darwin&quot; but it is...</span></a>
+<a class="sourceLine" id="cb1-8" title="8"><span class="dt">  repofolder &lt;- &quot;~/decisionlab/blah/analysis/&quot;</span></a>
+<a class="sourceLine" id="cb1-9" title="9"><span class="dt">  datafolder &lt;- &quot;/Volumes/macdata/groups/chiong/blahblah/blah/&quot;</span></a>
+<a class="sourceLine" id="cb1-10" title="10"><span class="dt">  rdrivepath &lt;- &quot;/Volumes/macdata/&quot;</span></a>
+<a class="sourceLine" id="cb1-11" title="11"><span class="dt">} # probably good to add another condition for Unix, later on...</span></a>
+<a class="sourceLine" id="cb1-12" title="12"></a>
+<a class="sourceLine" id="cb1-13" title="13"><span class="dt">library(readr)</span></a>
+<a class="sourceLine" id="cb1-14" title="14"><span class="dt">library(readxl)</span></a>
+<a class="sourceLine" id="cb1-15" title="15"><span class="dt">knitr::opts_chunk$set(echo = TRUE)</span></a>
+<a class="sourceLine" id="cb1-16" title="16"><span class="dt">knitr::opts_knit$set(root.dir = datafolder)</span></a>
+<a class="sourceLine" id="cb1-17" title="17"><span class="st">```</span></a></code></pre></div>
 <p>Before we get too far along, let’s save the .Rmd file. Again, this goes within
 the decisionlab repo local folder on your computer, which you created in Step 1.
 (From where it can then be pushed to the lab GitHub repo.)
@@ -606,21 +616,21 @@ So you’ll need to extract the column info you want, and then drop the first tw
 rows because they’re not observations. You’ll also want to convert any date
 strings in the dataframe to proper R dates. So soon this part of your R Markdown
 file will look like this:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="co">## Data cleaning</span></a>
-<a class="sourceLine" id="cb2-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb2-3" data-line-number="3">First, load data from .csv file. Then drop first two rows from Qualtrics, and </a>
-<a class="sourceLine" id="cb2-4" data-line-number="4">convert Qualtrics datstrings to R dates. </a>
-<a class="sourceLine" id="cb2-5" data-line-number="5"></a>
-<a class="sourceLine" id="cb2-6" data-line-number="6"><span class="st">```</span><span class="dt">{r file-import}</span></a>
-<a class="sourceLine" id="cb2-7" data-line-number="7"><span class="dt">library(readr)</span></a>
-<a class="sourceLine" id="cb2-8" data-line-number="8"><span class="dt">blah_qualtrics_df &lt;- read_csv(&quot;ugly_Qualtrics_filename_Date_Time.csv&quot;)</span></a>
-<a class="sourceLine" id="cb2-9" data-line-number="9"></a>
-<a class="sourceLine" id="cb2-10" data-line-number="10"><span class="dt">blah_qualtrics_df &lt;- blah_qualtrics_df[-c(1,2),]</span></a>
-<a class="sourceLine" id="cb2-11" data-line-number="11"><span class="dt">blah_qualtrics_df$StartDate &lt;- as.POSIXct(blah_qualtrics_df$StartDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
-<a class="sourceLine" id="cb2-12" data-line-number="12"><span class="dt">blah_qualtrics_df$EndDate &lt;- as.POSIXct(blah_qualtrics_df$EndDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
-<a class="sourceLine" id="cb2-13" data-line-number="13"><span class="dt">blah_qualtrics_df$RecordedDate &lt;- as.POSIXct(blah_qualtrics_df$RecordedDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
-<a class="sourceLine" id="cb2-14" data-line-number="14"></a>
-<a class="sourceLine" id="cb2-15" data-line-number="15"><span class="st">```</span></a></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1"><span class="co">## Data cleaning</span></a>
+<a class="sourceLine" id="cb2-2" title="2"></a>
+<a class="sourceLine" id="cb2-3" title="3">First, load data from .csv file. Then drop first two rows from Qualtrics, and </a>
+<a class="sourceLine" id="cb2-4" title="4">convert Qualtrics datstrings to R dates. </a>
+<a class="sourceLine" id="cb2-5" title="5"></a>
+<a class="sourceLine" id="cb2-6" title="6"><span class="st">```</span><span class="dt">{r file-import}</span></a>
+<a class="sourceLine" id="cb2-7" title="7"><span class="dt">library(readr)</span></a>
+<a class="sourceLine" id="cb2-8" title="8"><span class="dt">blah_qualtrics_df &lt;- read_csv(&quot;ugly_Qualtrics_filename_Date_Time.csv&quot;)</span></a>
+<a class="sourceLine" id="cb2-9" title="9"></a>
+<a class="sourceLine" id="cb2-10" title="10"><span class="dt">blah_qualtrics_df &lt;- blah_qualtrics_df[-c(1,2),]</span></a>
+<a class="sourceLine" id="cb2-11" title="11"><span class="dt">blah_qualtrics_df$StartDate &lt;- as.POSIXct(blah_qualtrics_df$StartDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
+<a class="sourceLine" id="cb2-12" title="12"><span class="dt">blah_qualtrics_df$EndDate &lt;- as.POSIXct(blah_qualtrics_df$EndDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
+<a class="sourceLine" id="cb2-13" title="13"><span class="dt">blah_qualtrics_df$RecordedDate &lt;- as.POSIXct(blah_qualtrics_df$RecordedDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
+<a class="sourceLine" id="cb2-14" title="14"></a>
+<a class="sourceLine" id="cb2-15" title="15"><span class="st">```</span></a></code></pre></div>
 <p>You may also need to drop other observations (e.g., patients we collected data
 on who don’t have the diagnoses of interest, subjects who failed control
 conditions… though it might be better to create a new variable named something
