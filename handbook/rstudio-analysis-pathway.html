@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2020-02-22" />
+<meta name="date" content="2020-02-23" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -151,8 +151,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="4.5" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#whos-who-at-the-mac"><i class="fa fa-check"></i><b>4.5</b> Who’s who at the MAC</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html"><i class="fa fa-check"></i><b>5</b> Guidelines for clinical interactions</a></li>
-<li class="chapter" data-level="6" data-path="hiring-and-onboarding.html"><a href="hiring-and-onboarding.html"><i class="fa fa-check"></i><b>6</b> Hiring and Onboarding</a></li>
+<li class="chapter" data-level="5" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html"><i class="fa fa-check"></i><b>5</b> Guidelines for Clinical Interactions</a></li>
+<li class="chapter" data-level="6" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html"><i class="fa fa-check"></i><b>6</b> A Brief Guide to the Scientific Literature</a><ul>
+<li class="chapter" data-level="6.1" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#getting-started-on-a-topic"><i class="fa fa-check"></i><b>6.1</b> Getting started on a topic</a></li>
+<li class="chapter" data-level="6.2" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#reading-in-more-depth"><i class="fa fa-check"></i><b>6.2</b> Reading in more depth</a></li>
+<li class="chapter" data-level="6.3" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#staying-up-to-date"><i class="fa fa-check"></i><b>6.3</b> Staying up-to-date</a></li>
+</ul></li>
 <li class="chapter" data-level="7" data-path="authorship.html"><a href="authorship.html"><i class="fa fa-check"></i><b>7</b> Authorship</a><ul>
 <li class="chapter" data-level="7.1" data-path="authorship.html"><a href="authorship.html#why-it-matters-and-what-it-means"><i class="fa fa-check"></i><b>7.1</b> Why it matters, and what it means</a><ul>
 <li class="chapter" data-level="7.1.1" data-path="authorship.html"><a href="authorship.html#authorship-order"><i class="fa fa-check"></i><b>7.1.1</b> Authorship order</a></li>
@@ -261,7 +265,10 @@ This pathway is based on the use of .do and .log files in Stata; for more info
 on that see the Powerpoint “Lecture 2” in
 R:/groups/chiong/Resources/Biostat_212.</p>
 <p>Also, for file naming, variable naming, and other conventions, we will try to
-follow the Tidyverse Style Guide at <a href="https://style.tidyverse.org/" class="uri">https://style.tidyverse.org/</a>.</p>
+follow the Tidyverse Style Guide at <a href="https://style.tidyverse.org/" class="uri">https://style.tidyverse.org/</a>. There are also
+some useful suggestions about file naming in
+<a href="http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf" target="_blank">Naming Things</a>
+and in the <a href="https://help.osf.io/hc/en-us/articles/360019931113-File-naming" target="_blank">OSF Best Practices File Naming Guide</a>.</p>
 </div>
 </div>
 <div id="step-0-review-software-tools" class="section level2">
@@ -429,12 +436,12 @@ repository from the GitHub website (remember, you want the private “decisionla
 repo here, not the public “decisionlabucsf” repo that we use for the website)
 by finding the green button for “Clone or download” and copying the URL for the
 repository:</p>
-<p><img src="img/handbook_09_rstudio-04-clone.png" /></p>
+<p><img src="img/handbook_09_rstudio-05-clone.png" /></p>
 <p>Now open SourceTree, and go to File &gt; Clone/New… This will open a window as
 seen below. For “Source Path/URL:” paste in the URL from GitHub for cloning. For
 “Destination Path:” give the address of the local folder you’ve just created.
 When ready, press “Clone.”</p>
-<p><img src="img/handbook_09_rstudio-05-sourcetree.png" /></p>
+<p><img src="img/handbook_09_rstudio-06-sourcetree.png" /></p>
 <p>Now you’ll have a local copy of the repository on your computer, and everyone
 else in lab will have a local copy of the repository on their computers.
 (Another reason why we don’t want to put huge files in the repository–they will
@@ -462,13 +469,13 @@ everything in local repository and the online repository should match again</li>
 <p>To help you remember, when you look at the top of SourceTree, you’ll see the
 last 3 operations in order: <strong>Commit-Pull-Push</strong>. This is what you always do
 when saving your work to GitHub:</p>
-<p><img src="img/handbook_09_rstudio-06-commit-pull-push.png" /></p>
+<p><img src="img/handbook_09_rstudio-07-commit-pull-push.png" /></p>
 <p>Now that you’ve set up your local repo, let’s take a look at it and the R:
 drive. Let’s suppose you’ve just collected data for a new task we’ll just call
 “blah.” Right now, because this is the first time you’ll be looking at the data,
 you make a new folder for your data on the R: drive and create a new
 folder for “blah” inside your local GitHub repo:</p>
-<p><img src="img/handbook_09_rstudio-07-empty-folders.png" /></p>
+<p><img src="img/handbook_09_rstudio-08-empty-folders.png" /></p>
 </div>
 <div id="step-2-save-the-original-dataset-to-the-r-drive" class="section level2">
 <h2><span class="header-section-number">9.4</span> Step 2: Save the original dataset to the R: drive</h2>
@@ -476,7 +483,7 @@ folder for “blah” inside your local GitHub repo:</p>
 e.g. directly from Qualtrics, in your new folder on the R: drive. Usually this
 will either be in CSV or Excel format. (Qualtrics will export the CSV file using
 its own ugly naming convention, which you don’t need to change.)</p>
-<p><img src="img/handbook_09_rstudio-08-orig-dataset.png" /></p>
+<p><img src="img/handbook_09_rstudio-09-orig-dataset.png" /></p>
 <p>From now on we <strong>only read</strong> this data file. We don’t save any changes to it. If
 we ever had to re-download the data file from Qualtrics to the R: drive again
 (e.g., if there was some crash or a data loss), we could reproduce every step in
@@ -513,40 +520,40 @@ for “rdrivepath” in case we want to reference other things on the R: drive�
 points to different paths on Windows and Mac machines. Finally, the “setup”
 chunk will be used to load any special libraries that RStudio needs to run the
 code. For our hypothetical example for task “blah”:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="st">```</span><span class="dt">{r setup}</span></a>
-<a class="sourceLine" id="cb1-2" title="2"><span class="dt">if (Sys.info()[&quot;sysname&quot;] == &quot;Windows&quot;){</span></a>
-<a class="sourceLine" id="cb1-3" title="3"><span class="dt">  repofolder &lt;- paste(&quot;C:/Users/&quot;, Sys.getenv(&quot;USERNAME&quot;), &quot;/decisionlab/blah/analysis/&quot;, </span></a>
-<a class="sourceLine" id="cb1-4" title="4"><span class="dt">                      sep = &quot;&quot;)</span></a>
-<a class="sourceLine" id="cb1-5" title="5"><span class="dt">  datafolder &lt;- &quot;R:/groups/chiong/blahblah/blah/&quot;</span></a>
-<a class="sourceLine" id="cb1-6" title="6"><span class="dt">  rdrivepath &lt;- &quot;R:/&quot;</span></a>
-<a class="sourceLine" id="cb1-7" title="7"><span class="dt">} else if (Sys.info()[&quot;sysname&quot;] == &quot;Darwin&quot;){ # not sure why MacOS is &quot;Darwin&quot; but it is...</span></a>
-<a class="sourceLine" id="cb1-8" title="8"><span class="dt">  repofolder &lt;- &quot;~/decisionlab/blah/analysis/&quot;</span></a>
-<a class="sourceLine" id="cb1-9" title="9"><span class="dt">  datafolder &lt;- &quot;/Volumes/macdata/groups/chiong/blahblah/blah/&quot;</span></a>
-<a class="sourceLine" id="cb1-10" title="10"><span class="dt">  rdrivepath &lt;- &quot;/Volumes/macdata/&quot;</span></a>
-<a class="sourceLine" id="cb1-11" title="11"><span class="dt">} # probably good to add another condition for Unix, later on...</span></a>
-<a class="sourceLine" id="cb1-12" title="12"></a>
-<a class="sourceLine" id="cb1-13" title="13"><span class="dt">library(readr)</span></a>
-<a class="sourceLine" id="cb1-14" title="14"><span class="dt">library(readxl)</span></a>
-<a class="sourceLine" id="cb1-15" title="15"><span class="dt">knitr::opts_chunk$set(echo = TRUE)</span></a>
-<a class="sourceLine" id="cb1-16" title="16"><span class="dt">knitr::opts_knit$set(root.dir = datafolder)</span></a>
-<a class="sourceLine" id="cb1-17" title="17"><span class="st">```</span></a></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1"><span class="st">```</span><span class="dt">{r setup}</span></a>
+<a class="sourceLine" id="cb4-2" title="2"><span class="dt">if (Sys.info()[&quot;sysname&quot;] == &quot;Windows&quot;){</span></a>
+<a class="sourceLine" id="cb4-3" title="3"><span class="dt">  repofolder &lt;- paste(&quot;C:/Users/&quot;, Sys.getenv(&quot;USERNAME&quot;), &quot;/decisionlab/blah/analysis/&quot;, </span></a>
+<a class="sourceLine" id="cb4-4" title="4"><span class="dt">                      sep = &quot;&quot;)</span></a>
+<a class="sourceLine" id="cb4-5" title="5"><span class="dt">  datafolder &lt;- &quot;R:/groups/chiong/blahblah/blah/&quot;</span></a>
+<a class="sourceLine" id="cb4-6" title="6"><span class="dt">  rdrivepath &lt;- &quot;R:/&quot;</span></a>
+<a class="sourceLine" id="cb4-7" title="7"><span class="dt">} else if (Sys.info()[&quot;sysname&quot;] == &quot;Darwin&quot;){ # not sure why MacOS is &quot;Darwin&quot; but it is...</span></a>
+<a class="sourceLine" id="cb4-8" title="8"><span class="dt">  repofolder &lt;- &quot;~/decisionlab/blah/analysis/&quot;</span></a>
+<a class="sourceLine" id="cb4-9" title="9"><span class="dt">  datafolder &lt;- &quot;/Volumes/macdata/groups/chiong/blahblah/blah/&quot;</span></a>
+<a class="sourceLine" id="cb4-10" title="10"><span class="dt">  rdrivepath &lt;- &quot;/Volumes/macdata/&quot;</span></a>
+<a class="sourceLine" id="cb4-11" title="11"><span class="dt">} # probably good to add another condition for Unix, later on...</span></a>
+<a class="sourceLine" id="cb4-12" title="12"></a>
+<a class="sourceLine" id="cb4-13" title="13"><span class="dt">library(readr)</span></a>
+<a class="sourceLine" id="cb4-14" title="14"><span class="dt">library(readxl)</span></a>
+<a class="sourceLine" id="cb4-15" title="15"><span class="dt">knitr::opts_chunk$set(echo = TRUE)</span></a>
+<a class="sourceLine" id="cb4-16" title="16"><span class="dt">knitr::opts_knit$set(root.dir = datafolder)</span></a>
+<a class="sourceLine" id="cb4-17" title="17"><span class="st">```</span></a></code></pre></div>
 <p>Before we get too far along, let’s save the .Rmd file. Again, this goes within
 the decisionlab repo local folder on your computer, which you created in Step 1.
 (From where it can then be pushed to the lab GitHub repo.)
 Now you’ll have two files: your original data file on the R: drive, and the
 .Rmd file that you’re currently working on in your local repo:</p>
-<p><img src="img/handbook_09_rstudio-09-cleaning-rmd.png" /></p>
+<p><img src="img/handbook_09_rstudio-10-cleaning-rmd.png" /></p>
 <p>Note that, since you haven’t actually knit this file yet, you haven’t
 created an .html file. Select “Knit” from the top of the source window. You’ll
 see some output run by in an “R Markdown” tab of the console window, and then
 R will display an .html file based upon your R Markdown file, displaying the two
 code blocks we have so far:</p>
-<p><img src="img/handbook_09_rstudio-10-html.png" /></p>
+<p><img src="img/handbook_09_rstudio-11-html.png" /></p>
 <p>Note the white box in which it displays the output from <code>Sys.time()</code>–this is a
 timestamp of exactly when the .html was knit from the .Rmd file. This .html file
 will also show up in your local repo subfolder, preserving a log of what you’ve
 done:</p>
-<p><img src="img/handbook_09_rstudio-11-cleaning-html.png" /></p>
+<p><img src="img/handbook_09_rstudio-12-cleaning-html.png" /></p>
 <p>Okay, let’s keep working on your .Rmd file. Again, see the example file for
 moral-dilemma in AgingCog for an example. In general, what you’ll do is test out
 code in the console and check that the code does what you want it to do (e.g.,
@@ -575,21 +582,23 @@ your R Markdown script.</li>
 select “More &gt; Go To Working Directory.” This should show you the datafolder
 that you’ve specified.</li>
 </ol>
-<p><img src="img/handbook_09_rstudio-12-setw.png" /></p>
+<p><img src="img/handbook_09_rstudio-13-setw.png" /></p>
 <p>The next step is to import the Qualtrics data into RStudio so that you can start
 cleaning the dataset. Here, you’ll use the GUI in RStudio to perform some
 operations, for which the corresponding code will show up in the console window.
 Now the panel at bottom right should show your datafolder, which includes the
 CSV file that you imported from Qualtrics. Click on this file and select
 “Import Dataset…”</p>
-<p><img src="img/handbook_09_rstudio-13-import-dataset.png" /></p>
+<p><img src="img/handbook_09_rstudio-14-import-dataset.png" /></p>
 <p>This will open a new window with options for importing this dataset, and a handy
 preview of what the dataset will look like with those options once imported.
 More importantly, on the bottom right is a “Code Preview” window–this shows you
 what you would need to write in R code in order to perform the same operation.
 Also, there’s a clipboard icon that will copy out this code for you to use:</p>
-<p><img src="img/handbook_09_rstudio-14-import-text-data.png" /></p>
-<p>Change the “Name” to something more reasonable, like “blah_qualtrics_df.” You
+<p><img src="img/handbook_09_rstudio-15-import-text-data.png" /></p>
+<p>Change the “Name” to something more reasonable, like “blah_qualtrics_df.” (The
+suffix "_df" is a useful convention for marking an object in the workspace as a
+dataframe.) You
 will notice (you might need to click out of the text field, so that it updates)
 that the code in the “Code Preview” window changes accordingly. Also, uncheck
 the option for “Open Data Viewer.”</p>
@@ -601,13 +610,13 @@ window.</p>
 <p>Now you can paste this code into the console window to make sure that the code
 works as intended. Press Enter, and you should see the dataframe
 “blah_qualtrics_df” in your workspace:</p>
-<p><img src="img/handbook_09_rstudio-15-imported.png" /></p>
+<p><img src="img/handbook_09_rstudio-16-imported.png" /></p>
 <p>If you like the code and want to keep it, paste it into the R Markdown file.
 Below the “setup” code chunk, start a new section with a header such as
 “Data cleaning.” After this you can write a description of what the next code
 chunk is supposed to do, and you can create a new code chunk–call it
 “file-import”:</p>
-<p><img src="img/handbook_09_rstudio-16-import-code-block.png" /></p>
+<p><img src="img/handbook_09_rstudio-17-import-code-block.png" /></p>
 <p>There will be a lot of other cleaning to do before the data can be analyzed. For
 instance, when Qualtrics exports CSV files the first three rows are different
 versions of the header (info about the columns), but R will assume that the
@@ -616,21 +625,21 @@ So you’ll need to extract the column info you want, and then drop the first tw
 rows because they’re not observations. You’ll also want to convert any date
 strings in the dataframe to proper R dates. So soon this part of your R Markdown
 file will look like this:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1"><span class="co">## Data cleaning</span></a>
-<a class="sourceLine" id="cb2-2" title="2"></a>
-<a class="sourceLine" id="cb2-3" title="3">First, load data from .csv file. Then drop first two rows from Qualtrics, and </a>
-<a class="sourceLine" id="cb2-4" title="4">convert Qualtrics datstrings to R dates. </a>
-<a class="sourceLine" id="cb2-5" title="5"></a>
-<a class="sourceLine" id="cb2-6" title="6"><span class="st">```</span><span class="dt">{r file-import}</span></a>
-<a class="sourceLine" id="cb2-7" title="7"><span class="dt">library(readr)</span></a>
-<a class="sourceLine" id="cb2-8" title="8"><span class="dt">blah_qualtrics_df &lt;- read_csv(&quot;ugly_Qualtrics_filename_Date_Time.csv&quot;)</span></a>
-<a class="sourceLine" id="cb2-9" title="9"></a>
-<a class="sourceLine" id="cb2-10" title="10"><span class="dt">blah_qualtrics_df &lt;- blah_qualtrics_df[-c(1,2),]</span></a>
-<a class="sourceLine" id="cb2-11" title="11"><span class="dt">blah_qualtrics_df$StartDate &lt;- as.POSIXct(blah_qualtrics_df$StartDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
-<a class="sourceLine" id="cb2-12" title="12"><span class="dt">blah_qualtrics_df$EndDate &lt;- as.POSIXct(blah_qualtrics_df$EndDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
-<a class="sourceLine" id="cb2-13" title="13"><span class="dt">blah_qualtrics_df$RecordedDate &lt;- as.POSIXct(blah_qualtrics_df$RecordedDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
-<a class="sourceLine" id="cb2-14" title="14"></a>
-<a class="sourceLine" id="cb2-15" title="15"><span class="st">```</span></a></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" title="1"><span class="co">## Data cleaning</span></a>
+<a class="sourceLine" id="cb5-2" title="2"></a>
+<a class="sourceLine" id="cb5-3" title="3">First, load data from .csv file. Then drop first two rows from Qualtrics, and </a>
+<a class="sourceLine" id="cb5-4" title="4">convert Qualtrics datstrings to R dates. </a>
+<a class="sourceLine" id="cb5-5" title="5"></a>
+<a class="sourceLine" id="cb5-6" title="6"><span class="st">```</span><span class="dt">{r file-import}</span></a>
+<a class="sourceLine" id="cb5-7" title="7"><span class="dt">library(readr)</span></a>
+<a class="sourceLine" id="cb5-8" title="8"><span class="dt">blah_qualtrics_df &lt;- read_csv(&quot;ugly_Qualtrics_filename_Date_Time.csv&quot;)</span></a>
+<a class="sourceLine" id="cb5-9" title="9"></a>
+<a class="sourceLine" id="cb5-10" title="10"><span class="dt">blah_qualtrics_df &lt;- blah_qualtrics_df[-c(1,2),]</span></a>
+<a class="sourceLine" id="cb5-11" title="11"><span class="dt">blah_qualtrics_df$StartDate &lt;- as.POSIXct(blah_qualtrics_df$StartDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
+<a class="sourceLine" id="cb5-12" title="12"><span class="dt">blah_qualtrics_df$EndDate &lt;- as.POSIXct(blah_qualtrics_df$EndDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
+<a class="sourceLine" id="cb5-13" title="13"><span class="dt">blah_qualtrics_df$RecordedDate &lt;- as.POSIXct(blah_qualtrics_df$RecordedDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
+<a class="sourceLine" id="cb5-14" title="14"></a>
+<a class="sourceLine" id="cb5-15" title="15"><span class="st">```</span></a></code></pre></div>
 <p>You may also need to drop other observations (e.g., patients we collected data
 on who don’t have the diagnoses of interest, subjects who failed control
 conditions… though it might be better to create a new variable named something
@@ -656,7 +665,7 @@ save(blah_qualtrics_df, file=&quot;blah_clean_qualtrics_df.Rda&quot;)
 and will also re-write the .html file to your local repository in your user
 folder. (This is good, now you also have a timestamp of when the .Rda file on
 the R: drive was most recently created.)</p>
-<p><img src="img/handbook_09_rstudio-17-clean-datafile.png" /></p>
+<p><img src="img/handbook_09_rstudio-18-clean-datafile.png" /></p>
 <p>Don’t forget to save your completed .Rmd file, and <strong>commit-pull-push</strong> to get
 your updated .Rmd and .html files on to the shared GitHub repository.</p>
 </div>
@@ -669,7 +678,7 @@ We always want to be able to retrace our steps, so if these new .Rmd files
 include manipulations of the data that we want to keep (like parameter estimates
 from a regression), then we save these in a new .Rda file on the R: drive. For
 instance:</p>
-<p><img src="img/handbook_09_rstudio-18-new-datafile.png" /></p>
+<p><img src="img/handbook_09_rstudio-19-new-datafile.png" /></p>
 <p>As a general principle, if an R Markdown script reads data from a given .Rda
 file, then that .Rmd should not also save changes to that same .Rda file.
 Instead, if there are any manipulations made to the data that need to be saved,
@@ -683,7 +692,7 @@ repository, explaining what order the R Markdown scritps should be knit in to
 re-create the data sets, and how all the files are related to one another.)</p>
 <p>Just to complete the illustration, here’s a hypothetical later stage of the
 project:</p>
-<p><img src="img/handbook_09_rstudio-19-more-files.png" /></p>
+<p><img src="img/handbook_09_rstudio-20-more-files.png" /></p>
 <p>For these later stages (creating the tables and figures), there are no
 manipulations of the data that need to be recorded, so there’s no need to create
 more .Rda files. In the first stage (in purple), we read out the original .Rda
