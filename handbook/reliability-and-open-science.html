@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 8 Reliability and Open Science | UCSF Decision Lab Handbook</title>
+  <title>Section 8 Reliability and Open Science | UCSF Decision Lab Handbook</title>
   <meta name="description" content="Handbook for the UCSF Decision Lab." />
   <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 8 Reliability and Open Science | UCSF Decision Lab Handbook" />
+  <meta property="og:title" content="Section 8 Reliability and Open Science | UCSF Decision Lab Handbook" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 8 Reliability and Open Science | UCSF Decision Lab Handbook" />
+  <meta name="twitter:title" content="Section 8 Reliability and Open Science | UCSF Decision Lab Handbook" />
   
   <meta name="twitter:description" content="Handbook for the UCSF Decision Lab." />
   
@@ -68,7 +68,7 @@ a.sourceLine { text-indent: -1em; padding-left: 1em; }
 pre.numberSource a.sourceLine
   { position: relative; left: -4em; }
 pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
+  { content: attr(title);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
     border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
@@ -128,6 +128,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <ul class="summary">
 <li><a href="./">UCSF Decision Lab Handbook</a></li>
+<li><a href="https://decisionlab.ucsf.edu" target="_blank"><i>decisionlab.ucsf.edu</i></a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Organizing Principles</a></li>
@@ -219,7 +220,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
             <section class="normal" id="section-">
 <div id="reliability-and-open-science" class="section level1">
-<h1><span class="header-section-number">Chapter 8</span> Reliability and Open Science</h1>
+<h1><span class="header-section-number">Section 8</span> Reliability and Open Science</h1>
 <p>Sadly, it has become clear that many published scientific studies fail to
 replicate–that is, other scientists are unable to produce the same results,
 such that reported findings cannot be relied upon by others (and, therefore,
@@ -247,7 +248,7 @@ members of our team to help check our work. This means that we have to use
 methods that make it possible to identify and diagnose errors, such as by
 tracking and logging transformations of data. This is one reason that we
 strongly prefer that manipulations be performed in code, rather than manually in
-programs like Excel (see again <a href="lab-resources-overview.html#deprecateddiscouraged-tools">Deprecated/discouraged tools</a> in Chapter 3).
+programs like Excel (see again <a href="lab-resources-overview.html#deprecateddiscouraged-tools">Deprecated/discouraged tools</a> in Section 3).
 We also always want to preserve and archive our raw, unmanipulated datasets so
 that we can always start over if absolutely necessary.</li>
 <li><strong>“Bad” luck.</strong> Suppose that 20 different research teams are investigating
@@ -278,7 +279,7 @@ needing to rebuild your analyses from scratch.</p>
 the reliability of our work, that everyone (particularly those engaged in
 quantitative research) should understand:</p>
 <ol style="list-style-type: decimal">
-<li><strong>Distinguishing exploratory vs. hypothesis-driven design.</strong> One of the
+<li><p><strong>Distinguishing exploratory vs. hypothesis-driven design.</strong> One of the
 major problems in quantitative research is that many scientists’ aims are in fact
 exploratory (e.g., trying to look for new things and elucidate processes that
 haven’t yet been discovered), but our accepted statistical thresholds for
@@ -293,8 +294,8 @@ exploratory
 research remains an open question that the scientific community is still working
 out. Still, we should remain careful in our thinking about when our aims are
 exploratory and when they’re hypothesis-driven, and we should not try to pass
-off exploratory work as hypothesis-driven.</li>
-<li><strong>Study pre-registration when feasible; in all cases, pre-planning.</strong> In
+off exploratory work as hypothesis-driven.</p></li>
+<li><p><strong>Study pre-registration when feasible; in all cases, pre-planning.</strong> In
 general, if we are conducting a hypothesis-driven study, it makes good sense to
 pre-register our study design. Generally we use the
 <a href="http://osf.io" target="_blank">Open Science Framework</a>.
@@ -304,8 +305,8 @@ Even when we are not pre-registering studies or we are planning purely
 exploratory work, it is generally a useful exercise to think
 in advance about what questions we are interested in, and what would be the best
 approaches to answer these questions, before we start poking around in datasets.
-Hopefully this can help us avoid treating noise in our dataset as signal.</li>
-<li><strong>Documentation.</strong> This is something I struggle with, but is crucially
+Hopefully this can help us avoid treating noise in our dataset as signal.</p></li>
+<li><p><strong>Documentation.</strong> This is something I struggle with, but is crucially
 important for other members of the lab and also for yourself. It’s natural to
 assume, when you’re totally cognitive engaged in a problem, that it will be very
 easy for you to recall later what you did and why. In fact we all tend to
@@ -314,7 +315,7 @@ problems. It’s really important to use our electronic lab notebooks in the
 private Github repo to document our thought processes. (This will help you in
 the future as well.) This is particularly crucial for recording a paper trail of
 analytic decisions, data cleaning, and other decisions affecting findings (e.g.,
-leaving out outliers and why).</li>
+leaving out outliers and why).</p></li>
 <li><p><strong>“Literate programming.”</strong> This refers to a different way of thinking about
 work that we do in code. As expressed by the computer scientist Donald Knuth:</p>
 <blockquote>
@@ -355,7 +356,7 @@ allow other scientists to review it, then should you be confident enough to
 publish findings based on this code? If you’re reading a study but the authors
 are not willing to publish their code, should you believe what they report? We
 will start producing our code in a manner that facilitates such sharing, as
-described further in Chapter 9: <a href="rstudio-analysis-pathway.html#rstudio-analysis-pathway">RStudio Analysis Pathway</a>.</li>
+described further in Section 9: <a href="rstudio-analysis-pathway.html#rstudio-analysis-pathway">RStudio Analysis Pathway</a>.</li>
 </ol>
 </div>
 <div id="open-science" class="section level2">
