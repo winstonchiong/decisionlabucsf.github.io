@@ -6,6 +6,9 @@
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
+    // Positioning so hamburger menu stays in front of graphic elements
+    z-index: 100;
+
     // Positioning context for the mobile navigation icon
     position: relative;
 }
