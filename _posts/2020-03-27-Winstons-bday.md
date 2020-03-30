@@ -2,8 +2,8 @@
 title: Virtual bday party for Winston!
 author: Madhu Manivannan
 layout: post
-group: news_2020-03-27.png
-image: 
+group: news
+image: news_2020-03-27.png
 caption: 
 ---
 
