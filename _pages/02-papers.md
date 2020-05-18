@@ -18,7 +18,7 @@ years: [2020, 2019, 2018, 2017, 2016, 2014, 2013, 2011, 2010, 2007, 2006, 2005]
 <div valign="top" style="overflow: hidden">
   {{paper.authors | markdownify | remove: '<p>' | remove: '</p>'}}<br>
   {% if paper.pmid %}
-    <a href="https://www.ncbi.nlm.nih.gov/pubmed/{{paper.pmid}}" target="_blank">{{paper.title}}</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/{{paper.pmid}}" target="_blank">{{paper.title}}</a>
   {% elsif paper.file %}
     <a href="{{ paper.file | prepend: '/assets/papers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">{{paper.title}}</a>
   {% else %}
