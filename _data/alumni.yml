@@ -29,3 +29,27 @@
   email: 
   website: 
   pubmed_name: "Zahir A"
+  
+- name: Alex Beagle
+  degrees: MD
+  previously: Research Coordinator, then Medical Student
+  now: Resident Physician, UCSF Department of Medicine
+  email: 
+  website: 
+  pubmed_name: "Beagle AJ"
+ 
+- name: Julia Heunis
+  degrees: MD
+  previously: Medical Student
+  now: Resident Physician, Boston Children's Hospital
+  email: 
+  website: 
+  pubmed_name: "Heunis J"
+ 
+- name: Neil Vaishnav
+  degrees: MD JD LLM
+  previously: Medical Student
+  now: Resident Physician, UCSF Department of Medicine
+  email: 
+  website: 
+  pubmed_name: "Vaishnav NH"
