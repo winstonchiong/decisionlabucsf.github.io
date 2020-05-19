@@ -1,19 +1,10 @@
-- name: Alex Beagle
+- name: Heather Ma
   image: 
   altimage: 
   position: Medical Student
-  email: alexander.beagle (at) ucsf.edu
+  email: heather.ma (at) ucsf.edu
   website:
-  description: Information insensitivity in delay discounting in Alzheimer’s and related dementias reflects dorsomedial prefrontal atrophy
-  pubmed_name:
-
-- name: Julia Heunis
-  image: 
-  altimage: 
-  position: Medical Student
-  email: julia.heunis (at) ucsf.edu
-  website:
-  description: "Real-world financial activities and financial mismanagement in patients with dementia: Preliminary findings from the Care Ecosystem study"
+  description: Effect of a collaborative dementia care model on advance directive possession
   pubmed_name:
 
 - name: Carson Quinn
@@ -24,13 +15,3 @@
   website:
   description: COMT Val158Met polymorphism associated with greater susceptibility to framing effects in healthy older adults
   pubmed_name:
-
-- name: Neil Vaishnav
-  degrees: JD LLM
-  image: 
-  altimage: 
-  position: Medical Student
-  email: neil.vaishnav (at) ucsf.edu
-  website:
-  description: Informed consent for the human research subject with a neurologic disorder
-  pubmed_name: 
