@@ -1,6 +1,18 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "**Zahir A**, Staffaroni AM, Wickham RE, **Quinn CM**, Sapozhnikova A, Seidman J, **Chiong W**."
+  title: 'Caregiver “objective attitude” toward patients with neurodegenerative disease: Consequences for caregiver strain and relationship closeness'
+  details: "Aging Ment Health. 2020; e-pub ahead of print."
+  year: 2020
+  image: pubs_2020_objective-attitude.png
+  pmid: 32515603
+  pmcid: 
+  doi: 10.1080/13607863.2020.1771541 
+  file: "Zahir - Caregiver objective attitude towards patients.pdf"
+  filetype: "pdf - author manuscript version (peer-reviewed & edited)"
+  github:
+  contentshare:
 
 - authors: "Bernstein A, Merrilees J, Dulaney S, Harrison KL, **Chiong W**, Ong P, **Heunis J**, Choi J, Walker R, Feuer JE, Lee K, Dohan D, Bonasera SJ, Miller BL, Possin KL."
   title: "Using care navigation to address caregiver burden in dementia: A qualitative case study analysis."
