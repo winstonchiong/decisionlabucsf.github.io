@@ -1,6 +1,32 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "Goss AL, *Chiong W**, Hemphill JC 3rd."
+  title: 'Neurologists' duties in planning for triage of critical care resources in the COVID-19 pandemic.'
+  details: "Ann Neurol. 2020; e-pub ahead of print."
+  year: 2020
+  image: pubs_2020_covid.jpg
+  pmid: 32686102
+  pmcid: 
+  doi: 10.1002/ana.25852 
+  file: 
+  filetype: 
+  github:
+  contentshare:
+
+- authors: "**Chiong W**."
+  title: 'Insiders and outsiders: Lessons for neuroethics from the history of bioethics.'
+  details: "AJOB Neurosci. 2020; 11(3):155-166."
+  year: 2020
+  image: pubs_2020_window.jpg
+  pmid: 32716746
+  pmcid: 
+  doi: 10.1080/21507740.2020.1778118
+  file: 
+  filetype: 
+  github:
+  contentshare:
+
 - authors: "**Zahir A**, Staffaroni AM, Wickham RE, **Quinn CM**, Sapozhnikova A, Seidman J, **Chiong W**."
   title: 'Caregiver “objective attitude” toward patients with neurodegenerative disease: Consequences for caregiver strain and relationship closeness.'
   details: "Aging Ment Health. 2020; e-pub ahead of print."
