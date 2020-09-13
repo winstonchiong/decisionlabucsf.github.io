@@ -113,29 +113,30 @@ in the "team" page, and you might need to refresh your browser.
 For journal articles and reviews: no book chapters, letters to the editor, 
 conference abstracts, etc.
 
-### 1. Get citation (and images) from PubMed
+### 1. Get citation from PubMed
 Start by going to [pubmed.gov](http://pubmed.gov) (or 
 [pubmed.ucsf.edu](http://pubmed.ucsf.edu) from campus) to find the article. (You 
 can enter the title or search for Winston's articles by putting `chiong w [au]` 
-in the search bar.) Click the checkboxes next to the article(s) of interest, 
-then click on the **Send to** pulldown, select "File" and Format "Summary," then 
-"Create File":
+in the search bar.) Just to the left of each paper entry is a checkbox, a 
+numeral and the word "Cite." Click on "Cite" and you can copy a citation for 
+the paper of interest, in AMA format (a version of Vancouver).
 
-![Screenshot-pubmed-checkboxes](assets/img/site_readme-04-pubmedexport.png)
-
-This will send a citation or citations to your desktop in Vancouver format. Now 
-click on the article link to bring up that individual article's PubMed abstract:
-
-![Screenshot-pubmed-abstract](assets/img/site_readme-03-pubmed.png)
-
-At the bottom in **Images from this publication**, see if you can pick the most 
-interesting or revealing image from the paper, and save it to your computer in 
+### 2. Find a publication image and upload
+If this is a quantitative paper, try to find the most interesting or revealing 
+figure from the paper. Click on the article link to bring up that individual 
+article's PubMed abstract, and follow the Full Text Links (such as UC-eLinks) to 
+the paper. IF you see a good image, download it and save it to your computer in 
 PNG or JPEG format with a short descriptive name like 
 "`pubs_YEAR_ARTICLE-KEYWORDS.png`". (Even better: use Photoshop or other editing 
 software to resize to a width of 185 pixels.)
 
-### 2. Upload publication image if you have one
-Use the same methods described above *(1. If you don't have one yet, add a 
+If it's a qualitative or ethics paper that doesn't have useful figures, see if 
+you can find a freely-usable image that fits with the theme. Two sources here 
+are [unsplash.com](https://unsplash.com) and Google Images--if you're using the 
+latter, click on "Tools" and select "Usage Rights -> Creative Commons licenses 
+for freely-usable images. 
+
+Use the methods described above in *(1. If you don't have one yet, add a 
 picture to /assets/img/)* to upload the publication image to 
 [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img). 
 
@@ -148,31 +149,53 @@ new article in the right place. Use the Vancouver-formatted text file that you
 downloaded to your computer to fill out these data entries, roughly matching the 
 format of the existing entries, e.g.:
 ```
-- authors: "**Vaishnav NH**, **Chiong W**."
-  title: "Informed consent for the human research subject with a neurologic disorder."
-  details: "Seminars in Neurology. 2018; 38(5):539-547."
-  year: 2018
-  image: pubs_2018_informedconsent.jpg
-  imagealt: Photo by Marcelo Leal on Unsplash
-  pmid: 30321892
-  pmcid: 
-  doi: 10.1055/s-0038-1668077
-  file: "Vaishnav, Chiong - Informed consent for the human research subject with a neurologic disorder.pdf"
-  filetype: "pdf - published version"
+- authors: "**Chiong W**, Kim AS, **Huang IA**, Farahany NA, Josephson SA."
+  title: "Testing the presumption of consent to emergency treatment for acute ischemic stroke."
+  details: "JAMA. 2014; 311(16):1689-91."
+  year: 2014
+  image: pubs_2014_testingpresumption_resized.png
+  pmid: 24756520
+  pmcid: PMC4126238
+  openaccess: https://jamanetwork.com/journals/jama/fullarticle/1861784
+  doi: 10.1001/jama.2014.3302
+  file:
+  filetype:
   github:
+  biorxiv:
+  psyarxiv:
+  contentshare:
+  preregistered: https://osf.io/ny3je/
+  opendata: https://osf.io/m8dtk/
+  openmaterials: https://osf.io/m8dtk/
+
 ```
 In `authors: ` use double asterisks (`**Name**`) to highlight lab members' 
 names. For consistency, keep the final period `.` at the end of the string for 
 `authors: `, `title: ` and `details: `, and change the title to 
 [sentence case](https://en.wikipedia.org/wiki/Letter_case#Sentence_case) if 
-necessary. Also under `details: `, remove "The" at the beginning of journal 
+necessary. Also under `details: `, spell out the actual journal title but leave 
+out "The" at the beginning of journal 
 titles, e.g. "~~The~~ Journal of XYZ." After `image: `, enter the name of the 
 publication image you uploaded to 
 [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img) 
-in the previous step. **Commit changes** when you're done, using the green button to commit the file directly to the master branch and the description box below to leave a brief description. 
+in the previous step. Add the "pmid" (the PMID or PubMed ID number, usually 9 
+digits), the "pmcid" (the PMCID or PubMed Central ID number, usually the letters 
+"PMC" followed by a string of numerals) and the DOI number from the PubMed 
+abstract for the article. 
 
-### 4. Extra-credit: self-hosting documents
-In some cases, we will want to host PDFs of our papers so that people who don't 
+**Commit changes** when you're done, using the green button to commit the file directly to the master branch and the description box below to leave a brief description. 
+
+### 4. More options: self-hosting files, preprints, open science
+In the entry above, there were several options after `doi: ` that were not all 
+filled in. `openaccess: ` is for articles that are Gold OA--that is, for which 
+anyone can read the formatted article on the website. `contentshare: ` is a bit 
+similar, in which authors have a link that provides access that they can share 
+with others. If the article is either of those, enter the URL where the paper 
+can be found. 
+
+In some cases, if a paper is not Gold OA or we don't have a Content Sharing 
+link, we will want to host PDFs of our papers 
+so that people who don't 
 have journal subscriptions can read them. Each journal has different policies 
 about whether they allow this for articles published in their journal - you 
 should check the journal's website (there's a general database on this called 
@@ -194,10 +217,11 @@ Then in the entry for `file: ` enter the document name, and in the entry for
 `filetype: ` indicate whether this is a "pdf - published version" or a "pdf -
  author manuscript version (peer-reviewed & edited)."
 
- Note that if a paper is already available in PubMed Central then that's already 
- as good as hosting an author manuscript version (peer-reviewed & edited), and 
- if we  have a non-expiring Content Sharing Link from the publisher, that's 
- usually  already as good as hosting a published version. 
+Finally, `biorxiv: ` and `psyarxiv: ` are options for papers in which we've 
+posted a preprint prior to publication; `preregistered: ` allows us to link to 
+preregistrations for a paper, and `opendata: ` and `openmaterials: ` allow us to 
+link to repositories where readers can download our data and materials (e.g., if 
+they're interested in reproducing our analyses or our experiments).
 
 ## How to add news posts
 For this you will create a Markdown file containing the news post. Navigate to 

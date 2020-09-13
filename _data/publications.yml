@@ -13,6 +13,8 @@
   file: "Fong - Understanding Advance Directives as a Component of Advance Care Planning.pdf"
   filetype: "pdf - published version"
   github:
+  biorxiv:
+  psyarxiv:
   contentshare:
   preregistered:
   opendata:
@@ -30,7 +32,12 @@
   file: 
   filetype: 
   github:
+  biorxiv:
+  psyarxiv:
   contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 - authors: "**Chiong W**."
   title: "Insiders and outsiders: Lessons for neuroethics from the history of bioethics."
@@ -44,7 +51,12 @@
   file: "Chiong - Insiders and Outsiders: Lessons for Neuroethics from the History of Bioethics.pdf"
   filetype: "pdf - published version"
   github:
+  biorxiv:
+  psyarxiv:
   contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 - authors: "**Zahir A**, Staffaroni AM, Wickham RE, **Quinn CM**, Sapozhnikova A, Seidman J, **Chiong W**."
   title: 'Caregiver “objective attitude” toward patients with neurodegenerative disease: Consequences for caregiver strain and relationship closeness.'
@@ -57,7 +69,12 @@
   file: "Zahir - Caregiver objective attitude towards patients.pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
   github:
+  biorxiv:
+  psyarxiv:
   contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 - authors: "Bernstein A, Merrilees J, Dulaney S, Harrison KL, **Chiong W**, Ong P, **Heunis J**, Choi J, Walker R, Feuer JE, Lee K, Dohan D, Bonasera SJ, Miller BL, Possin KL."
   title: "Using care navigation to address caregiver burden in dementia: A qualitative case study analysis."
@@ -71,7 +88,12 @@
   file: "Bernstein A, Merrilees J, Dulaney S, et al - Using care navigation to address caregiver burden in dementia A qualitative case study analysis.pdf"
   filetype: "pdf - published version"
   github:
+  biorxiv:
+  psyarxiv:
   contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
   
 - authors: "**Beagle AJ**, **Zahir A**, **Borzello M**, Kayser AS, Hsu M, Miller BL, Kramer JH, **Chiong W**."
   title: "Amount and delay insensitivity during intertemporal choice in three neurodegenerative diseases reflects dorsomedial prefrontal atrophy."
@@ -80,12 +102,15 @@
   image: pubs_2019_25aIRP.png
   pmid: 31837518
   pmcid: PMC7060812
+  openaccess:
   doi: 10.1016/j.cortex.2019.10.009
   file: "Beagle - Amount and delay insensitivity during intertemporal choice.pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
   github:
+  biorxiv:
+  psyarxiv:
   contentshare:
-  osf: https://osf.io/x2v9z/
+  preregistered:
   opendata: https://osf.io/fbgxq/
   openmaterials: https://osf.io/x2v9z/
 
@@ -101,7 +126,12 @@
   file: 
   filetype: 
   github:
+  biorxiv:
+  psyarxiv:
   contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 - authors: " **Chiong W**, **Haeusermann T**."
   title: "Commentary 1: Researcher integrity and contrasting obligations in interdisciplinary research."
@@ -114,7 +144,12 @@
   file: 
   filetype: 
   github:
+  biorxiv:
+  psyarxiv:
   contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 - authors: "Hendriks S, Grady C, Ramos KM, **Chiong W**, Fins JJ, Ford P, Goering S, Greely HT, Hutchison K, Kelly ML, Kim SYH, Klein E, Lisanby SH, Mayberg H, Maslen H, Miller FG, Rommelfanger K, Sheth SA, Wexler A."
   title: "Ethical challenges of risk, informed consent, and posttrial responsibilities in human research with neural devices: A review."
@@ -127,7 +162,12 @@
   file: 
   filetype: 
   github:
+  biorxiv:
+  psyarxiv:
   contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 - authors: "Possin KL, Merrilees JJ, Dulaney S, Bonasera SJ, **Chiong W**, Lee KP, Hooper SM, Allen IE, Braley T, Bernstein A, Rosa TD, Harrison K, Begert-Hellings H, Kornak J, Kahn JG, Naasan G, Lanata S, Clark AM, Chodos A, Gearhart R, Ritchie C, Miller BL."
   title: "Effect of collaborative dementia care via telephone and internet on quality of life, caregiver well-being, and health care use: The Care Ecosystem randomized clinical trial."
@@ -141,7 +181,12 @@
   file:
   filetype:
   github:
+  biorxiv:
+  psyarxiv:
   contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 - authors: "**Quinn CM**, **Borzello M**, **Zahir A**, Kramer JH, **Chiong W**." 
   title: "COMT Val158Met polymorphism associated with greater susceptibility to framing effects in healthy older adults."
@@ -168,7 +213,12 @@
   file:
   filetype: 
   github:
+  biorxiv:
+  psyarxiv:
   contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 - authors: "Rosa TD, Possin KL, Bernstein A, Merrilees J, Dulaney S, Matuoka J, Lee KP, **Chiong W**, Bonasera SJ, Harrison KL, Kahn JG."
   title: "Variations in costs of a collaborative care model for dementia."
@@ -181,7 +231,12 @@
   file:
   filetype: 
   github:
+  biorxiv:
+  psyarxiv:
   contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 - authors: "Bernstein A, Harrison KL, Dulaney S, Merrilees J, Bowhay A, **Heunis J**, Choi J, Feuer JE, Clark AM, **Chiong W**, Lee K, Braley TL, Bonasera SJ, Ritchie C, Dohan D, Miller BL, Possin KL."
   title: "The role of care navigators working with people with dementia and their caregivers."
@@ -194,7 +249,12 @@
   file:
   filetype: 
   github:
+  biorxiv:
+  psyarxiv:
   contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
   
 - authors: "Guterman EL, Allen IE, Josephson SA, Merrilees JJ, Dulaney S, **Chiong W**, Lee K, Bonasera SJ, Miller BL, Possin KL."
   title: "Association between caregiver depression and emergency department use among patients with dementia."
@@ -208,7 +268,12 @@
   file:
   filetype: 
   github:
-  contentshare: 
+  biorxiv:
+  psyarxiv:
+  contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 - authors: "Chen Y, Wilson L, Kornak J, Dudley RA, Merrilees J, Bonasera SJ, Byrne CM, Lee K, **Chiong W**, Miller BL, Possin KL."
   title: "The costs of dementia subtypes to California Medicare fee-for-service, 2015."
@@ -221,7 +286,12 @@
   file:
   filetype: 
   github:
+  biorxiv:
+  psyarxiv:
   contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
   
 - authors: "Thomas ML, Martin AS, Eyler L, Lee EE, Macagno E, Devereaux M, **Chiong W**, Jeste DV."
   title: "Individual differences in level of wisdom are associated with brain activation during a moral decision‐making task."
@@ -235,7 +305,12 @@
   file:
   filetype: 
   github:
-  contentshare: 
+  biorxiv:
+  psyarxiv:
+  contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 - authors: "Butler PM, **Chiong W**, Perry DC, Miller ZA, Gennatas ED, Brown JA, Pasquini L, Karydas A, Dokuru D, Coppola G, Sturm VE, Boxer AL, Gorno-Tempini ML, Rosen HJ, Kramer JH, Miller BL, Seeley WW."
   title: "Dopamine receptor D4 (DRD4) polymorphisms with reduced functional potency intensify atrophy in syndrome-specific sites of frontotemporal dementia."
@@ -352,7 +427,7 @@
   pmcid: PMC5330837
   openaccess: https://www.ahajournals.org/doi/10.1161/STROKEAHA.116.014458
   doi: 10.1161/STROKEAHA.116.014458
-  pdf:
+  file:
   github:
 
 - authors: "Xian Y, **Chiong W**."
@@ -364,7 +439,7 @@
   pmid: 27060164
   pmcid: 
   doi: 10.1212/WNL.0000000000002626
-  pdf:
+  file:
   github:
 
 
@@ -376,7 +451,7 @@
   pmid: 27009262
   pmcid: PMC4836887
   doi: 10.1212/WNL.0000000000002587 
-  pdf:
+  file:
   github:
   preregistered: https://www.crd.york.ac.uk/PROSPERO/display_record.php?RecordID=10204
   
@@ -388,7 +463,7 @@
   pmid: 26840850
   pmcid: PMC4753625
   doi: 10.1089/jpm.2015.0326
-  pdf:
+  file:
   github:
   opendata: https://osf.io/m8dtk/
 
@@ -401,7 +476,7 @@
   pmcid: PMC4861653
   openaccess: https://academic.oup.com/brain/article/139/2/578/1753756
   doi: 10.1093/brain/awv344
-  pdf:
+  file:
   github:
   
 - authors: "**Chiong W**, Kim AS, **Huang IA**, Farahany NA, Josephson SA."
@@ -412,7 +487,7 @@
   pmid: 24980651
   pmcid: PMC4957557
   doi: 10.1002/ana.24209
-  pdf:
+  file:
   github:
   osf: https://osf.io/4cv2x/
   preregistered: https://osf.io/ny3je/
@@ -427,7 +502,7 @@
   pmid: 23550884
   pmcid: PMC3770748
   doi: 10.1080/13554794.2013.770886
-  pdf:
+  file:
   github:
   
 - authors: "**Chiong W**, Kim AS, **Huang IA**, Farahany NA, Josephson SA."
@@ -439,9 +514,12 @@
   pmcid: PMC4126238
   openaccess: https://jamanetwork.com/journals/jama/fullarticle/1861784
   doi: 10.1001/jama.2014.3302
-  pdf:
+  file:
+  filetype:
   github:
-  osf: https://osf.io/4cv2x/
+  biorxiv:
+  psyarxiv:
+  contentshare:
   preregistered: https://osf.io/ny3je/
   opendata: https://osf.io/m8dtk/
   openmaterials: https://osf.io/m8dtk/
@@ -455,7 +533,7 @@
   pmid: 24182394
   pmcid: 
   doi: 10.1016/B978-0-444-53501-6.00032-9
-  pdf:
+  file:
   github:
 
 - authors: "**Chiong W**, Wilson SM, D'Esposito M, Kayser AS, Grossman SN, Poorzand P, Seeley WW, Miller BL, Rankin KP."
@@ -467,7 +545,7 @@
   pmcid: PMC3673466
   openaccess: https://academic.oup.com/brain/article/136/6/1929/618804
   doi: 10.1093/brain/awt066
-  pdf:
+  file:
   github:
   
 - authors: "**Chiong W**."
@@ -481,7 +559,7 @@
   doi: 10.1080/13554794.2010.532808
   file: "Chiong - The self_ From philosophy to cognitive neuroscience .pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
-  pdf:
+  file:
   github:
 
 - authors: "**Chiong W**."
@@ -495,7 +573,7 @@
   doi: 10.1002/ana.22003
   file: "Chiong - Therapeutic misconceptions and moral conflict in clinical research.pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
-  pdf:
+  file:
   github:
 
 - authors: "**Chiong W**."
@@ -507,7 +585,7 @@
   pmid: 17785649
   pmcid: 
   doi: 10.1001/jama.298.9.1046
-  pdf:
+  file:
   github:
   
 - authors: "**Chiong W**."
@@ -521,7 +599,7 @@
   doi: 10.1080/15265160600755565
   file: "Chiong - The real problem with equipoise (1).pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
-  pdf:
+  file:
   github:
 
 - authors: "**Chiong W**."
@@ -535,5 +613,5 @@
   doi: 10.1353/hcr.2005.0105
   file: "Chiong - Brain death without definitions.pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
-  pdf:
+  file:
   github:
