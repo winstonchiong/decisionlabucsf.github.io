@@ -8,11 +8,15 @@
   image: pubs_2020_Understanding Advance Directives as a Component of Advance Care Planning.png
   pmid: 32757912
   pmcid: 
+  openaccess:
   doi: 10.1080/15265161.2020.1781974 
   file: "Fong - Understanding Advance Directives as a Component of Advance Care Planning.pdf"
   filetype: "pdf - published version"
   github:
   contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 - authors: "Goss AL, **Chiong W**, Hemphill JC."
   title: "Neurologists' duties in planning for triage of critical care resources in the COVID-19 pandemic."
@@ -21,6 +25,7 @@
   image: pubs_2020_covid.jpg
   pmid: 32686102
   pmcid: 
+  openaccess: https://onlinelibrary.wiley.com/doi/full/10.1002/ana.25852
   doi: 10.1002/ana.25852 
   file: 
   filetype: 
@@ -34,6 +39,7 @@
   image: pubs_2020_window.jpg
   pmid: 32716746
   pmcid: 
+  openaccess: https://www.tandfonline.com/doi/full/10.1080/21507740.2020.1778118
   doi: 10.1080/21507740.2020.1778118
   file: "Chiong - Insiders and Outsiders: Lessons for Neuroethics from the History of Bioethics.pdf"
   filetype: "pdf - published version"
@@ -60,6 +66,7 @@
   image: Bernstein A, Merrilees J, Dulaney S, et al - Using care navigation to address caregiver burden in dementia A qualitative case study analysis.png
   pmid: 32377557
   pmcid: PMC7201177
+  openaccess: https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/trc2.12010
   doi: 10.1002/trc2.12010 
   file: "Bernstein A, Merrilees J, Dulaney S, et al - Using care navigation to address caregiver burden in dementia A qualitative case study analysis.pdf"
   filetype: "pdf - published version"
@@ -79,6 +86,8 @@
   github:
   contentshare:
   osf: https://osf.io/x2v9z/
+  opendata: https://osf.io/fbgxq/
+  openmaterials: https://osf.io/x2v9z/
 
 - authors: "**Haeusermann T**, **Fong KC**, **Lechner, C**."
   title: "Book Review: Lynch, JA. The Origins of Bioethics: Remembering When Medicine Went Wrong. Michigan State University Press. 2019. 228pp. ISBN 9781611863413."
@@ -87,6 +96,7 @@
   image: pubs_2020_bioethics.jpg
   pmid: 
   pmcid:
+  openaccess: https://onlinelibrary.wiley.com/doi/full/10.1111/1467-9566.13060
   doi: 10.1111/1467-9566.13060
   file: 
   filetype: 
@@ -126,6 +136,7 @@
   image: pubs_2019_map_resized.jpg
   pmid: 31566651
   pmcid: PMC6777227
+  openaccess: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2751946
   doi: 10.1001/jamainternmed.2019.4101
   file:
   filetype:
@@ -192,11 +203,12 @@
   image: pubs_2019_emergency_resized.jpeg
   pmid: 31282955
   pmcid: PMC6618767
+  openaccess: https://jamanetwork.com/journals/jamaneurology/fullarticle/2737045
   doi: 10.1001/jamaneurol.2019.1820
   file:
   filetype: 
   github:
-  contentshare: https://jamanetwork.com/journals/jamaneurology/fullarticle/2737045?guestAccessKey=81a5e442-ed21-4913-a9b9-090bfd9e2c92&utm_source=jps&utm_medium=email&utm_campaign=author_alert-jamanetwork&utm_content=author-author_engagement&utm_term=1m
+  contentshare: 
 
 - authors: "Chen Y, Wilson L, Kornak J, Dudley RA, Merrilees J, Bonasera SJ, Byrne CM, Lee K, **Chiong W**, Miller BL, Possin KL."
   title: "The costs of dementia subtypes to California Medicare fee-for-service, 2015."
@@ -218,11 +230,12 @@
   image: pubs_2019_wisdom_resized.jpg
   pmid: 31044549 
   pmcid: PMC6577614
+  openaccess: https://onlinelibrary.wiley.com/doi/full/10.1002/brb3.1302
   doi: 10.1002/brb3.1302
   file:
   filetype: 
   github:
-  contentshare: https://rdcu.be/bzRVl
+  contentshare: 
 
 - authors: "Butler PM, **Chiong W**, Perry DC, Miller ZA, Gennatas ED, Brown JA, Pasquini L, Karydas A, Dokuru D, Coppola G, Sturm VE, Boxer AL, Gorno-Tempini ML, Rosen HJ, Kramer JH, Miller BL, Seeley WW."
   title: "Dopamine receptor D4 (DRD4) polymorphisms with reduced functional potency intensify atrophy in syndrome-specific sites of frontotemporal dementia."
@@ -231,6 +244,7 @@
   image: pubs_2019_dopamine.jpg
   pmid: 31003069
   pmcid: PMC6475809
+  openaccess: https://www.sciencedirect.com/science/article/pii/S221315821930172X?via%3Dihub
   doi: 10.1016/j.nicl.2019.101822
   file:
   filetype: 
@@ -243,6 +257,7 @@
   image: pubs_2019_BRAIN_v2.png
   pmid: 30731065
   pmcid: 
+  openaccess: https://www.cell.com/neuron/fulltext/S0896-6273(19)30051-0?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627319300510%3Fshowall%3Dtrue
   doi: 10.1016/j.neuron.2019.01.024
   file:
   filetype: 
@@ -255,6 +270,7 @@
   image: pubs_2019_BRAIN_v2.png
   pmid: 30541767
   pmcid: PMC6297371 
+  openaccess: https://www.jneurosci.org/content/38/50/10586
   doi: 10.1523/JNEUROSCI.2077-18.2018
   file:
   filetype: 
@@ -322,6 +338,7 @@
   image: pubs_2017_careeco_resized.jpg
   pmid: 28323819
   pmcid: PMC5360211
+  openaccess: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002260
   doi: 10.1371/journal.pmed.1002260
   file:
   github:
@@ -333,6 +350,7 @@
   image: pubs_2017_recruitmentrate_resized.jpg
   pmid: 28104835
   pmcid: PMC5330837
+  openaccess: https://www.ahajournals.org/doi/10.1161/STROKEAHA.116.014458
   doi: 10.1161/STROKEAHA.116.014458
   pdf:
   github:
@@ -360,6 +378,7 @@
   doi: 10.1212/WNL.0000000000002587 
   pdf:
   github:
+  preregistered: https://www.crd.york.ac.uk/PROSPERO/display_record.php?RecordID=10204
   
 - authors: "**Huang IA**, Neuhaus JM, **Chiong W**."
   title: "Racial and ethnic differences in advance directive possession: Role of demographic factors, religious affiliation, and personal health values in a national survey of older adults."
@@ -371,6 +390,7 @@
   doi: 10.1089/jpm.2015.0326
   pdf:
   github:
+  opendata: https://osf.io/m8dtk/
 
 - authors: "**Chiong W**, Wood KA, **Beagle AJ**, Hsu M, Kayser AS, Miller BL, Kramer JH."
   title: "Neuroeconomic dissociation of semantic dementia and behavioural variant frontotemporal dementia."
@@ -379,6 +399,7 @@
   image: pubs_2016_neuroecondissocsdbvftd_resized.png
   pmid: 26667277
   pmcid: PMC4861653
+  openaccess: https://academic.oup.com/brain/article/139/2/578/1753756
   doi: 10.1093/brain/awv344
   pdf:
   github:
@@ -394,6 +415,9 @@
   pdf:
   github:
   osf: https://osf.io/4cv2x/
+  preregistered: https://osf.io/ny3je/
+  opendata: https://osf.io/m8dtk/
+  openmaterials: https://osf.io/m8dtk/
 
 - authors: "**Chiong W**, Hsu M, Wudka D, Miller BL, Rosen HJ."
   title: "Financial errors in dementia: Testing a neuroeconomic conceptual framework."
@@ -413,10 +437,14 @@
   image: pubs_2014_testingpresumption_resized.png
   pmid: 24756520
   pmcid: PMC4126238
+  openaccess: https://jamanetwork.com/journals/jama/fullarticle/1861784
   doi: 10.1001/jama.2014.3302
   pdf:
   github:
   osf: https://osf.io/4cv2x/
+  preregistered: https://osf.io/ny3je/
+  opendata: https://osf.io/m8dtk/
+  openmaterials: https://osf.io/m8dtk/
   
 - authors: "**Chiong W**."
   title: "Dementia and personal identity: Implications for decision-making."
@@ -437,6 +465,7 @@
   image: pubs_2013_moralreasoningvbm_resized.jpg
   pmid: 23576128
   pmcid: PMC3673466
+  openaccess: https://academic.oup.com/brain/article/136/6/1929/618804
   doi: 10.1093/brain/awt066
   pdf:
   github:
