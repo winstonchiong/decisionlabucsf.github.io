@@ -6,6 +6,7 @@
   details: "American Journal of Bioethics. 2020;20(8):67-69."
   year: 2020
   image: pubs_2020_Understanding Advance Directives as a Component of Advance Care Planning.png
+  imagealt: 
   pmid: 32757912
   pmcid: 
   openaccess:
@@ -25,6 +26,7 @@
   details: "Annals of Neurology. 2020; e-pub ahead of print."
   year: 2020
   image: pubs_2020_covid.jpg
+  imagealt:
   pmid: 32686102
   pmcid: PMC7405081
   openaccess: https://onlinelibrary.wiley.com/doi/full/10.1002/ana.25852
@@ -44,6 +46,7 @@
   details: "AJOB Neuroscience. 2020; 11(3):155-166."
   year: 2020
   image: pubs_2020_window.jpg
+  imagealt: 
   pmid: 32716746
   pmcid: PMC7485591
   openaccess: https://www.tandfonline.com/doi/full/10.1080/21507740.2020.1778118
@@ -63,6 +66,7 @@
   details: "Aging & Mental Health. 2020; e-pub ahead of print."
   year: 2020
   image: pubs_2020_objective-attitude.png
+  imagealt: 
   pmid: 32515603
   pmcid: 
   doi: 10.1080/13607863.2020.1771541 
@@ -81,6 +85,7 @@
   details: "Alzheimer's & Dementia. 2020; 6:e12010."
   year: 2020
   image: Bernstein A, Merrilees J, Dulaney S, et al - Using care navigation to address caregiver burden in dementia A qualitative case study analysis.png
+  imagealt: 
   pmid: 32377557
   pmcid: PMC7201177
   openaccess: https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/trc2.12010
@@ -100,6 +105,7 @@
   details: "Cortex. 2020; 124:54-65." 
   year: 2020
   image: pubs_2019_25aIRP.png
+  imagealt: 
   pmid: 31837518
   pmcid: PMC7060812
   openaccess:
@@ -119,6 +125,7 @@
   details: "Sociology of Health & Illness. 2020; 42(4):962-963."
   year: 2020
   image: pubs_2020_bioethics.jpg
+  imagealt: 
   pmid: 
   pmcid:
   openaccess: https://onlinelibrary.wiley.com/doi/full/10.1111/1467-9566.13060
@@ -138,6 +145,7 @@
   details: "Journal of Empirical Research on Human Research Ethics. 2019; 14(5):487-489."
   year: 2019
   image: pubs_2019_teamwork.jpg
+  imagealt: 
   pmid: 31779555
   pmcid: PMC6980360
   openaccess: https://journals.sagepub.com/doi/10.1177/1556264619853198a
@@ -157,6 +165,7 @@
   details: "JAMA Neurology. 2019; 76(12):1506-1514."
   year: 2019
   image: pubs_2019_hendriks.png
+  imagealt: 
   pmid: 31621797
   pmcid:
   doi: 10.1001/jamaneurol.2019.3523
@@ -175,6 +184,7 @@
   details: "JAMA Internal Medicine. 2019; 179(12):1658-1667."
   year: 2019
   image: pubs_2019_map_resized.jpg
+  imagealt: 
   pmid: 31566651
   pmcid: PMC6777227
   openaccess: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2751946
@@ -194,6 +204,7 @@
   details: "bioRxiv. 2019. [unrefereed preprint]"
   year: 2019
   image: pubs_2019_comt_framing.png
+  imagealt: 
   pmid:
   pmcid: 
   doi: 10.1101/790808
@@ -560,7 +571,6 @@
   doi: 10.1080/13554794.2010.532808
   file: "Chiong - The self_ From philosophy to cognitive neuroscience .pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
-  file:
   github:
 
 - authors: "**Chiong W**."
@@ -574,7 +584,6 @@
   doi: 10.1002/ana.22003
   file: "Chiong - Therapeutic misconceptions and moral conflict in clinical research.pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
-  file:
   github:
 
 - authors: "**Chiong W**."
@@ -600,7 +609,6 @@
   doi: 10.1080/15265160600755565
   file: "Chiong - The real problem with equipoise (1).pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
-  file:
   github:
 
 - authors: "**Chiong W**."
@@ -614,5 +622,4 @@
   doi: 10.1353/hcr.2005.0105
   file: "Chiong - Brain death without definitions.pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
-  file:
   github:
