@@ -207,12 +207,18 @@
   imagealt: 
   pmid:
   pmcid: 
+  openaccess: 
   doi: 10.1101/790808
   file: 
   filetype: 
   github: 
   contentshare:
   biorxiv: https://www.biorxiv.org/content/10.1101/790808v1
+  psyarxiv:
+  contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 - authors: "Butler PM, **Chiong W.**"
   title: "Neurodegenerative disorders of the human frontal lobes."
