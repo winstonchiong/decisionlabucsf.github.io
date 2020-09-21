@@ -1,5 +1,24 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
+- authors: "**Antoniou R**, **Romero-Kornblum H**, **Young J.C**, You M, Kramer JH, **Chiong W**"
+  title: "No Utilitarians in a Pandemic? Shifts in Moral Reasoning during the COVID-19 Global Health Crisis."
+  details: 
+  year: 2020
+  image: 
+  imagealt: 
+  pmid:
+  pmcid: 
+  openaccess:
+  doi: 
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: https://psyarxiv.com/yjn3u
+  contentshare:
+  preregistered: https://osf.io/g2wtp
+  opendata: https://osf.io/d7raz/
+  openmaterials: https://osf.io/dktac/
 
 - authors: "**Fong KC**, **Chiong W**"
   title: "Understanding advance directives as a component of advance care planning."
