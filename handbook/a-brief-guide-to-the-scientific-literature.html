@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 6 A Brief Guide to the Scientific Literature | UCSF Decision Lab Handbook</title>
   <meta name="description" content="Handbook for the UCSF Decision Lab." />
-  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 6 A Brief Guide to the Scientific Literature | UCSF Decision Lab Handbook" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2020-07-01" />
+<meta name="date" content="2021-01-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -49,12 +49,13 @@
 
 
 
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 <style type="text/css">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
@@ -63,14 +64,16 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -79,9 +82,9 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -158,7 +161,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="6" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html"><i class="fa fa-check"></i><b>6</b> A Brief Guide to the Scientific Literature</a><ul>
 <li class="chapter" data-level="6.1" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#getting-started-on-a-topic"><i class="fa fa-check"></i><b>6.1</b> Getting started on a topic</a></li>
 <li class="chapter" data-level="6.2" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#reading-in-more-depth"><i class="fa fa-check"></i><b>6.2</b> Reading in more depth</a></li>
-<li class="chapter" data-level="6.3" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#staying-up-to-date"><i class="fa fa-check"></i><b>6.3</b> Staying up-to-date</a></li>
+<li class="chapter" data-level="6.3" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#using-rss-feeds-to-follow-the-scientific-literature"><i class="fa fa-check"></i><b>6.3</b> Using RSS feeds to follow the scientific literature</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="authorship.html"><a href="authorship.html"><i class="fa fa-check"></i><b>7</b> Authorship</a><ul>
 <li class="chapter" data-level="7.1" data-path="authorship.html"><a href="authorship.html#why-it-matters-and-what-it-means"><i class="fa fa-check"></i><b>7.1</b> Why it matters, and what it means</a><ul>
@@ -340,25 +343,38 @@ also discussed in Section 7, <a href="authorship.html#choosing-a-journal">Choosi
 (either from a target paper or for a manuscript you might be drafting) and find
 journals, authors and articles that match as related to this entry.</p>
 </div>
-<div id="staying-up-to-date" class="section level2">
-<h2><span class="header-section-number">6.3</span> Staying up-to-date</h2>
-<p>New papers are coming out all the time, and it’s hard to stay up-to-date. PubMed
-and Google Scholar also have tools that allow you to create alerts
-to notify you when new articles show up on a topic of interest. For PubMed,
-after you have entered a search term, you’ll see two new options below the
-search bar: “Create RSS” and “Create alert.” The Create RSS option will generate
-an RSS link for use in an RSS reader (if you use one). The Create alert option
-will require you to create an NCBI account (National Center for Biotechnology
-Information)–from the next screen, click on “Register for an NCBI account” and
-follow the instructions. Once you have an NCBI account, you can save particular
-searches, and ask PubMed to e-mail you a daily, weekly, or monthly summary
-of new articles matching this search that have been added to PubMed. Because
-PubMed has so many new articles added all the time, you’ll want to use the
-“Advanced” option to utilize fields for author, title/abstract and journal to
-focus these summaries on articles of interest. (Old-school people like me will
-also use field codes, e.g. <code>[au]</code> for author, <code>[tiab]</code> for
-title/abstract, <code>[jo]</code> for journal name.)
-For example, if you just search for “framing effects”
+<div id="using-rss-feeds-to-follow-the-scientific-literature" class="section level2">
+<h2><span class="header-section-number">6.3</span> Using RSS feeds to follow the scientific literature</h2>
+<p>This is my new method for 2021, will see if I can stick to it. Here I’m
+borrowing from the <a href="https://fraserlab.com/2013/09/28/The-Fraser-Lab-method-of-following-the-scientific-literature/" target="_blank">Fraser lab</a>–see
+there for more details about what RSS is. Basically, every time a journal
+updates its content, it will also update the RSS feed. So this way, you don’t
+have to keep randomly checking websites for updates, you’ll know automatically
+when there’s something new for you to read.</p>
+<p>First, go to feedly.com and create a Feedly account.
+Feedly is an RSS aggregator–it puts all your RSS feeds in one place, and has
+handy iOS and Android apps that you can use to check your feeds on the go.</p>
+<p>Next, add feeds for yournals of interest to Feedly.
+Figure out which journals you want to follow. If you click the “+” (plus)
+symbol in Feedly for “Follow New Sources,” you can search for the journal title
+in the search bar, or you can go to the journal website and search for the RSS
+link location and copy it to the bar.</p>
+<p>Finally, you can add custom PubMed searches.
+I have set up PubMed RSS feeds to follow scientists, friends and
+collaborators so I can know when they publish new papers. Go to pubmed.gov
+(IMPORTANT: for this, don’t use pubmed.ucsf.edu) and search for an author
+using their full first name and last name (plus middle initial, if they have a
+common last name and use their middle initial reliably), followed by <code>[fau]</code>
+(for full name author search). After searching, click on “Create RSS” which will
+drop down and show some options for your feed (not too important to worry about
+for our purposes). Click “Create RSS” and a URL will be created for your feed.
+Click “Copy” and then paste the feed URL address into the Follow New Sources bar
+in Feedly.</p>
+<p><img src="img/handbook_06_lit-02-pubmed-custom-fau.png" /></p>
+<p>Similarly, if you want you can do more complicated searches using other
+field codes, e.g. <code>[au]</code> for author, <code>[tiab]</code> for
+title/abstract, <code>[jo]</code> for journal name.
+For example, if you just search for “framing effects” as a topic<br />
 you’ll get lots of articles on health promotion strategies that aren’t directly
 relevant to us. So instead, I have a saved search for</p>
 <pre><code>&quot;framing effect&quot; AND (psychology OR neuroscience OR neuroimaging) </code></pre>
@@ -368,16 +384,6 @@ articles about decision-making in patients with dementia or MCI:</p>
 neuroscience&quot;[tiab] OR neuroeconomics OR ((neuroscience[tiab] OR 
 neuroanatom*[tiab] OR neuroim*[tiab]) AND (&quot;decision making&quot;[tiab] OR 
 &quot;decision-making&quot;[tiab] OR financial[tiab]))) </code></pre>
-<p>Google Scholar has similar tools for creating alerts based upon keyword
-searches, though I’ve found them less customizable.</p>
-<p>Another tool that I’ve just recently learned about and haven’t used much
-is the article recommendation search from
-<a href="https:/f1000.com/prime/home" target="_blank">Faculty of 1000</a>,
-which provides selected articles by senior faculty around the world. So far, it
-looks pretty useful too. One last tool I’ve used to keep in touch is Twitter–
-by following certain scholars who work in areas I’m interested in, I can follow
-ongoing discussions that people have about new papers as they come out (or are
-even in pre-print).</p>
 
 </div>
 </div>

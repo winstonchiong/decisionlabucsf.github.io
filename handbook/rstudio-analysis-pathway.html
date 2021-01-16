@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 9 RStudio Analysis Pathway | UCSF Decision Lab Handbook</title>
   <meta name="description" content="Handbook for the UCSF Decision Lab." />
-  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 9 RStudio Analysis Pathway | UCSF Decision Lab Handbook" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2020-07-01" />
+<meta name="date" content="2021-01-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -49,12 +49,13 @@
 
 
 
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 <style type="text/css">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
@@ -63,14 +64,16 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -79,9 +82,9 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -158,7 +161,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="6" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html"><i class="fa fa-check"></i><b>6</b> A Brief Guide to the Scientific Literature</a><ul>
 <li class="chapter" data-level="6.1" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#getting-started-on-a-topic"><i class="fa fa-check"></i><b>6.1</b> Getting started on a topic</a></li>
 <li class="chapter" data-level="6.2" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#reading-in-more-depth"><i class="fa fa-check"></i><b>6.2</b> Reading in more depth</a></li>
-<li class="chapter" data-level="6.3" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#staying-up-to-date"><i class="fa fa-check"></i><b>6.3</b> Staying up-to-date</a></li>
+<li class="chapter" data-level="6.3" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#using-rss-feeds-to-follow-the-scientific-literature"><i class="fa fa-check"></i><b>6.3</b> Using RSS feeds to follow the scientific literature</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="authorship.html"><a href="authorship.html"><i class="fa fa-check"></i><b>7</b> Authorship</a><ul>
 <li class="chapter" data-level="7.1" data-path="authorship.html"><a href="authorship.html#why-it-matters-and-what-it-means"><i class="fa fa-check"></i><b>7.1</b> Why it matters, and what it means</a><ul>
@@ -548,23 +551,23 @@ for “rdrivepath” in case we want to reference other things on the R: drive�
 points to different paths on Windows and Mac machines. Finally, the “setup”
 chunk will be used to load any special libraries that RStudio needs to run the
 code. For our hypothetical example for task “blah”:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1"><span class="st">```</span><span class="dt">{r setup}</span></a>
-<a class="sourceLine" id="cb3-2" title="2"><span class="dt">if (Sys.info()[&quot;sysname&quot;] == &quot;Windows&quot;){</span></a>
-<a class="sourceLine" id="cb3-3" title="3"><span class="dt">  repofolder &lt;- paste(&quot;C:/Users/&quot;, Sys.getenv(&quot;USERNAME&quot;), &quot;/decisionlab/blah/analysis/&quot;, </span></a>
-<a class="sourceLine" id="cb3-4" title="4"><span class="dt">                      sep = &quot;&quot;)</span></a>
-<a class="sourceLine" id="cb3-5" title="5"><span class="dt">  datafolder &lt;- &quot;R:/groups/chiong/blahblah/blah/&quot;</span></a>
-<a class="sourceLine" id="cb3-6" title="6"><span class="dt">  rdrivepath &lt;- &quot;R:/&quot;</span></a>
-<a class="sourceLine" id="cb3-7" title="7"><span class="dt">} else if (Sys.info()[&quot;sysname&quot;] == &quot;Darwin&quot;){ # not sure why MacOS is &quot;Darwin&quot; but it is...</span></a>
-<a class="sourceLine" id="cb3-8" title="8"><span class="dt">  repofolder &lt;- &quot;~/decisionlab/blah/analysis/&quot;</span></a>
-<a class="sourceLine" id="cb3-9" title="9"><span class="dt">  datafolder &lt;- &quot;/Volumes/macdata/groups/chiong/blahblah/blah/&quot;</span></a>
-<a class="sourceLine" id="cb3-10" title="10"><span class="dt">  rdrivepath &lt;- &quot;/Volumes/macdata/&quot;</span></a>
-<a class="sourceLine" id="cb3-11" title="11"><span class="dt">} # probably good to add another condition for Unix, later on...</span></a>
-<a class="sourceLine" id="cb3-12" title="12"></a>
-<a class="sourceLine" id="cb3-13" title="13"><span class="dt">library(readr)</span></a>
-<a class="sourceLine" id="cb3-14" title="14"><span class="dt">library(readxl)</span></a>
-<a class="sourceLine" id="cb3-15" title="15"><span class="dt">knitr::opts_chunk$set(echo = TRUE)</span></a>
-<a class="sourceLine" id="cb3-16" title="16"><span class="dt">knitr::opts_knit$set(root.dir = datafolder)</span></a>
-<a class="sourceLine" id="cb3-17" title="17"><span class="st">```</span></a></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="rstudio-analysis-pathway.html#cb3-1"></a><span class="st">```</span><span class="dt">{r setup}</span></span>
+<span id="cb3-2"><a href="rstudio-analysis-pathway.html#cb3-2"></a><span class="dt">if (Sys.info()[&quot;sysname&quot;] == &quot;Windows&quot;){</span></span>
+<span id="cb3-3"><a href="rstudio-analysis-pathway.html#cb3-3"></a><span class="dt">  repofolder &lt;- paste(&quot;C:/Users/&quot;, Sys.getenv(&quot;USERNAME&quot;), &quot;/decisionlab/blah/analysis/&quot;, </span></span>
+<span id="cb3-4"><a href="rstudio-analysis-pathway.html#cb3-4"></a><span class="dt">                      sep = &quot;&quot;)</span></span>
+<span id="cb3-5"><a href="rstudio-analysis-pathway.html#cb3-5"></a><span class="dt">  datafolder &lt;- &quot;R:/groups/chiong/blahblah/blah/&quot;</span></span>
+<span id="cb3-6"><a href="rstudio-analysis-pathway.html#cb3-6"></a><span class="dt">  rdrivepath &lt;- &quot;R:/&quot;</span></span>
+<span id="cb3-7"><a href="rstudio-analysis-pathway.html#cb3-7"></a><span class="dt">} else if (Sys.info()[&quot;sysname&quot;] == &quot;Darwin&quot;){ # not sure why MacOS is &quot;Darwin&quot; but it is...</span></span>
+<span id="cb3-8"><a href="rstudio-analysis-pathway.html#cb3-8"></a><span class="dt">  repofolder &lt;- &quot;~/decisionlab/blah/analysis/&quot;</span></span>
+<span id="cb3-9"><a href="rstudio-analysis-pathway.html#cb3-9"></a><span class="dt">  datafolder &lt;- &quot;/Volumes/macdata/groups/chiong/blahblah/blah/&quot;</span></span>
+<span id="cb3-10"><a href="rstudio-analysis-pathway.html#cb3-10"></a><span class="dt">  rdrivepath &lt;- &quot;/Volumes/macdata/&quot;</span></span>
+<span id="cb3-11"><a href="rstudio-analysis-pathway.html#cb3-11"></a><span class="dt">} # probably good to add another condition for Unix, later on...</span></span>
+<span id="cb3-12"><a href="rstudio-analysis-pathway.html#cb3-12"></a></span>
+<span id="cb3-13"><a href="rstudio-analysis-pathway.html#cb3-13"></a><span class="dt">library(readr)</span></span>
+<span id="cb3-14"><a href="rstudio-analysis-pathway.html#cb3-14"></a><span class="dt">library(readxl)</span></span>
+<span id="cb3-15"><a href="rstudio-analysis-pathway.html#cb3-15"></a><span class="dt">knitr::opts_chunk$set(echo = TRUE)</span></span>
+<span id="cb3-16"><a href="rstudio-analysis-pathway.html#cb3-16"></a><span class="dt">knitr::opts_knit$set(root.dir = datafolder)</span></span>
+<span id="cb3-17"><a href="rstudio-analysis-pathway.html#cb3-17"></a><span class="st">```</span></span></code></pre></div>
 <p>Before we get too far along, let’s save the .Rmd file. Again, this goes within
 the decisionlab repo local folder on your computer, which you created in Step 1.
 (From where it can then be pushed to the lab GitHub repo.)
@@ -653,21 +656,21 @@ So you’ll need to extract the column info you want, and then drop the first tw
 rows because they’re not observations. You’ll also want to convert any date
 strings in the dataframe to proper R dates. So soon this part of your R Markdown
 file will look like this:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1"><span class="co">## Data cleaning</span></a>
-<a class="sourceLine" id="cb4-2" title="2"></a>
-<a class="sourceLine" id="cb4-3" title="3">First, load data from .csv file. Then drop first two rows from Qualtrics, and </a>
-<a class="sourceLine" id="cb4-4" title="4">convert Qualtrics datstrings to R dates. </a>
-<a class="sourceLine" id="cb4-5" title="5"></a>
-<a class="sourceLine" id="cb4-6" title="6"><span class="st">```</span><span class="dt">{r file-import}</span></a>
-<a class="sourceLine" id="cb4-7" title="7"><span class="dt">library(readr)</span></a>
-<a class="sourceLine" id="cb4-8" title="8"><span class="dt">blah_qualtrics_df &lt;- read_csv(&quot;ugly_Qualtrics_filename_Date_Time.csv&quot;)</span></a>
-<a class="sourceLine" id="cb4-9" title="9"></a>
-<a class="sourceLine" id="cb4-10" title="10"><span class="dt">blah_qualtrics_df &lt;- blah_qualtrics_df[-c(1,2),]</span></a>
-<a class="sourceLine" id="cb4-11" title="11"><span class="dt">blah_qualtrics_df$StartDate &lt;- as.POSIXct(blah_qualtrics_df$StartDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
-<a class="sourceLine" id="cb4-12" title="12"><span class="dt">blah_qualtrics_df$EndDate &lt;- as.POSIXct(blah_qualtrics_df$EndDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
-<a class="sourceLine" id="cb4-13" title="13"><span class="dt">blah_qualtrics_df$RecordedDate &lt;- as.POSIXct(blah_qualtrics_df$RecordedDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></a>
-<a class="sourceLine" id="cb4-14" title="14"></a>
-<a class="sourceLine" id="cb4-15" title="15"><span class="st">```</span></a></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="rstudio-analysis-pathway.html#cb4-1"></a><span class="co">## Data cleaning</span></span>
+<span id="cb4-2"><a href="rstudio-analysis-pathway.html#cb4-2"></a></span>
+<span id="cb4-3"><a href="rstudio-analysis-pathway.html#cb4-3"></a>First, load data from .csv file. Then drop first two rows from Qualtrics, and </span>
+<span id="cb4-4"><a href="rstudio-analysis-pathway.html#cb4-4"></a>convert Qualtrics datstrings to R dates. </span>
+<span id="cb4-5"><a href="rstudio-analysis-pathway.html#cb4-5"></a></span>
+<span id="cb4-6"><a href="rstudio-analysis-pathway.html#cb4-6"></a><span class="st">```</span><span class="dt">{r file-import}</span></span>
+<span id="cb4-7"><a href="rstudio-analysis-pathway.html#cb4-7"></a><span class="dt">library(readr)</span></span>
+<span id="cb4-8"><a href="rstudio-analysis-pathway.html#cb4-8"></a><span class="dt">blah_qualtrics_df &lt;- read_csv(&quot;ugly_Qualtrics_filename_Date_Time.csv&quot;)</span></span>
+<span id="cb4-9"><a href="rstudio-analysis-pathway.html#cb4-9"></a></span>
+<span id="cb4-10"><a href="rstudio-analysis-pathway.html#cb4-10"></a><span class="dt">blah_qualtrics_df &lt;- blah_qualtrics_df[-c(1,2),]</span></span>
+<span id="cb4-11"><a href="rstudio-analysis-pathway.html#cb4-11"></a><span class="dt">blah_qualtrics_df$StartDate &lt;- as.POSIXct(blah_qualtrics_df$StartDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></span>
+<span id="cb4-12"><a href="rstudio-analysis-pathway.html#cb4-12"></a><span class="dt">blah_qualtrics_df$EndDate &lt;- as.POSIXct(blah_qualtrics_df$EndDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></span>
+<span id="cb4-13"><a href="rstudio-analysis-pathway.html#cb4-13"></a><span class="dt">blah_qualtrics_df$RecordedDate &lt;- as.POSIXct(blah_qualtrics_df$RecordedDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></span>
+<span id="cb4-14"><a href="rstudio-analysis-pathway.html#cb4-14"></a></span>
+<span id="cb4-15"><a href="rstudio-analysis-pathway.html#cb4-15"></a><span class="st">```</span></span></code></pre></div>
 <p>You may also need to drop other observations (e.g., patients we collected data
 on who don’t have the diagnoses of interest, subjects who failed control
 conditions… though it might be better to create a new variable named something
