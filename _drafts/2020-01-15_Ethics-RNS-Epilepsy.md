@@ -1,13 +1,10 @@
-
 ---
 title: New ethical concerns in responsive neurostimulation
 presenters: Vikram Rao and Manu Hegde
 layout: post
 group: pastsem
-date: 2019-01-16
+date: 2019-01-15
 ---
-
-
 The Responsive Neurostimulation (RNS) system is a closed-loop system that continuously monitors electrical activity in specific brain regions via electrodes and 
 administers stimulation at the detection of seizure related abnormalities. It is the only FDA approved closed-loop stimulation device and has been implanted in 
 approximately 3000 patients since 2013. However, our ability to develop technology often occurs more quickly than our ability to consider the ramifications of
