@@ -1,6 +1,26 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "Hegde M, **Chiong W**, Rao VR."
+  title: 'New Ethical and Clinical Challenges in "Closed-Loop" Neuromodulation.'
+  details: "Neurology. 2021;10.1212/WNL.0000000000011834." 
+  year: 2021
+  image: pubs_2021_neuromodulation_ethics_resized.png
+  imagealt:
+  pmid: 33727407
+  pmcid: 
+  openaccess: 
+  doi: 10.1212/WNL.0000000000011834
+  file:
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered: 
+  opendata: 
+  openmaterials: 
+
 - authors: "Mergenthaler JV, **Chiong W**, Dohan D, Feler J, **Lechner CR**, Starr PA, Arias JJ."
   title: "A qualitative analysis of ethical perspectives on recruitment and consent for human intracranial electrophysiology studies."
   details: "AJOB Neuroscience. 2021; 12(1):57-67."
