@@ -32,7 +32,8 @@ has just published a
 of noninvasive brain stimulation in neurodegeneration informed by her work. 
 Here at the UCSF Memory and Aging Center she'll be working on our 
 [Genes, Brains and Decisions](/projects/index.html#gbd) and 
-[Decision-Making in Alzheimer's and Related Dementias](/projects/index.html#dma), 
+[Decision-Making in Alzheimer's and Related Dementias](/projects/index.html#dma) 
+projects, 
 developing new skills in functional neuroimaging analysis. We are so glad to 
 have her and grateful for her patience and perseverance!
 
