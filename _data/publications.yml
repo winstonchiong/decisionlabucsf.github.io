@@ -1,6 +1,26 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "**Lindbergh CA**, **Romero-Kornblum H**, Weiner-Light S, **Young JC**, Fonseca C, You M, Wolf A, Staffaroni AM, Daly R, Jeste DV, Kramer JH, **Chiong W**, the Hillblom Aging Network."
+  title: "Wisdom and fluid intelligence are dissociable in healthy older adults."
+  details: "International Psychogeriatrics. 2021;1–11." 
+  year: 2021
+  image: "pubs_2021_Wisdom and fluid intelligence are dissociable in healthy older adults-SDxPS.png"
+  imagealt: 
+  pmid: 33966673  
+  pmcid: 
+  openaccess: https://www.cambridge.org/core/journals/international-psychogeriatrics/article/wisdom-and-fluid-intelligence-are-dissociable-in-healthy-older-adults/43B96A4356BF006EFEF38CBBF0FF7B4F#
+  doi: 10.1017/S1041610221000521
+  file:
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered: https://osf.io/h3pjx
+  opendata: 
+  openmaterials: 
+
 - authors: "Hegde M, **Chiong W**, Rao VR."
   title: "New ethical and clinical challenges in “closed-loop” neuromodulation."
   details: "Neurology. 2021; 96(17):799-804. " 
