@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2021-01-16" />
+<meta name="date" content="2021-05-24" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -142,7 +142,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#private-github-repo"><i class="fa fa-check"></i><b>3.3</b> <span>Private Github repo</span></a></li>
 <li class="chapter" data-level="3.4" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#r-drive-rgroupschiong"><i class="fa fa-check"></i><b>3.4</b> R: drive (R:\groups\chiong)</a></li>
 <li class="chapter" data-level="3.5" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#lava-and-lavaquery"><i class="fa fa-check"></i><b>3.5</b> <span>LAVA and LAVAquery</span></a></li>
-<li class="chapter" data-level="3.6" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#deprecateddiscouraged-tools"><i class="fa fa-check"></i><b>3.6</b> Deprecated/discouraged tools</a></li>
+<li class="chapter" data-level="3.6" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#open-science-framework"><i class="fa fa-check"></i><b>3.6</b> <span>Open Science Framework</span></a></li>
+<li class="chapter" data-level="3.7" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#deprecateddiscouraged-tools"><i class="fa fa-check"></i><b>3.7</b> Deprecated/discouraged tools</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html"><i class="fa fa-check"></i><b>4</b> Intro to the Memory and Aging Center</a><ul>
 <li class="chapter" data-level="4.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#the-mac-in-the-context-of-ucsf-the-weill-institute"><i class="fa fa-check"></i><b>4.1</b> The MAC in the context of UCSF &amp; the Weill Institute</a></li>
@@ -175,6 +176,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="7.2.4" data-path="authorship.html"><a href="authorship.html#methods-past-tense-for-what-you-did"><i class="fa fa-check"></i><b>7.2.4</b> Methods (<em>past tense</em> for what you did)</a></li>
 <li class="chapter" data-level="7.2.5" data-path="authorship.html"><a href="authorship.html#results-past-tense-for-what-you-found"><i class="fa fa-check"></i><b>7.2.5</b> Results (<em>past tense</em> for what you found)</a></li>
 <li class="chapter" data-level="7.2.6" data-path="authorship.html"><a href="authorship.html#discussion-past-tense-for-talking-about-what-you-found-present-tense-for-what-it-means"><i class="fa fa-check"></i><b>7.2.6</b> Discussion (<em>past tense</em> for talking about what you found, <em>present tense</em> for what it means)</a></li>
+<li class="chapter" data-level="7.2.7" data-path="authorship.html"><a href="authorship.html#person-centered-language-and-other-terminology"><i class="fa fa-check"></i><b>7.2.7</b> Person-centered language and other terminology</a></li>
 </ul></li>
 <li class="chapter" data-level="7.3" data-path="authorship.html"><a href="authorship.html#more-about-figures"><i class="fa fa-check"></i><b>7.3</b> More about figures</a><ul>
 <li class="chapter" data-level="7.3.1" data-path="authorship.html"><a href="authorship.html#style-and-design"><i class="fa fa-check"></i><b>7.3.1</b> Style and design</a></li>
@@ -433,12 +435,19 @@ RStudio. (Also for other packages like
 Matlab, Stata, etc.) RStudio can’t read files from the github.com website
 directly, so we’re going to use SourceTree to sync our repository to a local
 folder on your computer. Go to
-<a href="https://confluence.atlassian.com/get-started-with-sourcetree/install-sourcetree-847359094.html" target="_blank">confluence.atlassian.com/get-started-with-sourcetree/install-sourcetree-847359094.html</a>
-and follow the instructions to install SourceTree on your computer. (It now
-appears that you need to create a “BitBucket Cloud account” to set up
-SourceTree, which you can do and then ignore the BitBucket account.) When
-SourceTree is installed, connect it to your GitHub account using your GitHub
-username and password.</p>
+<a href="https://www.sourcetreeapp.com" target="_blank">https://www.sourcetreeapp.com</a>
+to download the app.</p>
+<p>The instructions on the Sourcetree website seem to be in need of updating.
+For our purposes, go to Preferences -&gt; Accounts… or Tools -&gt; Options -&gt;
+Authentication -&gt; Accounts (depending on what kind of computer you have) and
+choose “Add.” For Host enter “GitHub” and for Authentication enter “Basic.” Your
+Username is just your GitHub username, but instead of your regular password
+you need a Personal Access Token (which is like a specific password for
+SourceTree to use to log into your account). See the instructions on
+<a href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token" target="_blank">creating a personal access token</a>
+for instructions. For scopes/permissions, check “repo.” When you generate a
+token, it will show you the token only once. Copy the token from the clipboard
+and paste it into the Password field in Sourcetree.</p>
 <p>We’ll discuss using SourceTree in more detail in Step 1. One quick note here: we
 do want to be really careful with <strong>pulling</strong> (which will rewrite the contents
 of your local folder to match the GitHub repository) and <strong>pushing</strong> (which will

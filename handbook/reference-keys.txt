@@ -6,6 +6,7 @@ lab-website
 private-github-repo
 r-drive-rgroupschiong
 lava-and-lavaquery
+open-science-framework
 deprecateddiscouraged-tools
 intro-to-the-memory-and-aging-center
 the-mac-in-the-context-of-ucsf-the-weill-institute
@@ -32,6 +33,7 @@ introduction-present-tense-for-what-is-currently-known
 methods-past-tense-for-what-you-did
 results-past-tense-for-what-you-found
 discussion-past-tense-for-talking-about-what-you-found-present-tense-for-what-it-means
+person-centered-language-and-other-terminology
 more-about-figures
 style-and-design
 notes-on-posters
