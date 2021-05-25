@@ -3,17 +3,25 @@
   previously: Undergraduate Research Assistant
   now: Resident Physician, UCLA Department of Surgery
   email: 
-  website: 
+  website: http://surgery.ucla.edu/casit-meet-our-team#huang
   pubmed_name: "Huang IA"
 
 - name: William Feldman
   degrees: MD DPhil
   previously: Medical Student
-  now: Fellow, Brigham and Women's Hospital Department of Pulmonary and Critical Care
+  now: Associate Physician, Brigham and Women's Hospital Department of Pulmonary and Critical Care
   email: 
   website: https://connects.catalyst.harvard.edu/Profiles/display/Person/139292
   pubmed_name: "Feldman WB"
 
+- name: Alex Beagle
+  degrees: MD
+  previously: Research Coordinator, then Medical Student
+  now: Resident Physician, UCSF Department of Medicine
+  email: 
+  website: https://profiles.ucsf.edu/alex.beagle
+  pubmed_name: "Beagle AJ"
+ 
 - name: Mia Borzello
   degrees: 
   previously: Research Coordinator
@@ -30,20 +38,12 @@
   website: 
   pubmed_name: "Zahir A"
   
-- name: Alex Beagle
-  degrees: MD
-  previously: Research Coordinator, then Medical Student
-  now: Resident Physician, UCSF Department of Medicine
-  email: 
-  website: 
-  pubmed_name: "Beagle AJ"
- 
 - name: Julia Heunis
   degrees: MD
   previously: Medical Student
   now: Resident Physician, Boston Children's Hospital
   email: 
-  website: 
+  website: https://www.linkedin.com/in/julia-heunis-a509256a
   pubmed_name: "Heunis J"
  
 - name: Neil Vaishnav
@@ -51,7 +51,7 @@
   previously: Medical Student
   now: Resident Physician, UCSF Department of Medicine
   email: 
-  website: 
+  website: https://profiles.ucsf.edu/neil.vaishnav
   pubmed_name: "Vaishnav NH"
   
 - name: Madhu Manivannan
@@ -68,8 +68,14 @@
   now: Graduate Student, UCSD Rady School of Management
   email: 
   website: 
-  pubmed_name: Romero-Kornblum H
+  pubmed_name: "Romero-Kornblum H"
   
-  
+- name: Sang Ngo
+  degrees: 
+  previously: Research Coordinator
+  now: Medical Student, UCLA School of Medicine
+  email: 
+  website: 
+  pubmed_name: "Ngo S"
   
   
