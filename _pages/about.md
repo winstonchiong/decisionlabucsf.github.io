@@ -19,9 +19,9 @@ The Decision Lab is led by [Winston Chiong, MD PhD]({{ '/team/index.html#Winston
 
    We study the neural bases of decision-making in the aging brain in both health and disease, using techniques such as task-based functional MRI, online population-based methods, and computational behavioral modeling. We hope to understand brain changes underlying vulnerability to financial fraud and other mistakes, in order to inform future strategies to prevent these risks.
 
-2. **Ethical and Policy Implications of Alterations to Brain Function**
+2. **Ethical, Policy and Health Equity Implications of Alterations to Brain Function**
 
-   We also use conceptual and empirical/ethnographic methods to investigate the broader effects of brain diseases and of interventions (pharmacological and technological) that influence brain function. As the brain is the physical basis for our experiences, personalities and choices, we are particularly interested in how changes to the brain affect patients' senses of themselves and of their autonomy in decision-making.
+   We also use conceptual and empirical/ethnographic methods to investigate the broader effects of brain diseases and of interventions (pharmacological and technological) that influence brain function. As the brain is the physical basis for our experiences, personalities and choices, we are particularly interested in how changes to the brain affect patients’/users’ senses of themselves and in whether new possibilities afforded by new interventions are made available among diverse communities.
 
 ---
 
