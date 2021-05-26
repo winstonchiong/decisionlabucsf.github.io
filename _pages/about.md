@@ -21,7 +21,7 @@ The Decision Lab is led by [Winston Chiong, MD PhD]({{ '/team/index.html#Winston
 
 2. **Ethical, Policy and Health Equity Implications of Alterations to Brain Function**
 
-   We also use conceptual and empirical/ethnographic methods to investigate the broader effects of brain diseases and of interventions (pharmacological and technological) that influence brain function. As the brain is the physical basis for our experiences, personalities and choices, we are particularly interested in how changes to the brain affect patients’/users’ senses of themselves and in whether new possibilities afforded by new interventions are made available among diverse communities.
+   We also use conceptual and empirical/ethnographic methods to investigate the broader effects of brain diseases and of interventions (pharmacological and technological) that influence brain function. As the brain is the physical basis for our experiences, personalities and choices, we are particularly interested in how changes to the brain affect patients’/users’ senses of themselves and in whether new possibilities afforded by novel interventions are made available among diverse communities.
 
 ---
 
