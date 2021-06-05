@@ -6,6 +6,9 @@ description:
 years: [2021, 2020, 2019, 2018, 2017, 2016, 2014, 2013, 2011, 2010, 2007, 2006, 2005]
 ---
 
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
 {% for y in page.years %}
 
 <h3 class="year">{{y}}</h3>
@@ -13,7 +16,7 @@ years: [2021, 2020, 2019, 2018, 2017, 2016, 2014, 2013, 2011, 2010, 2007, 2006, 
 {% for paper in site.data.publications %}
 
 {% if y == paper.year %}
-<div id = "{{ paper.title | replace: ' ', '-' | remove: '.' }}" class="clearfix" width="100%" style="padding-top: 5px; padding-bottom: 40px; clear: both;">
+<div id = "{{ paper.title | replace: ' ', '-' | remove: '.' }}" class="clearfix" width="100%" style="padding-top: 5px; padding-bottom: 15px; clear: both;">
 <img style="float: left; width: 25%; padding-right: 20px; padding-bottom:40px;" src="{{ paper.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="publication image {% if paper.imagealt %}- {{paper.imagealt}}{% endif %}"> 
 <div valign="top" style="overflow: hidden">
   {{paper.authors | markdownify | remove: '<p>' | remove: '</p>'}}<br>
@@ -36,6 +39,19 @@ years: [2021, 2020, 2019, 2018, 2017, 2016, 2014, 2013, 2011, 2010, 2007, 2006, 
   {% if paper.preregistered %}<i class="ai ai-preregistered ai-fw"></i> <a href="{{paper.preregistered}}" target="_blank">Preregistration</a><br>{% endif %}
   {% if paper.opendata %}<i class="ai ai-open-data ai-fw"></i> <a href="{{paper.opendata}}" target="_blank">Open Data</a><br>{% endif %}
   {% if paper.openmaterials %}<i class="ai ai-open-materials ai-fw"></i> <a href="{{paper.openmaterials}}" target="_blank">Open Materials</a><br>{% endif %}
+  {% if paper.doi %}
+  <div style="display: table;"><div style="display: table-row; height: 6px"></div>
+  <div style="display: table-row;"><div style="display: table-cell; width: 10px;"></div>
+  <div style="display: table-cell;" class="__dimensions_badge_embed__" data-doi="{{paper.doi}}" data-hide-zero-citations="true" data-legend="hover-right" data-style="small_circle"></div> <div style="display: table-cell;" data-badge-popover="right" data-badge-type="donut" data-doi="{{paper.doi}}" data-hide-no-mentions="true" class="altmetric-embed"></div>
+  </div><div style="display: table-row; height: 22px"></div>
+  </div>
+  {% elsif paper.pmid %}
+  <div style="display: table;"><div style="display: table-row; height: 6px"></div>
+  <div style="display: table-row;"><div style="display: table-cell; width: 10px;"></div>
+  <div style="display: table-cell;" class="__dimensions_badge_embed__" data-pmid="{{paper.pmid}}" data-hide-zero-citations="true" data-legend="hover-right" data-style="small_circle"></div> <div style="display: table-cell;" data-badge-popover="right" data-badge-type="donut" data-pmid="{{paper.pmid}}" data-hide-no-mentions="true" class="altmetric-embed"></div>
+  </div><div style="display: table-row; height: 22px"></div>
+  </div>
+  {% endif %}
     </div>
 </div>
 
