@@ -69,15 +69,7 @@
   email: 
   website: https://www.linkedin.com/in/heather-romero-kornblum-810bab15a
   pubmed_name: "Romero-Kornblum H"
-  
-- name: Sang Ngo
-  degrees: 
-  previously: Research Coordinator
-  now: Medical Student, UCLA School of Medicine
-  email: 
-  website: 
-  pubmed_name: "Ngo S"
-  
+    
 - name: Cailin Lechner
   degrees: 
   previously: Research Coordinator
@@ -86,6 +78,14 @@
   website: 
   pubmed_name: "Lechner, C"
   
+- name: Sang Ngo
+  degrees: 
+  previously: Research Coordinator
+  now: Medical Student, UCLA School of Medicine
+  email: 
+  website: 
+  pubmed_name: "Ngo S"
+
 - name: Emily Hardy
   degrees: 
   previously: Research Coordinator
