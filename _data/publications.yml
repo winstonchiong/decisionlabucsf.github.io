@@ -1,6 +1,27 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "Hrincu V, McDonald PJ, Connolly MB, Harrison MJ, Ibrahim GM, Naftel RP, **Chiong W**, Alam A, Ribary U, Illes J."
+  title: "Choice and Trade-offs: Parent Decision Making for Neurotechnologies for Pediatric Drug-Resistant Epilepsy."
+  details: "Journal of Child Neurology. 2021." 
+  year: 2021
+  image: pubs_2021_Child-Epilepsy.jpg
+  imagealt: 
+  pmid: 34078159
+  pmcid: 
+  openaccess: 
+  doi: 10.1017/S1041610221000521
+  file: Hrincu V, McDonald PJ, Connolly MB, et al. - Choice and Trade-offs- Parent Decision Making for Neurotechnologies for Pediatric Drug-Resistant Epilepsy.pdf
+  filetype: "pdf - author manuscript version (peer-reviewed & edited)"
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered: 
+  opendata: 
+  openmaterials: 
+
+
 - authors: "**Lindbergh CA**, **Romero-Kornblum H**, Weiner-Light S, **Young JC**, Fonseca C, You M, Wolf A, Staffaroni AM, Daly R, Jeste DV, Kramer JH, **Chiong W**, the Hillblom Aging Network."
   title: "Wisdom and fluid intelligence are dissociable in healthy older adults."
   details: "International Psychogeriatrics. 2021;1–11." 
