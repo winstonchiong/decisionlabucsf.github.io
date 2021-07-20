@@ -1,6 +1,26 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "**Chiong W**, Tsou AY, Simmons Z, Bonnie RJ, Russell JA, on behalf of the Ethics, Law, and Humanities Committee (a joint committee of the American Academy of Neurology, American Neurological Association, and Child Neurology Society)"
+  title: " Ethical considerations in dementia diagnosis and care: AAN position statement."
+  details: "Neurology. 2021;97(2):80-89." 
+  year: 2021
+  image: pubs_2021_Ethical_Considerations_in_Dementia_Diagnosis_and_Care.jpg
+  imagealt: 
+  pmid: 
+  pmcid: 
+  openaccess: 
+  doi: 10.1212/WNL.0000000000012079
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered: 
+  opendata: 
+  openmaterials: 
+
 - authors: "Hrincu V, McDonald PJ, Connolly MB, Harrison MJ, Ibrahim GM, Naftel RP, **Chiong W**, Alam A, Ribary U, Illes J."
   title: "Choice and trade-offs: parent decision making for neurotechnologies for pediatric drug-resistant epilepsy."
   details: "Journal of Child Neurology. 2021." 
