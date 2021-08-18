@@ -1,6 +1,28 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+
+- authors: "Chiang S, Picard RW, **Chiong W**, Moss R, Worrell GA, Rao VR, Goldenholz DM."
+  title: "Guidelines for conducting ethical artificial intelligence research in neurology: A systematic approach for clinicians and researchers."
+  details: "Neurology. 2021;10.1212/WNL.0000000000012570." 
+  year: 2021
+  image: pubs_2021_Guidelines_for_Conducting_Ethical_Artificial_Intelligence_Research_in_Neurology_A_Systematic_Approach_for_Clinicians_and_Researchers.jpg
+  imagealt: 
+  pmid: 
+  pmcid: 
+  openaccess: 
+  doi: 10.1212/WNL.0000000000012570
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered: 
+  opendata: 
+  openmaterials: 
+
+
 - authors: "**Chiong W**, Tsou AY, Simmons Z, Bonnie RJ, Russell JA, on behalf of the Ethics, Law, and Humanities Committee (a joint committee of the American Academy of Neurology, American Neurological Association, and Child Neurology Society)"
   title: " Ethical considerations in dementia diagnosis and care: AAN position statement."
   details: "Neurology. 2021;97(2):80-89." 
