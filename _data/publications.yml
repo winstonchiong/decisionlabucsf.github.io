@@ -2,6 +2,27 @@
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
 
+- authors: "**Haeusermann T**, **Lechner CR**, **Fong KC**, Bernstein Sideman A, Jaworska A, **Chiong W**, Dohan D."
+  title: "Closed-loop neuromodulation and self-perception in clinical treatment of refractory epilepsy."
+  details: "AJOB Neuroscience. 2021; 1–13." 
+  year: 2021
+  image: pubs_2021_Closed_Loop_Neuromodulation_and_Self_Perception_in_Clinical_Treatment_of_Refractory_Epilepsy.jpg
+  imagealt: 
+  pmid: 
+  pmcid: 
+  openaccess: https://www.tandfonline.com/doi/full/10.1080/21507740.2021.1958100
+  doi: 10.1080/21507740.2021.1958100
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered: 
+  opendata: 
+  openmaterials: 
+
+
 - authors: "Chiang S, Picard RW, **Chiong W**, Moss R, Worrell GA, Rao VR, Goldenholz DM."
   title: "Guidelines for conducting ethical artificial intelligence research in neurology: A systematic approach for clinicians and researchers."
   details: "Neurology. 2021;10.1212/WNL.0000000000012570." 
