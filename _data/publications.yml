@@ -1,6 +1,26 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "**Ngo S**, Kim AS, **Chiong W**."
+  title: "Evidence for the ethics of incentivizing clinical trial enrollment?"
+  details: "JAMA Internal Medicine. 2021." 
+  year: 2021
+  image: pubs_2021_ethics-incentives.jpg
+  imagealt: Photo by Marek Studzinski on Unsplash
+  pmid: 34542559
+  pmcid: 
+  openaccess: 
+  doi: 10.1001/jamainternmed.2021.5449
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered: 
+  opendata: 
+  openmaterials: 
+
 
 - authors: "**Haeusermann T**, **Lechner CR**, **Fong KC**, Bernstein Sideman A, Jaworska A, **Chiong W**, Dohan D."
   title: "Closed-loop neuromodulation and self-perception in clinical treatment of refractory epilepsy."
@@ -29,7 +49,7 @@
   year: 2021
   image: pubs_2021_Guidelines_for_Conducting_Ethical_Artificial_Intelligence.jpg 
   imagealt: 
-  pmid: 
+  pmid: 34315785
   pmcid: 
   openaccess: 
   doi: 10.1212/WNL.0000000000012570
@@ -50,9 +70,9 @@
   year: 2021
   image: pubs_2021_Ethical_Considerations_in_Dementia_Diagnosis_and_Care.jpg
   imagealt: 
-  pmid: 
+  pmid: 34524968
   pmcid: 
-  openaccess: 
+  openaccess: https://n.neurology.org/content/97/2/80
   doi: 10.1212/WNL.0000000000012079
   file: 
   filetype: 
@@ -66,7 +86,7 @@
 
 - authors: "Hrincu V, McDonald PJ, Connolly MB, Harrison MJ, Ibrahim GM, Naftel RP, **Chiong W**, Alam A, Ribary U, Illes J."
   title: "Choice and trade-offs: parent decision making for neurotechnologies for pediatric drug-resistant epilepsy."
-  details: "Journal of Child Neurology. 2021." 
+  details: "Journal of Child Neurology. 2021; 36(11):943-949." 
   year: 2021
   image: pubs_2021_Child-Epilepsy.jpg
   imagealt: 
