@@ -45,12 +45,12 @@
 
 - authors: "Chiang S, Picard RW, **Chiong W**, Moss R, Worrell GA, Rao VR, Goldenholz DM."
   title: "Guidelines for conducting ethical artificial intelligence research in neurology: A systematic approach for clinicians and researchers."
-  details: "Neurology. 2021;10.1212/WNL.0000000000012570." 
+  details: "Neurology. 2021;97(13):632–640" 
   year: 2021
   image: pubs_2021_Guidelines_for_Conducting_Ethical_Artificial_Intelligence.jpg 
   imagealt: 
   pmid: 34315785
-  pmcid: 
+  pmcid: PMC8480407
   openaccess: 
   doi: 10.1212/WNL.0000000000012570
   file: 
@@ -91,9 +91,9 @@
   image: pubs_2021_Child-Epilepsy.jpg
   imagealt: 
   pmid: 34078159
-  pmcid: 
+  pmcid: PMC8458226
   openaccess: 
-  doi: 10.1017/S1041610221000521
+  doi: 10.1177/08830738211015010
   file: Hrincu V, McDonald PJ, Connolly MB, et al. - Choice and Trade-offs- Parent Decision Making for Neurotechnologies for Pediatric Drug-Resistant Epilepsy.pdf
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
   github:
@@ -247,8 +247,8 @@
 
 - authors: "**Zahir A**, Staffaroni AM, Wickham RE, **Quinn CM**, Sapozhnikova A, Seidman J, **Chiong W**."
   title: 'Caregiver “objective attitude” toward patients with neurodegenerative disease: Consequences for caregiver strain and relationship closeness.'
-  details: "Aging & Mental Health. 2020; 1-7."
-  year: 2020
+  details: "Aging & Mental Health. 2021;25(9):1709–15."
+  year: 2021
   image: pubs_2020_objective-attitude.png
   imagealt: 
   pmid: 32515603
@@ -352,6 +352,7 @@
   imagealt: 
   pmid: 31621797
   pmcid:
+  openaccess: https://escholarship.org/content/qt10j8c76n/qt10j8c76n_noSplash_22a4b32afd98d8f9e867c2d81424bee8.pdf?t=qrt4q7
   doi: 10.1001/jamaneurol.2019.3523
   file: 
   filetype: 
@@ -484,7 +485,7 @@
   year: 2019
   image: pubs_2019_medicare_resized.jpg
   pmid: 31175026
-  pmcid: 
+  pmcid: PMC7183386
   doi: 10.1016/j.jalz.2019.03.015
   file:
   filetype: 
