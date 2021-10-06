@@ -1,10 +1,38 @@
 
+
+
+- name: Helena Mezgova
+  degrees:
+  image: team_Helena-Mezgova.jpg
+  altimage: 
+  position: Research & Compliance Analyst
+  email: helena.mezgova (at) ucsf.edu
+  website: 
+  scholar: 
+  description: As a research and compliance analyst at the UCSF Institutional Review Board and concurrent graduate student at Columbia in Bioethics,
+               my mission is to protect the rights and welfare of human participants. My perspective merges “how to” with “should we” -- through the translation
+               of regulatory science and embodiment of the Belmont Principles. Within the UCSF IRB, my work is aimed at understanding and providing guidance on
+               the policies that influence clinical research locally, nationally, and internationally. 
+               
+
+               I hold an interdisciplinary degree in Biology, Psychology, and Sociology from San Diego State University, where my thesis analyzed the
+               neurobiological effects of the practice of yoga. This fusion of fascination within neurobiology, technology, and regulatory expertise 
+               inspired my current research work in the ethical challenges of neurotechnologies. 
+
+
+               Currently, I am on the leadership team of the Science Policy Group at UCSF, a member of the Public Responsibility in Medicine and Research (PRIM&R),
+               National Science Policy Network (NSPN), International Neuroethics Society (INS), and California Life Science Association (CLSA).
+
+
+               In my free time I like to travel, practice yoga, read, and visit modern art museums.
+               
+               
 - name: Sheila Tran
   degrees:
   image: Team_Sheila-Tran.png
   altimage: 
   position: Student Intern
-  email: tran.t.sheila (at) berkeley.edu
+  email: sheila.tran (at) ucsf.edu
   website: 
   scholar: 
   description: I'm an undergraduate student at UC Berkeley pursuing a B.A. in Integrative Biology with the ultimate goal 
@@ -23,8 +51,4 @@
                I'm confident that these experiences will help me become a compassionate physician and researcher in the future. 
                
 
-               In my free time, I love to play and create music on the piano, make coffee, and read. 
-
-       
-
-
+               In my free time, I love to play and create music on the piano, make coffee, and read.
