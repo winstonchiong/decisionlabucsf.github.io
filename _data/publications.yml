@@ -1,6 +1,27 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors:"**Ma H**, Kiekhofer RE, Hooper SM, Dulaney S, Possin KL, **Chiong W.**"
+  title: "Goals of care conversations and subsequent advance care planning outcomes for people with dementia."
+  details: "Journal of Alzheimer's Disease. 2021;83(4):1767–73." 
+  year: 2021
+  image: pubs_2021_Goals_of_care_conversations_and_subsequent_advance_care_planning_outcomes_for_people_with_dementia.jpg
+  imagealt: photo by Mohamed Mahmoud Hassan on publicdomainpictures.net
+  pmid: 34459407
+  pmcid: 
+  openaccess: 
+  doi: 10.3233/JAD-210720
+  file: Ma - CareEco.pdf
+  filetype: "pdf - author manuscript version (peer-reviewed & edited)"
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered: 
+  opendata: 
+  openmaterials: 
+
+
 - authors: "**Ngo S**, Kim AS, **Chiong W**."
   title: "Evidence for the ethics of incentivizing clinical trial enrollment?"
   details: "JAMA Internal Medicine. 2021." 
