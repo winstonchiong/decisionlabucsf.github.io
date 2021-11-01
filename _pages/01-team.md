@@ -102,6 +102,9 @@ description:
   <strong>{{alum.name}}{% if alum.degrees %}, {{alum.degrees}} {% endif %}</strong> <br>
   <i>previously:</i> {{alum.previously}} <br>
   <i>now:</i> {{alum.now}}<br>
+    {% if alum.twitter %}
+      <i class="fab fa-twitter"></i> <a href= "http://twitter.com/{{alum.twitter}}" target="_blank"> @{{alum.twitter}} </a> <br>
+    {% endif %}
     {% if alum.website %} <i class="fa fa-globe"></i> <a href= "{{alum.website}}" target="_blank">{{alum.website}}</a>  {% endif %}
     {% for paper in site.data.publications %}
   {% if paper.authors contains alum.pubmed_name %}

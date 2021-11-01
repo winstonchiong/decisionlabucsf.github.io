@@ -11,6 +11,7 @@
   previously: Medical Student
   now: Associate Physician, Brigham and Women's Hospital Department of Pulmonary and Critical Care
   email: 
+  twitter: "wbfeldman"
   website: https://connects.catalyst.harvard.edu/Profiles/display/Person/139292
   pubmed_name: "Feldman WB"
 
@@ -19,6 +20,7 @@
   previously: Research Coordinator, then Medical Student
   now: Resident Physician, UCSF Department of Medicine
   email: 
+  twitter: 
   website: https://profiles.ucsf.edu/alex.beagle
   pubmed_name: "Beagle AJ"
  
@@ -27,6 +29,7 @@
   previously: Research Coordinator
   now: Graduate Student, UCSD Department of Cognitive Science
   email: 
+  twitter: "miaborz"
   website: https://scholar.google.com/citations?user=WmnfOmUAAAAJ&hl=en
   pubmed_name: "Borzello M"
 
@@ -35,14 +38,16 @@
   previously: Research Coordinator
   now: Medical Student, UCSF School of Medicine
   email: 
+  twitter: "studentdocali"
   website: https://www.linkedin.com/in/azahir1
   pubmed_name: "Zahir A"
   
 - name: Julia Heunis
   degrees: MD
   previously: Medical Student
-  now: Resident Physician, Boston Children's Hospital
+  now: Resident Physician, Boston Children's Hospital Pediatrics/Anesthesia
   email: 
+  twitter: "juliaheunis"
   website: https://www.linkedin.com/in/julia-heunis-a509256a
   pubmed_name: "Heunis J"
  
@@ -113,7 +118,8 @@
 - name: Carson Quinn
   degrees: MD
   previously: Medical Student
-  now: Intern, Brigham and Women's Hospital; Resident Physician, Mass General Brigham Neurology residency
+  now: Intern, Brigham and Women's Hospital; Resident Physician, Mass General Brigham Neurology Residency
   email: 
+  twitter: "C_mQuinn"
   website: 
   pubmed_name: "Quinn CM"
