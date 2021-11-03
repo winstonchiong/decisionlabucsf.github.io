@@ -1,14 +1,35 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "Jaworska A, **Chiong W**"
+  title: "Supported Decision-Making for People with Dementia Should Focus on Their Values."
+  details: "American Journal of Bioethics. 2021;21(11):19–21." 
+  year: 2021
+  image: pubs_2021_support_decision_making.jpg
+  imagealt: 
+  pmid: 34710012
+  pmcid: 
+  openaccess: https://www.tandfonline.com/doi/full/10.1080/15265161.2021.1980150
+  doi: 10.1080/15265161.2021.1980150
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare:
+  preregistered: 
+  opendata: 
+  openmaterials: 
+
+
 - authors: "**Antoniou R**, **Romero-Kornblum H**, **Young JC**, You M, Kramer JH, **Chiong W**."
   title: "Reduced utilitarian willingness to violate personal rights during the COVID-19 pandemic."
   details: "PLoS ONE 16(10): e0259110." 
   year: 2021
   image: pubs_2020_No utilitarians in a pandemic.png
   imagealt: 
-  pmid:
-  pmcid: 
+  pmid: 34679124
+  pmcid: PMC8535394
   openaccess: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259110
   doi: https://doi.org/10.1371/journal.pone.0259110
   file: 
