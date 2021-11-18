@@ -15,6 +15,6 @@ see some lab members' costumes; also, everyone got to meet Jordy the corgi
 puppy. 
 
 As another announcement, I have been named the interim Director of 
-[UCSF Bioethics](bioethics.ucsf.edu). It's been great to have this opportunity 
+[UCSF Bioethics](https://bioethics.ucsf.edu). It's been great to have this opportunity 
 to share ideas about needs and opportunities with other involved members of our 
 campus community; we've got some exciting plans for the coming year!
