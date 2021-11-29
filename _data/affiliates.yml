@@ -1,4 +1,25 @@
+- name: Colin Hoy
+  degrees: PhD  
+  image: team_Colin-Hoy.jpg
+  position: Postdoc 
+  email: colin.hoy (at) ucsf.edu 
+  website: https://profiles.ucsf.edu/colin.hoy  
+  scholar: https://scholar.google.com/citations?user=WaMmA4AAAAAJ&hl=en 
+  twitter: @colinwhoy 
+  description: I’m a neuroscientist and postdoctoral scholar in the UCSF Movement Disorders and Neuromodulation Center studying motivation in Parkinson’s disease with Drs. Simon Little and Phil Starr and neuroethics here in the Decision Lab. 
 
+
+               In the Little and Starr Labs, our group aims to treat motor and nonmotor (e.g., sleep, cognition, emotion) deficits in patients with Parkinson’s disease using neurosurgically implanted deep brain stimulation (DBS) devices. 
+               My main research project focuses on understanding apathy and impulsivity symptoms in these patients by (1) measuring goal-directed and habitual decision making with computational reinforcement learning models; 
+               (2) mapping these cognitive processes to neural activity using chronic invasive brain recordings; and (3) modulating these neural circuits using dopaminergic medications and DBS. 
+
+
+               In the Decision Lab, I’m studying bioethics to better understand the ethical, legal, and social implications of neurotechnology. For example, if brain stimulation can alter motivation or other aspects of one’s personality and identity,
+               how should we deploy and regulate these treatments? I hope that combining neuroethics with my basic and clinical neuroscience research will help inform guidelines for the responsible use of neurotechnology. 
+
+
+               I graduated in 2012 from Hendrix College with a BA in Neuroscience before spending two years as a postbaccalaureate researcher at the National Institute of Mental Health working on functional MRI methods.
+               In 2021, I graduated from UC Berkeley with a PhD in Neuroscience in which I studied cognitive control using intracranial brain recordings from epilepsy patients. Outside of the lab, I enjoy playing ultimate frisbee, hiking, kayaking, and camping. 
 
 
 - name: Helena Mezgova
