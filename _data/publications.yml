@@ -1,6 +1,26 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "Sattin JA, **Chiong W**, Bonnie RJ, Kirschen MP, Russell JA, on behalf of the Ethics, Law, and Humanities Committee, a joint committee of the American Academy of Neurology, American Neurological Association, and Child Neurology Society."
+  title: "Consent issues in the management of acute ischemic stroke: AAN position statement."
+  details: "Neurology. 2022" 
+  year: 2022
+  image: pubs_2022_ischemic_stroke.jpg
+  imagealt: 
+  pmid: 
+  pmcid: 
+  openaccess: 
+  doi: https://doi.org/10.1212/WNL.0000000000013040
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare:
+  preregistered: 
+  opendata: 
+  openmaterials: 
+
 
 - authors: "**Chiong W**, Tolchin BD, Bonnie RJ, Busl K, Cruz-Flores S, Epstein LG, Greene EP, Illes J, Kirschen M, Larriviere DG, Mantri S, Rubin MA, Stern BJ, Taylor LP, Ethics, Law, and Humanities Committee (a joint committee of the AAN, ANA, and CNS)"
   title: "Decisions with patients and families regarding aducanumab in Alzheimer disease, with recommendations for consent: AAN position statement."
