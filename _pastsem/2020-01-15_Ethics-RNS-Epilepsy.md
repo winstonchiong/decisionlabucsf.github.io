@@ -3,12 +3,14 @@ title: New ethical concerns in responsive neurostimulation
 presenters: Vikram Rao and Manu Hegde
 layout: post
 group: pastsem
-date: 2019-01-15
+date: 2020-01-15
 ---
 The Responsive Neurostimulation (RNS) system is a closed-loop system that continuously monitors electrical activity in specific brain regions via electrodes and 
 administers stimulation at the detection of seizure related abnormalities. It is the only FDA approved closed-loop stimulation device and has been implanted in 
 approximately 3000 patients since 2013. However, our ability to develop technology often occurs more quickly than our ability to consider the ramifications of
-these technologies. During our first seminar back from the winter break, epileptologists Vikram Rao and Manu Hegde presented a series of case studies from their 
+these technologies. During our first seminar back from the winter break, epileptologists 
+[Vikram Rao](https://profiles.ucsf.edu/vikram.rao){:target="\_blank"} and 
+[Manu Hegde](https://profiles.ucsf.edu/manu.hegde){:target="\_blank"} presented a series of case studies from their 
 experiences with the device in their clinics to frame our discussion on emerging novel ethical concerns of RNS for epilepsy.
 
 Much of the discussion was focused on the RNS device’s production of patient electrographic data, raising questions about its intrinsic value and the best 

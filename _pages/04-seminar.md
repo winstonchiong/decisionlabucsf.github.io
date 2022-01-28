@@ -9,23 +9,26 @@ description:
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <h5 class="post-description">{{ page.description }}</h5>
-     <p> Since May 2016, we have convened a twice-monthly Neuroethics Seminar at the UCSF Mission Bay campus, 
-       in collaboration with <a href="/team/index.html#collaborators">Jalayne Arias</a>. The purpose of the seminar is 
-       to engage neuroscientists and clinicians in broad, interdisciplinary conversations about ethical and 
-       policy issues arising in their work. In addition to providing a forum for stakeholders to explore their 
-       own ethical concerns about situations they face, we also aim to foster new scholarly collaborations that 
-       emerge from novel questions at the forefront of research and clinical practice. In general, our meetings 
-       follow one of three formats: (1) case discussions arising from ethically complex clinical encounters or 
-       research developments, (2) journal clubs drawn either from recent neuroscience or neuroethics literature, 
-       and (3) works-in-progress to refine upcoming grants, conference abstracts and manuscripts. </p>
+     <p> From May 2016 to March 2020 we co-hosted a twice-monthly Neuroethics 
+     Seminar with <a href="https://publichealth.gsu.edu/profile/jalayne-arias/" 
+      target="_blank">Jalayne Arias</a> at the UCSF Mission Bay campus. The aim 
+      of the seminar was to engage neuroscientists and clinicians in broad, 
+      interdisciplinary conversations about ethical and policy issues arising in 
+      their work. These meetings generally followed one of three formats: (1) 
+      case discussions arising from ethically complex clinical encounters or 
+      research developments, (2) journal clubs drawn either from recent 
+      neuroscience or neuroethics literature, and (3) works-in-progress to 
+      refine upcoming grants, conference abstracts and manuscripts. </p>
       
-      <p>To be added to the mailing list, contact Celeste Fong at 
-      <em>celeste.fong (at) ucsf.edu</em>.</p>
+      <p>These meetings were paused due to the COVID-19 pandemic, and 
+      have since ended following Professor Arias's move to the Georgia State 
+      School of Public Health. For current forums for discussion of ethical 
+      issues in the biosciences, please see the events listed at 
+      <a href="https://bioethics.ucsf.edu" target="_blank">bioethics.ucsf.edu</a>.
+      </p>
   </header>
-  <h2>upcoming:</h2>
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTYGRFtMsdt1JdOUZkeOSQazeYk8rXybnvjzOWngYScNbYA44LKQzvl3YmUYpeuPaXUriBnmxWLedGo/pubhtml?widget=false&amp;headers=false&amp;chrome=false" 
-            style="height:150px; margin-bottom: 20px" width="100%"></iframe>
-  <h2>recent meetings: </h2>
+
+  <h2>meeting summaries: </h2>
   {% for session in site.pastsem reversed %}
 
   {% if forloop.index == 6 %}

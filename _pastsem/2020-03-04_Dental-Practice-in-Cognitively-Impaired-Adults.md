@@ -5,9 +5,11 @@ layout: post
 group: pastsem
 date: 2020-03-04
 ---
-On the last neuroethics seminar before our unexpected hiatus, Yvonne Kapila and Ahmed Alsaleh joined us to discuss informed consent guidelines for dental 
+On the last neuroethics seminar before our unexpected hiatus, 
+[Yvonne Kapila](https://profiles.ucsf.edu/yvonne.kapila){:target="\_blank"} and 
+Ahmed Alsaleh joined us to discuss informed consent guidelines for dental 
 and periodontology care in older, cognitively impaired adults. Periodontal disease is often overlooked in patients with dementia and Alzheimer’s Disease, yet 
-degrees of both cognitive impairments and periodontal diseases increase with age. Yvonne and Ahmed introduced several case studies where patients with varying 
+the prevalence of both cognitive impairments and periodontal diseases increases with age. Yvonne and Ahmed introduced several case studies where patients with varying 
 degrees of cognitive impairments underwent care for dental implants and dental infections. In these cases, informed consent procedures created challenges for 
 clinicians who wondered if patients with impairments could adequately understand and consent to invasive procedures, some of which must occur over the span of
 several months and years. 
