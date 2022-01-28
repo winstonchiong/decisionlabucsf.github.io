@@ -1,9 +1,30 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "**Manivannan M**, Heunis J, Hooper SM, Bernstein Sideman A, Lui KP, Possin KL, **Chiong W**."
+  title: "Use of telephone- and internet-based support to elicit and address financial abuse and mismanagement in dementia: Experiences from the Care Ecosystem study."
+  details: "Journal of Alzheimer’s Disease. 2022." 
+  year: 2022
+  image: pubs_2022_MMfinancialactivities.png
+  imagealt: 
+  pmid: 35034900
+  pmcid: 
+  openaccess: 
+  doi: 10.3233/JAD-215284
+  file: Manivannan_Financial-Activities.pdf
+  filetype: "pdf - author manuscript version (peer-reviewed & edited)"
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare:
+  preregistered: 
+  opendata: 
+  openmaterials: 
+
+
 - authors: "Sattin JA, **Chiong W**, Bonnie RJ, Kirschen MP, Russell JA, on behalf of the Ethics, Law, and Humanities Committee, a joint committee of the American Academy of Neurology, American Neurological Association, and Child Neurology Society."
   title: "Consent issues in the management of acute ischemic stroke: AAN position statement."
-  details: "Neurology. 2022" 
+  details: "Neurology. 2022." 
   year: 2022
   image: pubs_2022_ischemic_stroke.png
   imagealt: 
@@ -24,7 +45,7 @@
 
 - authors: "**Chiong W**, Tolchin BD, Bonnie RJ, Busl K, Cruz-Flores S, Epstein LG, Greene EP, Illes J, Kirschen M, Larriviere DG, Mantri S, Rubin MA, Stern BJ, Taylor LP, Ethics, Law, and Humanities Committee (a joint committee of the AAN, ANA, and CNS)"
   title: "Decisions with patients and families regarding aducanumab in Alzheimer disease, with recommendations for consent: AAN position statement."
-  details: "Neurology. 2021" 
+  details: "Neurology. 2021." 
   year: 2021
   image: pubs_2021_aducanumab.jpg
   imagealt: 
@@ -43,7 +64,7 @@
   openmaterials: 
 
 
-- authors: "Jaworska A, **Chiong W**"
+- authors: "Jaworska A, **Chiong W**."
   title: "Supported decision-making for people with dementia should focus on their values."
   details: "American Journal of Bioethics. 2021;21(11):19–21." 
   year: 2021
