@@ -1,6 +1,28 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+
+- authors: "**Haeusermann T**, **Romero-Kornblum H**, Dzeng E."
+  title: "Of care, cure and the in-between: COVID-19 treatment in a New York City intensive care unit"
+  details:  "International Journal of Care and Caring. 2022."
+  year: 2022
+  image: pubs_2022_carecure.jpg
+  imagealt: 
+  pmid: 
+  pmcid: 
+  openaccess: 
+  doi: 10.1332/239788221X16316503274460
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare:
+  preregistered: 
+  opendata: 
+  openmaterials: 
+
+
 - authors: "**Manivannan M**, **Heunis J**, Hooper SM, Bernstein Sideman A, Lui KP, Possin KL, **Chiong W**."
   title: "Use of telephone- and internet-based support to elicit and address financial abuse and mismanagement in dementia: Experiences from the Care Ecosystem study."
   details: "Journal of Alzheimer’s Disease. 2022." 
