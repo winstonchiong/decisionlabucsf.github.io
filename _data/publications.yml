@@ -4,7 +4,7 @@
 
 - authors: "**Haeusermann T**, **Romero-Kornblum H**, Dzeng E."
   title: "Of care, cure and the in-between: COVID-19 treatment in a New York City intensive care unit"
-  details:  "International Journal of Care and Caring. 2022."
+  details:  "International Journal of Care and Caring. 2022;6(1-2):67-84."
   year: 2022
   image: pubs_2022_carecure.jpg
   imagealt: 
@@ -12,8 +12,8 @@
   pmcid: 
   openaccess: 
   doi: 10.1332/239788221X16316503274460
-  file: Haeusermann_care-cure.pdf
-  filetype: "Haeusermann et al. - Care-Cure in Covid-19"
+  file:
+  filetype: 
   github:
   biorxiv:
   psyarxiv: 
@@ -25,7 +25,7 @@
 
 - authors: "**Manivannan M**, **Heunis J**, Hooper SM, Bernstein Sideman A, Lui KP, Possin KL, **Chiong W**."
   title: "Use of telephone- and internet-based support to elicit and address financial abuse and mismanagement in dementia: Experiences from the Care Ecosystem study."
-  details: "Journal of Alzheimer’s Disease. 2022." 
+  details: "Journal of Alzheimer’s Disease. 2022;86(1):219-229." 
   year: 2022
   image: pubs_2022_MMfinancialactivities.png
   imagealt: 
@@ -44,16 +44,16 @@
   openmaterials: 
 
 
-- authors: "Sattin JA, **Chiong W**, Bonnie RJ, Kirschen MP, Russell JA, on behalf of the Ethics, Law, and Humanities Committee, a joint committee of the American Academy of Neurology, American Neurological Association, and Child Neurology Society."
-  title: "Consent issues in the management of acute ischemic stroke: AAN position statement."
-  details: "Neurology. 2022." 
-  year: 2022
-  image: pubs_2022_ischemic_stroke.png
+- authors: "**Chiong W**, Tolchin BD, Bonnie RJ, Busl K, Cruz-Flores S, Epstein LG, Greene EP, Illes J, Kirschen M, Larriviere DG, Mantri S, Rubin MA, Stern BJ, Taylor LP, Ethics, Law, and Humanities Committee (a joint committee of the AAN, ANA, and CNS)"
+  title: "Decisions with patients and families regarding aducanumab in Alzheimer disease, with recommendations for consent: AAN position statement."
+  details: "Neurology. 2022;98(4):154-159." 
+  year: 2021
+  image: pubs_2021_aducanumab.jpg
   imagealt: 
   pmid: 
   pmcid: 
-  openaccess: 
-  doi: https://doi.org/10.1212/WNL.0000000000013040
+  openaccess:
+  doi: https://doi.org/10.1212/WNL.0000000000013053
   file: 
   filetype: 
   github:
@@ -65,16 +65,16 @@
   openmaterials: 
 
 
-- authors: "**Chiong W**, Tolchin BD, Bonnie RJ, Busl K, Cruz-Flores S, Epstein LG, Greene EP, Illes J, Kirschen M, Larriviere DG, Mantri S, Rubin MA, Stern BJ, Taylor LP, Ethics, Law, and Humanities Committee (a joint committee of the AAN, ANA, and CNS)"
-  title: "Decisions with patients and families regarding aducanumab in Alzheimer disease, with recommendations for consent: AAN position statement."
-  details: "Neurology. 2021." 
-  year: 2021
-  image: pubs_2021_aducanumab.jpg
+- authors: "Sattin JA, **Chiong W**, Bonnie RJ, Kirschen MP, Russell JA, on behalf of the Ethics, Law, and Humanities Committee, a joint committee of the American Academy of Neurology, American Neurological Association, and Child Neurology Society."
+  title: "Consent issues in the management of acute ischemic stroke: AAN position statement."
+  details: "Neurology. 2022;98(2):73-79." 
+  year: 2022
+  image: pubs_2022_ischemic_stroke.png
   imagealt: 
   pmid: 
   pmcid: 
-  openaccess:
-  doi: https://doi.org/10.1212/WNL.0000000000013053
+  openaccess: 
+  doi: https://doi.org/10.1212/WNL.0000000000013040
   file: 
   filetype: 
   github:
