@@ -47,13 +47,13 @@
 - authors: "**Chiong W**, Tolchin BD, Bonnie RJ, Busl K, Cruz-Flores S, Epstein LG, Greene EP, Illes J, Kirschen M, Larriviere DG, Mantri S, Rubin MA, Stern BJ, Taylor LP, Ethics, Law, and Humanities Committee (a joint committee of the AAN, ANA, and CNS)"
   title: "Decisions with patients and families regarding aducanumab in Alzheimer disease, with recommendations for consent: AAN position statement."
   details: "Neurology. 2022;98(4):154-159." 
-  year: 2021
+  year: 2022
   image: pubs_2021_aducanumab.jpg
   imagealt: 
-  pmid: 
+  pmid: 34789544
   pmcid: 
   openaccess:
-  doi: https://doi.org/10.1212/WNL.0000000000013053
+  doi: 10.1212/WNL.0000000000013053
   file: 
   filetype: 
   github:
@@ -109,7 +109,7 @@
 
 - authors: "**Antoniou R**, **Romero-Kornblum H**, **Young JC**, You M, Kramer JH, **Chiong W**."
   title: "Reduced utilitarian willingness to violate personal rights during the COVID-19 pandemic."
-  details: "PLoS ONE 16(10): e0259110." 
+  details: "PLoS ONE 16(10):e0259110." 
   year: 2021
   image: pubs_2020_No utilitarians in a pandemic.png
   imagealt: 
@@ -461,7 +461,7 @@
   imagealt: 
   pmid: 31779555
   pmcid: PMC6980360
-  openaccess: https://journals.sagepub.com/doi/10.1177/1556264619853198a
+  openaccess:
   doi: 10.1177/1556264619853198a
   file: 
   filetype: 
@@ -481,7 +481,7 @@
   imagealt: 
   pmid: 31621797
   pmcid:
-  openaccess: https://escholarship.org/content/qt10j8c76n/qt10j8c76n_noSplash_22a4b32afd98d8f9e867c2d81424bee8.pdf?t=qrt4q7
+  openaccess:
   doi: 10.1001/jamaneurol.2019.3523
   file: 
   filetype: 
