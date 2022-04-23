@@ -14,7 +14,7 @@ inputs for human-centered design"--had a wonderful series of very interesting
 conversations with faculty in engineering and in bioethics during my visit to 
 Seattle:
 
-<iframe width="490" height="276" src="https://www.youtube.com/watch?v=-n1a8rziw7g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="490" height="276" src="https://www.youtube.com/embed/-n1a8rziw7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 On April 9 I got to participate in a great panel discussion as part of the 
 [Science Ethics and Policy Symposium](https://seps2022.sched.com/event/xIqp/neuroethics-and-the-law-privacy-in-the-age-of-neuroscience){:target="_blank"} 
@@ -23,4 +23,4 @@ on the UC Berkeley campus, with the always-thoughtful
 (yes of course, also at UW!) and moderated by 
 [Narayan Sankaran](https://profiles.ucsf.edu/narayan.sankaran){:target="_blank"}:
 
-<iframe width="490" height="276" src="https://www.youtube.com/watch?v=C-TT0YMqHQ8&list=PLPVBBz7lnPkK9U2dg8nuomo_zutytJWkx&index=10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="490" height="276" src="https://www.youtube.com/embed/C-TT0YMqHQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

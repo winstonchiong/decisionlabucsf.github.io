@@ -119,9 +119,9 @@ description:
 ## collaborators
 
 {% for collaborator in site.data.collaborators %}
-<div id = "{{ collaborator.name | replace: ' ', '-' | remove: '.' }}">
-- <strong>{{collaborator.name}}{% if collaborator.degrees %}, {{collaborator.degrees}} {% endif %}</strong>  
-  {{collaborator.position}}  
+<div id = "{{ collaborator.name | replace: ' ', '-' | remove: '.' }}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
+<strong>{{collaborator.name}}{% if collaborator.degrees %}, {{collaborator.degrees}} {% endif %}</strong><br>  
+  {{collaborator.position}}<br>
   {% if collaborator.website %} <i class="fa fa-globe"></i> <a href= "{{collaborator.website}}" target="_blank">{{collaborator.website}}</a>  {% endif %}
 </div>
 {% endfor %}
