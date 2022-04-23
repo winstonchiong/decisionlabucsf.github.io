@@ -119,7 +119,9 @@ description:
 ## collaborators
 
 {% for collaborator in site.data.collaborators %}
+<div id = "{{ collaborator.name | replace: ' ', '-' | remove: '.' }}">
 - <strong>{{collaborator.name}}{% if collaborator.degrees %}, {{collaborator.degrees}} {% endif %}</strong>  
   {{collaborator.position}}  
   {% if collaborator.website %} <i class="fa fa-globe"></i> <a href= "{{collaborator.website}}" target="_blank">{{collaborator.website}}</a>  {% endif %}
+</div>
 {% endfor %}
