@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 7 Authorship | UCSF Decision Lab Handbook</title>
   <meta name="description" content="Handbook for the UCSF Decision Lab." />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 7 Authorship | UCSF Decision Lab Handbook" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Handbook for the UCSF Decision Lab." />
   
@@ -23,7 +22,7 @@
 
 
 
-<meta name="date" content="2021-05-25" />
+<meta name="date" content="2022-06-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +31,8 @@
   
 <link rel="prev" href="a-brief-guide-to-the-scientific-literature.html"/>
 <link rel="next" href="reliability-and-open-science.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -48,23 +48,24 @@
 
 
 
-
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -84,7 +85,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -117,6 +118,7 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
@@ -136,7 +138,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Organizing Principles</a></li>
 <li class="chapter" data-level="2" data-path="hours-and-expectations.html"><a href="hours-and-expectations.html"><i class="fa fa-check"></i><b>2</b> Hours and Expectations</a></li>
-<li class="chapter" data-level="3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html"><i class="fa fa-check"></i><b>3</b> Lab Resources Overview</a><ul>
+<li class="chapter" data-level="3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html"><i class="fa fa-check"></i><b>3</b> Lab Resources Overview</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#slack"><i class="fa fa-check"></i><b>3.1</b> <span>Slack</span></a></li>
 <li class="chapter" data-level="3.2" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#lab-website"><i class="fa fa-check"></i><b>3.2</b> <span>Lab website</span></a></li>
 <li class="chapter" data-level="3.3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#private-github-repo"><i class="fa fa-check"></i><b>3.3</b> <span>Private Github repo</span></a></li>
@@ -145,31 +148,39 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.6" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#open-science-framework"><i class="fa fa-check"></i><b>3.6</b> <span>Open Science Framework</span></a></li>
 <li class="chapter" data-level="3.7" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#deprecateddiscouraged-tools"><i class="fa fa-check"></i><b>3.7</b> Deprecated/discouraged tools</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html"><i class="fa fa-check"></i><b>4</b> Intro to the Memory and Aging Center</a><ul>
+<li class="chapter" data-level="4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html"><i class="fa fa-check"></i><b>4</b> Intro to the Memory and Aging Center</a>
+<ul>
 <li class="chapter" data-level="4.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#the-mac-in-the-context-of-ucsf-the-weill-institute"><i class="fa fa-check"></i><b>4.1</b> The MAC in the context of UCSF &amp; the Weill Institute</a></li>
 <li class="chapter" data-level="4.2" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#mac-clinic-mac-research"><i class="fa fa-check"></i><b>4.2</b> MAC clinic &amp; MAC research</a></li>
-<li class="chapter" data-level="4.3" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#mac-research-parent-projects"><i class="fa fa-check"></i><b>4.3</b> MAC research “parent projects”</a><ul>
+<li class="chapter" data-level="4.3" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#mac-research-parent-projects"><i class="fa fa-check"></i><b>4.3</b> MAC research “parent projects”</a>
+<ul>
 <li class="chapter" data-level="4.3.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#our-lab-projects-in-context"><i class="fa fa-check"></i><b>4.3.1</b> Our lab projects in context</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-in-the-mac"><i class="fa fa-check"></i><b>4.4</b> Learning opportunities in the MAC</a><ul>
+<li class="chapter" data-level="4.4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-in-the-mac"><i class="fa fa-check"></i><b>4.4</b> Learning opportunities in the MAC</a>
+<ul>
 <li class="chapter" data-level="4.4.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-within-our-lab"><i class="fa fa-check"></i><b>4.4.1</b> Learning opportunities within our lab</a></li>
 </ul></li>
 <li class="chapter" data-level="4.5" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#whos-who-at-the-mac"><i class="fa fa-check"></i><b>4.5</b> Who’s who at the MAC</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html"><i class="fa fa-check"></i><b>5</b> Guidelines for Clinical Interactions</a><ul>
+<li class="chapter" data-level="5" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html"><i class="fa fa-check"></i><b>5</b> Guidelines for Clinical Interactions</a>
+<ul>
 <li class="chapter" data-level="5.1" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html#macmacipedia-resources-re-clinical-encounters"><i class="fa fa-check"></i><b>5.1</b> MAC/MACipedia resources re: clinical encounters</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html"><i class="fa fa-check"></i><b>6</b> A Brief Guide to the Scientific Literature</a><ul>
+<li class="chapter" data-level="6" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html"><i class="fa fa-check"></i><b>6</b> A Brief Guide to the Scientific Literature</a>
+<ul>
 <li class="chapter" data-level="6.1" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#getting-started-on-a-topic"><i class="fa fa-check"></i><b>6.1</b> Getting started on a topic</a></li>
 <li class="chapter" data-level="6.2" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#reading-in-more-depth"><i class="fa fa-check"></i><b>6.2</b> Reading in more depth</a></li>
 <li class="chapter" data-level="6.3" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#using-rss-feeds-to-follow-the-scientific-literature"><i class="fa fa-check"></i><b>6.3</b> Using RSS feeds to follow the scientific literature</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="authorship.html"><a href="authorship.html"><i class="fa fa-check"></i><b>7</b> Authorship</a><ul>
-<li class="chapter" data-level="7.1" data-path="authorship.html"><a href="authorship.html#why-it-matters-and-what-it-means"><i class="fa fa-check"></i><b>7.1</b> Why it matters, and what it means</a><ul>
+<li class="chapter" data-level="7" data-path="authorship.html"><a href="authorship.html"><i class="fa fa-check"></i><b>7</b> Authorship</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="authorship.html"><a href="authorship.html#why-it-matters-and-what-it-means"><i class="fa fa-check"></i><b>7.1</b> Why it matters, and what it means</a>
+<ul>
 <li class="chapter" data-level="7.1.1" data-path="authorship.html"><a href="authorship.html#authorship-order"><i class="fa fa-check"></i><b>7.1.1</b> Authorship order</a></li>
 <li class="chapter" data-level="7.1.2" data-path="authorship.html"><a href="authorship.html#involvement-of-rcs-and-students"><i class="fa fa-check"></i><b>7.1.2</b> Involvement of RCs and students</a></li>
 </ul></li>
-<li class="chapter" data-level="7.2" data-path="authorship.html"><a href="authorship.html#tips-for-writing-papers"><i class="fa fa-check"></i><b>7.2</b> Tips for writing papers</a><ul>
+<li class="chapter" data-level="7.2" data-path="authorship.html"><a href="authorship.html#tips-for-writing-papers"><i class="fa fa-check"></i><b>7.2</b> Tips for writing papers</a>
+<ul>
 <li class="chapter" data-level="7.2.1" data-path="authorship.html"><a href="authorship.html#choosing-a-journal"><i class="fa fa-check"></i><b>7.2.1</b> Choosing a journal</a></li>
 <li class="chapter" data-level="7.2.2" data-path="authorship.html"><a href="authorship.html#title"><i class="fa fa-check"></i><b>7.2.2</b> Title</a></li>
 <li class="chapter" data-level="7.2.3" data-path="authorship.html"><a href="authorship.html#introduction-present-tense-for-what-is-currently-known"><i class="fa fa-check"></i><b>7.2.3</b> Introduction (<em>present tense</em> for what is currently known)</a></li>
@@ -178,20 +189,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="7.2.6" data-path="authorship.html"><a href="authorship.html#discussion-past-tense-for-talking-about-what-you-found-present-tense-for-what-it-means"><i class="fa fa-check"></i><b>7.2.6</b> Discussion (<em>past tense</em> for talking about what you found, <em>present tense</em> for what it means)</a></li>
 <li class="chapter" data-level="7.2.7" data-path="authorship.html"><a href="authorship.html#person-centered-language-and-other-terminology"><i class="fa fa-check"></i><b>7.2.7</b> Person-centered language and other terminology</a></li>
 </ul></li>
-<li class="chapter" data-level="7.3" data-path="authorship.html"><a href="authorship.html#more-about-figures"><i class="fa fa-check"></i><b>7.3</b> More about figures</a><ul>
+<li class="chapter" data-level="7.3" data-path="authorship.html"><a href="authorship.html#more-about-figures"><i class="fa fa-check"></i><b>7.3</b> More about figures</a>
+<ul>
 <li class="chapter" data-level="7.3.1" data-path="authorship.html"><a href="authorship.html#style-and-design"><i class="fa fa-check"></i><b>7.3.1</b> Style and design</a></li>
 </ul></li>
 <li class="chapter" data-level="7.4" data-path="authorship.html"><a href="authorship.html#notes-on-posters"><i class="fa fa-check"></i><b>7.4</b> Notes on posters</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html"><i class="fa fa-check"></i><b>8</b> Reliability and Open Science</a><ul>
+<li class="chapter" data-level="8" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html"><i class="fa fa-check"></i><b>8</b> Reliability and Open Science</a>
+<ul>
 <li class="chapter" data-level="8.1" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html#approaches-to-promote-reliability"><i class="fa fa-check"></i><b>8.1</b> Approaches to promote reliability</a></li>
 <li class="chapter" data-level="8.2" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html#open-science"><i class="fa fa-check"></i><b>8.2</b> Open science</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html"><i class="fa fa-check"></i><b>9</b> RStudio Analysis Pathway</a><ul>
-<li class="chapter" data-level="9.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#basic-overview-of-the-pathway"><i class="fa fa-check"></i><b>9.1</b> Basic overview of the pathway</a><ul>
+<li class="chapter" data-level="9" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html"><i class="fa fa-check"></i><b>9</b> RStudio Analysis Pathway</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#basic-overview-of-the-pathway"><i class="fa fa-check"></i><b>9.1</b> Basic overview of the pathway</a>
+<ul>
 <li class="chapter" data-level="9.1.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#other-resources"><i class="fa fa-check"></i><b>9.1.1</b> Other resources</a></li>
 </ul></li>
-<li class="chapter" data-level="9.2" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-0-review-software-tools"><i class="fa fa-check"></i><b>9.2</b> Step 0: Review software tools</a><ul>
+<li class="chapter" data-level="9.2" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-0-review-software-tools"><i class="fa fa-check"></i><b>9.2</b> Step 0: Review software tools</a>
+<ul>
 <li class="chapter" data-level="9.2.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#r"><i class="fa fa-check"></i><b>9.2.1</b> R</a></li>
 <li class="chapter" data-level="9.2.2" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#rstudio"><i class="fa fa-check"></i><b>9.2.2</b> RStudio</a></li>
 <li class="chapter" data-level="9.2.3" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#github"><i class="fa fa-check"></i><b>9.2.3</b> GitHub</a></li>
@@ -200,7 +216,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.3" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-1-clone-the-decisionlab-repository-to-your-computer"><i class="fa fa-check"></i><b>9.3</b> Step 1: Clone the decisionlab repository to your computer</a></li>
 <li class="chapter" data-level="9.4" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-2-save-the-original-dataset-to-the-r-drive"><i class="fa fa-check"></i><b>9.4</b> Step 2: Save the original dataset to the R: drive</a></li>
 <li class="chapter" data-level="9.5" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-3-clean-the-data-in-rstudio-using-an-rmarkdown-.rmd-and-creating-an-.html-log-creating-a-new-.rda-data-file-on-the-r-drive"><i class="fa fa-check"></i><b>9.5</b> Step 3: Clean the data in RStudio using an RMarkdown (.Rmd) and creating an .html log, creating a new .Rda data file on the R: drive</a></li>
-<li class="chapter" data-level="9.6" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-4-analyze-the-data-using-other-.rmd-files-saved-in-github-generating-more-.html-logs-in-github-and-more-.rda-files-as-necessary-on-the-r-drive"><i class="fa fa-check"></i><b>9.6</b> Step 4: Analyze the data using other .Rmd files (saved in GitHub), generating more .html logs (in GitHub) and more .Rda files as necessary on the R: drive</a><ul>
+<li class="chapter" data-level="9.6" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-4-analyze-the-data-using-other-.rmd-files-saved-in-github-generating-more-.html-logs-in-github-and-more-.rda-files-as-necessary-on-the-r-drive"><i class="fa fa-check"></i><b>9.6</b> Step 4: Analyze the data using other .Rmd files (saved in GitHub), generating more .html logs (in GitHub) and more .Rda files as necessary on the R: drive</a>
+<ul>
 <li class="chapter" data-level="9.6.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#some-observations"><i class="fa fa-check"></i><b>9.6.1</b> Some observations</a></li>
 </ul></li>
 </ul></li>
@@ -224,15 +241,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="authorship" class="section level1">
-<h1><span class="header-section-number">Section 7</span> Authorship</h1>
+<div id="authorship" class="section level1 hasAnchor" number="7">
+<h1><span class="header-section-number">Section 7</span> Authorship<a href="authorship.html#authorship" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>One of the general aims of the lab (and often a personal aim for research
 coordinators and students) is to get members involved in authoring
 papers and posters. (Note: much of what follows primarily concerns authorship of
 papers. Because posters aren’t fully peer-reviewed, standards for authorship are
 less stringent and less contested.)</p>
-<div id="why-it-matters-and-what-it-means" class="section level2">
-<h2><span class="header-section-number">7.1</span> Why it matters, and what it means</h2>
+<div id="why-it-matters-and-what-it-means" class="section level2 hasAnchor" number="7.1">
+<h2><span class="header-section-number">7.1</span> Why it matters, and what it means<a href="authorship.html#why-it-matters-and-what-it-means" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>One source of ethical problems with authorship is that it serves several
 functions in science and academia, and these multiple roles can give rise to
 conflict and misunderstandings–both within research groups, and from one group
@@ -288,8 +305,8 @@ manuscript in order to count as authors.</p>
 <a href="https://wiki.library.ucsf.edu/pages/viewpage.action?pageId=406066097#Publication&amp;AcknowledgementGuidelines-Authorship&amp;CoreSupport" target="_blank">MAC Authorship Guidelines</a>
 <em>when you are conceiving</em> the project and <em>as you are drafting</em> the paper, to
 ensure that you’re not leaving out someone who should be eligible for authorship.</p>
-<div id="authorship-order" class="section level3">
-<h3><span class="header-section-number">7.1.1</span> Authorship order</h3>
+<div id="authorship-order" class="section level3 hasAnchor" number="7.1.1">
+<h3><span class="header-section-number">7.1.1</span> Authorship order<a href="authorship.html#authorship-order" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The author positions that have established meanings across biomedical
 institutions are first, second, and last author.
 The first author is usually the person who initiated a project and did most of
@@ -303,8 +320,8 @@ one person’s name does have to come before the other’s, credit doesn’t rea
 shared equally, so in most cases we should just make an active decision about who
 is first and who is second.</p>
 </div>
-<div id="involvement-of-rcs-and-students" class="section level3">
-<h3><span class="header-section-number">7.1.2</span> Involvement of RCs and students</h3>
+<div id="involvement-of-rcs-and-students" class="section level3 hasAnchor" number="7.1.2">
+<h3><span class="header-section-number">7.1.2</span> Involvement of RCs and students<a href="authorship.html#involvement-of-rcs-and-students" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Involvement of more junior members of the research team as authors requires
 planning in advance, to ensure that they do make sufficient intellectual
 contributions and play a significant enough role in drafting the manuscript to
@@ -339,8 +356,8 @@ them–writer’s block over the Introduction and Discussion should never be the
 cause of delays in completing a manuscript draft.</p>
 </div>
 </div>
-<div id="tips-for-writing-papers" class="section level2">
-<h2><span class="header-section-number">7.2</span> Tips for writing papers</h2>
+<div id="tips-for-writing-papers" class="section level2 hasAnchor" number="7.2">
+<h2><span class="header-section-number">7.2</span> Tips for writing papers<a href="authorship.html#tips-for-writing-papers" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Many people find writing intimidating. Some resources to get you started
 include:</p>
 <ul>
@@ -359,8 +376,8 @@ Biology 2017. In R:\groups\chiong\Resources\Papers-methods-and-reliability.</li>
 <li>Gernsbacher, “Writing empirical articles.” Advances in Methods and Practices
 in Psychological Science, 2018. In R:\groups\chiong\Resources\Papers-methods-and-reliability.</li>
 </ul>
-<div id="choosing-a-journal" class="section level3">
-<h3><span class="header-section-number">7.2.1</span> Choosing a journal</h3>
+<div id="choosing-a-journal" class="section level3 hasAnchor" number="7.2.1">
+<h3><span class="header-section-number">7.2.1</span> Choosing a journal<a href="authorship.html#choosing-a-journal" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>This has gotten more complicated in recent years, in part because of the phenomenon
 of <strong>predatory journals</strong>. These are journals that often have names very similar
 to highly-respected journals, but that don’t actually exercise peer review or
@@ -383,8 +400,8 @@ and it will suggest journals (including rough impact factors) based on keyword
 and textual similarity. You can also use this tool to find articles and authors
 likely to be relevant to your work.</p>
 </div>
-<div id="title" class="section level3">
-<h3><span class="header-section-number">7.2.2</span> Title</h3>
+<div id="title" class="section level3 hasAnchor" number="7.2.2">
+<h3><span class="header-section-number">7.2.2</span> Title<a href="authorship.html#title" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Most good scientific papers have a straightforward, simple finding–usually
 either of the form <strong>A &gt; B</strong> or <strong>A ~ B</strong>–which should similarly arise from a
 straightforward question. For your paper, you want your potential audience to
@@ -399,8 +416,8 @@ and probably can also figure out much of the methods (a financial literacy
 questionnaire for the predictor, diffusion tensor imaging (DTI) for the outcome,
 in a healthy older population).</p>
 </div>
-<div id="introduction-present-tense-for-what-is-currently-known" class="section level3">
-<h3><span class="header-section-number">7.2.3</span> Introduction (<em>present tense</em> for what is currently known)</h3>
+<div id="introduction-present-tense-for-what-is-currently-known" class="section level3 hasAnchor" number="7.2.3">
+<h3><span class="header-section-number">7.2.3</span> Introduction (<em>present tense</em> for what is currently known)<a href="authorship.html#introduction-present-tense-for-what-is-currently-known" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>If your finding takes the form <strong>A &gt; B</strong> or <strong>A ~ B</strong>, your introduction should
 show why it would matter to know that A &gt; B or A ~ B. Usually in 3-4 elegant
 paragraphs (except for psychology journals, those introductions are crazy
@@ -416,8 +433,8 @@ overview of your hypothesis, design, sample and methods)</li>
 <p>Basically, in the introduction you want to get your audience interested in the
 question that your study is set up to answer.</p>
 </div>
-<div id="methods-past-tense-for-what-you-did" class="section level3">
-<h3><span class="header-section-number">7.2.4</span> Methods (<em>past tense</em> for what you did)</h3>
+<div id="methods-past-tense-for-what-you-did" class="section level3 hasAnchor" number="7.2.4">
+<h3><span class="header-section-number">7.2.4</span> Methods (<em>past tense</em> for what you did)<a href="authorship.html#methods-past-tense-for-what-you-did" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Now demonstrate to the reader how you plan to show that A &gt; B or A ~ B. Note
 that if the study has a [preregistered protocol][Open Science Framework],
 it’s best to try to keep the
@@ -440,8 +457,8 @@ level of detail for your target audience.</li>
 excluding subjects and your rationale for doing so), and any missing data and
 how missing data were handled.</p>
 </div>
-<div id="results-past-tense-for-what-you-found" class="section level3">
-<h3><span class="header-section-number">7.2.5</span> Results (<em>past tense</em> for what you found)</h3>
+<div id="results-past-tense-for-what-you-found" class="section level3 hasAnchor" number="7.2.5">
+<h3><span class="header-section-number">7.2.5</span> Results (<em>past tense</em> for what you found)<a href="authorship.html#results-past-tense-for-what-you-found" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>A tricky thing for new scientific writers is understanding the relationship, on
 one hand, between the Methods and Results; and on the other hand, between the
 Results and the Discussion.</p>
@@ -477,8 +494,8 @@ their tables and figures, e.g., “Table 1 shows… The multivariate results can
 be seen in Table 2…” See Browner for suggestions on how to use the text to
 help your reader interpret the data in your figures and tables.</p>
 </div>
-<div id="discussion-past-tense-for-talking-about-what-you-found-present-tense-for-what-it-means" class="section level3">
-<h3><span class="header-section-number">7.2.6</span> Discussion (<em>past tense</em> for talking about what you found, <em>present tense</em> for what it means)</h3>
+<div id="discussion-past-tense-for-talking-about-what-you-found-present-tense-for-what-it-means" class="section level3 hasAnchor" number="7.2.6">
+<h3><span class="header-section-number">7.2.6</span> Discussion (<em>past tense</em> for talking about what you found, <em>present tense</em> for what it means)<a href="authorship.html#discussion-past-tense-for-talking-about-what-you-found-present-tense-for-what-it-means" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>It’s helpful to go back to the question that you posed in the Introduction, and
 then to indicate that your study has answered this question. Synthesize and
 summarize the key findings, including particular mention of any that are
@@ -501,8 +518,8 @@ used the sample you did, or why a given statistical model didn’t fit), includi
 not only design/methodological limitations, but also limitations of your
 interpretation of findings.</p>
 </div>
-<div id="person-centered-language-and-other-terminology" class="section level3">
-<h3><span class="header-section-number">7.2.7</span> Person-centered language and other terminology</h3>
+<div id="person-centered-language-and-other-terminology" class="section level3 hasAnchor" number="7.2.7">
+<h3><span class="header-section-number">7.2.7</span> Person-centered language and other terminology<a href="authorship.html#person-centered-language-and-other-terminology" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>As with our <a href="guidelines-for-clinical-interactions.html#guidelines-for-clinical-interactions">Guidelines for Clinical Interactions</a>, we aim to use person-centered
 language and appropriate terminology, particularly when writing about older
 adults and people with dementia, The American Geriatrics Society has some
@@ -517,10 +534,17 @@ context of a patient-clinician relationship. In a research context, terms like
 “caregiver” if the paper specifically discusses someone in the context of a
 caregiving relationship. At nearly all costs we avoid referring to people by
 using acronyms (e.g., “ADs,” “bvFTDs,” “PWDs” [for person with dementia]).</p>
+<p>Finally, for people writing about caregiver/care recipient relationships,
+there’s been increasing attention to appropriate language for caregiving. One
+useful resource is an editorial in the Journal of the American Geriatrics Society,
+<a href="https://agsjournals.onlinelibrary.wiley.com/doi/full/10.1111/jgs.15988" target="_blank">Words Matter: The Language of Family Caregiving</a>.
+The key point is to avoid the terms “informal” and “formal” caregivers for
+caregivers who are unpaid and paid, respectively. See Table 1 in the paper for
+more detailed recommendations.</p>
 </div>
 </div>
-<div id="more-about-figures" class="section level2">
-<h2><span class="header-section-number">7.3</span> More about figures</h2>
+<div id="more-about-figures" class="section level2 hasAnchor" number="7.3">
+<h2><span class="header-section-number">7.3</span> More about figures<a href="authorship.html#more-about-figures" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>A great guide for thinking about how to communicate statistics with figures is
 Tufte’s <em>The Visual Display of Quantitative Information</em> (I have a copy you can
 borrow if you like). Tufte’s focus is on how we can use design to help
@@ -528,7 +552,7 @@ facilitate understanding of relationships in data. Another resource is
 Rougier, Droettboom &amp; Bourne, “Ten simple rules for better figures.” PLoS
 Computational Biology 2014. (In
 R:\groups\chiong\Resources\Papers-methods-and-reliability)</p>
-<p><img src="img/handbook-authorship-01-vector-raster.png" /><!-- --></p>
+<p><img src="img/handbook-authorship-01-vector-raster.png" width="425" /></p>
 <p>One important thing to understand about figures is the difference between
 vector and raster graphics. Raster graphics are the most familiar to people–these
 are the images created by digital cameras, and are composed of a grid
@@ -552,11 +576,12 @@ to raster, then it will be nearly impossible to edit them again as vector
 graphics.</p>
 <p>Some other figures (such as from neuroimaging) are generated as raster graphics.
 When editing these, please be aware that the screen resolution of your monitor
-(often something like 72 dots per inch) is much lower than print resolution
+(often something like 72 dots per inch) can be much lower than print resolution
 (300-600 dpi). If your graphics are intended for publication, they need to be
-created and edited in print resolution.</p>
-<div id="style-and-design" class="section level3">
-<h3><span class="header-section-number">7.3.1</span> Style and design</h3>
+created and edited in print resolution and you should check that they look
+good when viewed close-up.</p>
+<div id="style-and-design" class="section level3 hasAnchor" number="7.3.1">
+<h3><span class="header-section-number">7.3.1</span> Style and design<a href="authorship.html#style-and-design" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>As emphasized by Rougier and colleagues, do not just use the defaults from the
 stats program (Stata, R, Matlab…) used to create your figures. Instead, you
 want your figures to demonstrate your active thinking about the most revealing
@@ -584,7 +609,7 @@ any consistent color scheme will help later on when we want to combine
 figures from different projects, and relying on the UCSF scheme will help things
 look consistent on posters. To access the UCSF color scheme, go to the
 <a href="https://identity.ucsf.edu/brand-guide/print-colors" target="_blank">UCSF brand guide for colors</a>.</p>
-<p><img src="img/handbook-authorship-02-ucsf-colors.png" /><!-- --></p>
+<p><img src="img/handbook-authorship-02-ucsf-colors.png" width="696" /></p>
 <p>You’ll notice that each color has numbers associated for RGB (quantities of red,
 green and blue light). To use these in
 your program, you need to go beyond the preset
@@ -592,11 +617,11 @@ colors–look for a color palette or an option for More Colors… Then from that
 find the option to enter the numeric RGB values directly (rather than trying to
 choose a shade that matches), and use the values from
 the UCSF color scheme:</p>
-<p><img src="img/handbook-authorship-03-more-colors.png" /><!-- --></p>
+<p><img src="img/handbook-authorship-03-more-colors.png" width="222" /></p>
 </div>
 </div>
-<div id="notes-on-posters" class="section level2">
-<h2><span class="header-section-number">7.4</span> Notes on posters</h2>
+<div id="notes-on-posters" class="section level2 hasAnchor" number="7.4">
+<h2><span class="header-section-number">7.4</span> Notes on posters<a href="authorship.html#notes-on-posters" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>I like to think of posters as preparation for writing the paper that will
 eventually result from your project. Selfishly, in the poster session you’ll
 want to talk to people who know enough about your topic or methods to be
@@ -649,10 +674,12 @@ Here, each figure in the Results section has a descriptive title, and
 also includes brief text to help viewers know what’s going on. Similarly with
 the takeaways: try to come up with two or three really quick and clear messages
 that viewers should walk away with at the end.</li>
-<li>Note that the graphics use the UCSF color scheme (as explained in More about
-figures - Style and design above), so they’re easy to combine from different
+<li>Note that the graphics use the old UCSF color scheme; the idea was to make
+them easy to combine from different
 sources without clashing. (The “Care Ecosystem study” diagram is taken directly
-from Kate Possin’s paper about the Care Ecosystem.)</li>
+from Kate Possin’s paper about the Care Ecosystem.) The old color scheme doesn’t
+differ too much from the new one, but we should try to use the new color scheme
+going forward.</li>
 </ul>
 <p>One last picky thing. The Windows versions of Microsoft Word and Powerpoint have
 an annoying issue where, if you use “Save As…” with the “Save as type: PDF”
@@ -673,7 +700,6 @@ on Macs.)</p>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -700,10 +726,13 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
-},
-"search": true
+}
 });
 });
 </script>

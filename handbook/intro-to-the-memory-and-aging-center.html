@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 4 Intro to the Memory and Aging Center | UCSF Decision Lab Handbook</title>
   <meta name="description" content="Handbook for the UCSF Decision Lab." />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 4 Intro to the Memory and Aging Center | UCSF Decision Lab Handbook" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Handbook for the UCSF Decision Lab." />
   
@@ -23,7 +22,7 @@
 
 
 
-<meta name="date" content="2021-05-25" />
+<meta name="date" content="2022-06-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +31,8 @@
   
 <link rel="prev" href="lab-resources-overview.html"/>
 <link rel="next" href="guidelines-for-clinical-interactions.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -48,23 +48,24 @@
 
 
 
-
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -84,7 +85,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -117,6 +118,7 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
@@ -136,7 +138,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Organizing Principles</a></li>
 <li class="chapter" data-level="2" data-path="hours-and-expectations.html"><a href="hours-and-expectations.html"><i class="fa fa-check"></i><b>2</b> Hours and Expectations</a></li>
-<li class="chapter" data-level="3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html"><i class="fa fa-check"></i><b>3</b> Lab Resources Overview</a><ul>
+<li class="chapter" data-level="3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html"><i class="fa fa-check"></i><b>3</b> Lab Resources Overview</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#slack"><i class="fa fa-check"></i><b>3.1</b> <span>Slack</span></a></li>
 <li class="chapter" data-level="3.2" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#lab-website"><i class="fa fa-check"></i><b>3.2</b> <span>Lab website</span></a></li>
 <li class="chapter" data-level="3.3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#private-github-repo"><i class="fa fa-check"></i><b>3.3</b> <span>Private Github repo</span></a></li>
@@ -145,31 +148,39 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.6" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#open-science-framework"><i class="fa fa-check"></i><b>3.6</b> <span>Open Science Framework</span></a></li>
 <li class="chapter" data-level="3.7" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#deprecateddiscouraged-tools"><i class="fa fa-check"></i><b>3.7</b> Deprecated/discouraged tools</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html"><i class="fa fa-check"></i><b>4</b> Intro to the Memory and Aging Center</a><ul>
+<li class="chapter" data-level="4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html"><i class="fa fa-check"></i><b>4</b> Intro to the Memory and Aging Center</a>
+<ul>
 <li class="chapter" data-level="4.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#the-mac-in-the-context-of-ucsf-the-weill-institute"><i class="fa fa-check"></i><b>4.1</b> The MAC in the context of UCSF &amp; the Weill Institute</a></li>
 <li class="chapter" data-level="4.2" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#mac-clinic-mac-research"><i class="fa fa-check"></i><b>4.2</b> MAC clinic &amp; MAC research</a></li>
-<li class="chapter" data-level="4.3" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#mac-research-parent-projects"><i class="fa fa-check"></i><b>4.3</b> MAC research “parent projects”</a><ul>
+<li class="chapter" data-level="4.3" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#mac-research-parent-projects"><i class="fa fa-check"></i><b>4.3</b> MAC research “parent projects”</a>
+<ul>
 <li class="chapter" data-level="4.3.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#our-lab-projects-in-context"><i class="fa fa-check"></i><b>4.3.1</b> Our lab projects in context</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-in-the-mac"><i class="fa fa-check"></i><b>4.4</b> Learning opportunities in the MAC</a><ul>
+<li class="chapter" data-level="4.4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-in-the-mac"><i class="fa fa-check"></i><b>4.4</b> Learning opportunities in the MAC</a>
+<ul>
 <li class="chapter" data-level="4.4.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-within-our-lab"><i class="fa fa-check"></i><b>4.4.1</b> Learning opportunities within our lab</a></li>
 </ul></li>
 <li class="chapter" data-level="4.5" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#whos-who-at-the-mac"><i class="fa fa-check"></i><b>4.5</b> Who’s who at the MAC</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html"><i class="fa fa-check"></i><b>5</b> Guidelines for Clinical Interactions</a><ul>
+<li class="chapter" data-level="5" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html"><i class="fa fa-check"></i><b>5</b> Guidelines for Clinical Interactions</a>
+<ul>
 <li class="chapter" data-level="5.1" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html#macmacipedia-resources-re-clinical-encounters"><i class="fa fa-check"></i><b>5.1</b> MAC/MACipedia resources re: clinical encounters</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html"><i class="fa fa-check"></i><b>6</b> A Brief Guide to the Scientific Literature</a><ul>
+<li class="chapter" data-level="6" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html"><i class="fa fa-check"></i><b>6</b> A Brief Guide to the Scientific Literature</a>
+<ul>
 <li class="chapter" data-level="6.1" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#getting-started-on-a-topic"><i class="fa fa-check"></i><b>6.1</b> Getting started on a topic</a></li>
 <li class="chapter" data-level="6.2" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#reading-in-more-depth"><i class="fa fa-check"></i><b>6.2</b> Reading in more depth</a></li>
 <li class="chapter" data-level="6.3" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#using-rss-feeds-to-follow-the-scientific-literature"><i class="fa fa-check"></i><b>6.3</b> Using RSS feeds to follow the scientific literature</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="authorship.html"><a href="authorship.html"><i class="fa fa-check"></i><b>7</b> Authorship</a><ul>
-<li class="chapter" data-level="7.1" data-path="authorship.html"><a href="authorship.html#why-it-matters-and-what-it-means"><i class="fa fa-check"></i><b>7.1</b> Why it matters, and what it means</a><ul>
+<li class="chapter" data-level="7" data-path="authorship.html"><a href="authorship.html"><i class="fa fa-check"></i><b>7</b> Authorship</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="authorship.html"><a href="authorship.html#why-it-matters-and-what-it-means"><i class="fa fa-check"></i><b>7.1</b> Why it matters, and what it means</a>
+<ul>
 <li class="chapter" data-level="7.1.1" data-path="authorship.html"><a href="authorship.html#authorship-order"><i class="fa fa-check"></i><b>7.1.1</b> Authorship order</a></li>
 <li class="chapter" data-level="7.1.2" data-path="authorship.html"><a href="authorship.html#involvement-of-rcs-and-students"><i class="fa fa-check"></i><b>7.1.2</b> Involvement of RCs and students</a></li>
 </ul></li>
-<li class="chapter" data-level="7.2" data-path="authorship.html"><a href="authorship.html#tips-for-writing-papers"><i class="fa fa-check"></i><b>7.2</b> Tips for writing papers</a><ul>
+<li class="chapter" data-level="7.2" data-path="authorship.html"><a href="authorship.html#tips-for-writing-papers"><i class="fa fa-check"></i><b>7.2</b> Tips for writing papers</a>
+<ul>
 <li class="chapter" data-level="7.2.1" data-path="authorship.html"><a href="authorship.html#choosing-a-journal"><i class="fa fa-check"></i><b>7.2.1</b> Choosing a journal</a></li>
 <li class="chapter" data-level="7.2.2" data-path="authorship.html"><a href="authorship.html#title"><i class="fa fa-check"></i><b>7.2.2</b> Title</a></li>
 <li class="chapter" data-level="7.2.3" data-path="authorship.html"><a href="authorship.html#introduction-present-tense-for-what-is-currently-known"><i class="fa fa-check"></i><b>7.2.3</b> Introduction (<em>present tense</em> for what is currently known)</a></li>
@@ -178,20 +189,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="7.2.6" data-path="authorship.html"><a href="authorship.html#discussion-past-tense-for-talking-about-what-you-found-present-tense-for-what-it-means"><i class="fa fa-check"></i><b>7.2.6</b> Discussion (<em>past tense</em> for talking about what you found, <em>present tense</em> for what it means)</a></li>
 <li class="chapter" data-level="7.2.7" data-path="authorship.html"><a href="authorship.html#person-centered-language-and-other-terminology"><i class="fa fa-check"></i><b>7.2.7</b> Person-centered language and other terminology</a></li>
 </ul></li>
-<li class="chapter" data-level="7.3" data-path="authorship.html"><a href="authorship.html#more-about-figures"><i class="fa fa-check"></i><b>7.3</b> More about figures</a><ul>
+<li class="chapter" data-level="7.3" data-path="authorship.html"><a href="authorship.html#more-about-figures"><i class="fa fa-check"></i><b>7.3</b> More about figures</a>
+<ul>
 <li class="chapter" data-level="7.3.1" data-path="authorship.html"><a href="authorship.html#style-and-design"><i class="fa fa-check"></i><b>7.3.1</b> Style and design</a></li>
 </ul></li>
 <li class="chapter" data-level="7.4" data-path="authorship.html"><a href="authorship.html#notes-on-posters"><i class="fa fa-check"></i><b>7.4</b> Notes on posters</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html"><i class="fa fa-check"></i><b>8</b> Reliability and Open Science</a><ul>
+<li class="chapter" data-level="8" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html"><i class="fa fa-check"></i><b>8</b> Reliability and Open Science</a>
+<ul>
 <li class="chapter" data-level="8.1" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html#approaches-to-promote-reliability"><i class="fa fa-check"></i><b>8.1</b> Approaches to promote reliability</a></li>
 <li class="chapter" data-level="8.2" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html#open-science"><i class="fa fa-check"></i><b>8.2</b> Open science</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html"><i class="fa fa-check"></i><b>9</b> RStudio Analysis Pathway</a><ul>
-<li class="chapter" data-level="9.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#basic-overview-of-the-pathway"><i class="fa fa-check"></i><b>9.1</b> Basic overview of the pathway</a><ul>
+<li class="chapter" data-level="9" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html"><i class="fa fa-check"></i><b>9</b> RStudio Analysis Pathway</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#basic-overview-of-the-pathway"><i class="fa fa-check"></i><b>9.1</b> Basic overview of the pathway</a>
+<ul>
 <li class="chapter" data-level="9.1.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#other-resources"><i class="fa fa-check"></i><b>9.1.1</b> Other resources</a></li>
 </ul></li>
-<li class="chapter" data-level="9.2" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-0-review-software-tools"><i class="fa fa-check"></i><b>9.2</b> Step 0: Review software tools</a><ul>
+<li class="chapter" data-level="9.2" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-0-review-software-tools"><i class="fa fa-check"></i><b>9.2</b> Step 0: Review software tools</a>
+<ul>
 <li class="chapter" data-level="9.2.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#r"><i class="fa fa-check"></i><b>9.2.1</b> R</a></li>
 <li class="chapter" data-level="9.2.2" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#rstudio"><i class="fa fa-check"></i><b>9.2.2</b> RStudio</a></li>
 <li class="chapter" data-level="9.2.3" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#github"><i class="fa fa-check"></i><b>9.2.3</b> GitHub</a></li>
@@ -200,7 +216,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.3" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-1-clone-the-decisionlab-repository-to-your-computer"><i class="fa fa-check"></i><b>9.3</b> Step 1: Clone the decisionlab repository to your computer</a></li>
 <li class="chapter" data-level="9.4" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-2-save-the-original-dataset-to-the-r-drive"><i class="fa fa-check"></i><b>9.4</b> Step 2: Save the original dataset to the R: drive</a></li>
 <li class="chapter" data-level="9.5" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-3-clean-the-data-in-rstudio-using-an-rmarkdown-.rmd-and-creating-an-.html-log-creating-a-new-.rda-data-file-on-the-r-drive"><i class="fa fa-check"></i><b>9.5</b> Step 3: Clean the data in RStudio using an RMarkdown (.Rmd) and creating an .html log, creating a new .Rda data file on the R: drive</a></li>
-<li class="chapter" data-level="9.6" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-4-analyze-the-data-using-other-.rmd-files-saved-in-github-generating-more-.html-logs-in-github-and-more-.rda-files-as-necessary-on-the-r-drive"><i class="fa fa-check"></i><b>9.6</b> Step 4: Analyze the data using other .Rmd files (saved in GitHub), generating more .html logs (in GitHub) and more .Rda files as necessary on the R: drive</a><ul>
+<li class="chapter" data-level="9.6" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-4-analyze-the-data-using-other-.rmd-files-saved-in-github-generating-more-.html-logs-in-github-and-more-.rda-files-as-necessary-on-the-r-drive"><i class="fa fa-check"></i><b>9.6</b> Step 4: Analyze the data using other .Rmd files (saved in GitHub), generating more .html logs (in GitHub) and more .Rda files as necessary on the R: drive</a>
+<ul>
 <li class="chapter" data-level="9.6.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#some-observations"><i class="fa fa-check"></i><b>9.6.1</b> Some observations</a></li>
 </ul></li>
 </ul></li>
@@ -224,8 +241,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="intro-to-the-memory-and-aging-center" class="section level1">
-<h1><span class="header-section-number">Section 4</span> Intro to the Memory and Aging Center</h1>
+<div id="intro-to-the-memory-and-aging-center" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Section 4</span> Intro to the Memory and Aging Center<a href="intro-to-the-memory-and-aging-center.html#intro-to-the-memory-and-aging-center" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>One challenge for new research coordinators is that the Memory and Aging Center
 is a huge institution with its own specific culture and organization, partly
 just reflecting the broader norms of academic medicine. There is a lot of
@@ -234,8 +251,8 @@ the MAC wiki. Still, it can be tricky to figure out how all these pieces fit
 together, particularly given all the
 <a href="https://wiki.library.ucsf.edu/display/MACipedia/MAC+Acronyms" target="_blank">three-letter acronyms</a>
 in use, so here is a brief orientation:</p>
-<div id="the-mac-in-the-context-of-ucsf-the-weill-institute" class="section level2">
-<h2><span class="header-section-number">4.1</span> The MAC in the context of UCSF &amp; the Weill Institute</h2>
+<div id="the-mac-in-the-context-of-ucsf-the-weill-institute" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> The MAC in the context of UCSF &amp; the Weill Institute<a href="intro-to-the-memory-and-aging-center.html#the-mac-in-the-context-of-ucsf-the-weill-institute" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In 2016, a large donation prompted a reorganization of the clinical and bench
 neurosciences at UCSF, under the broad umbrella of the
 <a href="https://weill.ucsf.edu" target="_blank">Weill Institute for Neurosciences</a>.
@@ -252,22 +269,19 @@ It’s one of several different <a href="https://neurology.ucsf.edu/divisions" t
 other divisions that we work with a lot (particularly in the Neurotech project)
 are Movement Disorder/Neuromodulation and Epilepsy.</p>
 </div>
-<div id="mac-clinic-mac-research" class="section level2">
-<h2><span class="header-section-number">4.2</span> MAC clinic &amp; MAC research</h2>
+<div id="mac-clinic-mac-research" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> MAC clinic &amp; MAC research<a href="intro-to-the-memory-and-aging-center.html#mac-clinic-mac-research" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Our lab is part of the research program at the MAC, but when most people in the
 community think of the MAC, they’re usually thinking of the
 <a href="https://memory.ucsf.edu/services" target="_blank">MAC Clinic</a>. The clinic
-is located on the 3rd floor of 1500 Owens street, and provides neurological care
+is located on the 2nd floor of 1651 4th Street, and provides neurological care
 for patients with cognitive disorders.
 I usually see my clinic patients on alternating Tuesday mornings and
-Friday afternoons, you are welcome to “shadow” me in clinic as I
-see patients (check my Outlook calendar–the staff usually prefers a few weeks’
-notice so they don’t double-book the room with a medical student or another
-clinical observer). Remember that patients seen in clinic are there for their
-own medical care and not as volunteers or
-research participants; for instance, I’ll need to ask each patient for
-permission for you to observe them, and if they say no then you’ll just need to
-wait in the nurses’ office until the next patient’s appointment.</p>
+Wednesday afternoons. In the past I was able to have coordinators “shadow” me
+during in-person clinics (which for me right now are the 3rd Tuesday mornings
+of each month), but right now observers are on hold. Will check in on this later.
+Currently my other clinics are just over Zoom; we’ll see in the coming months
+how many of our patients and caregivers are eager to come back in person.</p>
 <p><a href="https://memory.ucsf.edu/research-trials" target="_blank">MAC research</a>
 appointments principally take place in the
 <a href="https://neurology.ucsf.edu/ncru" target="_blank">Neurosciences Clinical Research Unit</a>
@@ -288,8 +302,8 @@ some patients (particularly with rare conditions who are recruited from other
 states or regions) are only seen in research; and generally our healthy control
 participants are seen in research only.</p>
 </div>
-<div id="mac-research-parent-projects" class="section level2">
-<h2><span class="header-section-number">4.3</span> MAC research “parent projects”</h2>
+<div id="mac-research-parent-projects" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> MAC research “parent projects”<a href="intro-to-the-memory-and-aging-center.html#mac-research-parent-projects" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Many of our research participants are recruited through the MAC’s longitudinal
 “parent projects.” These are multi-year, longitudinal research projects that
 follow different clinical cohorts of research participants over time. Our lab,
@@ -330,8 +344,8 @@ added assessments such as MRI:
 <li><a href="https://memory.ucsf.edu/research-trials/research/chronic-inflammation-healthy-aging-and-mci" target="_blank">Chronic Inflammation in Healthy Aging and MCI (“Chronic Inflammation”)</a></li>
 </ul></li>
 </ul>
-<div id="our-lab-projects-in-context" class="section level3">
-<h3><span class="header-section-number">4.3.1</span> Our lab projects in context</h3>
+<div id="our-lab-projects-in-context" class="section level3 hasAnchor" number="4.3.1">
+<h3><span class="header-section-number">4.3.1</span> Our lab projects in context<a href="intro-to-the-memory-and-aging-center.html#our-lab-projects-in-context" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Our lab’s four main projects are linked to these parent projects. They are:</p>
 <ul>
 <li><a href="https://decisionlab.ucsf.edu/projects/index.html#dma" target="_blank">Decision-Making in Alzheimer’s and Related Dementias (DMA)</a><br />
@@ -367,7 +381,7 @@ Dan Dohan of the
 <li>Standard Operating Procedures on the <a href="lab-resources-overview.html#r-drive-rgroupschiong">R: drive</a>:
 R:\groups\chiong\Neurotech\.</li>
 <li>This project is funded by NIH grant
-<a href="https://projectreporter.nih.gov/project_info_description.cfm?aid=9712958&amp;icde=48914110" target="_blank">R01MH114860</a>.</li>
+<a href="https://reporter.nih.gov/project-details/10283140" target="_blank">R01MH126997</a>.</li>
 </ul></li>
 <li><a href="https://decisionlab.ucsf.edu/projects/index.html#agingcog" target="_blank">Online Studies of Decision-Making in Healthy Aging</a><br />
 These studies use an online panel of healthy older adults recruited through
@@ -379,8 +393,8 @@ R:\groups\chiong\aging-and-cognition\.</li>
 </ul>
 </div>
 </div>
-<div id="learning-opportunities-in-the-mac" class="section level2">
-<h2><span class="header-section-number">4.4</span> Learning opportunities in the MAC</h2>
+<div id="learning-opportunities-in-the-mac" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> Learning opportunities in the MAC<a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-in-the-mac" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>One of the great advantages of working at an academic institution like UCSF is
 our access to a multitude of learning opportunities such as lectures, didactics,
 conferences given by world-renowned experts. A calendar including some of these
@@ -388,12 +402,12 @@ events is maintained at
 <a href="https://calendar.ucsf.edu/group/memory_and_aging_center" target="_blank">calendar.ucsf.edu/group/memory_and_aging_center</a>;
 opportunities include:</p>
 <ul>
-<li>Tuesday lectures<br />
-<strong>Every Tuesday from 4-5pm in Rock Hall Auditorium, 1550 4th St.</strong><br />
+<li>Tuesday talks<br />
+<strong>Every Tuesday from 4-5pm</strong> (currently on Zoom)
 Usually informal talks given by MAC faculty/staff on a variety of topics and
 projects.</li>
 <li>MAC Grand Rounds<br />
-<strong>Every Friday from 8-9am in Rock Hall Auditorium</strong><br />
+<strong>Every Friday from 9-10am</strong> (mostly now on Zoom, some hybrid)<br />
 Weekly lectures, usually more formal than Tuesdays, often featuring visiting
 scholars or other special guests.</li>
 <li>MAC didactics<br />
@@ -421,16 +435,11 @@ hour, the patients and family/caregiver are invited to speak with the team,
 ask questions, and formulate a plan going forward. Usually held at the end of
 each patient’s research visit.</li>
 </ul>
-<div id="learning-opportunities-within-our-lab" class="section level3">
-<h3><span class="header-section-number">4.4.1</span> Learning opportunities within our lab</h3>
+<div id="learning-opportunities-within-our-lab" class="section level3 hasAnchor" number="4.4.1">
+<h3><span class="header-section-number">4.4.1</span> Learning opportunities within our lab<a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-within-our-lab" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>In addition to these MAC-wide opportunities, our lab hosts other learning
 experiences:</p>
 <ul>
-<li><a href="https://decisionlab.ucsf.edu/seminar/" target="_blank">Neuroethics Seminar</a> (currently on hold during work-from-home)
-<strong>1st and 3rd Wednesdays of each month from 3:30-5pm in NS532</strong><br />
-This seminar allows neuroscientists, clinicians, and researchers to discuss
-ethical and policy-related issues arising in their work with an
-interdisciplinary group.</li>
 <li>Lab didactics and journal club<br />
 <strong>Second hour (if there is one) of lab meeting</strong><br />
 Usually in the fall we have a series of 7-8 didactics tailored to our lab’s
@@ -439,17 +448,50 @@ establishing common understanding across different new lab members with
 various backgrounds and interests. After completing this series, we’ll have
 a journal club: lab members will prepare a brief presentation on a journal
 article of interest to them, connected to our lab’s current research projects.
+Another great use for this time is to present work in progress, such as a
+manuscript or poster that someone is working on.
 Some weeks we’ll skip if I have a conflicting clinic or committee meeting.</li>
+<li>Code meeting
+<strong>Thursdays 9-10am (working hour) &amp; 11am-noon (with Winston)</strong>
+Regular meetings to discuss issues in code. First hour is for people to gather
+with Clara to discuss code they’re working on and to work out issues together.
+Second hour is presenting work and questions to Winston.</li>
 <li>Mentoring meetings<br />
-<strong>Wednedsays from 9-9:30am</strong><br />
+<strong>Wednedsays from 10-10:30am</strong><br />
 Rotates across lab members from week to week; designated time to discuss
 job performance, team issues/concerns, career opportunities, applications to
 grad/professional schools, or other topics important to you.</li>
 </ul>
+<p>Finally, technically not within our lab or MAC, but several people in our lab
+are helping to organize events through
+<a href="https://bioethics.ucsf.edu" target="_blank">UCSF Bioethics</a>:</p>
+<ul>
+<li>Clinical ethics journal club (details at <a href="http://tiny.ucsf.edu/ClinEthicsJC" target="_blank">tiny.ucsf.edu/ClinEthicsJC</a>)
+<strong>4th Thursdays of each month from 4-5pm</strong>
+A meeting aimed at clinicians in the 5 UCSF-affiliated Bay Area hospitals, to
+discuss a recent paper relevant to the ethics of clinical practice and
+research. Currently run in hybrid format, with these physical locations:
+<ul>
+<li>BCH Oakland: Bertha Wright Conference Room</li>
+<li>BCH SF (Mission Bay): BCH 3rd Floor ICN room (C3810A)</li>
+<li>SFGH: 5K8</li>
+<li>SFVA: GPEC conference room (Building 1, Floor 3)</li>
+<li>UCSF Med Center (Parnassus): M169 (next to Case Management/Social Work behind ‘M’ elevator bay)</li>
+</ul></li>
+<li>Research series (details at <a href="http://tiny.ucsf.edu/BioethicsRS" target="_blank">tiny.ucsf.edu/BioethicsRS</a>)
+<strong>3rd Thurdays of most months from 3:30-5pm</strong>
+A meeting directed at the UCSF bioethics research community, to discuss things
+like methods, funding opportunities, and in-depth explorations of selected
+topics.</li>
+<li>Grand Rounds (scheduling variable)
+These will be meetings coordinated with other clinical departments or research
+institutes at UCSF, to address ethical and societal questions arising in
+these specific domains.</li>
+</ul>
 </div>
 </div>
-<div id="whos-who-at-the-mac" class="section level2">
-<h2><span class="header-section-number">4.5</span> Who’s who at the MAC</h2>
+<div id="whos-who-at-the-mac" class="section level2 hasAnchor" number="4.5">
+<h2><span class="header-section-number">4.5</span> Who’s who at the MAC<a href="intro-to-the-memory-and-aging-center.html#whos-who-at-the-mac" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>You’ll be interacting with a lot of different people in different roles. Not
 comprehensive, but here are some of the titles people will have and how they’re
 related:</p>
@@ -514,7 +556,6 @@ careers.</li>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -541,10 +582,13 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
-},
-"search": true
+}
 });
 });
 </script>

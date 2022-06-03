@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 9 RStudio Analysis Pathway | UCSF Decision Lab Handbook</title>
   <meta name="description" content="Handbook for the UCSF Decision Lab." />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 9 RStudio Analysis Pathway | UCSF Decision Lab Handbook" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Handbook for the UCSF Decision Lab." />
   
@@ -23,7 +22,7 @@
 
 
 
-<meta name="date" content="2021-05-25" />
+<meta name="date" content="2022-06-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +31,8 @@
   
 <link rel="prev" href="reliability-and-open-science.html"/>
 
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -48,23 +48,24 @@
 
 
 
-
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -84,7 +85,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -117,6 +118,7 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
@@ -136,7 +138,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Organizing Principles</a></li>
 <li class="chapter" data-level="2" data-path="hours-and-expectations.html"><a href="hours-and-expectations.html"><i class="fa fa-check"></i><b>2</b> Hours and Expectations</a></li>
-<li class="chapter" data-level="3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html"><i class="fa fa-check"></i><b>3</b> Lab Resources Overview</a><ul>
+<li class="chapter" data-level="3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html"><i class="fa fa-check"></i><b>3</b> Lab Resources Overview</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#slack"><i class="fa fa-check"></i><b>3.1</b> <span>Slack</span></a></li>
 <li class="chapter" data-level="3.2" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#lab-website"><i class="fa fa-check"></i><b>3.2</b> <span>Lab website</span></a></li>
 <li class="chapter" data-level="3.3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#private-github-repo"><i class="fa fa-check"></i><b>3.3</b> <span>Private Github repo</span></a></li>
@@ -145,31 +148,39 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.6" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#open-science-framework"><i class="fa fa-check"></i><b>3.6</b> <span>Open Science Framework</span></a></li>
 <li class="chapter" data-level="3.7" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#deprecateddiscouraged-tools"><i class="fa fa-check"></i><b>3.7</b> Deprecated/discouraged tools</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html"><i class="fa fa-check"></i><b>4</b> Intro to the Memory and Aging Center</a><ul>
+<li class="chapter" data-level="4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html"><i class="fa fa-check"></i><b>4</b> Intro to the Memory and Aging Center</a>
+<ul>
 <li class="chapter" data-level="4.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#the-mac-in-the-context-of-ucsf-the-weill-institute"><i class="fa fa-check"></i><b>4.1</b> The MAC in the context of UCSF &amp; the Weill Institute</a></li>
 <li class="chapter" data-level="4.2" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#mac-clinic-mac-research"><i class="fa fa-check"></i><b>4.2</b> MAC clinic &amp; MAC research</a></li>
-<li class="chapter" data-level="4.3" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#mac-research-parent-projects"><i class="fa fa-check"></i><b>4.3</b> MAC research “parent projects”</a><ul>
+<li class="chapter" data-level="4.3" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#mac-research-parent-projects"><i class="fa fa-check"></i><b>4.3</b> MAC research “parent projects”</a>
+<ul>
 <li class="chapter" data-level="4.3.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#our-lab-projects-in-context"><i class="fa fa-check"></i><b>4.3.1</b> Our lab projects in context</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-in-the-mac"><i class="fa fa-check"></i><b>4.4</b> Learning opportunities in the MAC</a><ul>
+<li class="chapter" data-level="4.4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-in-the-mac"><i class="fa fa-check"></i><b>4.4</b> Learning opportunities in the MAC</a>
+<ul>
 <li class="chapter" data-level="4.4.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-within-our-lab"><i class="fa fa-check"></i><b>4.4.1</b> Learning opportunities within our lab</a></li>
 </ul></li>
 <li class="chapter" data-level="4.5" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#whos-who-at-the-mac"><i class="fa fa-check"></i><b>4.5</b> Who’s who at the MAC</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html"><i class="fa fa-check"></i><b>5</b> Guidelines for Clinical Interactions</a><ul>
+<li class="chapter" data-level="5" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html"><i class="fa fa-check"></i><b>5</b> Guidelines for Clinical Interactions</a>
+<ul>
 <li class="chapter" data-level="5.1" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html#macmacipedia-resources-re-clinical-encounters"><i class="fa fa-check"></i><b>5.1</b> MAC/MACipedia resources re: clinical encounters</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html"><i class="fa fa-check"></i><b>6</b> A Brief Guide to the Scientific Literature</a><ul>
+<li class="chapter" data-level="6" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html"><i class="fa fa-check"></i><b>6</b> A Brief Guide to the Scientific Literature</a>
+<ul>
 <li class="chapter" data-level="6.1" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#getting-started-on-a-topic"><i class="fa fa-check"></i><b>6.1</b> Getting started on a topic</a></li>
 <li class="chapter" data-level="6.2" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#reading-in-more-depth"><i class="fa fa-check"></i><b>6.2</b> Reading in more depth</a></li>
 <li class="chapter" data-level="6.3" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#using-rss-feeds-to-follow-the-scientific-literature"><i class="fa fa-check"></i><b>6.3</b> Using RSS feeds to follow the scientific literature</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="authorship.html"><a href="authorship.html"><i class="fa fa-check"></i><b>7</b> Authorship</a><ul>
-<li class="chapter" data-level="7.1" data-path="authorship.html"><a href="authorship.html#why-it-matters-and-what-it-means"><i class="fa fa-check"></i><b>7.1</b> Why it matters, and what it means</a><ul>
+<li class="chapter" data-level="7" data-path="authorship.html"><a href="authorship.html"><i class="fa fa-check"></i><b>7</b> Authorship</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="authorship.html"><a href="authorship.html#why-it-matters-and-what-it-means"><i class="fa fa-check"></i><b>7.1</b> Why it matters, and what it means</a>
+<ul>
 <li class="chapter" data-level="7.1.1" data-path="authorship.html"><a href="authorship.html#authorship-order"><i class="fa fa-check"></i><b>7.1.1</b> Authorship order</a></li>
 <li class="chapter" data-level="7.1.2" data-path="authorship.html"><a href="authorship.html#involvement-of-rcs-and-students"><i class="fa fa-check"></i><b>7.1.2</b> Involvement of RCs and students</a></li>
 </ul></li>
-<li class="chapter" data-level="7.2" data-path="authorship.html"><a href="authorship.html#tips-for-writing-papers"><i class="fa fa-check"></i><b>7.2</b> Tips for writing papers</a><ul>
+<li class="chapter" data-level="7.2" data-path="authorship.html"><a href="authorship.html#tips-for-writing-papers"><i class="fa fa-check"></i><b>7.2</b> Tips for writing papers</a>
+<ul>
 <li class="chapter" data-level="7.2.1" data-path="authorship.html"><a href="authorship.html#choosing-a-journal"><i class="fa fa-check"></i><b>7.2.1</b> Choosing a journal</a></li>
 <li class="chapter" data-level="7.2.2" data-path="authorship.html"><a href="authorship.html#title"><i class="fa fa-check"></i><b>7.2.2</b> Title</a></li>
 <li class="chapter" data-level="7.2.3" data-path="authorship.html"><a href="authorship.html#introduction-present-tense-for-what-is-currently-known"><i class="fa fa-check"></i><b>7.2.3</b> Introduction (<em>present tense</em> for what is currently known)</a></li>
@@ -178,20 +189,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="7.2.6" data-path="authorship.html"><a href="authorship.html#discussion-past-tense-for-talking-about-what-you-found-present-tense-for-what-it-means"><i class="fa fa-check"></i><b>7.2.6</b> Discussion (<em>past tense</em> for talking about what you found, <em>present tense</em> for what it means)</a></li>
 <li class="chapter" data-level="7.2.7" data-path="authorship.html"><a href="authorship.html#person-centered-language-and-other-terminology"><i class="fa fa-check"></i><b>7.2.7</b> Person-centered language and other terminology</a></li>
 </ul></li>
-<li class="chapter" data-level="7.3" data-path="authorship.html"><a href="authorship.html#more-about-figures"><i class="fa fa-check"></i><b>7.3</b> More about figures</a><ul>
+<li class="chapter" data-level="7.3" data-path="authorship.html"><a href="authorship.html#more-about-figures"><i class="fa fa-check"></i><b>7.3</b> More about figures</a>
+<ul>
 <li class="chapter" data-level="7.3.1" data-path="authorship.html"><a href="authorship.html#style-and-design"><i class="fa fa-check"></i><b>7.3.1</b> Style and design</a></li>
 </ul></li>
 <li class="chapter" data-level="7.4" data-path="authorship.html"><a href="authorship.html#notes-on-posters"><i class="fa fa-check"></i><b>7.4</b> Notes on posters</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html"><i class="fa fa-check"></i><b>8</b> Reliability and Open Science</a><ul>
+<li class="chapter" data-level="8" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html"><i class="fa fa-check"></i><b>8</b> Reliability and Open Science</a>
+<ul>
 <li class="chapter" data-level="8.1" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html#approaches-to-promote-reliability"><i class="fa fa-check"></i><b>8.1</b> Approaches to promote reliability</a></li>
 <li class="chapter" data-level="8.2" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html#open-science"><i class="fa fa-check"></i><b>8.2</b> Open science</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html"><i class="fa fa-check"></i><b>9</b> RStudio Analysis Pathway</a><ul>
-<li class="chapter" data-level="9.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#basic-overview-of-the-pathway"><i class="fa fa-check"></i><b>9.1</b> Basic overview of the pathway</a><ul>
+<li class="chapter" data-level="9" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html"><i class="fa fa-check"></i><b>9</b> RStudio Analysis Pathway</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#basic-overview-of-the-pathway"><i class="fa fa-check"></i><b>9.1</b> Basic overview of the pathway</a>
+<ul>
 <li class="chapter" data-level="9.1.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#other-resources"><i class="fa fa-check"></i><b>9.1.1</b> Other resources</a></li>
 </ul></li>
-<li class="chapter" data-level="9.2" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-0-review-software-tools"><i class="fa fa-check"></i><b>9.2</b> Step 0: Review software tools</a><ul>
+<li class="chapter" data-level="9.2" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-0-review-software-tools"><i class="fa fa-check"></i><b>9.2</b> Step 0: Review software tools</a>
+<ul>
 <li class="chapter" data-level="9.2.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#r"><i class="fa fa-check"></i><b>9.2.1</b> R</a></li>
 <li class="chapter" data-level="9.2.2" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#rstudio"><i class="fa fa-check"></i><b>9.2.2</b> RStudio</a></li>
 <li class="chapter" data-level="9.2.3" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#github"><i class="fa fa-check"></i><b>9.2.3</b> GitHub</a></li>
@@ -200,7 +216,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.3" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-1-clone-the-decisionlab-repository-to-your-computer"><i class="fa fa-check"></i><b>9.3</b> Step 1: Clone the decisionlab repository to your computer</a></li>
 <li class="chapter" data-level="9.4" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-2-save-the-original-dataset-to-the-r-drive"><i class="fa fa-check"></i><b>9.4</b> Step 2: Save the original dataset to the R: drive</a></li>
 <li class="chapter" data-level="9.5" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-3-clean-the-data-in-rstudio-using-an-rmarkdown-.rmd-and-creating-an-.html-log-creating-a-new-.rda-data-file-on-the-r-drive"><i class="fa fa-check"></i><b>9.5</b> Step 3: Clean the data in RStudio using an RMarkdown (.Rmd) and creating an .html log, creating a new .Rda data file on the R: drive</a></li>
-<li class="chapter" data-level="9.6" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-4-analyze-the-data-using-other-.rmd-files-saved-in-github-generating-more-.html-logs-in-github-and-more-.rda-files-as-necessary-on-the-r-drive"><i class="fa fa-check"></i><b>9.6</b> Step 4: Analyze the data using other .Rmd files (saved in GitHub), generating more .html logs (in GitHub) and more .Rda files as necessary on the R: drive</a><ul>
+<li class="chapter" data-level="9.6" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-4-analyze-the-data-using-other-.rmd-files-saved-in-github-generating-more-.html-logs-in-github-and-more-.rda-files-as-necessary-on-the-r-drive"><i class="fa fa-check"></i><b>9.6</b> Step 4: Analyze the data using other .Rmd files (saved in GitHub), generating more .html logs (in GitHub) and more .Rda files as necessary on the R: drive</a>
+<ul>
 <li class="chapter" data-level="9.6.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#some-observations"><i class="fa fa-check"></i><b>9.6.1</b> Some observations</a></li>
 </ul></li>
 </ul></li>
@@ -224,8 +241,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="rstudio-analysis-pathway" class="section level1">
-<h1><span class="header-section-number">Section 9</span> RStudio Analysis Pathway</h1>
+<div id="rstudio-analysis-pathway" class="section level1 hasAnchor" number="9">
+<h1><span class="header-section-number">Section 9</span> RStudio Analysis Pathway<a href="rstudio-analysis-pathway.html#rstudio-analysis-pathway" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p><em>For lab members using quantitative methods (e.g., neuroscience); not critical
 but potentially of interest for those working in neuroethics/qualitative methods</em></p>
 <p>This analysis pathway represents one example of our preferred approach to
@@ -253,8 +270,8 @@ reinventing the wheel?</li>
 to explain to other lab members and future reviewers what each step is intended
 to accomplish.</li>
 </ul>
-<div id="basic-overview-of-the-pathway" class="section level2">
-<h2><span class="header-section-number">9.1</span> Basic overview of the pathway</h2>
+<div id="basic-overview-of-the-pathway" class="section level2 hasAnchor" number="9.1">
+<h2><span class="header-section-number">9.1</span> Basic overview of the pathway<a href="rstudio-analysis-pathway.html#basic-overview-of-the-pathway" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ol start="0" style="list-style-type: decimal">
 <li>Review software tools: R, RStudio, GitHub, SourceTree</li>
 <li>Clone the decisionlab repo to your computer (if you haven’t already)</li>
@@ -264,8 +281,8 @@ to accomplish.</li>
 <li>Analyze the data using other .Rmd files (saved in GitHub), generating more
 .html logs (in GitHub) and more .Rda files as necessary on the R: drive</li>
 </ol>
-<div id="other-resources" class="section level3">
-<h3><span class="header-section-number">9.1.1</span> Other resources</h3>
+<div id="other-resources" class="section level3 hasAnchor" number="9.1.1">
+<h3><span class="header-section-number">9.1.1</span> Other resources<a href="rstudio-analysis-pathway.html#other-resources" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>For more background info, start of course with the lab private repository
 (decisionlab) README.md file. There is an example data cleaning file in
 <a href="https://github.com/UCSFMemoryAndAging/decisionlab/blob/master/AgingCog/analysis/moral-dilemma/moral-dilemma_01_clean-merge-split.Rmd" target="_blank">AgingCog/analysis/moral-dilemma/moral-dilemma_01_clean-merge-split.Rmd</a>.
@@ -279,10 +296,10 @@ some useful suggestions about file naming in
 and in the <a href="https://help.osf.io/hc/en-us/articles/360019931113-File-naming" target="_blank">OSF Best Practices File Naming Guide</a>.</p>
 </div>
 </div>
-<div id="step-0-review-software-tools" class="section level2">
-<h2><span class="header-section-number">9.2</span> Step 0: Review software tools</h2>
-<div id="r" class="section level3">
-<h3><span class="header-section-number">9.2.1</span> R</h3>
+<div id="step-0-review-software-tools" class="section level2 hasAnchor" number="9.2">
+<h2><span class="header-section-number">9.2</span> Step 0: Review software tools<a href="rstudio-analysis-pathway.html#step-0-review-software-tools" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="r" class="section level3 hasAnchor" number="9.2.1">
+<h3><span class="header-section-number">9.2.1</span> R<a href="rstudio-analysis-pathway.html#r" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>R is a free programming language and statistical/graphics environment, similar
 to programs like SAS, SPSS, Stata or Matlab. While R is in many respects harder
 to learn than many of those tools, it’s very useful to know because it’s
@@ -328,8 +345,8 @@ data import and tibbbles</li>
 </ul></li>
 </ul>
 </div>
-<div id="rstudio" class="section level3">
-<h3><span class="header-section-number">9.2.2</span> RStudio</h3>
+<div id="rstudio" class="section level3 hasAnchor" number="9.2.2">
+<h3><span class="header-section-number">9.2.2</span> RStudio<a href="rstudio-analysis-pathway.html#rstudio" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>RStudio is an open source interface for R that makes it much more user-friendly,
 and (crucial for our purposes) implements R Markdown, which allows us to create
 .html logs that preserve and communicate details of our analyses. After
@@ -338,7 +355,7 @@ installing R, install RStudio from
 <p>Let’s play a little bit with RStudio and R Markdown. (There’s also a useful
 quick tour at <a href="https://rmarkdown.rstudio.com/authoring_quick_tour.html" target="_blank">rmarkdown.rstudio.com/authoring_quick_tour.html</a>.)
 Open RStudio and go to
-“File &gt; New File &gt; New R Markdown…”. Give the new file a title (“Untitled” is
+“File &gt; New File &gt; New R Markdown….” Give the new file a title (“Untitled” is
 fine for now), put in your name, and select HTML as the default output format.
 Now you’ll see an RStudio screen with four windows:</p>
 <p><img src="img/handbook_09_rstudio-01-windows.png" /></p>
@@ -381,7 +398,7 @@ down the menu for “Run” at the top of the source window:</p>
 <p><img src="img/handbook_09_rstudio-02-run-menu.png" /></p>
 <p>Now click inside the source window and navigate so that your cursor is inside of
 the second code chunk (named “cars”)–that is, on on lines 18-20. Pull down on
-“Run” and select Run Current Chunk".</p>
+“Run” and select Run Current Chunk”.</p>
 <p><img src="img/handbook_09_rstudio-03-run-curr-chunk.png" /></p>
 <p>Look in the console window at bottom left–there you’ll see that RStudio behaves
 as if you had typed <code>summary(cars)</code> into the console, and displays the output.
@@ -412,8 +429,8 @@ the box for “Show margin” with “margin column” set to 80. This will draw
 reminder line. When your code lines overrun the 80 character limit, break them
 up into multiple lines (if feasible) and use spaces to align them.</p>
 </div>
-<div id="github" class="section level3">
-<h3><span class="header-section-number">9.2.3</span> GitHub</h3>
+<div id="github" class="section level3 hasAnchor" number="9.2.3">
+<h3><span class="header-section-number">9.2.3</span> GitHub<a href="rstudio-analysis-pathway.html#github" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Some of the uses of GitHub in our lab have been explained already in the
 <a href="https://github.com/DecisionLabUCSF/decisionlabucsf.github.io" target="_blank">decisionlabucsf website README</a>,
 the private <a href="https://github.com/UCSFMemoryAndAging/decisionlab" target="_blank">decisionlab repo README</a>,
@@ -424,8 +441,8 @@ keeping track of who made what changes and when, making it easy to reverse
 changes that have been made, and allowing different versions to be developed at
 the same time.</p>
 </div>
-<div id="sourcetree" class="section level3">
-<h3><span class="header-section-number">9.2.4</span> SourceTree</h3>
+<div id="sourcetree" class="section level3 hasAnchor" number="9.2.4">
+<h3><span class="header-section-number">9.2.4</span> SourceTree<a href="rstudio-analysis-pathway.html#sourcetree" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Up until now, you might have used GitHub directly thouugh the GitHub website
 at <a href="https://www.github.com" target="_blank">www.github.com</a>
 –e.g., to update your lab profile or to update one of the lab
@@ -459,8 +476,8 @@ gone wrong. If you’re not sure what is happening, feel free to send me a
 question in Slack!</p>
 </div>
 </div>
-<div id="step-1-clone-the-decisionlab-repository-to-your-computer" class="section level2">
-<h2><span class="header-section-number">9.3</span> Step 1: Clone the decisionlab repository to your computer</h2>
+<div id="step-1-clone-the-decisionlab-repository-to-your-computer" class="section level2 hasAnchor" number="9.3">
+<h2><span class="header-section-number">9.3</span> Step 1: Clone the decisionlab repository to your computer<a href="rstudio-analysis-pathway.html#step-1-clone-the-decisionlab-repository-to-your-computer" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In this pathway, we want RStudio to deal with files in two different places.
 The data files all stay on the R: drive, but the .Rmd and .html files go in
 GitHub. I’m assuming you already have the
@@ -517,8 +534,8 @@ you make a new folder for your data on the R: drive and create a new
 folder for “blah” inside your local GitHub repo:</p>
 <p><img src="img/handbook_09_rstudio-08-empty-folders.png" /></p>
 </div>
-<div id="step-2-save-the-original-dataset-to-the-r-drive" class="section level2">
-<h2><span class="header-section-number">9.4</span> Step 2: Save the original dataset to the R: drive</h2>
+<div id="step-2-save-the-original-dataset-to-the-r-drive" class="section level2 hasAnchor" number="9.4">
+<h2><span class="header-section-number">9.4</span> Step 2: Save the original dataset to the R: drive<a href="rstudio-analysis-pathway.html#step-2-save-the-original-dataset-to-the-r-drive" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Most of our data will be collected in e-Prime or in Qualtrics. Save the file,
 e.g. directly from Qualtrics, in your new folder on the R: drive. Usually this
 will either be in CSV or Excel format. (Qualtrics will export the CSV file using
@@ -529,8 +546,8 @@ we ever had to re-download the data file from Qualtrics to the R: drive again
 (e.g., if there was some crash or a data loss), we could reproduce every step in
 the analysis again, regardless of what we do from this point forward.</p>
 </div>
-<div id="step-3-clean-the-data-in-rstudio-using-an-rmarkdown-.rmd-and-creating-an-.html-log-creating-a-new-.rda-data-file-on-the-r-drive" class="section level2">
-<h2><span class="header-section-number">9.5</span> Step 3: Clean the data in RStudio using an RMarkdown (.Rmd) and creating an .html log, creating a new .Rda data file on the R: drive</h2>
+<div id="step-3-clean-the-data-in-rstudio-using-an-rmarkdown-.rmd-and-creating-an-.html-log-creating-a-new-.rda-data-file-on-the-r-drive" class="section level2 hasAnchor" number="9.5">
+<h2><span class="header-section-number">9.5</span> Step 3: Clean the data in RStudio using an RMarkdown (.Rmd) and creating an .html log, creating a new .Rda data file on the R: drive<a href="rstudio-analysis-pathway.html#step-3-clean-the-data-in-rstudio-using-an-rmarkdown-.rmd-and-creating-an-.html-log-creating-a-new-.rda-data-file-on-the-r-drive" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Because we’re not going to save future changes to this CSV file, we’re going to
 use R code in an .Rmd file to create a clean data file in R format (.Rda). When
 this is complete, knitting this .Rmd file will run all of the embedded R code
@@ -560,23 +577,23 @@ for “rdrivepath” in case we want to reference other things on the R: drive�
 points to different paths on Windows and Mac machines. Finally, the “setup”
 chunk will be used to load any special libraries that RStudio needs to run the
 code. For our hypothetical example for task “blah”:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="rstudio-analysis-pathway.html#cb3-1"></a><span class="st">```</span><span class="dt">{r setup}</span></span>
-<span id="cb3-2"><a href="rstudio-analysis-pathway.html#cb3-2"></a><span class="dt">if (Sys.info()[&quot;sysname&quot;] == &quot;Windows&quot;){</span></span>
-<span id="cb3-3"><a href="rstudio-analysis-pathway.html#cb3-3"></a><span class="dt">  repofolder &lt;- paste(&quot;C:/Users/&quot;, Sys.getenv(&quot;USERNAME&quot;), &quot;/decisionlab/blah/analysis/&quot;, </span></span>
-<span id="cb3-4"><a href="rstudio-analysis-pathway.html#cb3-4"></a><span class="dt">                      sep = &quot;&quot;)</span></span>
-<span id="cb3-5"><a href="rstudio-analysis-pathway.html#cb3-5"></a><span class="dt">  datafolder &lt;- &quot;R:/groups/chiong/blahblah/blah/&quot;</span></span>
-<span id="cb3-6"><a href="rstudio-analysis-pathway.html#cb3-6"></a><span class="dt">  rdrivepath &lt;- &quot;R:/&quot;</span></span>
-<span id="cb3-7"><a href="rstudio-analysis-pathway.html#cb3-7"></a><span class="dt">} else if (Sys.info()[&quot;sysname&quot;] == &quot;Darwin&quot;){ # not sure why MacOS is &quot;Darwin&quot; but it is...</span></span>
-<span id="cb3-8"><a href="rstudio-analysis-pathway.html#cb3-8"></a><span class="dt">  repofolder &lt;- &quot;~/decisionlab/blah/analysis/&quot;</span></span>
-<span id="cb3-9"><a href="rstudio-analysis-pathway.html#cb3-9"></a><span class="dt">  datafolder &lt;- &quot;/Volumes/macdata/groups/chiong/blahblah/blah/&quot;</span></span>
-<span id="cb3-10"><a href="rstudio-analysis-pathway.html#cb3-10"></a><span class="dt">  rdrivepath &lt;- &quot;/Volumes/macdata/&quot;</span></span>
-<span id="cb3-11"><a href="rstudio-analysis-pathway.html#cb3-11"></a><span class="dt">} # probably good to add another condition for Unix, later on...</span></span>
-<span id="cb3-12"><a href="rstudio-analysis-pathway.html#cb3-12"></a></span>
-<span id="cb3-13"><a href="rstudio-analysis-pathway.html#cb3-13"></a><span class="dt">library(readr)</span></span>
-<span id="cb3-14"><a href="rstudio-analysis-pathway.html#cb3-14"></a><span class="dt">library(readxl)</span></span>
-<span id="cb3-15"><a href="rstudio-analysis-pathway.html#cb3-15"></a><span class="dt">knitr::opts_chunk$set(echo = TRUE)</span></span>
-<span id="cb3-16"><a href="rstudio-analysis-pathway.html#cb3-16"></a><span class="dt">knitr::opts_knit$set(root.dir = datafolder)</span></span>
-<span id="cb3-17"><a href="rstudio-analysis-pathway.html#cb3-17"></a><span class="st">```</span></span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="rstudio-analysis-pathway.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="st">```</span><span class="at">{r setup}</span></span>
+<span id="cb3-2"><a href="rstudio-analysis-pathway.html#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="at">if (Sys.info()[&quot;sysname&quot;] == &quot;Windows&quot;){</span></span>
+<span id="cb3-3"><a href="rstudio-analysis-pathway.html#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="at">  repofolder &lt;- paste(&quot;C:/Users/&quot;, Sys.getenv(&quot;USERNAME&quot;), &quot;/decisionlab/blah/analysis/&quot;, </span></span>
+<span id="cb3-4"><a href="rstudio-analysis-pathway.html#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="at">                      sep = &quot;&quot;)</span></span>
+<span id="cb3-5"><a href="rstudio-analysis-pathway.html#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="at">  datafolder &lt;- &quot;R:/groups/chiong/blahblah/blah/&quot;</span></span>
+<span id="cb3-6"><a href="rstudio-analysis-pathway.html#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="at">  rdrivepath &lt;- &quot;R:/&quot;</span></span>
+<span id="cb3-7"><a href="rstudio-analysis-pathway.html#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="at">} else if (Sys.info()[&quot;sysname&quot;] == &quot;Darwin&quot;){ # not sure why MacOS is &quot;Darwin&quot; but it is...</span></span>
+<span id="cb3-8"><a href="rstudio-analysis-pathway.html#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="at">  repofolder &lt;- &quot;~/decisionlab/blah/analysis/&quot;</span></span>
+<span id="cb3-9"><a href="rstudio-analysis-pathway.html#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="at">  datafolder &lt;- &quot;/Volumes/macdata/groups/chiong/blahblah/blah/&quot;</span></span>
+<span id="cb3-10"><a href="rstudio-analysis-pathway.html#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="at">  rdrivepath &lt;- &quot;/Volumes/macdata/&quot;</span></span>
+<span id="cb3-11"><a href="rstudio-analysis-pathway.html#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="at">} # probably good to add another condition for Unix, later on...</span></span>
+<span id="cb3-12"><a href="rstudio-analysis-pathway.html#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="rstudio-analysis-pathway.html#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="at">library(readr)</span></span>
+<span id="cb3-14"><a href="rstudio-analysis-pathway.html#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="at">library(readxl)</span></span>
+<span id="cb3-15"><a href="rstudio-analysis-pathway.html#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="at">knitr::opts_chunk$set(echo = TRUE)</span></span>
+<span id="cb3-16"><a href="rstudio-analysis-pathway.html#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="at">knitr::opts_knit$set(root.dir = datafolder)</span></span>
+<span id="cb3-17"><a href="rstudio-analysis-pathway.html#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="st">```</span></span></code></pre></div>
 <p>Before we get too far along, let’s save the .Rmd file. Again, this goes within
 the decisionlab repo local folder on your computer, which you created in Step 1.
 (From where it can then be pushed to the lab GitHub repo.)
@@ -637,7 +654,7 @@ what you would need to write in R code in order to perform the same operation.
 Also, there’s a clipboard icon that will copy out this code for you to use:</p>
 <p><img src="img/handbook_09_rstudio-15-import-text-data.png" /></p>
 <p>Change the “Name” to something more reasonable, like “blah_qualtrics_df.” (The
-suffix "_df" is a useful convention for marking an object in the workspace as a
+suffix “_df” is a useful convention for marking an object in the workspace as a
 dataframe.) You
 will notice (you might need to click out of the text field, so that it updates)
 that the code in the “Code Preview” window changes accordingly. Also, uncheck
@@ -665,21 +682,21 @@ So you’ll need to extract the column info you want, and then drop the first tw
 rows because they’re not observations. You’ll also want to convert any date
 strings in the dataframe to proper R dates. So soon this part of your R Markdown
 file will look like this:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="rstudio-analysis-pathway.html#cb4-1"></a><span class="co">## Data cleaning</span></span>
-<span id="cb4-2"><a href="rstudio-analysis-pathway.html#cb4-2"></a></span>
-<span id="cb4-3"><a href="rstudio-analysis-pathway.html#cb4-3"></a>First, load data from .csv file. Then drop first two rows from Qualtrics, and </span>
-<span id="cb4-4"><a href="rstudio-analysis-pathway.html#cb4-4"></a>convert Qualtrics datstrings to R dates. </span>
-<span id="cb4-5"><a href="rstudio-analysis-pathway.html#cb4-5"></a></span>
-<span id="cb4-6"><a href="rstudio-analysis-pathway.html#cb4-6"></a><span class="st">```</span><span class="dt">{r file-import}</span></span>
-<span id="cb4-7"><a href="rstudio-analysis-pathway.html#cb4-7"></a><span class="dt">library(readr)</span></span>
-<span id="cb4-8"><a href="rstudio-analysis-pathway.html#cb4-8"></a><span class="dt">blah_qualtrics_df &lt;- read_csv(&quot;ugly_Qualtrics_filename_Date_Time.csv&quot;)</span></span>
-<span id="cb4-9"><a href="rstudio-analysis-pathway.html#cb4-9"></a></span>
-<span id="cb4-10"><a href="rstudio-analysis-pathway.html#cb4-10"></a><span class="dt">blah_qualtrics_df &lt;- blah_qualtrics_df[-c(1,2),]</span></span>
-<span id="cb4-11"><a href="rstudio-analysis-pathway.html#cb4-11"></a><span class="dt">blah_qualtrics_df$StartDate &lt;- as.POSIXct(blah_qualtrics_df$StartDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></span>
-<span id="cb4-12"><a href="rstudio-analysis-pathway.html#cb4-12"></a><span class="dt">blah_qualtrics_df$EndDate &lt;- as.POSIXct(blah_qualtrics_df$EndDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></span>
-<span id="cb4-13"><a href="rstudio-analysis-pathway.html#cb4-13"></a><span class="dt">blah_qualtrics_df$RecordedDate &lt;- as.POSIXct(blah_qualtrics_df$RecordedDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></span>
-<span id="cb4-14"><a href="rstudio-analysis-pathway.html#cb4-14"></a></span>
-<span id="cb4-15"><a href="rstudio-analysis-pathway.html#cb4-15"></a><span class="st">```</span></span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="rstudio-analysis-pathway.html#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Data cleaning</span></span>
+<span id="cb4-2"><a href="rstudio-analysis-pathway.html#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="rstudio-analysis-pathway.html#cb4-3" aria-hidden="true" tabindex="-1"></a>First, load data from .csv file. Then drop first two rows from Qualtrics, and </span>
+<span id="cb4-4"><a href="rstudio-analysis-pathway.html#cb4-4" aria-hidden="true" tabindex="-1"></a>convert Qualtrics datstrings to R dates. </span>
+<span id="cb4-5"><a href="rstudio-analysis-pathway.html#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="rstudio-analysis-pathway.html#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="st">```</span><span class="at">{r file-import}</span></span>
+<span id="cb4-7"><a href="rstudio-analysis-pathway.html#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="at">library(readr)</span></span>
+<span id="cb4-8"><a href="rstudio-analysis-pathway.html#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="at">blah_qualtrics_df &lt;- read_csv(&quot;ugly_Qualtrics_filename_Date_Time.csv&quot;)</span></span>
+<span id="cb4-9"><a href="rstudio-analysis-pathway.html#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="rstudio-analysis-pathway.html#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="at">blah_qualtrics_df &lt;- blah_qualtrics_df[-c(1,2),]</span></span>
+<span id="cb4-11"><a href="rstudio-analysis-pathway.html#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="at">blah_qualtrics_df$StartDate &lt;- as.POSIXct(blah_qualtrics_df$StartDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></span>
+<span id="cb4-12"><a href="rstudio-analysis-pathway.html#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="at">blah_qualtrics_df$EndDate &lt;- as.POSIXct(blah_qualtrics_df$EndDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></span>
+<span id="cb4-13"><a href="rstudio-analysis-pathway.html#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="at">blah_qualtrics_df$RecordedDate &lt;- as.POSIXct(blah_qualtrics_df$RecordedDate, format = &quot;%Y-%m-%d %H:%M&quot;)</span></span>
+<span id="cb4-14"><a href="rstudio-analysis-pathway.html#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="rstudio-analysis-pathway.html#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="st">```</span></span></code></pre></div>
 <p>You may also need to drop other observations (e.g., patients we collected data
 on who don’t have the diagnoses of interest, subjects who failed control
 conditions… though it might be better to create a new variable named something
@@ -709,8 +726,8 @@ the R: drive was most recently created.)</p>
 <p>Don’t forget to save your completed .Rmd file, and <strong>commit-pull-push</strong> to get
 your updated .Rmd and .html files on to the shared GitHub repository.</p>
 </div>
-<div id="step-4-analyze-the-data-using-other-.rmd-files-saved-in-github-generating-more-.html-logs-in-github-and-more-.rda-files-as-necessary-on-the-r-drive" class="section level2">
-<h2><span class="header-section-number">9.6</span> Step 4: Analyze the data using other .Rmd files (saved in GitHub), generating more .html logs (in GitHub) and more .Rda files as necessary on the R: drive</h2>
+<div id="step-4-analyze-the-data-using-other-.rmd-files-saved-in-github-generating-more-.html-logs-in-github-and-more-.rda-files-as-necessary-on-the-r-drive" class="section level2 hasAnchor" number="9.6">
+<h2><span class="header-section-number">9.6</span> Step 4: Analyze the data using other .Rmd files (saved in GitHub), generating more .html logs (in GitHub) and more .Rda files as necessary on the R: drive<a href="rstudio-analysis-pathway.html#step-4-analyze-the-data-using-other-.rmd-files-saved-in-github-generating-more-.html-logs-in-github-and-more-.rda-files-as-necessary-on-the-r-drive" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Again, once you’ve created a clean dataset, you won’t touch the original .csv or
 Excel data file in the R: drive anymore. Instead, you’ll create some new .Rmd
 files in your local GitHub repository that read the data from the clean dataset.
@@ -743,8 +760,8 @@ parameters from a regression) to make a figure. This .Rmd file generates its own
 .html file, and we save a <strong>vector</strong> image (see again
 <a href="authorship.html#more-about-figures">More about figures</a> in Section 7 on
 Authorship) of the figure in the R: drive (to avoid cluttering the GitHub repo).</p>
-<div id="some-observations" class="section level3">
-<h3><span class="header-section-number">9.6.1</span> Some observations</h3>
+<div id="some-observations" class="section level3 hasAnchor" number="9.6.1">
+<h3><span class="header-section-number">9.6.1</span> Some observations<a href="rstudio-analysis-pathway.html#some-observations" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Note now that:</p>
 <ul>
 <li>All datasets with PHI and identifiers (names, demographics, etc.) stay on the
@@ -777,7 +794,6 @@ dataset.</li>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -804,10 +820,13 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
-},
-"search": true
+}
 });
 });
 </script>

@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 3 Lab Resources Overview | UCSF Decision Lab Handbook</title>
   <meta name="description" content="Handbook for the UCSF Decision Lab." />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 3 Lab Resources Overview | UCSF Decision Lab Handbook" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Handbook for the UCSF Decision Lab." />
   
@@ -23,7 +22,7 @@
 
 
 
-<meta name="date" content="2021-05-25" />
+<meta name="date" content="2022-06-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +31,8 @@
   
 <link rel="prev" href="hours-and-expectations.html"/>
 <link rel="next" href="intro-to-the-memory-and-aging-center.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -48,23 +48,24 @@
 
 
 
-
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -84,7 +85,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -117,6 +118,7 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
@@ -136,7 +138,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Organizing Principles</a></li>
 <li class="chapter" data-level="2" data-path="hours-and-expectations.html"><a href="hours-and-expectations.html"><i class="fa fa-check"></i><b>2</b> Hours and Expectations</a></li>
-<li class="chapter" data-level="3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html"><i class="fa fa-check"></i><b>3</b> Lab Resources Overview</a><ul>
+<li class="chapter" data-level="3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html"><i class="fa fa-check"></i><b>3</b> Lab Resources Overview</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#slack"><i class="fa fa-check"></i><b>3.1</b> <span>Slack</span></a></li>
 <li class="chapter" data-level="3.2" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#lab-website"><i class="fa fa-check"></i><b>3.2</b> <span>Lab website</span></a></li>
 <li class="chapter" data-level="3.3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#private-github-repo"><i class="fa fa-check"></i><b>3.3</b> <span>Private Github repo</span></a></li>
@@ -145,31 +148,39 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.6" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#open-science-framework"><i class="fa fa-check"></i><b>3.6</b> <span>Open Science Framework</span></a></li>
 <li class="chapter" data-level="3.7" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#deprecateddiscouraged-tools"><i class="fa fa-check"></i><b>3.7</b> Deprecated/discouraged tools</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html"><i class="fa fa-check"></i><b>4</b> Intro to the Memory and Aging Center</a><ul>
+<li class="chapter" data-level="4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html"><i class="fa fa-check"></i><b>4</b> Intro to the Memory and Aging Center</a>
+<ul>
 <li class="chapter" data-level="4.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#the-mac-in-the-context-of-ucsf-the-weill-institute"><i class="fa fa-check"></i><b>4.1</b> The MAC in the context of UCSF &amp; the Weill Institute</a></li>
 <li class="chapter" data-level="4.2" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#mac-clinic-mac-research"><i class="fa fa-check"></i><b>4.2</b> MAC clinic &amp; MAC research</a></li>
-<li class="chapter" data-level="4.3" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#mac-research-parent-projects"><i class="fa fa-check"></i><b>4.3</b> MAC research “parent projects”</a><ul>
+<li class="chapter" data-level="4.3" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#mac-research-parent-projects"><i class="fa fa-check"></i><b>4.3</b> MAC research “parent projects”</a>
+<ul>
 <li class="chapter" data-level="4.3.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#our-lab-projects-in-context"><i class="fa fa-check"></i><b>4.3.1</b> Our lab projects in context</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-in-the-mac"><i class="fa fa-check"></i><b>4.4</b> Learning opportunities in the MAC</a><ul>
+<li class="chapter" data-level="4.4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-in-the-mac"><i class="fa fa-check"></i><b>4.4</b> Learning opportunities in the MAC</a>
+<ul>
 <li class="chapter" data-level="4.4.1" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#learning-opportunities-within-our-lab"><i class="fa fa-check"></i><b>4.4.1</b> Learning opportunities within our lab</a></li>
 </ul></li>
 <li class="chapter" data-level="4.5" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html#whos-who-at-the-mac"><i class="fa fa-check"></i><b>4.5</b> Who’s who at the MAC</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html"><i class="fa fa-check"></i><b>5</b> Guidelines for Clinical Interactions</a><ul>
+<li class="chapter" data-level="5" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html"><i class="fa fa-check"></i><b>5</b> Guidelines for Clinical Interactions</a>
+<ul>
 <li class="chapter" data-level="5.1" data-path="guidelines-for-clinical-interactions.html"><a href="guidelines-for-clinical-interactions.html#macmacipedia-resources-re-clinical-encounters"><i class="fa fa-check"></i><b>5.1</b> MAC/MACipedia resources re: clinical encounters</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html"><i class="fa fa-check"></i><b>6</b> A Brief Guide to the Scientific Literature</a><ul>
+<li class="chapter" data-level="6" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html"><i class="fa fa-check"></i><b>6</b> A Brief Guide to the Scientific Literature</a>
+<ul>
 <li class="chapter" data-level="6.1" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#getting-started-on-a-topic"><i class="fa fa-check"></i><b>6.1</b> Getting started on a topic</a></li>
 <li class="chapter" data-level="6.2" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#reading-in-more-depth"><i class="fa fa-check"></i><b>6.2</b> Reading in more depth</a></li>
 <li class="chapter" data-level="6.3" data-path="a-brief-guide-to-the-scientific-literature.html"><a href="a-brief-guide-to-the-scientific-literature.html#using-rss-feeds-to-follow-the-scientific-literature"><i class="fa fa-check"></i><b>6.3</b> Using RSS feeds to follow the scientific literature</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="authorship.html"><a href="authorship.html"><i class="fa fa-check"></i><b>7</b> Authorship</a><ul>
-<li class="chapter" data-level="7.1" data-path="authorship.html"><a href="authorship.html#why-it-matters-and-what-it-means"><i class="fa fa-check"></i><b>7.1</b> Why it matters, and what it means</a><ul>
+<li class="chapter" data-level="7" data-path="authorship.html"><a href="authorship.html"><i class="fa fa-check"></i><b>7</b> Authorship</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="authorship.html"><a href="authorship.html#why-it-matters-and-what-it-means"><i class="fa fa-check"></i><b>7.1</b> Why it matters, and what it means</a>
+<ul>
 <li class="chapter" data-level="7.1.1" data-path="authorship.html"><a href="authorship.html#authorship-order"><i class="fa fa-check"></i><b>7.1.1</b> Authorship order</a></li>
 <li class="chapter" data-level="7.1.2" data-path="authorship.html"><a href="authorship.html#involvement-of-rcs-and-students"><i class="fa fa-check"></i><b>7.1.2</b> Involvement of RCs and students</a></li>
 </ul></li>
-<li class="chapter" data-level="7.2" data-path="authorship.html"><a href="authorship.html#tips-for-writing-papers"><i class="fa fa-check"></i><b>7.2</b> Tips for writing papers</a><ul>
+<li class="chapter" data-level="7.2" data-path="authorship.html"><a href="authorship.html#tips-for-writing-papers"><i class="fa fa-check"></i><b>7.2</b> Tips for writing papers</a>
+<ul>
 <li class="chapter" data-level="7.2.1" data-path="authorship.html"><a href="authorship.html#choosing-a-journal"><i class="fa fa-check"></i><b>7.2.1</b> Choosing a journal</a></li>
 <li class="chapter" data-level="7.2.2" data-path="authorship.html"><a href="authorship.html#title"><i class="fa fa-check"></i><b>7.2.2</b> Title</a></li>
 <li class="chapter" data-level="7.2.3" data-path="authorship.html"><a href="authorship.html#introduction-present-tense-for-what-is-currently-known"><i class="fa fa-check"></i><b>7.2.3</b> Introduction (<em>present tense</em> for what is currently known)</a></li>
@@ -178,20 +189,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="7.2.6" data-path="authorship.html"><a href="authorship.html#discussion-past-tense-for-talking-about-what-you-found-present-tense-for-what-it-means"><i class="fa fa-check"></i><b>7.2.6</b> Discussion (<em>past tense</em> for talking about what you found, <em>present tense</em> for what it means)</a></li>
 <li class="chapter" data-level="7.2.7" data-path="authorship.html"><a href="authorship.html#person-centered-language-and-other-terminology"><i class="fa fa-check"></i><b>7.2.7</b> Person-centered language and other terminology</a></li>
 </ul></li>
-<li class="chapter" data-level="7.3" data-path="authorship.html"><a href="authorship.html#more-about-figures"><i class="fa fa-check"></i><b>7.3</b> More about figures</a><ul>
+<li class="chapter" data-level="7.3" data-path="authorship.html"><a href="authorship.html#more-about-figures"><i class="fa fa-check"></i><b>7.3</b> More about figures</a>
+<ul>
 <li class="chapter" data-level="7.3.1" data-path="authorship.html"><a href="authorship.html#style-and-design"><i class="fa fa-check"></i><b>7.3.1</b> Style and design</a></li>
 </ul></li>
 <li class="chapter" data-level="7.4" data-path="authorship.html"><a href="authorship.html#notes-on-posters"><i class="fa fa-check"></i><b>7.4</b> Notes on posters</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html"><i class="fa fa-check"></i><b>8</b> Reliability and Open Science</a><ul>
+<li class="chapter" data-level="8" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html"><i class="fa fa-check"></i><b>8</b> Reliability and Open Science</a>
+<ul>
 <li class="chapter" data-level="8.1" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html#approaches-to-promote-reliability"><i class="fa fa-check"></i><b>8.1</b> Approaches to promote reliability</a></li>
 <li class="chapter" data-level="8.2" data-path="reliability-and-open-science.html"><a href="reliability-and-open-science.html#open-science"><i class="fa fa-check"></i><b>8.2</b> Open science</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html"><i class="fa fa-check"></i><b>9</b> RStudio Analysis Pathway</a><ul>
-<li class="chapter" data-level="9.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#basic-overview-of-the-pathway"><i class="fa fa-check"></i><b>9.1</b> Basic overview of the pathway</a><ul>
+<li class="chapter" data-level="9" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html"><i class="fa fa-check"></i><b>9</b> RStudio Analysis Pathway</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#basic-overview-of-the-pathway"><i class="fa fa-check"></i><b>9.1</b> Basic overview of the pathway</a>
+<ul>
 <li class="chapter" data-level="9.1.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#other-resources"><i class="fa fa-check"></i><b>9.1.1</b> Other resources</a></li>
 </ul></li>
-<li class="chapter" data-level="9.2" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-0-review-software-tools"><i class="fa fa-check"></i><b>9.2</b> Step 0: Review software tools</a><ul>
+<li class="chapter" data-level="9.2" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-0-review-software-tools"><i class="fa fa-check"></i><b>9.2</b> Step 0: Review software tools</a>
+<ul>
 <li class="chapter" data-level="9.2.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#r"><i class="fa fa-check"></i><b>9.2.1</b> R</a></li>
 <li class="chapter" data-level="9.2.2" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#rstudio"><i class="fa fa-check"></i><b>9.2.2</b> RStudio</a></li>
 <li class="chapter" data-level="9.2.3" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#github"><i class="fa fa-check"></i><b>9.2.3</b> GitHub</a></li>
@@ -200,7 +216,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.3" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-1-clone-the-decisionlab-repository-to-your-computer"><i class="fa fa-check"></i><b>9.3</b> Step 1: Clone the decisionlab repository to your computer</a></li>
 <li class="chapter" data-level="9.4" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-2-save-the-original-dataset-to-the-r-drive"><i class="fa fa-check"></i><b>9.4</b> Step 2: Save the original dataset to the R: drive</a></li>
 <li class="chapter" data-level="9.5" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-3-clean-the-data-in-rstudio-using-an-rmarkdown-.rmd-and-creating-an-.html-log-creating-a-new-.rda-data-file-on-the-r-drive"><i class="fa fa-check"></i><b>9.5</b> Step 3: Clean the data in RStudio using an RMarkdown (.Rmd) and creating an .html log, creating a new .Rda data file on the R: drive</a></li>
-<li class="chapter" data-level="9.6" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-4-analyze-the-data-using-other-.rmd-files-saved-in-github-generating-more-.html-logs-in-github-and-more-.rda-files-as-necessary-on-the-r-drive"><i class="fa fa-check"></i><b>9.6</b> Step 4: Analyze the data using other .Rmd files (saved in GitHub), generating more .html logs (in GitHub) and more .Rda files as necessary on the R: drive</a><ul>
+<li class="chapter" data-level="9.6" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#step-4-analyze-the-data-using-other-.rmd-files-saved-in-github-generating-more-.html-logs-in-github-and-more-.rda-files-as-necessary-on-the-r-drive"><i class="fa fa-check"></i><b>9.6</b> Step 4: Analyze the data using other .Rmd files (saved in GitHub), generating more .html logs (in GitHub) and more .Rda files as necessary on the R: drive</a>
+<ul>
 <li class="chapter" data-level="9.6.1" data-path="rstudio-analysis-pathway.html"><a href="rstudio-analysis-pathway.html#some-observations"><i class="fa fa-check"></i><b>9.6.1</b> Some observations</a></li>
 </ul></li>
 </ul></li>
@@ -224,8 +241,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="lab-resources-overview" class="section level1">
-<h1><span class="header-section-number">Section 3</span> Lab Resources Overview</h1>
+<div id="lab-resources-overview" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Section 3</span> Lab Resources Overview<a href="lab-resources-overview.html#lab-resources-overview" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>Here is a very general overview of lab-wide resources that everyone in both
 sides of the lab should be familiar with. (Some projects
 also use specific tools that should be separately documented.) As one broad
@@ -234,18 +251,19 @@ typically stay 2-3 years, but many of our projects span a much longer period of
 time. We need everyone to perform protocols consistently,
 and to document their work carefully, so that the people who follow you can
 continue your work.</p>
-<div id="slack" class="section level2">
-<h2><span class="header-section-number">3.1</span> <a href="http://ucsfdecisionlab.slack.com" target="_blank">Slack</a></h2>
+<div id="slack" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> <a href="http://ucsfdecisionlab.slack.com" target="_blank">Slack</a><a href="lab-resources-overview.html#slack" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Slack is the primary method of communication within the lab. You can customize
 your notification preferences (particularly important on the mobile app) so you
 are notified of important messages but also are not overwhelmed. Use the ‘@’
 feature to get my attention if I need to get involved in a conversation, and
 make sure that you’re subscribed to the right channels (#general and #random for
-everyone, and as of this writing #code, #covid-19 (which we’d started last year
-because news discussion was crowding out all our other channels, maybe we can
-rename or reconceive it soon), #decisionzbop (a place for music discussion),
-#diversity, #dma, #gbd, #hillblom, #medschoolapps, #netflixandlaugh, and
-#neurotech depending on
+everyone, and as of this writing #code, #im_upset (which we’d started initially
+for Covid-19 discussion that was crowding out all our other channels, and then
+expanded just because there’s been a lot pandemic-related and unrelated that
+people wanted to discuss, #decisionzbop (a place for music discussion), #caregivers,
+#diversity, #dma, #gbd, #hillblom, #neurotech, #dana_center and
+#ucsf_bioethics depending on
 role/interests, and a #social channel for more informal non-work gatherings and
 conversations that don’t involve me directly). As a matter of lab policy, we do
 <strong>not</strong> have private/locked Slack channels.</p>
@@ -261,8 +279,8 @@ we might want
 to refer to later needs to be documented, most likely in GitHub.</li>
 </ol>
 </div>
-<div id="lab-website" class="section level2">
-<h2><span class="header-section-number">3.2</span> <a href="https://decisionlab.ucsf.edu" target="_blank">Lab website</a></h2>
+<div id="lab-website" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> <a href="https://decisionlab.ucsf.edu" target="_blank">Lab website</a><a href="lab-resources-overview.html#lab-website" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Our lab website is one place where we communicate what we do and share our work with the
 outside world. This is hosted on our public GitHub repository, which you will
 need a GitHub account to edit. See the README at
@@ -280,8 +298,8 @@ avoid/fix bugs. We won’t be using all of the sophisticated tools in GitHub tha
 they use, but generally I think scientists have a lot to learn from software
 developers: Facebook and Google can’t survive with sloppy code and neither can we.</p>
 </div>
-<div id="private-github-repo" class="section level2">
-<h2><span class="header-section-number">3.3</span> <a href="https://github.com/UCSFMemoryAndAging/decisionlab" target="_blank">Private Github repo</a></h2>
+<div id="private-github-repo" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> <a href="https://github.com/UCSFMemoryAndAging/decisionlab" target="_blank">Private Github repo</a><a href="lab-resources-overview.html#private-github-repo" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In addition to our public repository, we also have a private repository that
 only lab members can view, which is where we document and edit our code, and
 maintain
@@ -312,8 +330,8 @@ after you, so please be kind to them in advance.</li>
 <li>Try to keep line length to about 80 characters, and commit-pull-push!</li>
 </ol>
 </div>
-<div id="r-drive-rgroupschiong" class="section level2">
-<h2><span class="header-section-number">3.4</span> R: drive (R:\groups\chiong)</h2>
+<div id="r-drive-rgroupschiong" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> R: drive (R:\groups\chiong)<a href="lab-resources-overview.html#r-drive-rgroupschiong" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>To recap some points from above: Slack can’t be used for protected data or
 discussion of individual research participants, and isn’t an archive. GitHub is
 an archive for code and documentation, but also shouldn’t be used for protected
@@ -349,8 +367,8 @@ here on using Stata), the subfolders for “Papers” that include an archive of
 some classic papers and other ones that influence my thinking and our work
 together, and some other resources that I’ve posted (some not for sharing beyond the lab).</p>
 </div>
-<div id="lava-and-lavaquery" class="section level2">
-<h2><span class="header-section-number">3.5</span> <a href="https://lava.ucsf.edu" target="_blank">LAVA and LAVAquery</a></h2>
+<div id="lava-and-lavaquery" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> <a href="https://lava.ucsf.edu" target="_blank">LAVA and LAVAquery</a><a href="lab-resources-overview.html#lava-and-lavaquery" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>LAVA is the MAC’s primary database for all research-related patient and
 participant information, e.g. demographics, visits and scheduling, research
 diagnoses, specimens. It can only be accessed on a UCSF network, so if you need
@@ -379,8 +397,8 @@ your study data files.</p>
 section of MACipedia and
 watch the training videos under the ‘My Lava’ tab on the website.</p>
 </div>
-<div id="open-science-framework" class="section level2">
-<h2><span class="header-section-number">3.6</span> <a href="https://osf.io/8chqd/" target="_blank">Open Science Framework</a></h2>
+<div id="open-science-framework" class="section level2 hasAnchor" number="3.6">
+<h2><span class="header-section-number">3.6</span> <a href="https://osf.io/8chqd/" target="_blank">Open Science Framework</a><a href="lab-resources-overview.html#open-science-framework" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>“Open science” and our lab’s relationship to this idea are discussed in detail
 in Section 8, <a href="reliability-and-open-science.html#reliability-and-open-science">Reliability and Open Science</a>. We use OSF to host preregistrations of our
 studies (data collection and analytic plans that we try to write before we begin
@@ -409,8 +427,8 @@ by Cutter Lindbergh and
 <a href="https://osf.io/g2wtp" target="_blank">Utilitarian moral reasoning in times of a global health crisis</a>
 by Rea Antoniou.</p>
 </div>
-<div id="deprecateddiscouraged-tools" class="section level2">
-<h2><span class="header-section-number">3.7</span> Deprecated/discouraged tools</h2>
+<div id="deprecateddiscouraged-tools" class="section level2 hasAnchor" number="3.7">
+<h2><span class="header-section-number">3.7</span> Deprecated/discouraged tools<a href="lab-resources-overview.html#deprecateddiscouraged-tools" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><strong><del>Excel.</del></strong> In general, Microsoft Excel is not an appropriate tool for data
 analysis or manipulations that are intended for presentation or publication. It
 can be used to explore datasets, but usually this is best done within a proper
@@ -456,7 +474,6 @@ figured out the best ways to use it for them…</p>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -483,10 +500,13 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
-},
-"search": true
+}
 });
 });
 </script>
