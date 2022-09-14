@@ -130,7 +130,7 @@
 
 - authors: "**Ma H**, Kiekhofer RE, Hooper SM, Dulaney S, Possin KL, **Chiong W.**"
   title: "Goals of care conversations and subsequent advance care planning outcomes for people with dementia."
-  details: "Journal of Alzheimer's Disease. 2021;83(4):1767–73." 
+  details: "Journal of Alzheimer's Disease. 2021;83(4):1767–1773." 
   year: 2021
   image: pubs_2021_Goals_of_care_conversations_and_subsequent_advance_care_planning_outcomes_for_people_with_dementia.jpg
   imagealt: photo by Mohamed Mahmoud Hassan on publicdomainpictures.net
@@ -151,7 +151,7 @@
 
 - authors: "**Ngo S**, Kim AS, **Chiong W**."
   title: "Evidence for the ethics of incentivizing clinical trial enrollment?"
-  details: "JAMA Internal Medicine. 2021." 
+  details: "JAMA Internal Medicine. 2021;181(11):1488-1489." 
   year: 2021
   image: pubs_2021_ethics-incentives.jpg
   imagealt: Photo by Marek Studzinski on Unsplash
@@ -177,7 +177,7 @@
   image: pubs_2021_closed_loop.png
   imagealt: 
   pmid: 34473932
-  pmcid: 
+  pmcid: PMC9007331 (available on 2023-03-02)
   openaccess: https://www.tandfonline.com/doi/full/10.1080/21507740.2021.1958100
   doi: 10.1080/21507740.2021.1958100
   file: 
@@ -255,12 +255,12 @@
 
 - authors: "**Lindbergh CA**, **Romero-Kornblum H**, Weiner-Light S, **Young JC**, Fonseca C, You M, Wolf A, Staffaroni AM, Daly R, Jeste DV, Kramer JH, **Chiong W**, the Hillblom Aging Network."
   title: "Wisdom and fluid intelligence are dissociable in healthy older adults."
-  details: "International Psychogeriatrics. 2021;1–11." 
-  year: 2021
+  details: "International Psychogeriatrics. 2022;34(3):229–239." 
+  year: 2022
   image: pubs_2021_Wisdom_and_fluid intelligence_are_dissociable_in healthy_older_adults-SDxPS.png
   imagealt: 
   pmid: 33966673  
-  pmcid: 
+  pmcid: PMC8578582
   openaccess: https://www.cambridge.org/core/journals/international-psychogeriatrics/article/wisdom-and-fluid-intelligence-are-dissociable-in-healthy-older-adults/43B96A4356BF006EFEF38CBBF0FF7B4F#
   doi: 10.1017/S1041610221000521
   file:
@@ -376,7 +376,7 @@
 
 - authors: "**Zahir A**, Staffaroni AM, Wickham RE, **Quinn CM**, Sapozhnikova A, Seidman J, **Chiong W**."
   title: 'Caregiver “objective attitude” toward patients with neurodegenerative disease: Consequences for caregiver strain and relationship closeness.'
-  details: "Aging & Mental Health. 2021;25(9):1709–15."
+  details: "Aging & Mental Health. 2021;25(9):1709–1715."
   year: 2021
   image: pubs_2020_objective-attitude.png
   imagealt: 
@@ -395,7 +395,7 @@
 
 - authors: "Bernstein A, Merrilees J, Dulaney S, Harrison KL, **Chiong W**, Ong P, **Heunis J**, Choi J, Walker R, Feuer JE, Lee K, Dohan D, Bonasera SJ, Miller BL, Possin KL."
   title: "Using care navigation to address caregiver burden in dementia: A qualitative case study analysis."
-  details: "Alzheimer's & Dementia. 2020; 6:e12010."
+  details: "Alzheimer's & Dementia. 2020;6(1):e12010."
   year: 2020
   image: Bernstein A, Merrilees J, Dulaney S, et al - Using care navigation to address caregiver burden in dementia A qualitative case study analysis.png
   imagealt: Image courtesy of Helen Medsger
@@ -475,12 +475,12 @@
 
 - authors: "Hendriks S, Grady C, Ramos KM, **Chiong W**, Fins JJ, Ford P, Goering S, Greely HT, Hutchison K, Kelly ML, Kim SYH, Klein E, Lisanby SH, Mayberg H, Maslen H, Miller FG, Rommelfanger K, Sheth SA, Wexler A."
   title: "Ethical challenges of risk, informed consent, and posttrial responsibilities in human research with neural devices: A review."
-  details: "JAMA Neurology. 2019; 76(12):1506-1514."
+  details: "JAMA Neurology. 2019;76(12):1506-1514."
   year: 2019
   image: pubs_2019_hendriks.png
   imagealt: 
   pmid: 31621797
-  pmcid:
+  pmcid: PMC9395156
   openaccess:
   doi: 10.1001/jamaneurol.2019.3523
   file: 
@@ -686,8 +686,8 @@
   
 - authors: "Merrilees JJ, Bernstein A, Dulaney S, **Heunis J**, Walker R, Rah E, Choi J, Gawlas K, Carroll S, Ong P, Feuer J, Braley T, Clark AM, Lee K, **Chiong W**, Bonasera SJ, Miller BL, Possin KL."
   title: "The Care Ecosystem: Promoting self-efficacy among dementia family caregivers."
-  details: "Dementia. 2018."
-  year: 2018
+  details: "Dementia. 2020;19(6)1955-1973."
+  year: 2020
   image: pubs_2018_CareEcosystem(1).png
   pmid: 30497302
   pmcid: PMC6541533
