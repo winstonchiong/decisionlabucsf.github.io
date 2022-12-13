@@ -14,9 +14,6 @@ description:
         <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
         {{person.position}} <br>
         <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
-        {% if person.twitter %}
-          <i class="fab fa-twitter"></i> <a href= "http://twitter.com/{{person.twitter}}" target="_blank"> @{{person.twitter}} </a> <br>
-        {% endif %}
         {% if person.website %}
           <i class="fa fa-globe"></i> <a href= "{{person.website}}" target="_blank">{{person.website}}</a> <br>
         {% endif %}
@@ -47,9 +44,6 @@ description:
         <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
         {{person.position}} <br>
         <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
-        {% if person.twitter %}
-          <i class="fab fa-twitter"></i> <a href= "http://twitter.com/{{person.twitter}}" target="_blank"> @{{person.twitter}} </a> <br>
-        {% endif %}
         {% if person.website %}
           <i class="fa fa-globe"></i> <a href= "{{person.website}}" target="_blank">{{person.website}}</a> <br>
         {% endif %}
@@ -81,9 +75,6 @@ description:
         <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
         {{person.position}} <br>
         <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
-        {% if person.twitter %}
-          <i class="fab fa-twitter"></i> <a href= "http://twitter.com/{{person.twitter}}" target="_blank"> @{{person.twitter}} </a> <br>
-        {% endif %}
         {% if person.website %}
           <i class="fa fa-globe"></i> <a href= "{{person.website}}" target="_blank">{{person.website}}</a> <br>
         {% endif %}
@@ -116,9 +107,6 @@ description:
   <strong>{{alum.name}}{% if alum.degrees %}, {{alum.degrees}} {% endif %}</strong> <br>
   <i>previously:</i> {{alum.previously}} <br>
   <i>now:</i> {{alum.now}}<br>
-    {% if alum.twitter %}
-      <i class="fab fa-twitter"></i> <a href= "http://twitter.com/{{alum.twitter}}" target="_blank"> @{{alum.twitter}} </a> <br>
-    {% endif %}
     {% if alum.website %} <i class="fa fa-globe"></i> <a href= "{{alum.website}}" target="_blank">{{alum.website}}</a>  {% endif %}
     {% for paper in site.data.publications %}
   {% if paper.authors contains alum.pubmed_name %}
