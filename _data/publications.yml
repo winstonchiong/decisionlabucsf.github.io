@@ -1,6 +1,26 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "**Haeusermann T**, **Lechner CR**, **Fong KC**, Bernstein Sideman A, Jaworska A, **Chiong W**, Dohan D."
+  title: "Closed-loop neuromodulation and self-perception in clinical treatment of refractory epilepsy."
+  details: "AJOB Neuroscience. 2023;14(1):32-44." 
+  year: 2023
+  image: pubs_2021_closed_loop.png
+  imagealt: 
+  pmid: 34473932
+  pmcid: PMC9007331
+  openaccess: https://www.tandfonline.com/doi/full/10.1080/21507740.2021.1958100
+  doi: 10.1080/21507740.2021.1958100
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered: 
+  opendata: 
+  openmaterials: 
+
 
 - authors: "**Haeusermann T**, **Romero-Kornblum H**, Dzeng E."
   title: "Of care, cure and the in-between: COVID-19 treatment in a New York City intensive care unit"
@@ -74,7 +94,7 @@
   pmid: 
   pmcid: 
   openaccess: 
-  doi: https://doi.org/10.1212/WNL.0000000000013040
+  doi: 10.1212/WNL.0000000000013040
   file: 
   filetype: 
   github:
@@ -116,7 +136,7 @@
   pmid: 34679124
   pmcid: PMC8535394
   openaccess: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259110
-  doi: https://doi.org/10.1371/journal.pone.0259110
+  doi: 10.1371/journal.pone.0259110
   file: 
   filetype: 
   github:
@@ -159,27 +179,6 @@
   pmcid: 
   openaccess: 
   doi: 10.1001/jamainternmed.2021.5449
-  file: 
-  filetype: 
-  github:
-  biorxiv:
-  psyarxiv: 
-  contentshare: 
-  preregistered: 
-  opendata: 
-  openmaterials: 
-
-
-- authors: "**Haeusermann T**, **Lechner CR**, **Fong KC**, Bernstein Sideman A, Jaworska A, **Chiong W**, Dohan D."
-  title: "Closed-loop neuromodulation and self-perception in clinical treatment of refractory epilepsy."
-  details: "AJOB Neuroscience. 2021; 1–13." 
-  year: 2021
-  image: pubs_2021_closed_loop.png
-  imagealt: 
-  pmid: 34473932
-  pmcid: PMC9007331 (available on 2023-03-02)
-  openaccess: https://www.tandfonline.com/doi/full/10.1080/21507740.2021.1958100
-  doi: 10.1080/21507740.2021.1958100
   file: 
   filetype: 
   github:
