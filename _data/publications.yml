@@ -1,6 +1,69 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "**Antoniou R**, **Haeusermann T**, Bernstein Sideman A, **Fong KC**, Callahan P, Miller BL, Kramer KL, **Chiong W**, Rankin KP."
+  title: "Moral reasoning through the eyes of persons with behavioral variant frontotemporal dementia."
+  details: "Frontiers in Neurology. 2023;14:1197213." 
+  year: 2023
+  image: pubs_2023_moral-reasoning.jpeg
+  imagealt: 
+  pmid: 
+  pmcid: 
+  openaccess: https://www.frontiersin.org/articles/10.3389/fneur.2023.1197213/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Neurology&id=1197213
+  doi: 10.3389/fneur.2023.1197213
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered:
+  opendata: 
+  openmaterials: 
+  
+
+- authors: "**Antoniou R**, **Romero-Kornblum H**, **Young CJ**, You M, Kramer JH, Rankin KP, **Chiong W**."
+  title: "Contrasting two models of utilitarian reasoning."
+  details: "Helion. 2023;9(7):e17498." 
+  year: 2023
+  image: pubs_2023_.utilitarian-modelsjpg.jpg
+  imagealt: 
+  pmid: 37424598
+  pmcid: PMC10328838
+  openaccess: https://www.sciencedirect.com/science/article/pii/S2405844023047060
+  doi: 10.1016/j.heliyon.2023.e17498
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered: https://osf.io/m425d
+  opendata: 
+  openmaterials: 
+
+
+- authors: "**Haeusermann T**, **Chiong W**."
+  title: "Ethical considerations in rapid and novel treatments in psychiatry."
+  details: "Neuropsychopharmacology. 2023; Online ahead of print." 
+  year: 2023
+  image: pubs_2023_rapid-novel-psychiatry-treatments.jpg
+  imagealt: 
+  pmid: 37391590
+  pmcid: 
+  openaccess: https://www.nature.com/articles/s41386-023-01635-y
+  doi: 10.1038/s41386-023-01635-y
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered: 
+  opendata: 
+  openmaterials: 
+
+
 - authors: "**Haeusermann T**, **Lechner CR**, **Fong KC**, Bernstein Sideman A, Jaworska A, **Chiong W**, Dohan D."
   title: "Closed-loop neuromodulation and self-perception in clinical treatment of refractory epilepsy."
   details: "AJOB Neuroscience. 2023;14(1):32-44." 
