@@ -7,7 +7,7 @@ image:
 
 ---
 
-Congratulations to our fearless leader, [Winston](/team/index.html#Winston-Chiong) who was officially
+Congratulations to our fearless leader, [Winston](/team/index.html#Winston-Chiong), who was officially
 appointed as the Executive Director of [UCSF Bioethics](https://bioethics.ucsf.edu/)!
 
 Serving as Interim Director of UCSF Bioethics since late October 2021, Winston has worked to strengthen 
