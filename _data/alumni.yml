@@ -141,3 +141,30 @@
   twitter:
   website:
   pubmed_name: "Tran ST"
+  
+- name: Bryan Chen
+  degrees:
+  previously: Student Intern
+  now: Research Worker, Columbia Medical Center
+  email:
+  twitter:
+  website:
+  pubmed_name: "Chen BB"
+  
+- name: Danielle Hart
+  degrees:
+  previously: Medical Student
+  now: Medical Student; UCSF School of Medicine
+  email:
+  twitter:
+  website:
+  pubmed_name: "Hart D"
+  
+- name: Steven Lenio
+  degrees: MD
+  previously: Behavioral Neurology Fellow
+  now: Assistant Professor of Neurology, Boston University
+  email:
+  twitter:
+  website:
+  pubmed_name: "Lenio S"
