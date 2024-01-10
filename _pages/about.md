@@ -33,12 +33,8 @@ U01NS098971, and R01AG056715 from the [National Institutes of Health](http://www
 <div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
 
 <div class="clearfix" style="width: 100%; clear: both;">
-    <a href="http://www.ucconsortium.org" target="_blank"><img style="width: 27%; float: right; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/about_ucconsortium.png" alt="logo for  UCSF/UC Hastings Consortium on Law, Science and Health Policy"></a>
-    <a href="https://www.gbhi.org" target="_blank"><img style="width: 63%; float: left; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/about_GBHI_logo_RGB.png" alt="logo for Global Brain Health Institute"></a>
-</div>
-<div class="clearfix" style="width: 100%; clear:both;">
-    <a href="https://www.rarediseasesnetwork.org/cms/artfl/" target="_blank"><img style="width: 52%; float: left; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/about_ARTFL.png" alt="logo for ARTFL: Advnacing Research &amp; Treatment for Frontotemporal Lobar Degeneration"></a>
-    <a href="https://memory.ucsf.edu/lefftds" target="_blank"><img style="width: 44%; float: right; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/about_LEFFTDS.png" alt="logo for LEFFTDS: Longitudinal Evaluation of Familial Frontotemporal Dementia Subjects"></a>
+    <a href="https://www.gbhi.org" target="_blank"><img style="width: 45%; float: left; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/about_GBHI_logo_RGB.png" alt="logo for Global Brain Health Institute"></a>
+    <a href="https://www.allftd.org" target="_blank"><img style="width: 50%; float: right; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/about_ALLFTD.png" alt="logo for the ARTFL-LEFFTDS Longitudinal Frontotemporal Lobar Degeneration (ALLFTD) research study"></a>
 </div>
 <div style="width: 100%; clear: both; margin-bottom: 15px">
 </div>
