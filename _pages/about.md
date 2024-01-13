@@ -6,9 +6,9 @@ description: neuroethics + decision neuroscience
 
 profile: 
   align: right
-  image: about_prof_pic.jpg
+  image: about_weill_pic.jpg
   address: > 
-    <p>Sandler Neurosciences Center</p>
+    <p>Weill Neurosciences Building</p>
 
 news: false
 social: false
