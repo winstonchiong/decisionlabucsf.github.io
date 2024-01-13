@@ -131,6 +131,12 @@
     transform: translate(-50%, -50%);
 }
 
+.news-mastodon {
+    float: right; 
+    width: 230px; 
+    padding-left: 20px;
+}
+
 /* Responsive */
 @media screen and (min-width:660px) and (max-width:1229px) {
     .top-banner .inner {
@@ -172,7 +178,7 @@
         display: none;
     }
 
-    .news-tweets {
+    .news-mastodon {
         display: none;
     }
 
