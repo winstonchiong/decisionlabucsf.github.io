@@ -61,6 +61,26 @@
   opendata: 
   openmaterials: 
 
+- authors: "**Hoy CW**, **Chiong W**."
+  title: "Book Review: DeGrazia D, Millum J. A Theory of Bioethics. Cambridge University Press. 2021."
+  details: "Kennedy Institute of Ethics Journal. 2023; 33(3):321-325." 
+  year: 2023
+  image: pubs_2023_theory-of-bioethics.jpg
+  imagealt: 
+  pmid: 
+  pmcid: 
+  openaccess: 
+  doi: 10.1353/ken.2023.a917931
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered:
+  opendata: 
+  openmaterials:  
+
 - authors: "**Hoy CW**, Little SJ, **Chiong W**."
   title: "Using neuroscientific and clinical context to assess and manage changes in core personal traits caused by deep brain stimulation."
   details: "AJOB Neuroscience. 2023; 14(3):310-312." 
@@ -247,7 +267,7 @@
   year: 2022
   image: pubs_2022_ischemic_stroke.png
   imagealt: 
-  pmid: 
+  pmid:  35312627
   pmcid: 
   openaccess: 
   doi: 10.1212/WNL.0000000000013040
