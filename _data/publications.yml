@@ -1,7 +1,6 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
-
 - authors: "**Haeusermann T**, **Chiong W**."
   title: "Ethical considerations in rapid and novel treatments in psychiatry."
   details: "Neuropsychopharmacology. 2024; 49(1):291-293." 
@@ -21,7 +20,6 @@
   preregistered: 
   opendata: 
   openmaterials: 
-
 
 - authors: "**Sankaran N**, Moses D, **Chiong W**, Chang EF."
   title: "Recommendations for promoting user agency in the design of speech neuroprostheses."
@@ -43,7 +41,6 @@
   opendata: 
   openmaterials: 
 
-
 - authors: "Guterman EL, Kiekhofer RE, Wood AJ, Allen IE, Kahn JG, Dulaney S, Merrilees JJ, Lee K, **Chiong W**, Bonasera SJ, Braley TL, Hunt LJ, Harrison KL, Miller BL, Possin KL."
   title: "Care Ecosystem collaborative model and health care costs in Medicare beneficiaries with dementia: A secondary analysis of a randomized clinical trial."
   details: "JAMA Internal Medicine. 2023; 183(11):1222-1228." 
@@ -63,7 +60,6 @@
   preregistered:
   opendata: 
   openmaterials: 
-
 
 - authors: "**Hoy CW**, Little SJ, **Chiong W**."
   title: "Using neuroscientific and clinical context to assess and manage changes in core personal traits caused by deep brain stimulation."
@@ -85,7 +81,6 @@
   opendata: 
   openmaterials: 
 
-
 - authors: "**Antoniou R**, **Haeusermann T**, Bernstein Sideman A, **Fong KC**, Callahan P, Miller BL, Kramer KL, **Chiong W**, Rankin KP."
   title: "Moral reasoning through the eyes of persons with behavioral variant frontotemporal dementia."
   details: "Frontiers in Neurology. 2023; 14:1197213." 
@@ -106,7 +101,6 @@
   opendata: 
   openmaterials: 
   
-
 - authors: "**Antoniou R**, **Romero-Kornblum H**, **Young CJ**, You M, Kramer JH, Rankin KP, **Chiong W**."
   title: "Contrasting two models of utilitarian reasoning."
   details: "Helion. 2023; 9(7):e17498." 
@@ -126,7 +120,6 @@
   preregistered: https://osf.io/m425d
   opendata: https://osf.io/hf9a5
   openmaterials: 
-
 
 - authors: "**Haeusermann T**, **Lechner CR**, **Fong KC**, Bernstein Sideman A, Jaworska A, **Chiong W**, Dohan D."
   title: "Closed-loop neuromodulation and self-perception in clinical treatment of refractory epilepsy."
@@ -148,9 +141,8 @@
   opendata: 
   openmaterials: 
 
-
 - authors: "Sideman AB, Merrilees J, Dulaney S, Kiekhofer R, Braley T, Lee K, **Chiong W**, Miller B, Bonasera SJ, Possin KL."
-  title: '"Out of the clear blue sky she tells me she loves me": Connection experiences between caregivers and people with dementia.'
+  title: "''Out of the clear blue sky she tells me she loves me'': Connection experiences between caregivers and people with dementia."
   details: "Journal of the American Geriatric Society. 2023; 71(7):2172-2183." 
   year: 2023
   image: pubs_2023_connection-experiences.jpg
@@ -168,7 +160,6 @@
   preregistered:
   opendata: 
   openmaterials: 
-
 
 - authors: "Liu AK, Possin KL, Cook KM, Lynch S, Dulaney S, Merrilees JJ, Braley T, Kiekhofer RE, Bonasera SJ, Allen IE, **Chiong W**, Clark AM, Feuer J, Ewalt J, Guterman EL, Gearhart R, Miller BL, Lee KP."
   title: "Effect of collaborative dementia care on potentially inappropriate medication use: Outcomes from the Care Ecosystem randomized clinical trial."
@@ -190,7 +181,6 @@
   opendata: 
   openmaterials: 
 
-
 - authors: "**Haeusermann T**, **Romero-Kornblum H**, Dzeng E."
   title: "Of care, cure and the in-between: COVID-19 treatment in a New York City intensive care unit"
   details:  "International Journal of Care and Caring. 2022; 6(1-2):67-84."
@@ -210,7 +200,6 @@
   preregistered: 
   opendata: 
   openmaterials: 
-
 
 - authors: "**Manivannan M**, **Heunis J**, Hooper SM, Bernstein Sideman A, Lui KP, Possin KL, **Chiong W**."
   title: "Use of telephone- and internet-based support to elicit and address financial abuse and mismanagement in dementia: Experiences from the Care Ecosystem study."
@@ -232,7 +221,6 @@
   opendata: 
   openmaterials: 
 
-
 - authors: "**Chiong W**, Tolchin BD, Bonnie RJ, Busl K, Cruz-Flores S, Epstein LG, Greene EP, Illes J, Kirschen M, Larriviere DG, Mantri S, Rubin MA, Stern BJ, Taylor LP, Ethics, Law, and Humanities Committee (a joint committee of the AAN, ANA, and CNS)"
   title: "Decisions with patients and families regarding aducanumab in Alzheimer disease, with recommendations for consent: AAN position statement."
   details: "Neurology. 2022; 98(4):154-159." 
@@ -252,7 +240,6 @@
   preregistered: 
   opendata: 
   openmaterials: 
-
 
 - authors: "Sattin JA, **Chiong W**, Bonnie RJ, Kirschen MP, Russell JA, on behalf of the Ethics, Law, and Humanities Committee, a joint committee of the American Academy of Neurology, American Neurological Association, and Child Neurology Society."
   title: "Consent issues in the management of acute ischemic stroke: AAN position statement."
@@ -274,7 +261,6 @@
   opendata: 
   openmaterials: 
 
-
 - authors: "Jaworska A, **Chiong W**."
   title: "Supported decision-making for people with dementia should focus on their values."
   details: "American Journal of Bioethics. 2021; 21(11):19–21." 
@@ -294,7 +280,6 @@
   preregistered: 
   opendata: 
   openmaterials: 
-
 
 - authors: "**Antoniou R**, **Romero-Kornblum H**, **Young JC**, You M, Kramer JH, **Chiong W**."
   title: "Reduced utilitarian willingness to violate personal rights during the COVID-19 pandemic."
@@ -316,7 +301,6 @@
   opendata: https://osf.io/d7raz/
   openmaterials: https://osf.io/dktac/
 
-
 - authors: "**Ma H**, Kiekhofer RE, Hooper SM, Dulaney S, Possin KL, **Chiong W.**"
   title: "Goals of care conversations and subsequent advance care planning outcomes for people with dementia."
   details: "Journal of Alzheimer's Disease. 2021; 83(4):1767–1773." 
@@ -336,7 +320,6 @@
   preregistered: 
   opendata: 
   openmaterials: 
-
 
 - authors: "**Ngo S**, Kim AS, **Chiong W**."
   title: "Evidence for the ethics of incentivizing clinical trial enrollment?"
@@ -358,7 +341,6 @@
   opendata: 
   openmaterials: 
 
-
 - authors: "Chiang S, Picard RW, **Chiong W**, Moss R, Worrell GA, Rao VR, Goldenholz DM."
   title: "Guidelines for conducting ethical artificial intelligence research in neurology: A systematic approach for clinicians and researchers."
   details: "Neurology. 2021; 97(13):632–640" 
@@ -378,7 +360,6 @@
   preregistered: 
   opendata: 
   openmaterials: 
-
 
 - authors: "**Chiong W**, Tsou AY, Simmons Z, Bonnie RJ, Russell JA, on behalf of the Ethics, Law, and Humanities Committee (a joint committee of the American Academy of Neurology, American Neurological Association, and Child Neurology Society)"
   title: "Ethical considerations in dementia diagnosis and care: AAN position statement."
@@ -419,7 +400,6 @@
   preregistered: 
   opendata: 
   openmaterials: 
-
 
 - authors: "**Lindbergh CA**, **Romero-Kornblum H**, Weiner-Light S, **Young JC**, Fonseca C, You M, Wolf A, Staffaroni AM, Daly R, Jeste DV, Kramer JH, **Chiong W**, the Hillblom Aging Network."
   title: "Wisdom and fluid intelligence are dissociable in healthy older adults."
@@ -481,7 +461,6 @@
   opendata: 
   openmaterials: 
   
-
 - authors: "**Fong KC**, **Chiong W**."
   title: "Understanding advance directives as a component of advance care planning."
   details: "American Journal of Bioethics. 2020; 20(8):67-69."
