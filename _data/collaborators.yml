@@ -6,7 +6,7 @@
 
 - name: Edward Chang
   degrees: MD
-  position: Chair, UCSF Department of Neurological Surgery; Co-Director, Center for Neural Engineering and Prostheses
+  position: Professor and Chair, UCSF Department of Neurological Surgery
   email:
   website: http://changlab.ucsf.edu/
 
@@ -16,23 +16,35 @@
   email:
   website: https://profiles.ucsf.edu/dan.dohan
 
+- name: Elizabeth Dzeng
+  degrees: PhD MD MPH
+  position: Associate Professor, UCSF Division of Hospital Medicine and Department of Social and Behavioral Sciences
+  email:
+  website: https://profiles.ucsf.edu/elizabeth.dzeng
+
 - name: Roy Hamilton
   degrees: MD MS
   position: Associate Professor, University of Pennsylvania Departments of Neurology and Physical Medicine & Rehabilitation
   email:
-  website: https://www.med.upenn.edu/lcns/hamilton.html
+  website: https://www.med.upenn.edu/lcns/people.html
 
 - name: Sarah Hooper
   degrees: JD
-  position: Executive Director, UCSF/UC Hastings Consortium on Law, Science &amp; Health Policy
+  position: Executive Director, UCSF/UC Law SF Consortium on Law, Science &amp; Health Policy
   email:
-  website: http://www.uchastings.edu/faculty/hooper/index.php
+  website: https://www.uclawsf.edu/people/sarah-hooper/
 
 - name: Ming Hsu
   degrees: PhD
   position: Associate Professor, UC Berkeley Haas School of Business and Helen Wills Neuroscience Institute
   email:
   website: http://neuroecon.berkeley.edu/
+
+- name: Jen James
+  degrees: PhD MS MSW
+  position: Associate Professor, UCSF Institute for Health and Aging
+  email:
+  website: https://emancipatorysciences.ucsf.edu/people/jennifer-james-phd-ms-msw  
 
 - name: Agnieszka Jaworska
   degrees: PhD
@@ -45,6 +57,12 @@
   position: Associate Professor, UCSF Department of Neurology
   email: 
   website: http://kayserlab.ucsf.edu/
+
+- name: Fred Ketchum
+  degrees: MD PhD
+  position: Assistant Professor, University of Wisconsin Department of Neurology
+  email: 
+  website: https://neurology.wisc.edu/people/ketchum-frederick/
 
 - name: Scott Kim
   degrees: MD PhD
@@ -76,12 +94,23 @@
   email:
   website: https://profiles.ucsf.edu/vikram.rao
 
+- name: Oliver Rollins
+  degrees: PhD
+  position: Assistant Professor, University of Washington Department of American Ethnic Studies
+  email:
+  website: https://aes.washington.edu/people/oliver-rollins
+
 - name: Philip Starr
   degrees: MD PhD
   position: Professor, UCSF Department of Neurological Surgery; Co-Director, UCSF Surgical Movement Disorders Clinic
   email:
   website: https://starrlab.ucsf.edu/
 
+- name: Noelle Stiles
+  degrees: PhD
+  position: Assistant Professor, Rutgers University Department of Neurology and Brain Health Institute
+  email:
+  website: https://www.stileslab.com/
 
 
   
