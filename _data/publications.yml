@@ -1,6 +1,26 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "**Haeusermann T**†, **Liu EY**†, **Fong KC**, Dohan D, **Chiong W**. †(_co-first authors_)"
+  title: "Patient experiences of resection versus responsive neurostimulation for drug-resistant epilepsy."
+  details: "Epilepsy & Behavior. 2024; 153:109707." 
+  year: 2024
+  image: pubs_2024_patient-experiences.jpg
+  imagealt: photo by Ramiro Pianorosa on Unsplash
+  pmid: 
+  pmcid: 
+  openaccess: https://www.sciencedirect.com/science/article/pii/S152550502400088X
+  doi: 10.10.1016/j.yebeh.2024.109707
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered: 
+  opendata: 
+  openmaterials: 
+
 - authors: "**Haeusermann T**, **Chiong W**."
   title: "Ethical considerations in rapid and novel treatments in psychiatry."
   details: "Neuropsychopharmacology. 2024; 49(1):291-293." 
