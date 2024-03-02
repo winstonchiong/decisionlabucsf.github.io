@@ -1,7 +1,7 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
-- authors: "**Haeusermann T**꙳, **Liu EY**꙳, **Fong KC**, Dohan D, **Chiong W**. ꙳(_co-first authors_)"
+- authors: "**Haeusermann T**꙳, **Liu EY**꙳, **Fong KC**, Dohan D, **Chiong W**. ꙳(*co-first authors*)"
   title: "Patient experiences of resection versus responsive neurostimulation for drug-resistant epilepsy."
   details: "Epilepsy & Behavior. 2024; 153:109707." 
   year: 2024
