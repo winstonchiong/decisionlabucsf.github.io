@@ -7,7 +7,7 @@ description:
 
 <div id="postdoc-neuroethics" class="project-container" style="margin-top: 0px">
   <img src="{{ site.baseurl }}/assets/img/hiring_postdoc.jpg" alt="Background image for neuroethics postdoc position. Photo by Evgeny Tchebotarev on Unsplash." style="width: 100%;">
-  <div class="project-title" style="color: #ffffff">Postdoc in neuroethics of dementia & neurotechnology</div>
+  <div class="project-title" style="color: #ffffff">Postdoc in neuroethics of dementia & neurotech</div>
 </div>
 
 We seek a highly motivated and collaborative postdoctoral scholar to join an 
@@ -26,14 +26,16 @@ in the UCSF Department of Neurology; in conjunction with
 [Alissa Bernstein Sideman, PhD](https://profiles.ucsf.edu/alissa.bernstein){:target="_blank"}
 (UCSF Institute for Health Policy Studies), and 
 [Noelle Stiles, PhD](https://www.stileslab.com/){:target="_blank"} 
-(Rutgers Brain Health Institute). The postdoctoral fellow will conduct 
+(Rutgers Brain Health Institute). 
+
+The postdoctoral fellow will conduct 
 qualitative research (including field observation, interviews, and focus groups) 
 with people who have dementia, neurotechnology users, caregivers, and people 
 engaged in the development of novel technologies; and will analyze these data to 
 prepare manuscripts and presentations for national and international meetings.
 This work will be embedded in an NIH BRAIN Initiative- and National Institute on 
 Aging-funded research program on ethical issues in neuroscience and in the 
-[UCSF Bioethics program](https://bioethics.ucsf.edu){:target="_blank"}, also 
+[UCSF Bioethics](https://bioethics.ucsf.edu){:target="_blank"} program, also 
 directed by Dr. Chiong).
 
 ### Required qualifications
@@ -56,6 +58,8 @@ information for three references. Informal inquiries are welcome. Applications w
 reviewed on an ongoing basis until the position is filled. If you require reasonable
 accommodations to participate in the evaluation process, please contact Disability
 Management Services (DMS) at (415) 476-2621.
+
+---
 
 <div id="ra-decision" class="project-container">
   <img src="{{ site.baseurl }}/assets/img/hiring_ra-decision.jpg" alt="Background image for decision neuroscience RA position.  Photo by Victoriano Izquierdo on Unsplash." style="width: 100%;">
@@ -86,6 +90,7 @@ May help prepare protocols for study initiation; help design flow sheets, data f
 ### How to apply
 Please apply at [https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=6495&siteid=5861&PageType=JobDetails&jobid=35259176](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=6495&siteid=5861&PageType=JobDetails&jobid=3525917){:target="_blank"}
 
+---
 
 <div id="ra-neurotech" class="project-container" style="margin-top: 0px">
   <img src="{{ site.baseurl }}/assets/img/hiring_ra-neurotech.jpg" alt="Background image for neurotech RA position. Photo by Daniel Hjalmarsson on Unsplash." style="width: 100%;">
