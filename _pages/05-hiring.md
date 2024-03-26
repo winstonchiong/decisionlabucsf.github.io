@@ -11,45 +11,40 @@ description:
 </div>
 
 We seek a highly motivated and collaborative postdoctoral scholar to join an 
-interdisciplinary research program on ethical issues in dementia and in the 
-design of new technologies for disability. This work will be directed by 
+interdisciplinary research program on on experiences of dementia and on the 
+development of new treatments
+and technologies for neurologic disorders. This work will be directed by 
 [Winston Chiong, MD PhD]({{ '/team/index.html#Winston-Chiong' | prepend: site.baseurl | prepend: site.url }}) 
 in the UCSF Department of Neurology; in conjunction with 
 [Daniel Dohan, PhD](https://profiles.ucsf.edu/dan.dohan){:target="_blank"} 
 (UCSF Institute for Health Policy Studies), 
 [Elizabeth Dzeng, PhD MD MPH](https://profiles.ucsf.edu/elizabeth.dzeng){:target="_blank"} 
-(UCSF Hospital Medicine; Social & Behavioral Sciences),
-[Agniezska Jaworska, PhD](https://profiles.ucr.edu/app/home/profile/jaworska){:target="_blank"} 
-(UC Riverside Department of Philosophy), 
-[Katherine Rankin, PhD](https://rankinlab.ucsf.edu/){:target="_blank"} 
-(UCSF Memory and Aging Center), 
-[Alissa Bernstein Sideman, PhD](https://profiles.ucsf.edu/alissa.bernstein){:target="_blank"}
-(UCSF Institute for Health Policy Studies), and 
-[Noelle Stiles, PhD](https://www.stileslab.com/){:target="_blank"} 
-(Rutgers Brain Health Institute). 
+(UCSF Hospital Medicine; Social & Behavioral Sciences), and diverse 
+interdisciplinary collaborators. 
 
 The postdoctoral fellow will conduct 
 qualitative research (including field observation, interviews, and focus groups) 
 with people who have dementia, neurotechnology users, caregivers, and people 
 engaged in the development of novel technologies; and will analyze these data to 
 prepare manuscripts and presentations for national and international meetings.
-This work will be embedded in an NIH BRAIN Initiative- and National Institute on 
-Aging-funded research program on ethical issues in neuroscience and in the 
-[UCSF Bioethics](https://bioethics.ucsf.edu){:target="_blank"} program, also 
-directed by Dr. Chiong).
+This work will be embedded in a broad research program on ethical issues in 
+neuroscience, in the 
+[UCSF Bioethics](https://bioethics.ucsf.edu){:target="_blank"} program (also 
+directed by Dr. Chiong), and in the 
+[UCSF Medical Cultures Lab](https://www.cultureofmedicine.org)
 
 ### Required qualifications
 - Doctoral degree or equivalent in behavioral or social sciences (including
 anthropology, sociology, and science studies), bioethics, or related fields (including
-law, health policy, nursing, social work, neuroscience, and psychology).
-- Prior qualitative research experience.
+philosophy, law, health policy, nursing, social work, neuroscience, and psychology).
+- Demonstrated success in independent ethnographic research.
 - Exceptional written and oral communication skills.
 
 ### Preferred qualifications
 - Experience working with clinical populations
 - Experience working with health professionals and/or biomedical scientists
 - Prior interest/experience in neuroscience
-- Prior interest/experience in transdisciplinary collaboration
+- Interest in team science and transdisciplinary collaboration
 - Two-year commitment (with opportunities to extend as mutually desired)
 
 ### How to apply
