@@ -11,7 +11,7 @@ description:
 </div>
 
 We seek a highly motivated and collaborative postdoctoral scholar to join an 
-interdisciplinary research program on on experiences of dementia and on the 
+interdisciplinary research program on experiences of dementia and on the 
 development of new treatments
 and technologies for neurologic disorders. This work will be directed by 
 [Winston Chiong, MD PhD]({{ '/team/index.html#Winston-Chiong' | prepend: site.baseurl | prepend: site.url }}) 
