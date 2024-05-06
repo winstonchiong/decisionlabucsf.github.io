@@ -1,8 +1,11 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
-- authors: "**Ngo S**, **Jackson AJ**, **Manivannan M**, **Young JC**, **Leggins B**, **Cryns NG**, **Tran ST**, Grant HE, Knudtson MV, **Chiong W**."
-  title: "Real world financial mismanagement in Alzheimer's disease, frontotemporal dementia, and primary progressive aphasia."
+- authors: "**Ngo S**, **Jackson AJ**, **Manivannan M**, **Young JC**, 
+            **Leggins B**, **Cryns NG**, **Tran ST**, Grant HE, Knudtson MV, 
+            **Chiong W**."
+  title: "Real world financial mismanagement in Alzheimer's disease, 
+          frontotemporal dementia, and primary progressive aphasia."
   details: "Journal of Alzheimer's Disease. 2024; 99(1):251-262." 
   year: 2024
   image: pubs_2024_real-world-mismanagement.png
@@ -81,8 +84,11 @@
   opendata: 
   openmaterials: 
 
-- authors: "Guterman EL, Kiekhofer RE, Wood AJ, Allen IE, Kahn JG, Dulaney S, Merrilees JJ, Lee K, **Chiong W**, Bonasera SJ, Braley TL, Hunt LJ, Harrison KL, Miller BL, Possin KL."
-  title: "Care Ecosystem collaborative model and health care costs in Medicare beneficiaries with dementia: A secondary analysis of a randomized clinical trial."
+- authors: "Guterman EL, Kiekhofer RE, Wood AJ, Allen IE, Kahn JG, Dulaney S, 
+            Merrilees JJ, Lee K, **Chiong W**, Bonasera SJ, Braley TL, Hunt LJ, 
+            Harrison KL, Miller BL, Possin KL."
+  title: "Care Ecosystem collaborative model and health care costs in Medicare 
+          beneficiaries with dementia: A secondary analysis of a randomized clinical trial."
   details: "JAMA Internal Medicine. 2023; 183(11):1222-1228." 
   year: 2023
   image: pubs_2023_careeco-costs.png
@@ -122,7 +128,8 @@
   openmaterials:  
 
 - authors: "**Hoy CW**, Little SJ, **Chiong W**."
-  title: "Using neuroscientific and clinical context to assess and manage changes in core personal traits caused by deep brain stimulation."
+  title: "Using neuroscientific and clinical context to assess and manage changes 
+          in core personal traits caused by deep brain stimulation."
   details: "AJOB Neuroscience. 2023; 14(3):310-312." 
   year: 2023
   image: pubs_2023_core-personal-traits.jpg
@@ -141,8 +148,10 @@
   opendata: 
   openmaterials: 
 
-- authors: "**Antoniou R**, **Haeusermann T**, Bernstein Sideman A, **Fong KC**, Callahan P, Miller BL, Kramer KL, **Chiong W**, Rankin KP."
-  title: "Moral reasoning through the eyes of persons with behavioral variant frontotemporal dementia."
+- authors: "**Antoniou R**, **Haeusermann T**, Bernstein Sideman A, **Fong KC**, 
+            Callahan P, Miller BL, Kramer KL, **Chiong W**, Rankin KP."
+  title: "Moral reasoning through the eyes of persons with behavioral variant 
+          frontotemporal dementia."
   details: "Frontiers in Neurology. 2023; 14:1197213." 
   year: 2023
   image: pubs_2023_moral-reasoning.jpeg
@@ -161,7 +170,8 @@
   opendata: 
   openmaterials: 
   
-- authors: "**Antoniou R**, **Romero-Kornblum H**, **Young CJ**, You M, Kramer JH, Rankin KP, **Chiong W**."
+- authors: "**Antoniou R**, **Romero-Kornblum H**, **Young CJ**, You M, Kramer 
+            JH, Rankin KP, **Chiong W**."
   title: "Contrasting two models of utilitarian reasoning."
   details: "Helion. 2023; 9(7):e17498." 
   year: 2023
@@ -201,8 +211,10 @@
   opendata: 
   openmaterials: 
 
-- authors: "Sideman AB, Merrilees J, Dulaney S, Kiekhofer R, Braley T, Lee K, **Chiong W**, Miller B, Bonasera SJ, Possin KL."
-  title: "''Out of the clear blue sky she tells me she loves me'': Connection experiences between caregivers and people with dementia."
+- authors: "Sideman AB, Merrilees J, Dulaney S, Kiekhofer R, Braley T, Lee K, 
+            **Chiong W**, Miller B, Bonasera SJ, Possin KL."
+  title: "''Out of the clear blue sky she tells me she loves me'': Connection 
+          experiences between caregivers and people with dementia."
   details: "Journal of the American Geriatric Society. 2023; 71(7):2172-2183." 
   year: 2023
   image: pubs_2023_connection-experiences.jpg
@@ -221,8 +233,11 @@
   opendata: 
   openmaterials: 
 
-- authors: "Liu AK, Possin KL, Cook KM, Lynch S, Dulaney S, Merrilees JJ, Braley T, Kiekhofer RE, Bonasera SJ, Allen IE, **Chiong W**, Clark AM, Feuer J, Ewalt J, Guterman EL, Gearhart R, Miller BL, Lee KP."
-  title: "Effect of collaborative dementia care on potentially inappropriate medication use: Outcomes from the Care Ecosystem randomized clinical trial."
+- authors: "Liu AK, Possin KL, Cook KM, Lynch S, Dulaney S, Merrilees JJ, 
+            Braley T, Kiekhofer RE, Bonasera SJ, Allen IE, **Chiong W**, 
+            Clark AM, Feuer J, Ewalt J, Guterman EL, Gearhart R, Miller BL, Lee KP."
+  title: "Effect of collaborative dementia care on potentially inappropriate 
+          medication use: Outcomes from the Care Ecosystem randomized clinical trial."
   details: "Alzheimer's & Dementia. 2023; 19(5):1865-1875." 
   year: 2023
   image: pubs_2023_PIMs.png
@@ -261,8 +276,11 @@
   opendata: 
   openmaterials: 
 
-- authors: "**Manivannan M**, **Heunis J**, Hooper SM, Bernstein Sideman A, Lui KP, Possin KL, **Chiong W**."
-  title: "Use of telephone- and internet-based support to elicit and address financial abuse and mismanagement in dementia: Experiences from the Care Ecosystem study."
+- authors: "**Manivannan M**, **Heunis J**, Hooper SM, Bernstein Sideman A, 
+            Lui KP, Possin KL, **Chiong W**."
+  title: "Use of telephone- and internet-based support to elicit and address 
+          financial abuse and mismanagement in dementia: Experiences from the 
+          Care Ecosystem study."
   details: "Journal of Alzheimer’s Disease. 2022; 86(1):219-229." 
   year: 2022
   image: pubs_2022_MMfinancialactivities.png
@@ -281,8 +299,14 @@
   opendata: 
   openmaterials: 
 
-- authors: "**Chiong W**, Tolchin BD, Bonnie RJ, Busl K, Cruz-Flores S, Epstein LG, Greene EP, Illes J, Kirschen M, Larriviere DG, Mantri S, Rubin MA, Stern BJ, Taylor LP, Ethics, Law, and Humanities Committee (a joint committee of the AAN, ANA, and CNS)"
-  title: "Decisions with patients and families regarding aducanumab in Alzheimer disease, with recommendations for consent: AAN position statement."
+- authors: "**Chiong W**, Tolchin BD, Bonnie RJ, Busl K, Cruz-Flores S, 
+            Epstein LG, Greene EP, Illes J, Kirschen M, Larriviere DG, Mantri S, 
+            Rubin MA, Stern BJ, Taylor LP, on behalf of the Ethics, Law, and 
+            Humanities Committee (a joint committee of the American Academy of 
+            Neurology, American Neurological Association, and Child Neurology 
+            Society)."
+  title: "Decisions with patients and families regarding aducanumab in Alzheimer 
+          disease, with recommendations for consent: AAN position statement."
   details: "Neurology. 2022; 98(4):154-159." 
   year: 2022
   image: pubs_2021_aducanumab.jpg
@@ -301,7 +325,10 @@
   opendata: 
   openmaterials: 
 
-- authors: "Sattin JA, **Chiong W**, Bonnie RJ, Kirschen MP, Russell JA, on behalf of the Ethics, Law, and Humanities Committee, a joint committee of the American Academy of Neurology, American Neurological Association, and Child Neurology Society."
+- authors: "Sattin JA, **Chiong W**, Bonnie RJ, Kirschen MP, Russell JA, on 
+            behalf of the Ethics, Law, and Humanities Committee (a joint 
+            committee of the American Academy of Neurology, American 
+            Neurological Association, and Child Neurology Society)."
   title: "Consent issues in the management of acute ischemic stroke: AAN position statement."
   details: "Neurology. 2022; 98(2):73-79." 
   year: 2022
@@ -362,7 +389,8 @@
   openmaterials: https://osf.io/dktac/
 
 - authors: "**Ma H**, Kiekhofer RE, Hooper SM, Dulaney S, Possin KL, **Chiong W.**"
-  title: "Goals of care conversations and subsequent advance care planning outcomes for people with dementia."
+  title: "Goals of care conversations and subsequent advance care planning 
+          outcomes for people with dementia."
   details: "Journal of Alzheimer's Disease. 2021; 83(4):1767–1773." 
   year: 2021
   image: pubs_2021_Goals_of_care_conversations_and_subsequent_advance_care_planning_outcomes_for_people_with_dementia.jpg
@@ -401,8 +429,10 @@
   opendata: 
   openmaterials: 
 
-- authors: "Chiang S, Picard RW, **Chiong W**, Moss R, Worrell GA, Rao VR, Goldenholz DM."
-  title: "Guidelines for conducting ethical artificial intelligence research in neurology: A systematic approach for clinicians and researchers."
+- authors: "Chiang S, Picard RW, **Chiong W**, Moss R, Worrell GA, Rao VR, 
+            Goldenholz DM."
+  title: "Guidelines for conducting ethical artificial intelligence research in 
+          neurology: A systematic approach for clinicians and researchers."
   details: "Neurology. 2021; 97(13):632–640" 
   year: 2021
   image: pubs_2021_Guidelines_for_Conducting_Ethical_Artificial_Intelligence.jpg 
@@ -421,7 +451,10 @@
   opendata: 
   openmaterials: 
 
-- authors: "**Chiong W**, Tsou AY, Simmons Z, Bonnie RJ, Russell JA, on behalf of the Ethics, Law, and Humanities Committee (a joint committee of the American Academy of Neurology, American Neurological Association, and Child Neurology Society)"
+- authors: "**Chiong W**, Tsou AY, Simmons Z, Bonnie RJ, Russell JA, on behalf 
+            of the Ethics, Law, and Humanities Committee (a joint committee of 
+            the American Academy of Neurology, American Neurological Association, 
+            and Child Neurology Society)."
   title: "Ethical considerations in dementia diagnosis and care: AAN position statement."
   details: "Neurology. 2021; 97(2):80-89." 
   year: 2021
@@ -441,8 +474,10 @@
   opendata: 
   openmaterials: 
 
-- authors: "Hrincu V, McDonald PJ, Connolly MB, Harrison MJ, Ibrahim GM, Naftel RP, **Chiong W**, Alam A, Ribary U, Illes J."
-  title: "Choice and trade-offs: parent decision making for neurotechnologies for pediatric drug-resistant epilepsy."
+- authors: "Hrincu V, McDonald PJ, Connolly MB, Harrison MJ, Ibrahim GM, 
+            Naftel RP, **Chiong W**, Alam A, Ribary U, Illes J."
+  title: "Choice and trade-offs: parent decision making for neurotechnologies 
+          for pediatric drug-resistant epilepsy."
   details: "Journal of Child Neurology. 2021; 36(11):943-949." 
   year: 2021
   image: pubs_2021_Child-Epilepsy.jpg
@@ -461,7 +496,9 @@
   opendata: 
   openmaterials: 
 
-- authors: "**Lindbergh CA**, **Romero-Kornblum H**, Weiner-Light S, **Young JC**, Fonseca C, You M, Wolf A, Staffaroni AM, Daly R, Jeste DV, Kramer JH, **Chiong W**, the Hillblom Aging Network."
+- authors: "**Lindbergh CA**, **Romero-Kornblum H**, Weiner-Light S, **Young JC**, 
+            Fonseca C, You M, Wolf A, Staffaroni AM, Daly R, Jeste DV, Kramer JH, 
+            **Chiong W**, the Hillblom Aging Network."
   title: "Wisdom and fluid intelligence are dissociable in healthy older adults."
   details: "International Psychogeriatrics. 2022; 34(3):229–239." 
   year: 2022
@@ -501,8 +538,10 @@
   opendata: 
   openmaterials: 
 
-- authors: "Mergenthaler JV, **Chiong W**, Dohan D, Feler J, **Lechner CR**, Starr PA, Arias JJ."
-  title: "A qualitative analysis of ethical perspectives on recruitment and consent for human intracranial electrophysiology studies."
+- authors: "Mergenthaler JV, **Chiong W**, Dohan D, Feler J, **Lechner CR**, 
+            Starr PA, Arias JJ."
+  title: "A qualitative analysis of ethical perspectives on recruitment and 
+          consent for human intracranial electrophysiology studies."
   details: "AJOB Neuroscience. 2021; 12(1):57-67."
   year: 2021
   image: pubs_2021_Quant_ethical_electrophysiology.png
@@ -542,7 +581,8 @@
   openmaterials:
 
 - authors: "Goss AL, **Chiong W**, Hemphill JC."
-  title: "Neurologists' duties in planning for triage of critical care resources in the COVID-19 pandemic."
+  title: "Neurologists' duties in planning for triage of critical care resources 
+          in the COVID-19 pandemic."
   details: "Annals of Neurology. 2020; 88(3):431-432." 
   year: 2020
   image: pubs_2020_covid.jpg
@@ -581,8 +621,10 @@
   opendata:
   openmaterials:
 
-- authors: "**Zahir A**, Staffaroni AM, Wickham RE, **Quinn CM**, Sapozhnikova A, Seidman J, **Chiong W**."
-  title: 'Caregiver “objective attitude” toward patients with neurodegenerative disease: Consequences for caregiver strain and relationship closeness.'
+- authors: "**Zahir A**, Staffaroni AM, Wickham RE, **Quinn CM**, Sapozhnikova A, 
+            Seidman J, **Chiong W**."
+  title: 'Caregiver “objective attitude” toward patients with neurodegenerative 
+          disease: Consequences for caregiver strain and relationship closeness.'
   details: "Aging & Mental Health. 2021; 25(9):1709–1715."
   year: 2021
   image: pubs_2020_objective-attitude.png
@@ -600,7 +642,9 @@
   opendata:
   openmaterials:
 
-- authors: "Bernstein A, Merrilees J, Dulaney S, Harrison KL, **Chiong W**, Ong P, **Heunis J**, Choi J, Walker R, Feuer JE, Lee K, Dohan D, Bonasera SJ, Miller BL, Possin KL."
+- authors: "Bernstein A, Merrilees J, Dulaney S, Harrison KL, **Chiong W**, 
+            Ong P, **Heunis J**, Choi J, Walker R, Feuer JE, Lee K, Dohan D, 
+            Bonasera SJ, Miller BL, Possin KL."
   title: "Using care navigation to address caregiver burden in dementia: A qualitative case study analysis."
   details: "Alzheimer's & Dementia. 2020; 6(1):e12010."
   year: 2020
@@ -620,8 +664,10 @@
   opendata:
   openmaterials:
   
-- authors: "**Beagle AJ**, **Zahir A**, **Borzello M**, Kayser AS, Hsu M, Miller BL, Kramer JH, **Chiong W**."
-  title: "Amount and delay insensitivity during intertemporal choice in three neurodegenerative diseases reflects dorsomedial prefrontal atrophy."
+- authors: "**Beagle AJ**, **Zahir A**, **Borzello M**, Kayser AS, Hsu M, 
+            Miller BL, Kramer JH, **Chiong W**."
+  title: "Amount and delay insensitivity during intertemporal choice in three 
+          neurodegenerative diseases reflects dorsomedial prefrontal atrophy."
   details: "Cortex. 2020; 124:54-65." 
   year: 2020
   image: pubs_2019_25aIRP.png
@@ -641,7 +687,9 @@
   openmaterials: https://osf.io/x2v9z/
 
 - authors: "**Haeusermann T**, **Fong KC**, **Lechner CR**."
-  title: "Book Review: Lynch, JA. The Origins of Bioethics: Remembering When Medicine Went Wrong. Michigan State University Press. 2019. 228pp. ISBN 9781611863413."
+  title: "Book Review: Lynch, JA. The Origins of Bioethics: Remembering When 
+          Medicine Went Wrong. Michigan State University Press. 2019. 228pp. 
+          ISBN 9781611863413."
   details: "Sociology of Health & Illness. 2020; 42(4):962-963."
   year: 2020
   image: pubs_2020_bioethics.jpg
@@ -661,7 +709,8 @@
   openmaterials:
 
 - authors: " **Chiong W**, **Haeusermann T**."
-  title: "Commentary 1: Researcher integrity and contrasting obligations in interdisciplinary research."
+  title: "Commentary 1: Researcher integrity and contrasting obligations in 
+          interdisciplinary research."
   details: "Journal of Empirical Research on Human Research Ethics. 2019; 14(5):487-489."
   year: 2019
   image: pubs_2019_teamwork.jpg
@@ -680,8 +729,12 @@
   opendata:
   openmaterials:
 
-- authors: "Hendriks S, Grady C, Ramos KM, **Chiong W**, Fins JJ, Ford P, Goering S, Greely HT, Hutchison K, Kelly ML, Kim SYH, Klein E, Lisanby SH, Mayberg H, Maslen H, Miller FG, Rommelfanger K, Sheth SA, Wexler A."
-  title: "Ethical challenges of risk, informed consent, and posttrial responsibilities in human research with neural devices: A review."
+- authors: "Hendriks S, Grady C, Ramos KM, **Chiong W**, Fins JJ, Ford P, 
+            Goering S, Greely HT, Hutchison K, Kelly ML, Kim SYH, Klein E, 
+            Lisanby SH, Mayberg H, Maslen H, Miller FG, Rommelfanger K, Sheth SA, 
+            Wexler A."
+  title: "Ethical challenges of risk, informed consent, and posttrial 
+          responsibilities in human research with neural devices: A review."
   details: "JAMA Neurology. 2019; 76(12):1506-1514."
   year: 2019
   image: pubs_2019_hendriks.png
@@ -700,8 +753,13 @@
   opendata:
   openmaterials:
 
-- authors: "Possin KL, Merrilees JJ, Dulaney S, Bonasera SJ, **Chiong W**, Lee KP, Hooper SM, Allen IE, Braley T, Bernstein A, Rosa TD, Harrison K, Begert-Hellings H, Kornak J, Kahn JG, Naasan G, Lanata S, Clark AM, Chodos A, Gearhart R, Ritchie C, Miller BL."
-  title: "Effect of collaborative dementia care via telephone and internet on quality of life, caregiver well-being, and health care use: The Care Ecosystem randomized clinical trial."
+- authors: "Possin KL, Merrilees JJ, Dulaney S, Bonasera SJ, **Chiong W**, Lee KP, 
+            Hooper SM, Allen IE, Braley T, Bernstein A, Rosa TD, Harrison K, 
+            Begert-Hellings H, Kornak J, Kahn JG, Naasan G, Lanata S, Clark AM, 
+            Chodos A, Gearhart R, Ritchie C, Miller BL."
+  title: "Effect of collaborative dementia care via telephone and internet on 
+          quality of life, caregiver well-being, and health care use: The Care 
+          Ecosystem randomized clinical trial."
   details: "JAMA Internal Medicine. 2019; 179(12):1658-1667."
   year: 2019
   image: pubs_2019_map_resized.jpg
@@ -721,7 +779,8 @@
   openmaterials:
 
 - authors: "**Quinn CM**, **Borzello M**, **Zahir A**, Kramer JH, **Chiong W**." 
-  title: "COMT Val158Met polymorphism associated with greater susceptibility to framing effects in healthy older adults."
+  title: "COMT Val158Met polymorphism associated with greater susceptibility to 
+          framing effects in healthy older adults."
   details: "bioRxiv. 2019. [unrefereed preprint]"
   year: 2019
   image: pubs_2019_comt_framing.png
@@ -760,7 +819,8 @@
   opendata:
   openmaterials:
 
-- authors: "Rosa TD, Possin KL, Bernstein A, Merrilees J, Dulaney S, Matuoka J, Lee KP, **Chiong W**, Bonasera SJ, Harrison KL, Kahn JG."
+- authors: "Rosa TD, Possin KL, Bernstein A, Merrilees J, Dulaney S, Matuoka J, 
+            Lee KP, **Chiong W**, Bonasera SJ, Harrison KL, Kahn JG."
   title: "Variations in costs of a collaborative care model for dementia."
   details: "Journal of the American Geriatrics Society. 2019; 67(12):2628-2633."
   year: 2019
@@ -778,7 +838,9 @@
   opendata:
   openmaterials:
 
-- authors: "Bernstein A, Harrison KL, Dulaney S, Merrilees J, Bowhay A, **Heunis J**, Choi J, Feuer JE, Clark AM, **Chiong W**, Lee K, Braley TL, Bonasera SJ, Ritchie C, Dohan D, Miller BL, Possin KL."
+- authors: "Bernstein A, Harrison KL, Dulaney S, Merrilees J, Bowhay A, **Heunis J**, 
+            Choi J, Feuer JE, Clark AM, **Chiong W**, Lee K, Braley TL, Bonasera SJ, 
+            Ritchie C, Dohan D, Miller BL, Possin KL."
   title: "The role of care navigators working with people with dementia and their caregivers."
   details: "Journal of Alzheimer's Disease. 2019; 71(1):45-55."
   year: 2019
@@ -796,7 +858,8 @@
   opendata:
   openmaterials:
   
-- authors: "Guterman EL, Allen IE, Josephson SA, Merrilees JJ, Dulaney S, **Chiong W**, Lee K, Bonasera SJ, Miller BL, Possin KL."
+- authors: "Guterman EL, Allen IE, Josephson SA, Merrilees JJ, Dulaney S, 
+            **Chiong W**, Lee K, Bonasera SJ, Miller BL, Possin KL."
   title: "Association between caregiver depression and emergency department use among patients with dementia."
   details: "JAMA Neurology. 2019; 76(10):1166-1173."
   year: 2019
@@ -815,7 +878,8 @@
   opendata:
   openmaterials:
 
-- authors: "Chen Y, Wilson L, Kornak J, Dudley RA, Merrilees J, Bonasera SJ, Byrne CM, Lee K, **Chiong W**, Miller BL, Possin KL."
+- authors: "Chen Y, Wilson L, Kornak J, Dudley RA, Merrilees J, Bonasera SJ, 
+            Byrne CM, Lee K, **Chiong W**, Miller BL, Possin KL."
   title: "The costs of dementia subtypes to California Medicare fee-for-service, 2015."
   details: "Alzheimer's & Dementia. 2019; 15(7): 899-906."
   year: 2019
@@ -833,8 +897,10 @@
   opendata:
   openmaterials:
   
-- authors: "Thomas ML, Martin AS, Eyler L, Lee EE, Macagno E, Devereaux M, **Chiong W**, Jeste DV."
-  title: "Individual differences in level of wisdom are associated with brain activation during a moral decision‐making task."
+- authors: "Thomas ML, Martin AS, Eyler L, Lee EE, Macagno E, Devereaux M, 
+            **Chiong W**, Jeste DV."
+  title: "Individual differences in level of wisdom are associated with brain 
+          activation during a moral decision‐making task."
   details: "Brain and Behavior. 2019; 9(6):e01302."
   year: 2019
   image: pubs_2019_wisdom_resized.jpg
@@ -852,8 +918,12 @@
   opendata:
   openmaterials:
 
-- authors: "Butler PM, **Chiong W**, Perry DC, Miller ZA, Gennatas ED, Brown JA, Pasquini L, Karydas A, Dokuru D, Coppola G, Sturm VE, Boxer AL, Gorno-Tempini ML, Rosen HJ, Kramer JH, Miller BL, Seeley WW."
-  title: "Dopamine receptor D4 (DRD4) polymorphisms with reduced functional potency intensify atrophy in syndrome-specific sites of frontotemporal dementia."
+- authors: "Butler PM, **Chiong W**, Perry DC, Miller ZA, Gennatas ED, Brown JA, 
+            Pasquini L, Karydas A, Dokuru D, Coppola G, Sturm VE, Boxer AL, 
+            Gorno-Tempini ML, Rosen HJ, Kramer JH, Miller BL, Seeley WW."
+  title: "Dopamine receptor D4 (DRD4) polymorphisms with reduced functional 
+          potency intensify atrophy in syndrome-specific sites of frontotemporal 
+          dementia."
   details: "NeuroImage. Clinical. 2019; 23:101822."
   year: 2019
   image: pubs_2019_dopamine.jpg
@@ -865,7 +935,8 @@
   filetype: 
   github:
   
-- authors: "Ramos KM, Grady C, Greely HT, **Chiong W**, Eberwine J, Farahany NA, Johnson LS, Hyman SE, Rommelfanger KS, Serrano EE, Churchill JD, Gordon JA, Koroshetz WJ."
+- authors: "Ramos KM, Grady C, Greely HT, **Chiong W**, Eberwine J, Farahany NA, 
+            Johnson LS, Hyman SE, Rommelfanger KS, Serrano EE, Churchill JD, Gordon JA, Koroshetz WJ."
   title: "The NIH BRAIN initiative: Integrating neuroethics and neuroscience."
   details: "Neuron. 2019; 101(3):394-398."
   year: 2019
@@ -878,7 +949,8 @@
   filetype: 
   github:
 
-- authors: "Greely HT, Grady C, Ramos KM, **Chiong W**, Eberwine J, Farahany NA, Johnson LS, Hyman BT, Hyman SE, Rommelfanger KS, Serrano EE."
+- authors: "Greely HT, Grady C, Ramos KM, **Chiong W**, Eberwine J, Farahany NA, 
+            Johnson LS, Hyman BT, Hyman SE, Rommelfanger KS, Serrano EE."
   title: "Neuroethics guiding principles for the NIH BRAIN initiative."
   details: "Journal of Neuroscience. 2018; 38(50):10586-10588."
   year: 2018
@@ -891,7 +963,9 @@
   filetype: 
   github:
   
-- authors: "Merrilees JJ, Bernstein A, Dulaney S, **Heunis J**, Walker R, Rah E, Choi J, Gawlas K, Carroll S, Ong P, Feuer J, Braley T, Clark AM, Lee K, **Chiong W**, Bonasera SJ, Miller BL, Possin KL."
+- authors: "Merrilees JJ, Bernstein A, Dulaney S, **Heunis J**, Walker R, Rah E, 
+            Choi J, Gawlas K, Carroll S, Ong P, Feuer J, Braley T, Clark AM, 
+            Lee K, **Chiong W**, Bonasera SJ, Miller BL, Possin KL."
   title: "The Care Ecosystem: Promoting self-efficacy among dementia family caregivers."
   details: "Dementia. 2020; 19(6)1955-1973."
   year: 2020
