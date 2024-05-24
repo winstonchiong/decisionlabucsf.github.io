@@ -1,6 +1,27 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "**Hoy CW**, **Chiong W**."
+  title: "The ethical landscape of prodromal Parkinson disease: Considerations 
+          for shared decision-making and health equity."
+  details: "Neurology. 2024; 102(11):e209522." 
+  year: 2024
+  image: pubs_2024_prodromal-pd.jpg
+  imagealt: photo by Ron Bodoh on Wikimedia Commons
+  pmid: 38759135
+  pmcid: 
+  openaccess: 
+  doi: 10.1212/WNL.0000000000209522
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered: 
+  opendata: 
+  openmaterials: 
+
 - authors: "**Ngo S**, **Jackson AJ**, **Manivannan M**, **Young JC**, 
             **Leggins B**, **Cryns NG**, **Tran ST**, Grant HE, Knudtson MV, 
             **Chiong W**."
