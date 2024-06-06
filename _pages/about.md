@@ -1,8 +1,8 @@
 ---
 layout: about
 permalink: /
-title: Decision Lab @ UCSF
-description: neuroethics + decision neuroscience
+title: Tulane AI
+description: TBD
 
 profile: 
   align: right
