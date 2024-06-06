@@ -1,12 +1,11 @@
 # Site settings
-title: Decision Lab @ UCSF (Chiong lab)
-name: Decision Lab at UCSF (Chiong lab)
-email: decisionlab@ucsf.edu
+title: Tulane AI Lab
+name: Tulane AI Lab
+email: nmattei@tulane.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Neuroethics + Decision Neuroscience. Research group headed by Winston Chiong, MD PhD in the 
-  University of California, San Francisco Weill Institute for Neurosciences, Memory and Aging Center.
+  AI Lab at Tulane University
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://decisionlab.ucsf.edu
+url: tu-dai.github.io
 last_updated: # leave blank if you don't want to display last updated
 #twitter_username: jekyllrb
 #github_username:  jekyll
@@ -14,8 +13,8 @@ last_updated: # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 # News
 # -----------------------------------------------------------------------------
-blog_name: Decision Lab @ UCSF
-blog_description: neuroethics + decision neuroscience
+blog_name: Tulane AI Lab
+blog_description: AI @ Tulane
 
 # Pagination
 paginate: 4
