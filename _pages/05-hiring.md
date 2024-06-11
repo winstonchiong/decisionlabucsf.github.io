@@ -54,34 +54,3 @@ reviewed on an ongoing basis until the position is filled. If you require reason
 accommodations to participate in the evaluation process, please contact Disability
 Management Services (DMS) at (415) 476-2621.
 
----
-
-<div id="ra-decision" class="project-container">
-  <img src="{{ site.baseurl }}/assets/img/hiring_ra-decision.jpg" alt="Background image for decision neuroscience RA position.  Photo by Victoriano Izquierdo on Unsplash." style="width: 100%;">
-  <div class="project-title" style="color: #00004c">Research assistant in decision neuroscience</div>
-</div>
-
-Under the supervision of Principal Investigator [Winston Chiong, MD PhD]({{ '/team/index.html#Winston-Chiong' | prepend: site.baseurl | prepend: site.url }}), the Assistant Clinical Research Coordinator (Assistant CRC) will perform entry-level duties related to the support and coordination of clinical studies on decision-making in neurologic disease, and may receive training and development to prepare and advance for journey-level work at the next level within the series.
-
-May help prepare protocols for study initiation; help design flow sheets, data forms and source documents; gather and interpret data regarding clinical trial subjects; may apply understanding of inclusion/exclusion eligibility criteria for protocols; help recruit, enroll, register, schedule and retain study subjects; assist research personnel to keep patients on study schedules; complete study forms to submit to sponsors and/or appropriate agencies; collect, enter and clean data into study databases, maintaining data quality; assist with data analysis; assist with preparation of reports and tables; attend team meetings; and perform other duties as assigned. 
-
-### Required qualifications
-- HS graduation and sufficient experience and demonstrated skills to successfully perform the assigned duties and responsibilities.
-- Excellent verbal and written communications and presentation skills; excellent organizational skills; and excellent interpersonal skills to work effectively in a diverse team.
-- Attention to details.
-- Proficiency with Microsoft Word, PowerPoint, and Windows.
-- Excellent analytical and problem-solving skills.
-- Ability to work effectively in a fast-paced, team-based environment; project management and coordination skills; ability to prioritize tasks and meet multiple deadlines on concurrent projects.
-- Ability to establish cooperative working relationships with patients, co-workers, & physicians.
-
-### Preferred qualifications
-- Prior coursework in neuroscience
-- Comfort in working with people who have neurodegenerative disease and their caregivers.
-- Prior experience in statistical computing with R.
-- Demonstrated proficiency with medical terminology.
-- Interest and/or working knowledge of neuroanatomy and of cognitive neuroscience research techniques.
-- Proven ability to work independently and keen attention to detail.
-
-### How to apply
-Please apply at [https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=6495&siteid=5861&PageType=JobDetails&jobid=35259176](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=6495&siteid=5861&PageType=JobDetails&jobid=3525917){:target="_blank"}
-
