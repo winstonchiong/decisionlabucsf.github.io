@@ -76,9 +76,9 @@
   pubmed_name: "Romero-Kornblum H"
     
 - name: Cailin Lechner
-  degrees: 
+  degrees: JD
   previously: Research Coordinator
-  now: Law Student, UC Davis School of Law
+  now: Legal Advocate, Bay Area Legal Aid
   email: 
   website: 
   pubmed_name: "Lechner CR"
@@ -177,3 +177,30 @@
   twitter:
   website:
   pubmed_name: "Fong KC"
+
+- name: Tobias Haeusermann
+  degrees: PhD
+  previously: Postdoc
+  now: Independent Researcher
+  email:
+  twitter:
+  website:
+  pubmed_name: "Haeusermann T"
+
+- name: Rea Antoniou
+  degrees: MS
+  previously: Associate Specialist
+  now: Graduate Student, Northern Arizona University College of Social and Behavioral Sciences
+  email:
+  twitter:
+  website:
+  pubmed_name: "Antoniou R"
+
+- name: Emily Yang Liu
+  degrees: MD
+  previously: Epilepsy Fellow
+  now: Assistant Professor, University of Colorado Department of Neurology
+  email:
+  twitter:
+  website:
+  pubmed_name: "Liu EY"
