@@ -45,7 +45,7 @@ U01NS098971, and R01AG056715 from the [National Institutes of Health](http://www
 
 ## contact
 Winston Chiong, MD PhD  
-Associate Professor in Residence  
+Professor in Residence  
 UCSF Memory and Aging Center  
 675 Nelson Rising Lane, Suite 190F  
 San Francisco CA 94158  
