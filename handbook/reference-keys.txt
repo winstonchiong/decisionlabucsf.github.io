@@ -5,7 +5,8 @@ slack
 lab-website
 private-github-repo
 r-drive-rgroupschiong
-lava-and-lavaquery
+lava-and-lava-query-5
+macipedia
 open-science-framework
 deprecateddiscouraged-tools
 intro-to-the-memory-and-aging-center
