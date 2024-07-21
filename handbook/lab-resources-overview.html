@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2024-07-19" />
+<meta name="date" content="2024-07-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,7 +55,7 @@
 
 <style type="text/css">
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -347,7 +347,8 @@ documents. So: we use the R: drive for large datasets, especially those
 including personal identifiers, and other useful resources that are too large to
 put in GitHub. (Quick personal note: I’m often working from my laptop and home
 computer, on which I only mount the R: drive intermittently–so if you need me
-to look at something, it will often be a lot faster if it lives in GitHub or is
+to look at something that doesn’t involve PHI, it will often be a lot faster if
+it lives in GitHub or is
 temporarily available in Slack.) For instructions on how to mount the R: drive
 on your computer, see the Technology section of
 <a href="https://wiki.library.ucsf.edu/display/MACipedia/MACipedia+Home" target="_blank">MACipedia</a>.</p>
@@ -403,8 +404,8 @@ from the front page of LAVA Query 5 (under Data Objects).</p>
 <div id="macipedia" class="section level2 hasAnchor" number="3.6">
 <h2><span class="header-section-number">3.6</span> <a href="http://tiny.ucsf.edu/MACipedia" target="_blank">MACipedia</a><a href="lab-resources-overview.html#macipedia" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>As referenced a few places above already, MACipedia has a wealth of information
-on training and documentation for the MAC. Worth exploring, though it’s a bit of
-a maze to find what you are looking for.</p>
+on training and documentation for the MAC. Worth exploring, though can be a bit
+of a maze to find what you are looking for.</p>
 </div>
 <div id="open-science-framework" class="section level2 hasAnchor" number="3.7">
 <h2><span class="header-section-number">3.7</span> <a href="https://osf.io/8chqd/" target="_blank">Open Science Framework</a><a href="lab-resources-overview.html#open-science-framework" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -418,14 +419,15 @@ authored by (and credited to) other lab members.</p>
 <p>Organization in OSF is like a Russian doll, with components nested inside of
 larger components nested inside of still larger components. At the top level is
 the user’s account, which can contain a number of different projects. Inside
-each project could be a number of smaller subprojects, which could each could
-represent work leading up to a planned publication:</p>
+each project could be a number of smaller subprojects, which each might
+represent some piece of the larger project such as the work intended to result
+in a particular planned publication:</p>
 <p><img src="img/handbook_03_resources-01-osf.png" /></p>
 <p>A key distinction in OSF is between what’s “public,” meaning anyone in the world can see it,
 and what’s “private.” For many projects, this might proceed in different stages,
 where things start out as private and we gradually open them up to public. It’s
-useful to note that in OSF, a private components can have public subcomponents
-wthin it, but a public component can’t have private subcomponents. In this
+useful to note that in OSF, a private component can have public subcomponents
+inside of it, but a public component can’t have private subcomponents. In this
 schematic, there’s a private “project 1” that has three components corresponding
 to three planned publications that are in different stages of completion. For
 manuscript 1, it’s already complete and has been submitted to a journal. As the
@@ -442,7 +444,7 @@ website: Neurotech (in “Population survey panel studies”), DMA (“Decision-
 in Alzheimer’s disease and related dementias”) and BRANCH (“Online studies of
 decision-making in healthy aging”). (We preregistered GBD before we came up with
 this organization system, so the GBD projects are scattered in their own folders.)
-I’ll be creating some new Projects for our new lab projects soon.</p>
+I’ll be creating some new projects for our new 2024 grants soon.</p>
 <p>If you are writing a preregistration for the first time, consider looking at
 examples such as
 <a href="https://osf.io/h3pjx" target="_blank">Wisdom and fluid intelligence in older adults</a>
@@ -458,21 +460,27 @@ can be used to explore datasets, but usually this is best done within a proper
 statistical/analytic software package such as R, Stata or Matlab. Best estimates
 are that between 2% and 5% of Excel formulas have uncorrected coding errors, so
 if you are using a worksheet with at least 35 formulas then it probably has at
-least one error you don’t know about. Field studies have shown that almost all
-large spreadsheets have multiple errors.</p>
+least one error you don’t know about (and if you’re not particularly expert in
+using Excel, probably many more). Field studies have shown that almost all
+large spreadsheets in the corporate world have multiple errors. If capitalism
+supposedly works by efficiently utilizing information to optimally allocate
+resources where they can be best used, then someone please explain
+to me why businesses still install this program on their employees’ desktops.</p>
 <p>In 2012, JPMorgan Chase lost $6.2 billion by relying on a risk model coded in
-Excel. As <a href="https://baselinescenario.com/2013/02/09/the-importance-of-excel/" target="_blank">a commentator</a>
-noted about weaknesses of reliance on Excel, “There is no way to trace
+Excel that included a simple formula calculation error. As
+<a href="https://baselinescenario.com/2013/02/09/the-importance-of-excel/" target="_blank">a commentator</a>
+noted about weaknesses of reliance on Excel, <em>“There is no way to trace
 where your data come from, there’s no audit trail (so you can overtype numbers
-and not know it), and there’s no easy way to test spreadsheets.” This is a good
-guide to what we should want our systems to do. We should be able to trace where
-the data come from that generate our results. We should have a record of changes
-that are made to a data file, so we can diagnose if errors are introduced
-accidentally. (In addition, we probably want a system in which it’s not so easy
-to accidentally make changes; if you’re just viewing a file and you
-accidentally touch your keyboard, this shouldn’t overwrite your data.) And we
-should have systems in which it’s easy to test and find out if somethings has
-gone wrong.</p>
+and not know it), and there’s no easy way to test spreadsheets.”</em> This statement
+provides a decent outline of software requirements for a minimally reliable data
+system. We should be able to trace where the data that generate our results came
+from. We should have a record of changes that are made to a file, so we can
+diagnose if errors are introduced accidentally. (In addition, we need systems in
+which it’s not so easy to accidentally make changes, such as by distinguishing
+between viewing and editing; you ought to be able to view a record without
+worrying that accidentally touching your keyboard will overwrite your data.) And
+we should have systems in which it’s easy to validate and find out if something
+has gone wrong.</p>
 <p>In the past, we’ve used Excel sometimes to create or input data (e.g., for
 tracking participants) that is then imported to stats packages. In the coming
 year, we’re going to work on eliminating this since the potential for introduced

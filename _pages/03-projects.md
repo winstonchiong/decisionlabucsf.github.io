@@ -5,6 +5,14 @@ permalink: /projects/
 description: 
 ---
 
+<h2>new projects (2024)</h2>
+
+Coming soon...
+
+---
+
+<h2>older projects</h2>
+
 <div id="gbd" class="project-container" style="margin-top: 0px">
   <img src="{{ site.baseurl }}/assets/img/projects-gbd.jpg" alt="Background image for Genes, Brains and Decisions. Photo by Robbin Huang on Unsplash." style="width: 100%;">
   <div class="project-title" style="color: #052049">Genes, Brains and Decisions</div>
