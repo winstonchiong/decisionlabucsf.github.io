@@ -127,10 +127,10 @@
 - name: Clayton Young
   degrees:
   previously: Research Coordinator
-  now: Data Engineer, UCSF Memory and Aging Center
+  now: Data Engineer, Radiata
   email:
   twitter:
-  website:
+  website: https://radiata.ai/
   pubmed_name: "Young JC"
 
 - name: Sheila Tran
@@ -166,7 +166,7 @@
   now: Assistant Professor of Neurology, Boston University
   email:
   twitter:
-  website:
+  website: https://www.bumc.bu.edu/neurology/profile/steven-lenio-md/
   pubmed_name: "Lenio S"
 
 - name: Celeste Fong
@@ -175,7 +175,7 @@
   now: Clinical Ethics Fellow, Sutter Health
   email:
   twitter:
-  website:
+  website: https://www.sutterhealth.org/services/bioethics/bioethics-team
   pubmed_name: "Fong KC"
 
 - name: Tobias Haeusermann
@@ -204,3 +204,21 @@
   twitter:
   website:
   pubmed_name: "Liu EY"
+
+- name: Narayan Sankaran
+  degrees: PhD
+  previously: Postdoc
+  now: Assistant Professor, University of San Francisco Department of Neuroscience
+  email:
+  twitter:
+  website: https://www.usfca.edu/faculty/narayan-sankaran
+  pubmed_name: "Sankaran N"
+
+- name: Brandon Leggins
+  degrees: 
+  previously: Research Coordinator
+  now: Graduate Student, UCLA Fielding School of Public Health
+  email:
+  twitter:
+  website: 
+  pubmed_name: "Leggins B"

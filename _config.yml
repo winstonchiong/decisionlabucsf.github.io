@@ -18,7 +18,7 @@ blog_name: Decision Lab @ UCSF
 blog_description: neuroethics + decision neuroscience
 
 # Pagination
-paginate: 4
+paginate: 6
 permalink: /news/:year/:title/
 paginate_path: "news/page:num"
 
@@ -50,7 +50,7 @@ collections:
     output: true
     permalink: /pastsem/:path/
 
-news_limit: 5
+news_limit: 7
 
 
 # Build settings

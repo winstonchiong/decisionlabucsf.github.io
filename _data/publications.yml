@@ -1,6 +1,30 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "**Chen BB**, **Haeusermann T**, **Dada A**, Hamilton RH, James JE, 
+           **Fong KC**, Dohan D, **Chiong W**."
+  title: "Race-ethnicity, rurality, and age in prospective preferences and 
+         concerns regarding closed-loop implanted neural devices."
+  details: "Journal of Neuropsychiatry and Clinical Neurosciences. 2024 
+           Aug 22:appineuropsych20230190. Online ahead of print." 
+  year: 2024
+  image: pubs_2024_prospective-closed-loop.png
+  imagealt: 
+  pmid: 39169740
+  pmcid: 
+  openaccess: 
+  doi: 10.1176/appi.neuropsych.20230190
+  file: 
+  filetype: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  contentshare: 
+  preregistered: https://osf.io/ej9h2
+  opendata: https://osf.io/3t2p6
+  openmaterials: https://osf.io/3t2p6
+
+
 - authors: "**Hoy CW**, **Chiong W**."
   title: "The ethical landscape of prodromal Parkinson disease: Considerations 
           for shared decision-making and health equity."
