@@ -46,13 +46,13 @@ U01NS098971, and R01AG056715 from the [National Institutes of Health](http://www
 ## contact
 Winston Chiong, MD PhD  
 Professor in Residence  
+Mary Oakley Foundation Professor of Neuroethics
+
 UCSF Memory and Aging Center  
 675 Nelson Rising Lane, Suite 190F  
 San Francisco CA 94158  
 
 <i class="fa fa-envelope"></i> *decisionlab (at) ucsf.edu*
-
-415-502-7326
 
 ---
 

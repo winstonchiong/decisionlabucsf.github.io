@@ -20,7 +20,7 @@
   <div class="wrapper">
 
     {% if page.layout != "about" %}
-    <a class="site-title" href="{{ site.baseurl | prepend: site.url }}/"><img style="display: inline-block; vertical-align: middle; padding-right: 2px; margin-bottom: 8px" src="{{ 'rbrain4-45.png' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">Decision Lab</a>
+    <a class="site-title" href="{{ site.baseurl | prepend: site.url }}/"><img style="display: inline-block; vertical-align: middle; padding-right: 2px; margin-bottom: 8px" src="{{ 'rbrain4-45.png' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="Decision Lab logo, a rainbow-colored brain">Decision Lab</a>
     
     {% endif %}
 
@@ -35,7 +35,7 @@
 
       <div class="trigger">
         <!-- About -->
-        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/"><i class="fas fa-home"></i></a>
+        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/"><i class="fas fa-home" title="about"></i></a>
 
         <!-- News -->
         <a class="page-link" href="{{ '/news/' | prepend: site.baseurl | prepend: site.url }}">news</a>
