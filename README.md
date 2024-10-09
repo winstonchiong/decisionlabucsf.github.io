@@ -149,24 +149,31 @@ new article in the right place. Use the Vancouver-formatted text file that you
 downloaded to your computer to fill out these data entries, roughly matching the 
 format of the existing entries, e.g.:
 ```
-- authors: "**Chiong W**, Kim AS, **Huang IA**, Farahany NA, Josephson SA."
-  title: "Testing the presumption of consent to emergency treatment for acute ischemic stroke."
-  details: "JAMA. 2014; 311(16):1689-91."
-  year: 2014
-  image: pubs_2014_testingpresumption_resized.png
-  pmid: 24756520
-  pmcid: PMC4126238
-  openaccess: https://jamanetwork.com/journals/jama/fullarticle/1861784
-  doi: 10.1001/jama.2014.3302
-  file:
-  filetype:
+- authors: "**Chen BB**, **Haeusermann T**, **Dada A**, Hamilton RH, James JE, 
+           **Fong KC**, Dohan D, **Chiong W**."
+  title: "Race-ethnicity, rurality, and age in prospective preferences and 
+         concerns regarding closed-loop implanted neural devices."
+  details: "Journal of Neuropsychiatry and Clinical Neurosciences. 2024 
+           Aug 22:appineuropsych20230190. Online ahead of print." 
+  year: 2024
+  image: pubs_2024_prospective-closed-loop.png
+  imagealt: "Figure 1 of paper: Survey Weighted Proportions of US Adults' 
+            Preferences and Perceptions Regarding Closed-Loop Brain Implants."
+  imagecredit:
+  pmid: 39169740
+  pmcid: 
+  openaccess: 
+  doi: 10.1176/appi.neuropsych.20230190
+  file: 
+  filetype: 
   github:
   biorxiv:
-  psyarxiv:
-  contentshare:
-  preregistered: https://osf.io/ny3je/
-  opendata: https://osf.io/m8dtk/
-  openmaterials: https://osf.io/m8dtk/
+  psyarxiv: 
+  contentshare: 
+  preregistered: https://osf.io/ej9h2
+  opendata: https://osf.io/3t2p6
+  openmaterials: https://osf.io/3t2p6
+
 
 ```
 In `authors: ` use double asterisks (`**Name**`) to highlight lab members' 
@@ -178,12 +185,24 @@ out "The" at the beginning of journal
 titles, e.g. "~~The~~ Journal of XYZ." After `image: `, enter the name of the 
 publication image you uploaded to 
 [/assets/img/](https://github.com/decisionlabucsf/decisionlabucsf.github.io/tree/master/assets/img) 
-in the previous step. Add the "pmid" (the PMID or PubMed ID number, usually 9 
+in the previous step. Relatedly, `imagealt: ` is for a brief description of the 
+image to be used by screen readers to make the page more accessible to visually 
+impaired people (and other people who use screen readers). If the image is a 
+figure from the paper, just give the figure number and figure title from the 
+paper, as above. If the image is a freely-usable image we've gotten from 
+somewhere to fit the theme of the paper, give a brief description of the image 
+itself. And `imagecredit: ` is for giving credit to people when we've uploaded 
+a freely-usable image we've gotten online, e.g. 
+`imagecredit: photo by Ramiro Pianorosa on Unsplash`.
+
+Add the "pmid" (the PMID or PubMed ID number, usually 9 
 digits), the "pmcid" (the PMCID or PubMed Central ID number, usually the letters 
 "PMC" followed by a string of numerals) and the DOI number from the PubMed 
 abstract for the article. 
 
-**Commit changes** when you're done, using the green button to commit the file directly to the master branch and the description box below to leave a brief description. 
+**Commit changes** when you're done, using the green button to commit the file 
+directly to the master branch and the description box below to leave a brief 
+description. 
 
 ### 4. More options: self-hosting files, preprints, open science
 In the entry above, there were several options after `doi: ` that were not all 
