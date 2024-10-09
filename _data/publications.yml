@@ -1,5 +1,6 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
-# filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
+# filetype options: "pdf - published version" 
+#                  "pdf - author manuscript version (peer-reviewed & edited)"...
 
 - authors: "**Chen BB**, **Haeusermann T**, **Dada A**, Hamilton RH, James JE, 
            **Fong KC**, Dohan D, **Chiong W**."
@@ -9,7 +10,9 @@
            Aug 22:appineuropsych20230190. Online ahead of print." 
   year: 2024
   image: pubs_2024_prospective-closed-loop.png
-  imagealt: 
+  imagealt: "Figure 1 of paper: Survey Weighted Proportions of US Adults' 
+            Preferences and Perceptions Regarding Closed-Loop Brain Implants."
+  imagecredit:
   pmid: 39169740
   pmcid: 
   openaccess: 
@@ -31,7 +34,8 @@
   details: "Neurology. 2024; 102(11):e209522." 
   year: 2024
   image: pubs_2024_prodromal-pd.jpg
-  imagealt: photo by Ron Bodoh on Wikimedia Commons
+  imagealt: 
+  imagecredit: photo by Ron Bodoh on Wikimedia Commons
   pmid: 38759135
   pmcid: PMC10700017
   openaccess: 
@@ -55,6 +59,7 @@
   year: 2024
   image: pubs_2024_real-world-mismanagement.png
   imagealt: 
+  imagecredit:
   pmid: 38669528
   pmcid: PMC11132181
   openaccess: 
@@ -74,7 +79,8 @@
   details: "Epilepsy & Behavior. 2024; 153:109707." 
   year: 2024
   image: pubs_2024_patient-experiences.jpg
-  imagealt: photo by Ramiro Pianorosa on Unsplash
+  imagealt:
+  imagecredit: photo by Ramiro Pianorosa on Unsplash
   pmid: 38430673
   pmcid:  PMC11185832
   openaccess: https://www.sciencedirect.com/science/article/pii/S152550502400088X
@@ -95,6 +101,7 @@
   year: 2024
   image: pubs_2023_rapid-novel-psychiatry-treatments.jpg
   imagealt: 
+  imagecredit: 
   pmid: 37391590
   pmcid: PMC10700644
   openaccess: https://www.nature.com/articles/s41386-023-01635-y
@@ -115,6 +122,7 @@
   year: 2023
   image: pubs_2023_speech-prosthesis.jpg
   imagealt: 
+  imagecredit: 
   pmid: 37920562
   pmcid: PMC10619159
   openaccess: https://www.frontiersin.org/articles/10.3389/fnhum.2023.1298129/full
@@ -138,6 +146,7 @@
   year: 2023
   image: pubs_2023_careeco-costs.png
   imagealt: 
+  imagecredit: 
   pmid: 37721734
   pmcid: PMC10507595
   openaccess: 
@@ -158,6 +167,7 @@
   year: 2023
   image: pubs_2023_theory-of-bioethics.jpg
   imagealt: 
+  imagecredit: 
   pmid: 
   pmcid: 
   openaccess: 
@@ -178,7 +188,8 @@
   details: "AJOB Neuroscience. 2023; 14(3):310-312." 
   year: 2023
   image: pubs_2023_core-personal-traits.jpg
-  imagealt: Image from Hartmann CJ, Chaturvedi A, Lujan JL on Wikimedia Commons
+  imagealt:
+  imagecredit: Image from Hartmann CJ, Chaturvedi A, Lujan JL on Wikimedia Commons
   pmid: 37682669
   pmcid: PMC10700017
   openaccess: 
@@ -201,6 +212,7 @@
   year: 2023
   image: pubs_2023_moral-reasoning.jpeg
   imagealt: 
+  imagecredit: 
   pmid: 37492849
   pmcid: PMC10365271
   openaccess: https://www.frontiersin.org/articles/10.3389/fneur.2023.1197213/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Neurology&id=1197213
@@ -222,6 +234,7 @@
   year: 2023
   image: pubs_2023_.utilitarian-modelsjpg.jpg
   imagealt: 
+  imagecredit: 
   pmid: 37424598
   pmcid: PMC10328838
   openaccess: https://www.sciencedirect.com/science/article/pii/S2405844023047060
@@ -242,6 +255,7 @@
   year: 2023
   image: pubs_2021_closed_loop.png
   imagealt: 
+  imagecredit: 
   pmid: 34473932
   pmcid: PMC9007331
   openaccess: https://www.tandfonline.com/doi/full/10.1080/21507740.2021.1958100
@@ -263,7 +277,8 @@
   details: "Journal of the American Geriatric Society. 2023; 71(7):2172-2183." 
   year: 2023
   image: pubs_2023_connection-experiences.jpg
-  imagealt: Photo by the Centre for Ageing Better on Unsplash
+  imagealt:
+  imagecredit: Photo by the Centre for Ageing Better on Unsplash
   pmid: 36917135
   pmcid: PMC10500033
   openaccess: 
@@ -287,6 +302,7 @@
   year: 2023
   image: pubs_2023_PIMs.png
   imagealt: 
+  imagecredit: 
   pmid: 36331050
   pmcid: PMC10156873
   openaccess: 
@@ -307,6 +323,7 @@
   year: 2022
   image: pubs_2022_carecure.jpg
   imagealt: 
+  imagecredit: 
   pmid: 
   pmcid: 
   openaccess: 
@@ -330,6 +347,7 @@
   year: 2022
   image: pubs_2022_MMfinancialactivities.png
   imagealt: 
+  imagecredit: 
   pmid: 35034900
   pmcid: PMC10938943
   openaccess: 
@@ -356,6 +374,7 @@
   year: 2022
   image: pubs_2021_aducanumab.jpg
   imagealt: 
+  imagecredit: 
   pmid: 34789544
   pmcid: 
   openaccess:
@@ -379,6 +398,7 @@
   year: 2022
   image: pubs_2022_ischemic_stroke.png
   imagealt: 
+  imagecredit: 
   pmid:  35312627
   pmcid: 
   openaccess: 
@@ -399,6 +419,7 @@
   year: 2021
   image: pubs_2021_support_decision_making.jpg
   imagealt: 
+  imagecredit: 
   pmid: 34710012
   pmcid: 
   openaccess: https://www.tandfonline.com/doi/full/10.1080/15265161.2021.1980150
@@ -419,6 +440,7 @@
   year: 2021
   image: pubs_2020_No utilitarians in a pandemic.png
   imagealt: 
+  imagecredit: 
   pmid: 34679124
   pmcid: PMC8535394
   openaccess: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259110
@@ -439,7 +461,8 @@
   details: "Journal of Alzheimer's Disease. 2021; 83(4):1767–1773." 
   year: 2021
   image: pubs_2021_Goals_of_care_conversations_and_subsequent_advance_care_planning_outcomes_for_people_with_dementia.jpg
-  imagealt: photo by Mohamed Mahmoud Hassan on publicdomainpictures.net
+  imagealt:
+  imagecredit: photo by Mohamed Mahmoud Hassan on publicdomainpictures.net
   pmid: 34459407
   pmcid: PMC9034733
   openaccess: 
@@ -459,7 +482,8 @@
   details: "JAMA Internal Medicine. 2021; 181(11):1488-1489." 
   year: 2021
   image: pubs_2021_ethics-incentives.jpg
-  imagealt: Photo by Marek Studzinski on Unsplash
+  imagealt:
+  imagecredit: Photo by Marek Studzinski on Unsplash
   pmid: 34542559
   pmcid: 
   openaccess: 
@@ -481,7 +505,8 @@
   details: "Neurology. 2021; 97(13):632–640" 
   year: 2021
   image: pubs_2021_Guidelines_for_Conducting_Ethical_Artificial_Intelligence.jpg 
-  imagealt: 
+  imagealt:
+  imagecredit:  
   pmid: 34315785
   pmcid: PMC8480407
   openaccess: 
@@ -505,6 +530,7 @@
   year: 2021
   image: pubs_2021_Ethical_Considerations_in_Dementia_Diagnosis_and_Care.jpg
   imagealt: 
+  imagecredit: 
   pmid: 34524968
   pmcid: 
   openaccess:
@@ -527,6 +553,7 @@
   year: 2021
   image: pubs_2021_Child-Epilepsy.jpg
   imagealt: 
+  imagecredit: 
   pmid: 34078159
   pmcid: PMC8458226
   openaccess: 
@@ -549,6 +576,7 @@
   year: 2022
   image: pubs_2021_Wisdom_and_fluid intelligence_are_dissociable_in healthy_older_adults-SDxPS.png
   imagealt: 
+  imagecredit: 
   pmid: 33966673  
   pmcid: PMC8578582
   openaccess: https://www.cambridge.org/core/journals/international-psychogeriatrics/article/wisdom-and-fluid-intelligence-are-dissociable-in-healthy-older-adults/43B96A4356BF006EFEF38CBBF0FF7B4F#
@@ -569,6 +597,7 @@
   year: 2021
   image: pubs_2021_neuromodulation_ethics_resized.png
   imagealt: 
+  imagecredit: 
   pmid: 33727407
   pmcid: PMC8166428
   openaccess: 
@@ -590,7 +619,8 @@
   details: "AJOB Neuroscience. 2021; 12(1):57-67."
   year: 2021
   image: pubs_2021_Quant_ethical_electrophysiology.png
-  imagealt: Photo by Thomasbg on Wikimedia Commons
+  imagealt:
+  imagecredit: Photo by Thomasbg on Wikimedia Commons
   pmid: 33528320
   pmcid: PMC8168380
   openaccess: 
@@ -611,6 +641,7 @@
   year: 2020
   image: pubs_2020_Understanding Advance Directives as a Component of Advance Care Planning.png
   imagealt: 
+  imagecredit: 
   pmid: 32757912
   pmcid: 
   openaccess:
@@ -631,7 +662,8 @@
   details: "Annals of Neurology. 2020; 88(3):431-432." 
   year: 2020
   image: pubs_2020_covid.jpg
-  imagealt: Image from https://health.mil/News/Gallery/Photos/2020/05/18/Infection-Control-2020
+  imagealt:
+  imagecredit: Image from https://health.mil/News/Gallery/Photos/2020/05/18/Infection-Control-2020
   pmid: 32686102
   pmcid: PMC7405081
   openaccess: https://onlinelibrary.wiley.com/doi/full/10.1002/ana.25852
@@ -651,7 +683,8 @@
   details: "AJOB Neuroscience. 2020; 11(3):155-166."
   year: 2020
   image: pubs_2020_window.jpg
-  imagealt: Photo by Shona Corsten on Unsplash
+  imagealt:
+  imagecredit: Photo by Shona Corsten on Unsplash
   pmid: 32716746
   pmcid: PMC7485591
   openaccess: https://www.tandfonline.com/doi/full/10.1080/21507740.2020.1778118
@@ -674,6 +707,7 @@
   year: 2021
   image: pubs_2020_objective-attitude.png
   imagealt: 
+  imagecredit: 
   pmid: 32515603
   pmcid: PMC7748409
   doi: 10.1080/13607863.2020.1771541 
@@ -694,7 +728,8 @@
   details: "Alzheimer's & Dementia. 2020; 6(1):e12010."
   year: 2020
   image: Bernstein A, Merrilees J, Dulaney S, et al - Using care navigation to address caregiver burden in dementia A qualitative case study analysis.png
-  imagealt: Image courtesy of Helen Medsger
+  imagealt:
+  imagecredit: Image courtesy of Helen Medsger
   pmid: 32377557
   pmcid: PMC7201177
   openaccess: https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/trc2.12010
@@ -717,6 +752,7 @@
   year: 2020
   image: pubs_2019_25aIRP.png
   imagealt: 
+  imagecredit: 
   pmid: 31837518
   pmcid: PMC7060812
   openaccess:
@@ -739,6 +775,7 @@
   year: 2020
   image: pubs_2020_bioethics.jpg
   imagealt: 
+  imagecredit: 
   pmid: 
   pmcid:
   openaccess:
@@ -760,6 +797,7 @@
   year: 2019
   image: pubs_2019_teamwork.jpg
   imagealt: 
+  imagecredit: 
   pmid: 31779555
   pmcid: PMC6980360
   openaccess:
@@ -784,6 +822,7 @@
   year: 2019
   image: pubs_2019_hendriks.png
   imagealt: 
+  imagecredit: 
   pmid: 31621797
   pmcid: PMC9395156
   openaccess:
@@ -809,6 +848,7 @@
   year: 2019
   image: pubs_2019_map_resized.jpg
   imagealt: 
+  imagecredit: 
   pmid: 31566651
   pmcid: PMC6777227
   openaccess: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2751946
@@ -830,6 +870,7 @@
   year: 2019
   image: pubs_2019_comt_framing.png
   imagealt: 
+  imagecredit: 
   pmid:
   pmcid: 
   openaccess: 
@@ -850,7 +891,8 @@
   details: "Handbook of Clinical Neurology. 2019; 163:391-410."
   year: 2019
   image: pubs_2019_Neurodegen_resized.jpg
-  imagealt: Image courtesy of Salvatore Spina, MD PhD
+  imagealt:
+  imagecredit: Image courtesy of Salvatore Spina, MD PhD
   pmid: 31590743
   pmcid: 
   doi: 10.1016/B978-0-12-804281-6.00021-5
@@ -890,6 +932,8 @@
   details: "Journal of Alzheimer's Disease. 2019; 71(1):45-55."
   year: 2019
   image: pubs_2019_Mahnoor_resized.png
+  imagealt: 
+  imagecredit: 
   pmid: 31322558
   pmcid: PMC7004209
   doi: 10.3233/JAD-180957
@@ -909,6 +953,8 @@
   details: "JAMA Neurology. 2019; 76(10):1166-1173."
   year: 2019
   image: pubs_2019_emergency_resized.jpg
+  imagealt: 
+  imagecredit: 
   pmid: 31282955
   pmcid: PMC6618767
   openaccess: https://jamanetwork.com/journals/jamaneurology/fullarticle/2737045
@@ -929,6 +975,8 @@
   details: "Alzheimer's & Dementia. 2019; 15(7): 899-906."
   year: 2019
   image: pubs_2019_medicare_resized.jpg
+  imagealt: 
+  imagecredit: 
   pmid: 31175026
   pmcid: PMC7183386
   doi: 10.1016/j.jalz.2019.03.015
@@ -949,6 +997,8 @@
   details: "Brain and Behavior. 2019; 9(6):e01302."
   year: 2019
   image: pubs_2019_wisdom_resized.jpg
+  imagealt: 
+  imagecredit: 
   pmid: 31044549 
   pmcid: PMC6577614
   openaccess: https://onlinelibrary.wiley.com/doi/full/10.1002/brb3.1302
@@ -972,6 +1022,8 @@
   details: "NeuroImage. Clinical. 2019; 23:101822."
   year: 2019
   image: pubs_2019_dopamine.jpg
+  imagealt: 
+  imagecredit: 
   pmid: 31003069
   pmcid: PMC6475809
   openaccess: https://www.sciencedirect.com/science/article/pii/S221315821930172X?via%3Dihub
@@ -986,6 +1038,8 @@
   details: "Neuron. 2019; 101(3):394-398."
   year: 2019
   image: pubs_2019_BRAIN_v2.png
+  imagealt: 
+  imagecredit: 
   pmid: 30731065
   pmcid: 
   openaccess: https://www.cell.com/neuron/fulltext/S0896-6273(19)30051-0?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627319300510%3Fshowall%3Dtrue
@@ -1000,6 +1054,8 @@
   details: "Journal of Neuroscience. 2018; 38(50):10586-10588."
   year: 2018
   image: pubs_2019_BRAIN_v2.png
+  imagealt: 
+  imagecredit: 
   pmid: 30541767
   pmcid: PMC6297371 
   openaccess: https://www.jneurosci.org/content/38/50/10586
@@ -1015,6 +1071,8 @@
   details: "Dementia. 2020; 19(6)1955-1973."
   year: 2020
   image: pubs_2018_CareEcosystem(1).png
+  imagealt: 
+  imagecredit: 
   pmid: 30497302
   pmcid: PMC6541533
   doi: 10.1177/1471301218814121
@@ -1027,7 +1085,8 @@
   details: "Seminars in Neurology. 2018; 38(5):539-547."
   year: 2018
   image: pubs_2018_informedconsent.jpg
-  imagealt: Photo by Marcelo Leal on Unsplash
+  imagealt:
+  imagecredit: Photo by Marcelo Leal on Unsplash
   pmid: 30321892
   pmcid: 
   doi: 10.1055/s-0038-1668077
@@ -1041,6 +1100,8 @@
   details: "Neurosurgery. 2018; 83(1):29-37."
   year: 2018
   image: pubs_2018_nyx361fig4_resized.jpeg
+  imagealt: 
+  imagecredit: 
   pmid: 28973530
   pmcid: PMC5777911
   doi: 10.1093/neuros/nyx361
@@ -1054,7 +1115,8 @@
   details: "JAMA Neurology. 2018; 75(1):18-19."
   year: 2018
   image: pubs_2018_pet-scans1.jpg
-  imagealt: Image courtesy of Renaud La Joie, PhD.
+  imagealt:
+  imagecredit: Image courtesy of Renaud La Joie, PhD.
   pmid: 29059264
   pmcid: 
   doi: 10.1001/jamaneurol.2017.2558
@@ -1070,6 +1132,8 @@
   details: "PLoS Medicine. 2017; 14(3):e1002260."
   year: 2017
   image: pubs_2017_careeco_resized.jpg
+  imagealt: 
+  imagecredit: 
   pmid: 28323819
   pmcid: PMC5360211
   openaccess: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002260
@@ -1082,6 +1146,8 @@
   details: "Stroke. 2017; 48(3):799-801."
   year: 2017
   image: pubs_2017_recruitmentrate_resized.jpg
+  imagealt: 
+  imagecredit: 
   pmid: 28104835
   pmcid: PMC5330837
   openaccess: https://www.ahajournals.org/doi/10.1161/STROKEAHA.116.014458
@@ -1094,7 +1160,8 @@
   details: "Neurology. 2016; 86(22):2032-3."
   year: 2016
   image: pubs_2016_failurestodiscuss.jpg
-  imagealt: Photo by Cytonn Photography on Unsplash
+  imagealt:
+  imagecredit: Photo by Cytonn Photography on Unsplash
   pmid: 27060164
   pmcid: 
   doi: 10.1212/WNL.0000000000002626
@@ -1107,6 +1174,8 @@
   details: "Neurology. 2016; 86(16):1543-51."
   year: 2016
   image: pubs_2016_waivers-consent-acute-stroke_resized.jpg
+  imagealt: 
+  imagecredit: 
   pmid: 27009262
   pmcid: PMC4836887
   doi: 10.1212/WNL.0000000000002587 
@@ -1119,6 +1188,8 @@
   details: "Journal of Palliative Medicine. 2016; 19(2):149-56."
   year: 2016
   image: pubs_2016_racialethnicdiffadp_resized.jpg
+  imagealt: 
+  imagecredit: 
   pmid: 26840850
   pmcid: PMC4753625
   doi: 10.1089/jpm.2015.0326
@@ -1131,6 +1202,8 @@
   details: "Brain. 2016; 139(2):578-87."
   year: 2016
   image: pubs_2016_neuroecondissocsdbvftd_resized.png
+  imagealt: 
+  imagecredit: 
   pmid: 26667277
   pmcid: PMC4861653
   openaccess: https://academic.oup.com/brain/article/139/2/578/1753756
@@ -1143,6 +1216,8 @@
   details: "Annals of Neurology. 2014; 76(2):296-304."
   year: 2014
   image: pubs_2014_inabilitytoconsent.jpg
+  imagealt: 
+  imagecredit: 
   pmid: 24980651
   pmcid: PMC4957557
   doi: 10.1002/ana.24209
@@ -1158,6 +1233,8 @@
   details: "Neurocase. 2014; 20(4):389-96."
   year: 2014
   image: pubs_2014_financialerrors.png
+  imagealt: 
+  imagecredit: 
   pmid: 23550884
   pmcid: PMC3770748
   doi: 10.1080/13554794.2013.770886
@@ -1169,6 +1246,8 @@
   details: "JAMA. 2014; 311(16):1689-91."
   year: 2014
   image: pubs_2014_testingpresumption_resized.png
+  imagealt: 
+  imagecredit: 
   pmid: 24756520
   pmcid: PMC4126238
   openaccess: https://jamanetwork.com/journals/jama/fullarticle/1861784
@@ -1188,7 +1267,8 @@
   details: "Handbook of Clinical Neurology. 2013; 118(1):409-18."
   year: 2013
   image: pubs_2013_dementiapersonalidentity.jpg
-  imagealt: Photo by Hans-Peter Gauster on Unsplash
+  imagealt:
+  imagecredit: Photo by Hans-Peter Gauster on Unsplash
   pmid: 24182394
   pmcid: 
   doi: 10.1016/B978-0-444-53501-6.00032-9
@@ -1200,6 +1280,8 @@
   details: "Brain. 2013; 1136(6):1929-41."
   year: 2013
   image: pubs_2013_moralreasoningvbm_resized.jpg
+  imagealt: 
+  imagecredit: 
   pmid: 23576128
   pmcid: PMC3673466
   openaccess: https://academic.oup.com/brain/article/136/6/1929/618804
@@ -1212,7 +1294,8 @@
   details: Neurocase. 2011; 17(3):190-200. 
   year: 2011
   image: pubs_2011_theself.jpg
-  imagealt: Photo by Kyle Glenn on Unsplash
+  imagealt:
+  imagecredit: Photo by Kyle Glenn on Unsplash
   pmid: 21506043
   pmcid: 
   doi: 10.1080/13554794.2010.532808
@@ -1225,7 +1308,8 @@
   details: Annals of Neurology. 2010; 67(4):419-21.
   year: 2010
   image: pubs_2010_therapeuticmisconception.jpg
-  imagealt: Photo by rawpixel on Unsplash
+  imagealt:
+  imagecredit: Photo by rawpixel on Unsplash
   pmid: 20437575
   pmcid: 
   doi: 10.1002/ana.22003
@@ -1238,7 +1322,8 @@
   details: JAMA. 2007; 298(9):1046-8.
   year: 2007
   image: pubs_2007_justifyingpatientrisks.jpg
-  imagealt: Photo by Piron Guillaume on Unsplash
+  imagealt:
+  imagecredit: Photo by Piron Guillaume on Unsplash
   pmid: 17785649
   pmcid: 
   doi: 10.1001/jama.298.9.1046
@@ -1251,6 +1336,7 @@
   year: 2006
   image: pubs_2006_realproblemwithequipoise.jpg
   imagealt: 
+  imagecredit: 
   pmid: 16885104 
   pmcid: 
   doi: 10.1080/15265160600755565
@@ -1264,6 +1350,7 @@
   year: 2005
   image: pubs_2005_braindeath.jpg
   imagealt: 
+  imagecredit: 
   pmid: 16396202
   pmcid: 
   doi: 10.1353/hcr.2005.0105
