@@ -46,7 +46,7 @@ values. For example:
     This list has three entries. Each entry has fields for name, position, and 
     e-mail address. Note that you don't have to put strings within quotation 
     marks, although sometimes this is helpful if your string has special 
-    characters like colons or quotation marks. You can also often embed Markdown 
+    characters like colons or apostrophes. You can also often embed Markdown 
     code like asterisks in these strings. 
     
 ## How to update (or add) a team profile
@@ -82,7 +82,6 @@ position, e-mail address and so forth. E.g.:
   position: Research Coordinator
   email: ali.zahir (at) ucsf.edu
   scholar: 
-  twitter: 
   description: Ali, a clinical research coordinator working for Dr. Winston Chiong, currently oversees 
               the coordination of a number of studies which center around decision-making in the aging brain, 
               with a particular focus on how brain structures involved in financial and medical decisions are...
@@ -94,8 +93,8 @@ place.) Each entry begins with a hyphen and a space, and then each subsequent
 part of that entry needs to be preceded by at least two spaces. If you added a 
 picture in the previous step, type in the filename you assigned it after `image: `. 
 Not every field needs to be filled in, e.g. if you don't have or don't want to 
-list a twitter account. After `description: ` give yourself a quick bio. Feel 
-free to write two or three paragraphs in the first person, include something 
+list a Google Scholar account. After `description: ` give yourself a quick bio. 
+Feel free to write two or three paragraphs in the first person, include something 
 about how you've gotten interested in neuroscience or working with patients, 
 and maybe something about yourself outside of work. Three carriage returns makes 
 a new paragraph, as long as all the lines in the description are indented to the 
@@ -127,7 +126,7 @@ figure from the paper. Click on the article link to bring up that individual
 article's PubMed abstract, and follow the Full Text Links (such as UC-eLinks) to 
 the paper. IF you see a good image, download it and save it to your computer in 
 PNG or JPEG format with a short descriptive name like 
-"`pubs_YEAR_ARTICLE-KEYWORDS.png`". (Even better: use Photoshop or other editing 
+"`pubs_YEAR_article-keywords.png`". (Even better: use Photoshop or other editing 
 software to resize to a width of 185 pixels.)
 
 If it's a qualitative or ethics paper that doesn't have useful figures, see if 
@@ -218,15 +217,14 @@ so that people who don't
 have journal subscriptions can read them. Each journal has different policies 
 about whether they allow this for articles published in their journal - you 
 should check the journal's website (there's a general database on this called 
-[SHERPA/RoMEO](http://sherpa.ac.uk/romeo/index.php) that's also worth 
-consulting.) We are interested in what 
-[RoMEO calls](http://sherpa.ac.uk/romeo/definitions.php?la=en&fIDnum=|&mode=simple&version=#colours) 
-"green" and "blue" archiving policies. That is, we want to post versions that 
-are word-for-word identical to the final version, whether this is what we call 
-the "pdf - published version" (including all the typesetting and formatting of 
-the journal), or the "pdf - author manuscript version (peer-reviewed & edited)" 
-(final text including changes from peer review, but without the fancy journal 
-formatting). We don't want to host the "pre-print" or "original version," which 
+[Sherpa Romeo](http://sherpa.ac.uk/romeo/index.php) that's also worth 
+consulting.) We are interested in journals that permit archiving of what Romeo 
+calls either the "Published Version" and we call the "pdf - published version" 
+(including all the typesetting and formatting of the journal) or the "Accepted 
+Version" and we call the "pdf - author manuscript version (peer-reviewed & 
+edited)" (final text including changes from peer review, but without the fancy 
+journal formatting). We don't want to host what they call the "Submitted 
+Version" (also called "pre-print" or "original version"), which 
 is the version of papers prior to peer review. 
 
 If we are self-hosting a paper on our website, rename the document file as 
