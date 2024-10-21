@@ -2,6 +2,28 @@
 # file-type options: "pdf - published version" 
 #                  "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "**Antoniou R**, Callahan P, Kramer JH, Miller BL, **Chiong W**, Rankin KP." 
+  title: "Socioemotional dysfunction and the greater good: a case study."
+  details: "Neurocase. Published online September 21, 2024." 
+  year: 2024
+  image: pubs_2024_socioemotional-dysfunction.jpg
+  image-alt: "Figure 1. Mr. U’s brain volumes compared to healthy controls."
+  image-credit:
+  pmid: 39305192
+  pmcid: 
+  open-access: 
+  doi: 10.1080/13554794.2024.2404682
+  file: 
+  file-type: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  content-share: 
+  preregistered: 
+  open-data:
+  open-materials: 
+
+
 - authors: "**Chen BB**, **Haeusermann T**, **Dada A**, Hamilton RH, James JE, 
            **Fong KC**, Dohan D, **Chiong W**."
   title: "Race-ethnicity, rurality, and age in prospective preferences and 
@@ -26,7 +48,6 @@
   preregistered: https://osf.io/ej9h2
   open-data: https://osf.io/3t2p6
   open-materials: https://osf.io/3t2p6
-
 
 - authors: "**Hoy CW**, **Chiong W**."
   title: "The ethical landscape of prodromal Parkinson disease: Considerations 
