@@ -2,6 +2,30 @@
 # file-type options: "pdf - published version" 
 #                  "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "**Leggins B**, Hart DM, **Jackson AJ**, Levenson RW, Windon CC, Merrilees J, **Chiong W**."
+  title: "Perceptions about dementia clinical trials among underrepresented populations: 
+          a nationally representative survey of U.S. dementia caregivers."
+  details: "Alzheimers Research & Therapy. 2024;16(1):224. Published 2024 Oct 15" 
+  year: 2024
+  image: pubs_2024_perceptions-about-dementia.jpg
+  image-alt: "Fig. 1 Survey weighted proportions of U.S. dementia caregivers’ willingness 
+              to participate in a hypothetical dementia clinical trial with their care recipient"
+  image-credit:
+  pmid: 39407319
+  pmcid: PMC11476697
+  open-access: 
+  doi: 10.1186/s13195-024-01579-5
+  file: 
+  file-type: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  content-share: 
+  preregistered: 
+  open-data: 
+  open-materials: 
+  
+
 - authors: "**Antoniou R**, Callahan P, Kramer JH, Miller BL, **Chiong W**, Rankin KP." 
   title: "Socioemotional dysfunction and the greater good: a case study."
   details: "Neurocase. Published online September 21, 2024." 
