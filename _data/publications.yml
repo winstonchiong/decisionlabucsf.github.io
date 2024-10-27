@@ -2,6 +2,50 @@
 # file-type options: "pdf - published version" 
 #                  "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "**Leggins B**, Hart DM, **Jackson AJ**, Levenson RW, Windon CC, Merrilees J, **Chiong W**."
+  title: "Perceptions about dementia clinical trials among underrepresented populations: 
+          a nationally representative survey of U.S. dementia caregivers."
+  details: "Alzheimers Research & Therapy. 2024;16(1):224. Published 2024 Oct 15" 
+  year: 2024
+  image: pubs_2024_perceptions-about-dementia.jpg
+  image-alt: "Fig. 1 Survey weighted proportions of U.S. dementia caregivers’ willingness 
+              to participate in a hypothetical dementia clinical trial with their care recipient"
+  image-credit:
+  pmid: 39407319
+  pmcid: PMC11476697
+  open-access: 
+  doi: 10.1186/s13195-024-01579-5
+  file: 
+  file-type: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  content-share: 
+  preregistered: 
+  open-data: 
+  open-materials: 
+  
+- authors: "**Antoniou R**, Callahan P, Kramer JH, Miller BL, **Chiong W**, Rankin KP." 
+  title: "Socioemotional dysfunction and the greater good: a case study."
+  details: "Neurocase. Published online September 21, 2024." 
+  year: 2024
+  image: pubs_2024_socioemotional-dysfunction.jpg
+  image-alt: "Figure 1. Mr. U’s brain volumes compared to healthy controls."
+  image-credit:
+  pmid: 39305192
+  pmcid: 
+  open-access: 
+  doi: 10.1080/13554794.2024.2404682
+  file: 
+  file-type: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  content-share: 
+  preregistered: 
+  open-data:
+  open-materials: 
+
 - authors: "**Chen BB**, **Haeusermann T**, **Dada A**, Hamilton RH, James JE, 
            **Fong KC**, Dohan D, **Chiong W**."
   title: "Race-ethnicity, rurality, and age in prospective preferences and 
@@ -26,7 +70,6 @@
   preregistered: https://osf.io/ej9h2
   open-data: https://osf.io/3t2p6
   open-materials: https://osf.io/3t2p6
-
 
 - authors: "**Hoy CW**, **Chiong W**."
   title: "The ethical landscape of prodromal Parkinson disease: Considerations 
@@ -233,7 +276,7 @@
   details: "Heliyon. 2023; 9(7):e17498." 
   year: 2023
   image: pubs_2023_.utilitarian-modelsjpg.jpg
-  image-alt: 
+  image-alt: "Figure 2 of paper: Revised two-dimensional model of utilitarian judgment."
   image-credit: 
   pmid: 37424598
   pmcid: PMC10328838
@@ -254,7 +297,7 @@
   details: "AJOB Neuroscience. 2023;14(1):32-44." 
   year: 2023
   image: pubs_2021_closed_loop.png
-  image-alt: 
+  image-alt: "Figure 1 of paper: open-loop and closed-loop neuromodulation."
   image-credit: 
   pmid: 34473932
   pmcid: PMC9007331
@@ -277,7 +320,7 @@
   details: "Journal of the American Geriatric Society. 2023; 71(7):2172-2183." 
   year: 2023
   image: pubs_2023_connection-experiences.jpg
-  image-alt:
+  image-alt: 
   image-credit: Photo by the Centre for Ageing Better on Unsplash
   pmid: 36917135
   pmcid: PMC10500033
@@ -301,7 +344,7 @@
   details: "Alzheimer's & Dementia. 2023; 19(5):1865-1875." 
   year: 2023
   image: pubs_2023_PIMs.png
-  image-alt: 
+  image-alt: "Figure 3 of paper: Flowchart of the Care Ecosystem Medication Review Intervention and Monitoring Process."
   image-credit: 
   pmid: 36331050
   pmcid: PMC10156873
@@ -346,7 +389,7 @@
   details: "Journal of Alzheimer’s Disease. 2022; 86(1):219-229." 
   year: 2022
   image: pubs_2022_MMfinancialactivities.png
-  image-alt: 
+  image-alt: "Figure 1 of paper: Conceptual model of relationships among financial activity, mismanagement and abuse in dementia."
   image-credit: 
   pmid: 35034900
   pmcid: PMC10938943
