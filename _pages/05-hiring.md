@@ -34,7 +34,7 @@ directed by Dr. Chiong), and in the
 
 Compensation will be based on the 
 [UCSF Postdoc Salary Scale](https://postdocs.ucsf.edu/pay-and-benefits){:target="_blank"},
-potentially adjusted upward for equity (for Fall 2025, level 0 on scale is $69.073).
+potentially adjusted upward for equity (for Fall 2025, level 0 on scale is $69,073).
 
 ### Required qualifications
 - Doctoral degree or equivalent in behavioral or social sciences (including
