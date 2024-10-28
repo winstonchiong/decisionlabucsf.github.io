@@ -32,6 +32,10 @@ neuroscience in the UCSF Decision Lab, in the
 directed by Dr. Chiong), and in the 
 [UCSF Medical Cultures Lab](https://www.cultureofmedicine.org)
 
+Compensation will be based on the 
+[UCSF Postdoc Salary Scale](https://postdocs.ucsf.edu/pay-and-benefits){:target="_blank"},
+potentially adjusted upeard for equity (for Fall 2025, level 0 on scale is $69.073).
+
 ### Required qualifications
 - Doctoral degree or equivalent in behavioral or social sciences (including
 anthropology, sociology, and science studies), bioethics, or related fields (including
@@ -41,7 +45,6 @@ philosophy, law, health policy, nursing, social work, neuroscience, and psycholo
 
 ### Preferred qualifications
 - Experience working with clinical populations
-- Experience working with health professionals and/or biomedical scientists
 - Prior interest/experience in neuroscience, dementia, and/or aging
 - Interest in team science and transdisciplinary collaboration
 - Two-year commitment (with opportunities to extend as mutually desired)
