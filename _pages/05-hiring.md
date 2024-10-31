@@ -11,7 +11,7 @@ description:
 </div>
 
 We seek a highly motivated and collaborative postdoctoral scholar to join an 
-interdisciplinary research program on experiences of dementia and and of 
+interdisciplinary research program on experiences of dementia and of 
 dementia caregiving. This work will be directed by 
 [Winston Chiong, MD PhD]({{ '/team/index.html#Winston-Chiong' | prepend: site.baseurl | prepend: site.url }}) 
 in the UCSF Memory and Aging Center; in conjunction with 
