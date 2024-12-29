@@ -78,7 +78,7 @@
 - name: Cailin Lechner
   degrees: JD
   previously: Research Coordinator
-  now: Legal Advocate, Bay Area Legal Aid
+  now: Legal Advocate, Positive Health Center
   email: 
   website: 
   pubmed_name: "Lechner CR"
@@ -127,7 +127,7 @@
 - name: Clayton Young
   degrees:
   previously: Research Coordinator
-  now: Data Engineer, Radiata
+  now: CTO and Co-Founder, Radiata
   email:
   twitter:
   website: https://radiata.ai/
@@ -222,3 +222,12 @@
   twitter:
   website: 
   pubmed_name: "Leggins B"
+
+- name: Clara Sanches
+  degrees: 
+  previously: Postdoc
+  now: Postdoc, University of Poitiers
+  email:
+  twitter:
+  website: 
+  pubmed_name: "Sanches C"
