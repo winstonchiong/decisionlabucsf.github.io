@@ -2,40 +2,17 @@
 # file-type options: "pdf - published version" 
 #                  "pdf - author manuscript version (peer-reviewed & edited)"...
 
-- authors: "**Leggins B**, Hart DM, **Jackson AJ**, Levenson RW, Windon CC, Merrilees J, **Chiong W**."
-  title: "Perceptions about dementia clinical trials among underrepresented populations: 
-          a nationally representative survey of U.S. dementia caregivers."
-  details: "Alzheimers Research & Therapy. 2024;16(1):224." 
-  year: 2024
-  image: pubs_2024_perceptions-about-dementia.jpg
-  image-alt: "Fig. 1 Survey weighted proportions of U.S. dementia caregivers’ willingness 
-              to participate in a hypothetical dementia clinical trial with their care recipient"
-  image-credit:
-  pmid: 39407319
-  pmcid: PMC11476697
-  open-access: 
-  doi: 10.1186/s13195-024-01579-5
-  file: 
-  file-type: 
-  github:
-  biorxiv:
-  psyarxiv: 
-  content-share: 
-  preregistered: https://osf.io/uk3g7
-  open-data: https://osf.io/je7fs/
-  open-materials: 
-  
-- authors: "**Antoniou R**, Callahan P, Kramer JH, Miller BL, **Chiong W**, Rankin KP." 
-  title: "Socioemotional dysfunction and the greater good: a case study."
-  details: "Neurocase. 21:1-10." 
-  year: 2024
-  image: pubs_2024_socioemotional-dysfunction.jpg
-  image-alt: "Figure 1. Mr. U’s brain volumes compared to healthy controls."
-  image-credit:
-  pmid: 39305192
+- authors: "Brown JEH, **Chiong W**, Hutchinson N."
+  title: "Integrating n-of-1 trials into learning health care systems."
+  details: "JAMA Neurology. 2025; e-pub ahead of print." 
+  year: 2025
+  image: pubs_2025_n-of-1.jpg
+  image-alt: "photo of a tailor taking measurements of a client"
+  image-credit: "Sebastian Hoofs, CC BY-SA 4.0, via Wikimedia Commons"
+  pmid: 39869344
   pmcid: 
   open-access: 
-  doi: 10.1080/13554794.2024.2404682
+  doi: 10.1001/jamaneurol.2024.4674 
   file: 
   file-type: 
   github:
@@ -43,16 +20,38 @@
   psyarxiv: 
   content-share: 
   preregistered: 
-  open-data:
+  open-data: 
+  open-materials: 
+
+- authors: "Matvey M, Kelley DP, Bradley ER, **Chiong W**, O'Donovan A, Woolley J."
+  title: "Modifying informed consent to help address functional unmasking in 
+         psychedelic clinical trials."
+  details: "JAMA Psychiatry. 2025; e-pub ahead of print." 
+  year: 2025
+  image: pubs_2025_modifying-informed-consent.jpg
+  image-alt: "'Woodstock'. Rice bran oil bubbles floating on water over a 
+             reflective surface, producing a psychedlic effect."
+  image-credit: "Photo by David Clode on Unsplash"
+  pmid:  39775830
+  pmcid: 
+  open-access: 
+  doi: 10.1001/jamapsychiatry.2024.4312
+  file: 
+  file-type: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  content-share: 
+  preregistered: 
+  open-data: 
   open-materials: 
 
 - authors: "**Chen BB**, **Haeusermann T**, **Dada A**, Hamilton RH, James JE, 
            **Fong KC**, Dohan D, **Chiong W**."
   title: "Race-ethnicity, rurality, and age in prospective preferences and 
          concerns regarding closed-loop implanted neural devices."
-  details: "Journal of Neuropsychiatry and Clinical Neurosciences. 2024 
-           Aug 22:appineuropsych20230190. Online ahead of print." 
-  year: 2024
+  details: "Journal of Neuropsychiatry and Clinical Neurosciences. 2025;37(1):79-87." 
+  year: 2025
   image: pubs_2024_prospective-closed-loop.png
   image-alt: "Figure 1 of paper: Survey Weighted Proportions of US Adults' 
             Preferences and Perceptions Regarding Closed-Loop Brain Implants."
@@ -70,6 +69,51 @@
   preregistered: https://osf.io/ej9h2
   open-data: https://osf.io/3t2p6
   open-materials: https://osf.io/3t2p6
+
+
+- authors: "**Leggins B**, Hart DM, **Jackson AJ**, Levenson RW, Windon CC, Merrilees J, **Chiong W**."
+  title: "Perceptions about dementia clinical trials among underrepresented populations: 
+          A nationally representative survey of U.S. dementia caregivers."
+  details: "Alzheimers Research & Therapy. 2024;16(1):224." 
+  year: 2024
+  image: pubs_2024_perceptions-about-dementia.jpg
+  image-alt: "Fig. 1 Survey weighted proportions of U.S. dementia caregivers’ willingness 
+              to participate in a hypothetical dementia clinical trial with their care recipient"
+  image-credit:
+  pmid: 39407319
+  pmcid: PMC11476697
+  open-access: https://alzres.biomedcentral.com/articles/10.1186/s13195-024-01579-5
+  doi: 10.1186/s13195-024-01579-5
+  file: 
+  file-type: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  content-share: 
+  preregistered: https://osf.io/uk3g7
+  open-data: https://osf.io/je7fs/
+  open-materials: 
+  
+- authors: "**Antoniou R**, Callahan P, Kramer JH, Miller BL, **Chiong W**, Rankin KP." 
+  title: "Socioemotional dysfunction and the greater good: a case study."
+  details: "Neurocase. 2024;30(4):125-134." 
+  year: 2024
+  image: pubs_2024_socioemotional-dysfunction.jpg
+  image-alt: "Figure 1. Mr. U’s brain volumes compared to healthy controls."
+  image-credit:
+  pmid: 39305192
+  pmcid: PMC11604522
+  open-access: 
+  doi: 10.1080/13554794.2024.2404682
+  file: 
+  file-type: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  content-share: 
+  preregistered: 
+  open-data:
+  open-materials: 
 
 - authors: "**Hoy CW**, **Chiong W**."
   title: "The ethical landscape of prodromal Parkinson disease: Considerations 
@@ -144,7 +188,7 @@
   year: 2024
   image: pubs_2023_rapid-novel-psychiatry-treatments.jpg
   image-alt: "Photo-realistic image of a large pile of medicinal pills in various sizes, shapes, and colors."
-  image-credit: 
+  image-credit: Photo by Myriam Zilles on Unsplash
   pmid: 37391590
   pmcid: PMC10700644
   open-access: https://www.nature.com/articles/s41386-023-01635-y
@@ -210,7 +254,7 @@
   year: 2023
   image: pubs_2023_theory-of-bioethics.jpg
   image-alt: "Photo-realistic image showing two side-by-side round white pills dissolving in deep blue-colored water."
-  image-credit: 
+  image-credit: Cover image for DeGrazia and Millum, A Theory of Bioethics
   pmid: 
   pmcid: 
   open-access: 
@@ -366,7 +410,7 @@
   year: 2022
   image: pubs_2022_carecure.jpg
   image-alt: 
-  image-credit: 
+  image-credit: Photo by Vladimir Fedotov on Unsplash
   pmid: 
   pmcid: 
   open-access: 
@@ -441,7 +485,7 @@
   year: 2022
   image: pubs_2022_ischemic_stroke.png
   image-alt: 
-  image-credit: 
+  image-credit: Shazia Mirza and Sankalp Gokhale, CC BY 4.0, via Wikimedia Commons
   pmid:  35312627
   pmcid: 
   open-access: 
@@ -462,7 +506,7 @@
   year: 2021
   image: pubs_2021_support_decision_making.jpg
   image-alt: 
-  image-credit: 
+  image-credit: Photo by Sincerely Media via Unsplash
   pmid: 34710012
   pmcid: 
   open-access: https://www.tandfonline.com/doi/full/10.1080/15265161.2021.1980150
@@ -573,7 +617,7 @@
   year: 2021
   image: pubs_2021_Ethical_Considerations_in_Dementia_Diagnosis_and_Care.jpg
   image-alt: 
-  image-credit: 
+  image-credit: Photo by Philippe Leone @ Unsplash
   pmid: 34524968
   pmcid: 
   open-access:
@@ -1379,7 +1423,7 @@
   year: 2006
   image: pubs_2006_realproblemwithequipoise.jpg
   image-alt: 
-  image-credit: 
+  image-credit: Cover image from journal.
   pmid: 16885104 
   pmcid: 
   doi: 10.1080/15265160600755565
@@ -1393,7 +1437,7 @@
   year: 2005
   image: pubs_2005_braindeath.jpg
   image-alt: 
-  image-credit: 
+  image-credit: Robert Motherwell, Abyss, 1978. (Cover image from journal.)
   pmid: 16396202
   pmcid: 
   doi: 10.1353/hcr.2005.0105

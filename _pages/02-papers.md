@@ -3,7 +3,7 @@ layout: page
 permalink: /papers/
 title: papers
 description: 
-years: [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2014, 2013, 2011, 2010, 2007, 2006, 2005]
+years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2014, 2013, 2011, 2010, 2007, 2006, 2005]
 ---
 
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

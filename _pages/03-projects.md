@@ -5,13 +5,92 @@ permalink: /projects/
 description: 
 ---
 
-<h2>new projects (2024)</h2>
+<h2>current projects</h2>
 
-Coming soon...
+<div id="dfo" class="project-container" style="margin-top: 0px">
+  <img src="{{ site.baseurl }}/assets/img/projects-dfo.jpg" alt="Background image for Making Decisions for Other People. Two inversed mountains in front of a starry blue sky." title="Photo by Mark Basarab on Unsplash." style="width: 100%;">
+  <div class="project-title" style="color: #E266AE">Making Decisions for Other People</div>
+</div>
+Decisional impairments in people with dementia have been well studied, but the 
+role of caregivers as decision-makers remains underexplored, despite growing 
+attention in recent research. Many caregivers are insufficiently prepared and 
+supported to make the difficult decisions associated with their role, which 
+contributes to caregiver burden and leads to negative outcomes for both the 
+caregiver and care recipient. Research is needed to understand how decisions 
+made for other people differ from decisions made for oneself, both in the 
+context of a longstanding caregiving relationship and also when relatives or 
+friends are unexpectedly called upon to make decisions for an older adult.
+
+Our study will compare three groups: (1) dementia caregivers, (2) healthy older 
+adults, and (3) a matched cohort of non-caregiving healthy adults who are 
+relatives/friends of healthy older adults in group (2). All participants will 
+use a secure web-enabled platform at home to make hypothetical and real 
+(incentivized) decisions for themselves. Participants in groups (1) and (3) will 
+also make decisions on behalf of their respective study partners—group (1) for a 
+care recipient with dementia, and group (3) for a healthy older adult in group (2).
+
+<i class="fas fa-external-link-alt"></i> [Information page for prospective participants](https://memory.ucsf.edu/research-trials/research/decisions-others){:target="\_blank"}<br><br>
+
+
+<div id="personal-values" class="project-container" style="margin-top: 0px">
+  <img src="{{ site.baseurl }}/assets/img/projects-personalvalues.jpg" alt="Background image for Dementia Experience and Caregiving. Seven leaves hanging on a string. The leaves are arranged to show the change in color that occurs between late summer and the end of fall. The two leaves on the left are green/yellow, the three leaves in the middle are yellow/orange, and the two leaves on the right are red." title="Photo by Chris Lawton on Unsplash." style="width: 100%;">
+  <div class="project-title" style="color: #000000">Dementia Experience and Caregiving</div>
+</div>
+
+Decision-making presents special challenges for people with dementia and their 
+caregivers. Whereas advance care planning has historically focused on 
+high-acuity interventions at the end of life, key decisions in dementia often 
+unfold over many years of impaired capacity and focus less on life prolongation 
+than on personal care decisions, such as where to live or budgeting for 
+out-of-pocket costs. Furthermore, in the course of dementia individuals often 
+express care preferences that conflict with previous planning documents or 
+earlier discussions, which poses crucial ethical challenges for caregivers and 
+clinicians in deciding whether to honor the wishes expressed previously by a 
+patient when still competent or instead to honor the wishes of the person as 
+they are now. Such challenges may contribute to burden, diminished closeness, 
+and poor health outcomes in people with dementia and their caregivers. New 
+frameworks are needed to help caregivers cope with perceived changes in 
+previously shared values; and to inform the critical task of helping care 
+recipients make decisions congruent with their values. 
+
+In this multidisciplinary collaboration involving philosophy, neurology, social 
+science, and psychology, we will interview people with Alzheimer's disease and 
+frontotemporal dementia, with their caregivers, at three timepoints over three 
+years to document experiences and patterns of change in the course of illness. 
+Topics will include the narrative self-understanding of people with dementia 
+regarding changes in themselves, and caregivers' responses and adaptations to 
+changes in care recipients. 
+
+
+<br><br>
+
+<div id="hcd" class="project-container" style="margin-top: 0px">
+  <img src="{{ site.baseurl }}/assets/img/projects-hcd.jpg" alt="Background image for Designing Devices for Human Needs. This image shows a photo-realistic silhouette of an adult male’s bust in profile in front of a large, light blue dot." title="Photo by Ben Sweet on Unsplash." style="width: 100%;">
+  <div class="project-title" style="color: #FFDD00">Designing Devices for Human Needs</div>
+</div>
+
+Emerging neurotechnologies hold immense potential for advancing medical 
+treatments, but if their design and implementation do not prioritize the goals, 
+needs, and insights of the patients who use them, they risk becoming a source of 
+harm. Many neurotechnologies are being designed for intended use by people with 
+sensory or motor disabilities, but if the teams building these treatments do not 
+include people with disabilities, there is a risk that the lived experiences and 
+perspectives of intended users may not be appropriately integrated. In past 
+efforts to develop neurotechnology, technical achievements have sometimes been 
+prioritized over practical benefit, resulting in poor outcomes. 
+
+This project aims to facilitate the development of effective and ethically sound 
+therapies for nervous system conditions, focusing on how novel devices can be 
+best designed for the benefit of users. In one branch of research, we are 
+interviewing a group of pioneer neurotechnology recipients to document their 
+experiences with how their devices are integrated into their lives. In another 
+branch, we are interviewing experts involved in neurotechnology development to 
+assess perspectives and current barriers to incorporating user perspectives in 
+neurotechnology design. 
 
 ---
 
-<h2>older projects</h2>
+<h2>past projects</h2>
 
 <div id="gbd" class="project-container" style="margin-top: 0px">
   <img src="{{ site.baseurl }}/assets/img/projects-gbd.jpg" alt="Background image for Genes, Brains and Decisions. Photo by Robbin Huang on Unsplash." style="width: 100%;">
@@ -20,8 +99,6 @@ Coming soon...
 Patients with frontotemporal dementia (FTD) are prone to making bad decisions; unfortunately, FTD is often only diagnosed after patients have made significant errors. Such delays reflect the absence of objective clinical tests for decision-making, and represent missed opportunities to prevent serious harms. 
 
 We are studying decision-making in familial FTD kindreds from two large NIH-funded multicenter networks spanning the US and Canada. We hypothesize that early behavioral and physiological changes in FTD mutation carriers will reveal initial signs and mechanisms of impaired judgment in FTD, potentially also elucidating neural mechanisms of impaired decision-making in other neuropsychiatric disorders. Presymptomatic mutation carriers and noncarrier family members from these multicenter networks are recruited to perform tests of decision-making on a secure web-enabled platform that enables rapid and flexible data collection from participants across North America. Linking our behavioral measures to a rich dataset of cognitive and neuroimaging measures already being collected across network sites allows us to combine the strengths of traditional on-site evaluation with the flexibility and scaling advantages of newer online methods.
-
-<i class="fas fa-external-link-alt"></i> [Information page for prospective participants](https://memory.ucsf.edu/genes-brains-and-decisions){:target="\_blank"}
 
 <div id="neurotech" class="project-container">
   <img src="{{ site.baseurl }}/assets/img/projects-neurotech.jpg" alt="Background iamge for Neuroethics in Novel Neurotechnologies. Photo by Tim Marshall on Unsplash." style="width: 100%;">
