@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>UCSF Decision Lab Handbook</title>
   <meta name="description" content="Handbook for the UCSF Decision Lab." />
-  <meta name="generator" content="bookdown 0.40 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
   <meta property="og:title" content="UCSF Decision Lab Handbook" />
   <meta property="og:type" content="book" />
@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2024-07-21" />
+<meta name="date" content="2025-04-13" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -65,7 +65,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -148,10 +148,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.2" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#lab-website"><i class="fa fa-check"></i><b>3.2</b> Lab website</a></li>
 <li class="chapter" data-level="3.3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#private-github-repo"><i class="fa fa-check"></i><b>3.3</b> Private Github repo</a></li>
 <li class="chapter" data-level="3.4" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#r-drive-rgroupschiong"><i class="fa fa-check"></i><b>3.4</b> R: drive (R:\groups\chiong)</a></li>
-<li class="chapter" data-level="3.5" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#lava-and-lava-query-5"><i class="fa fa-check"></i><b>3.5</b> LAVA and LAVA Query 5</a></li>
-<li class="chapter" data-level="3.6" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#macipedia"><i class="fa fa-check"></i><b>3.6</b> MACipedia</a></li>
+<li class="chapter" data-level="3.5" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#box"><i class="fa fa-check"></i><b>3.5</b> Box</a></li>
+<li class="chapter" data-level="3.6" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#redcap"><i class="fa fa-check"></i><b>3.6</b> REDCap</a></li>
 <li class="chapter" data-level="3.7" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#open-science-framework"><i class="fa fa-check"></i><b>3.7</b> Open Science Framework</a></li>
-<li class="chapter" data-level="3.8" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#deprecateddiscouraged-tools"><i class="fa fa-check"></i><b>3.8</b> Deprecated/discouraged tools</a></li>
+<li class="chapter" data-level="3.8" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#other-useful-mac-tools"><i class="fa fa-check"></i><b>3.8</b> Other useful MAC tools</a>
+<ul>
+<li class="chapter" data-level="3.8.1" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#lava-and-lava-query-5"><i class="fa fa-check"></i><b>3.8.1</b> LAVA and LAVA Query 5</a></li>
+<li class="chapter" data-level="3.8.2" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#macipedia"><i class="fa fa-check"></i><b>3.8.2</b> MACipedia</a></li>
+<li class="chapter" data-level="3.8.3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#brainsightdash"><i class="fa fa-check"></i><b>3.8.3</b> Brainsight/DASH</a></li>
+</ul></li>
+<li class="chapter" data-level="3.9" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#deprecateddiscouraged-tools"><i class="fa fa-check"></i><b>3.9</b> Deprecated/discouraged tools</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html"><i class="fa fa-check"></i><b>4</b> Intro to the Memory and Aging Center</a>
 <ul>
@@ -248,54 +254,77 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="header">
 <h1 class="title">UCSF Decision Lab Handbook</h1>
-<p class="date"><em>2024-07-21</em></p>
+<p class="date"><em>2025-04-13</em></p>
 </div>
 <div id="organizing-principles" class="section level1 hasAnchor" number="1">
 <h1><span class="header-section-number">Section 1</span> Organizing Principles<a href="index.html#organizing-principles" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>Once in medical school I received a piece of advice that I have been trying to
-follow since: <strong>Do what you uniquely can do.</strong>
-This of course has different implications for me personally than it does for you
-as a lab member. Let’s talk about what it means overall,
-then about what it means for me (since I use this thought to focus our lab’s
-work), and then what it means for you individually.</p>
-<ol style="list-style-type: decimal">
-<li><p><em>Overall.</em> In science there are many questions worth investigating–you can’t
-try to study them all or develop expertise in all the
-relevant methods. If you choose questions that everyone else is just as
-well-positioned to answer (i.e., that you’re not uniquely
-positioned to answer), then the only way to succeed is to work harder and be
-luckier than everyone else. This is not a sustainable
-path for a career or a life, and probably contributes to the temptations of
-scientific misconduct and non-reproducible practices.
-We all can probably contribute more to science by thinking about what questions
-we’re uniquely positioned to answer, whether because
-of our unique backgrounds/skills, temperament and interests, or special
-resources for which we have access that others don’t.</p></li>
-<li><p><em>Me and the lab.</em> Given my interdisciplinary background in neurology and
-philosophy, and given our varied collaborations and the
-especially open culture of the MAC, I believe that our lab is uniquely
-positioned to address questions in neuroscience that also involve
-contributions, methods and insights from the humanities and social sciences. So
-more specifically: decision neuroscience of aging and
-disorders of aging, and neuroethics, and perhaps most of all questions that
-involve both topics together.</p></li>
-<li><p><em>You.</em> If you’re developing an independent research project during your time
-here, I will keep asking you: does this project make
+<p>The Decision Lab is a deeply interdisciplinary group investigating questions at
+the intersection of neuroscience and ethics, with two main streams of work:
+(1) understanding the neural and cognitive bases of decision-making, with an
+emphasis on health and financial decisions in aging and in disorders of
+aging, and (2) understanding the broader implications of brain diseases and
+new interventions for nervous system function, particularly in their ethical and
+societal context. We draw on a wide range disciplines, ranging
+from neuroscience and psychology, to philosophy and law, to sociology and
+anthropology; applying both quantitative and qualitative approaches
+where appropriate given our questions and the current state of knowledge.</p>
+<p>This is a very broad range to cover, which highlights a critical
+problem of <em>focus and prioritization</em> that I think every lab confronts in some
+form. Given the wide range of available questions, where should the lab’s
+focus be directed and what research projects should we prioritize? And for
+you as individual members of the lab, how can you direct your energies and the
+development of your skills and training?</p>
+<p><em>At the broadest level</em>, a key issue is that in science there are many questions
+worth investigating, and many capable research groups. If we pick out problems
+that everyone else is just as well-positioned to solve as we are, then the only
+way to succeed is to work harder and be luckier than everyone else. That’s not a
+sustainable path for a career or a life, and may contribute to the temptations
+of scientific misconduct and non-reproducible practices. So I think an overall
+goal for any scientist is to develop a
+research program (or in our case, two programs) that (1) have synergy, in that
+one project or question leads to understanding that can frame the next project
+or question, in ways that would not have been evident before what preceded; (2)
+draw on one’s own (or one’s team’s) unique background/skills, temperament, and
+interests; and (3) make use of special resources to which one has access that
+other’s don’t. Sometimes in business people talk about a company having a “wide
+moat,” meaning that it wouldn’t be easy for another company to just show up and
+start doing what that company has been doing. I’ve often thought that scientific
+research groups can also benefit from thinking about their moats. This isn’t
+because I view science in particularly competitive or antagonistic terms (though
+competition certainly does exist in science); instead, I think we’re all
+ultimately likely to do more good and advance understanding to a greater degree
+if we focus on questions that we’re particularly
+well-positioned to answer, as opposed to questions that could be asked by any
+scientist anywhere.</p>
+<p><em>Within the Decision Lab</em>, this gives some focus to our interdisciplinarity.
+That is, while I prize and enjoy the way our lab draws upon so many fields, we
+do not engage in interdisciplinarity just for its own sake. There can be great
+value in research that is deeply rooted in the practice and intellectual
+history of one home discipline; and there are many examples of research that
+mixes work and concepts from varied fields in haphazard and superficial ways.
+However, given my background in neurology and philosophy, and given our strong
+collaborations and the especially open culture of the MAC, I do believe our lab
+has shown a particular ability to productively address questions in neuroscience
+that also involve contributions, methods, and insights from the humanities and
+social sciences. In keeping with what is written above, the lab will focus on
+such questions and try as much as possible to leave questions that are best
+addressed within a single discipline to other groups.</p>
+<p><em>For you as a lab member</em>, if you’re developing an independent research project
+during your time here, I will keep asking you: does this project make
 effective use of methods, populations, resources and frameworks that our lab and
-the MAC are uniquely positioned to utilize? Your time
-here is a brief window during your career, and you should make use of special
-research and learning opportunities you have now that you
-may not have again. More broadly, in preparing for your career after this lab,
-think about where your own particular background, skills
-and interests are most needed and can contribute the most, and use this to
-evaluate what other skills you need to pick up along the way
-to maximize your unique contribution.</p></li>
-</ol>
+the MAC are specially positioned to utilize? Your time here is a brief window
+during your career, and there are special research and learning opportunities
+you have now that you will not have in other places. (That hopefully, you will
+have chosen for other resources they have that we don’t have here.) More broadly,
+in preparing for your career after this lab, think about where your own
+particular background, skills and interests are most needed and can contribute
+the most, and use this to evaluate what other skills you need to pick up along
+the way to maximize the contribution that you hope to make.</p>
 <p>In 2018 during the lab’s first big hiring wave, Ali Zahir and I tried to
 articulate the essentials of lab culture that we wanted to preserve
 and replicate in our hiring. (So you’re all here because we thought you fit the
 following description.) What we decided we were looking for
-follows from the principle above. While we think that diversity of experiences
+follows from the ideas above. While we think that diversity of experiences
 and perspectives is valuable for all science, it is
 particularly important to our work, and it is also essential that lab members
 value and respect such diversity. We’re looking for
@@ -312,7 +341,7 @@ research expenses, equipment, basically everything.
 This ultimately comes from taxes paid by everyone, and thus reflects a
 tremendous public investment in our work–work that should be
 creative, rigorous, and ethical. We strive to be prudent in our management of
-resources, but also aggressive in taking advantage of
+resources, but also open-minded in continuing to seek out
 special opportunities to advance science.</p>
 <p><strong>Research participants (and their families).</strong> Our research participants, many
 of whom have serious, stigmatized and/or ultimately fatal

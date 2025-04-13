@@ -5,9 +5,13 @@ slack
 lab-website
 private-github-repo
 r-drive-rgroupschiong
+box
+redcap
+open-science-framework
+other-useful-mac-tools
 lava-and-lava-query-5
 macipedia
-open-science-framework
+brainsightdash
 deprecateddiscouraged-tools
 intro-to-the-memory-and-aging-center
 the-mac-in-the-context-of-ucsf-the-weill-institute

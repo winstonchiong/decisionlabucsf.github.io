@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 4 Intro to the Memory and Aging Center | UCSF Decision Lab Handbook</title>
   <meta name="description" content="Handbook for the UCSF Decision Lab." />
-  <meta name="generator" content="bookdown 0.40 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 4 Intro to the Memory and Aging Center | UCSF Decision Lab Handbook" />
   <meta property="og:type" content="book" />
@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2024-07-21" />
+<meta name="date" content="2025-04-13" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -65,7 +65,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -148,10 +148,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.2" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#lab-website"><i class="fa fa-check"></i><b>3.2</b> Lab website</a></li>
 <li class="chapter" data-level="3.3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#private-github-repo"><i class="fa fa-check"></i><b>3.3</b> Private Github repo</a></li>
 <li class="chapter" data-level="3.4" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#r-drive-rgroupschiong"><i class="fa fa-check"></i><b>3.4</b> R: drive (R:\groups\chiong)</a></li>
-<li class="chapter" data-level="3.5" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#lava-and-lava-query-5"><i class="fa fa-check"></i><b>3.5</b> LAVA and LAVA Query 5</a></li>
-<li class="chapter" data-level="3.6" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#macipedia"><i class="fa fa-check"></i><b>3.6</b> MACipedia</a></li>
+<li class="chapter" data-level="3.5" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#box"><i class="fa fa-check"></i><b>3.5</b> Box</a></li>
+<li class="chapter" data-level="3.6" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#redcap"><i class="fa fa-check"></i><b>3.6</b> REDCap</a></li>
 <li class="chapter" data-level="3.7" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#open-science-framework"><i class="fa fa-check"></i><b>3.7</b> Open Science Framework</a></li>
-<li class="chapter" data-level="3.8" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#deprecateddiscouraged-tools"><i class="fa fa-check"></i><b>3.8</b> Deprecated/discouraged tools</a></li>
+<li class="chapter" data-level="3.8" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#other-useful-mac-tools"><i class="fa fa-check"></i><b>3.8</b> Other useful MAC tools</a>
+<ul>
+<li class="chapter" data-level="3.8.1" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#lava-and-lava-query-5"><i class="fa fa-check"></i><b>3.8.1</b> LAVA and LAVA Query 5</a></li>
+<li class="chapter" data-level="3.8.2" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#macipedia"><i class="fa fa-check"></i><b>3.8.2</b> MACipedia</a></li>
+<li class="chapter" data-level="3.8.3" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#brainsightdash"><i class="fa fa-check"></i><b>3.8.3</b> Brainsight/DASH</a></li>
+</ul></li>
+<li class="chapter" data-level="3.9" data-path="lab-resources-overview.html"><a href="lab-resources-overview.html#deprecateddiscouraged-tools"><i class="fa fa-check"></i><b>3.9</b> Deprecated/discouraged tools</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="intro-to-the-memory-and-aging-center.html"><a href="intro-to-the-memory-and-aging-center.html"><i class="fa fa-check"></i><b>4</b> Intro to the Memory and Aging Center</a>
 <ul>
@@ -251,7 +257,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>One challenge for new research coordinators is that the Memory and Aging Center
 is a huge institution with its own specific culture and organization, partly
 just reflecting the broader norms of academic medicine. There is a lot of
-helpful information on <a href="http://tiny.ucsf.edu/MACipedia" target="_blank">MACipedia</a>,
+helpful information on [MACipedia][MACipedia],
 the MAC wiki. Still, it can be tricky to figure out how all these pieces fit
 together, particularly given all the
 <a href="https://wiki.library.ucsf.edu/display/MACipedia/MAC+Acronyms" target="_blank">three-letter acronyms</a>
@@ -281,10 +287,11 @@ community think of the MAC, they’re usually thinking of the
 <a href="https://memory.ucsf.edu/services" target="_blank">MAC Clinic</a>. The clinic
 is located on the 2nd floor of 1651 4th Street, and provides neurological care
 for patients with cognitive disorders.
-I usually see my clinic patients on alternating Tuesday mornings and
-Wednesday afternoons. For a while we didn’t have any visitors “shadowing” in
-clinic, but this now seems to be a possibility again, so let me know if you’d
-like to observe.</p>
+I usually see my clinic patients on the 2nd Wednesday afternoon and the 3rd
+Tuesday morning of each month (also: some Monday mornings supervising a
+neurology resident, not open for observation). For a while we didn’t have any
+visitors “shadowing” in clinic, but we’ve now opened this up for people working
+in MAC research–let me know if you’d like to observe.</p>
 <p><a href="https://memory.ucsf.edu/research-trials" target="_blank">MAC research</a>
 appointments principally take place in the
 <a href="https://neurology.ucsf.edu/ncru" target="_blank">Neurosciences Clinical Research Unit</a>
@@ -347,39 +354,106 @@ subgroup of BRANCH, which includes added assessments like MRI.</li>
 </ul>
 <div id="our-lab-projects-in-context" class="section level3 hasAnchor" number="4.3.1">
 <h3><span class="header-section-number">4.3.1</span> Our lab projects in context<a href="intro-to-the-memory-and-aging-center.html#our-lab-projects-in-context" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>We’re transitioning from one set of main projects to another. Here are the old
-main projects in lab, and how they relate:</p>
+<p>As of 2025, we have transitioned from one set of main projects to another. Here
+are the new main projects in lab, and how they are related to one another:</p>
+<ul>
+<li><p><a href="https://decisionlab.ucsf.edu/projects/index.html#dfo" target="_blank">Making Decisions for Other People</a><br />
+In lab often referred to as “DfO,” or “Decisions for Others”; or with our
+grant administrators as the “K24.”</p>
+<p>This project addresses challenges in surrogate decision-making, in which a
+family member or other close associate must make financial or medical or
+personal care decisions on behalf of an incapacitated (often older) adult.
+People are often unprepared for this burdensome role, and prior work in
+cognitive science indicates systematic biases in making decisions for others.
+We use a REDCap database to e-mail questionnaires roughly three times per
+year to three groups (1) dementia caregivers, (2) healthy older adults, and (3)
+a matched cohort of non-caregiving healthy adults who are
+relatives/friends of healthy older adults in group (2).</p>
+<ul>
+<li>Practically all the data for this grant are in REDCap. Some
+materials such as the original grant proposal and our IRB and RPPR
+documentation are in the <a href="lab-resources-overview.html#r-drive-rgroupschiong">R: drive</a>:
+R:\groups\chiong\decisions-for-others\.</li>
+<li>This project is funded by NIH grant
+<a href="https://reporter.nih.gov/search/RjLTApxnskSz6ymQ4tE-5g/project-details/10983707" target="_blank">K24AG083117</a>
+from the National Institute on Aging.</li>
+<li>In this project we recruit from the PPG, the ADRC, BRANCH, and other
+resources such as the Care Ecosystem project and the
+<a href="intro-to-the-memory-and-aging-center.html#mac-clinic-mac-research">MAC Clinic</a>.</li>
+<li>The SpeedType code for this grant iS MNECHW0004.</li>
+<li>Project notes for this project should be documented in the lab GitHub repo
+at <a href="https://github.com/UCSFMemoryAndAging/decisionlab/blob/master/decisions-for-others/decisions-for-others_notebook.md" target="_blank">decisions-for-others/decisions-for-others_notebook.md</a>.</li>
+</ul></li>
+</ul>
+<!-- -->
+<ul>
+<li><p><a href="https://decisionlab.ucsf.edu/projects/index.html#personal-values" target="_blank">Dementia Experience and Caregiving</a><br />
+In lab generally referred to as “Personal Values”; or with our grant
+administrators as the “RF1.”</p>
+<p>This project draws on conceptual work by our collaborator
+<a href="https://profiles.ucr.edu/app/home/profile/jaworska" target="_blank">Agnieszka Jaworska</a>
+at UC Riverside to examine changes in motivation and decision-making (which
+we generally frame in terms of participants’ personal values) in dementia and
+the effects of such changes on caregivers and care relationships.</p>
+<ul>
+<li>Recruitment and tracking for our participants are in REDCap.
+Much of the data as well as materials such as the original grant proposal
+and our IRB and RPPR documentation are in Box.</li>
+<li>This project is funded by NIH grant
+<a href="https://reporter.nih.gov/search/RjLTApxnskSz6ymQ4tE-5g/project-details/10884952" target="_blank">RF1AG083830</a>
+from the National Institute on Aging.</li>
+<li>In this project we recruit from the PPG and the ADRC.</li>
+<li>The SpeedType code for this grant is MNECHW0005.</li>
+<li>Project notes for this project should be documented in the lab GitHub repo
+at <a href="https://github.com/UCSFMemoryAndAging/decisionlab/blob/master/personal-values/personal-values_notebook.md" target="_blank">personal-values/personal-values_notebook.md</a>.</li>
+</ul></li>
+</ul>
+<!-- -->
+<ul>
+<li><p><a href="https://decisionlab.ucsf.edu/projects/index.html#hcd" target="_blank">Desiging Devices for Human Needs</a><br />
+In lab often referred to as “HCD Neurotech,” as distinguished from older
+neurotech projects (below).</p>
+<p>This project represents an extension of our prior work documenting participant
+and researcher experiences in neurotechnology research, now addressing how the
+lived experiences of neurotechnology users can be effectively incorporated
+into the design of new interventions. (Drawing on disability theory and on
+human-centered design.)</p>
+<ul>
+<li>Recruitment and tracking for our participants are in REDCap.
+Much of the data as well as materials such as the original grant proposal
+and our IRB and RPPR documentation are in Box.</li>
+<li>This project is funded by NIH grant
+<a href="https://reporter.nih.gov/search/RjLTApxnskSz6ymQ4tE-5g/project-details/10948282" target="_blank">R01MH137095</a>.</li>
+<li>The SpeedType code for this project is MNECHW0003.</li>
+<li>Project notes for this project should be documented in the lab GitHub repo
+at <a href="https://github.com/UCSFMemoryAndAging/decisionlab/blob/master/neurotech/hcd-neurotech_notebook.md" target="_blank">neurotech/hcd-neurotech_notebook.md</a>.</li>
+</ul></li>
+</ul>
+<p>Our older projects in lab are:</p>
 <ul>
 <li><a href="https://decisionlab.ucsf.edu/projects/index.html#dma" target="_blank">Decision-Making in Alzheimer’s and Related Dementias (DMA)</a><br />
-This project studies decisional impairments in different subtypes of dementia.
-We recruit participants with bvFTD and svPPA from the PPG, participants with
-Alzheimer’s disease from the ADRC, and healthy control participants from the
-BrANCH project.
+This project studied decisional impairments in different subtypes of dementia.
 <ul>
 <li>Guidelines for managing this project can be found in the Standard
 Operating Procedures on the <a href="lab-resources-overview.html#r-drive-rgroupschiong">R: drive</a>: R:\groups\chiong\DMA\.</li>
-<li>This project is funded by NIH grant
+<li>This project was funded by NIH grant
 <a href="https://projectreporter.nih.gov/project_info_description.cfm?aid=9764242&amp;icde=48914061" target="_blank">R01AG058817</a>.</li>
 </ul></li>
 <li><a href="https://decisionlab.ucsf.edu/projects/index.html#gbd" target="_blank">Genes, Brains and Decisions (GBD)</a><br />
-In this study, we are investigating the hypothesis that decision-making
+This study investigated the hypothesis that decision-making
 problems are a very early sign of FTD, potentially preceding a formal disease
-diagnosis. To examine this, we’re comparing presymptomatic mutation carriers
+diagnosis. We compared presymptomatic mutation carriers
 of genes for familial FTD with their noncarrier family members, recruited
 through ALLFTD both at UCSF and at other sites in the ALLFTD network.
 <ul>
 <li>Standard Operating Procedures on the <a href="lab-resources-overview.html#r-drive-rgroupschiong">R: drive</a>:
 R:\groups\chiong\GBD\.</li>
-<li>This project is funded by NIH grant
+<li>This project was funded by NIH grant
 <a href="https://projectreporter.nih.gov/project_info_description.cfm?aid=9638509&amp;icde=48914072" target="_blank">R01AG022983</a>.</li>
 </ul></li>
 <li><a href="https://decisionlab.ucsf.edu/projects/index.html#neurotech" target="_blank">Neuroethics in Novel Neurotechnologies (Neurotech)</a><br />
-This study does not recruit directly from the MAC parent projects, as it’s
-focused on ethical implications of implanted neurotechnology in patients with
-epilepsy, mood and movement disorders. This project is co-led by Professor
-Dan Dohan of the
-<a href="https://healthpolicy.ucsf.edu/" target="_blank">UCSF Institute for Health Policy Studies</a>
-and <a href="www.cultureofmedicine.org" target="_blank">UCSF Medical Cultures Lab</a>.
+This study addressed ethical implications of implanted neurotechnology in patients with
+epilepsy, mood and movement disorders.
 <ul>
 <li>Standard Operating Procedures on the <a href="lab-resources-overview.html#r-drive-rgroupschiong">R: drive</a>:
 R:\groups\chiong\Neurotech\.</li>
@@ -387,48 +461,11 @@ R:\groups\chiong\Neurotech\.</li>
 <a href="https://reporter.nih.gov/project-details/10283140" target="_blank">R01MH126997</a>.</li>
 </ul></li>
 <li><a href="https://decisionlab.ucsf.edu/projects/index.html#agingcog" target="_blank">Online Studies of Decision-Making in Healthy Aging</a><br />
-These studies use an online panel of healthy older adults recruited through
-the BRANCH Network.
+These studies addressed decision-making an online panel of healthy older
+adults recruited through the BRANCH Network.
 <ul>
 <li>Standard Operating Procedures on the <a href="lab-resources-overview.html#r-drive-rgroupschiong">R: drive</a>:
 R:\groups\chiong\aging-and-cognition\.</li>
-</ul></li>
-</ul>
-<p>Our new projects will be (we anticipate):</p>
-<ul>
-<li><p><strong>Decisions for Others</strong> (K24)</p>
-<p>Often in clinical care for older adults, both with and without dementia, we
-must rely on relatives to make medical and financial decisions for them. Such
-surrogate decision-making poses special challenges. In this study we will
-recruit a cohort of caregivers for patients with dementia, and compare this to
-a cohort of noncaregiving adults asked to make decisions on behalf of an older
-adult without dementia. We plan to recruit caregivers from the ADRC and PPG,
-and noncaregiving participants from informants in BrANCH</p>
-<ul>
-<li>See a new folder in the R: drive, R:groups\chiong\decisions-for-others\.</li>
-<li>Hopefully to be funded by NIH grant K24AG083117.</li>
-<li>This grant will also include a number of other mentoring activities for me.</li>
-</ul></li>
-<li><p><strong>Neurotech - HCD</strong> (BRAIN Initiative R01)</p>
-<p>This project represents a next phase of our lab’s ongoing work in
-neurotechnology with UCSF social scientists such as Dan Dohan. This work will
-focus on the concept of <em>human centered design</em>, particularly as it relates
-to theory about disability. As above, this will not recruit directly from MAC
-parent projects.</p>
-<ul>
-<li>See a new folder in the R: drive, R:groups\chiong\neurotech-hcd\.</li>
-<li>Hopefully to be funded by NIH grant R01MH137095.</li>
-</ul></li>
-<li><p><strong>Personal Values</strong> (National Institute on Aging R01)</p>
-<p>Still unclear if this project will be funded; it was positively reviewed so
-we’re holding out hope though the budget is tight this year. The goal will be
-to apply ethnographic qualitative methods to explore the experiences of
-people with dementia and their caregivers, focusing on changes to (including
-changes in expression of) their personal values. If funded, this will
-recruit dyads of caregivers and patients (care recipients) from ADRC and PPG.</p>
-<ul>
-<li>See a new folder in the R: drive, R:groups\chiong\personal-values\.</li>
-<li>Waiting to hear on NIH grant proposal R01AG083830.</li>
 </ul></li>
 </ul>
 </div>
@@ -452,7 +489,7 @@ topics in dementia and aging, taught by MAC faculty. These are intended for
 visiting students, rotating medical students/interns, fellows and new MAC
 staff members.</li>
 <li>Clinical-Pathological Case Conferences <em>(CPCs)</em><br />
-<em><strong>Typically about once a month on Tuesdays from 3-5pm</strong></em><br />
+<em><strong>Typically about three times a year on Mondays from 10am-noon</strong></em><br />
 This is a dynamic and interactive experience where MAC fellows first present
 an interesting/unique patient case, complete with family history, social
 context, and clinical examination/neuropsychological findings. MAC faculty and
@@ -486,18 +523,14 @@ article of interest to them, connected to our lab’s current research projects.
 Another great use for this time is to present work in progress, such as a
 manuscript or poster that someone is working on.
 Some weeks we’ll skip if I have a conflicting clinic or committee meeting.</li>
-<li>Code meeting<br />
-<em><strong>Tuesdays 2-3pm</strong></em><br />
-Regular meetings to discuss issues in code. We’ve sometimes done this as two
-stacked hours, with an initial hour for people to gather with Clara and to
-discuss code they’re working on and debug issues together, with a second hour
-meeting with Winston. I think for the time being we’re just meeting all
-together with Winston.</li>
 <li>Mentoring meetings<br />
 <em><strong>Wednedsays from 10-10:30am</strong></em> (flexible)<br />
 Rotates across lab members from week to week; designated time to discuss
 job performance, team issues/concerns, career opportunities, applications to
 grad/professional schools, or other topics important to you.</li>
+<li>(Code meeting).
+Currently on pause, previously a meeting on Thursday mornings to discuss
+issues in computational code.</li>
 </ul>
 <p>Finally, technically not within our lab or MAC, but several people in our lab
 are helping to organize events through
@@ -507,7 +540,7 @@ are helping to organize events through
 <em><strong>4th Thursdays of each month from 4-5pm</strong></em><br />
 A meeting aimed at clinicians in the 5 UCSF-affiliated Bay Area hospitals, to
 discuss a recent paper relevant to the ethics of clinical practice and
-research. Currently run over Zoom, let Celeste or Matty Norstad know if you’d
+research. Currently run over Zoom, let Chanel Matney know if you’d
 like to be added to the mailing list.</li>
 <li>Grand Rounds (scheduling variable)<br />
 These will be meetings coordinated with other clinical departments or research
