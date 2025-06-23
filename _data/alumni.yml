@@ -1,15 +1,15 @@
 - name: Ivy Huang
   degrees: MD
   previously: Undergraduate Research Assistant
-  now: Resident Physician, UCLA Department of Surgery
+  now: Colorectal Surgery Fellow, University of Pennsylvania
   email: 
-  website: http://surgery.ucla.edu/casit-meet-our-team#huang
+  website: https://scholar.google.com/citations?user=neOBd-YAAAAJ&hl=en
   pubmed_name: "Huang IA"
 
 - name: William Feldman
   degrees: MD DPhil
   previously: Medical Student
-  now: Associate Physician, Brigham and Women's Hospital Department of Pulmonary and Critical Care
+  now: Assistant Professor, Brigham and Women's Hospital Department of Pulmonary and Critical Care
   email: 
   twitter: "wbfeldman"
   website: https://connects.catalyst.harvard.edu/Profiles/display/Person/139292
@@ -18,7 +18,7 @@
 - name: Alex Beagle
   degrees: MD
   previously: Research Coordinator, then Medical Student
-  now: Clinical Instructor, UCSF Department of Medicine
+  now: Clinical Fellow, UCSF Department of Medicine
   email: 
   twitter: 
   website: https://profiles.ucsf.edu/alex.beagle
@@ -62,7 +62,7 @@
 - name: Madhu Manivannan
   degrees: MD
   previously: Research Coordinator
-  now: Intern, UCSF Benioff Children's Hospital Oakland
+  now: Resident Physician, UCSF Benioff Children's Hospital Oakland
   email: 
   website: 
   pubmed_name: "Manivannan M"
@@ -112,13 +112,13 @@
   previously: Medical Student
   now: Resident Physician, Stanford Department of Neurology
   email: 
-  website: 
+  website: https://connects.catalyst.harvard.edu/Profiles/display/Person/199446
   pubmed_name: "Ma H"
 
 - name: Carson Quinn
   degrees: MD
   previously: Medical Student
-  now: Resident Physician, Mass General Brigham Neurology Residency
+  now: Clinical Fellow, Brigham and Women's Hospital
   email: 
   twitter: "C_mQuinn"
   website: 
@@ -127,10 +127,10 @@
 - name: Clayton Young
   degrees:
   previously: Research Coordinator
-  now: CTO and Co-Founder, Radiata
+  now: Software Engineer, Genentech
   email:
   twitter:
-  website: https://radiata.ai/
+  website: https://www.linkedin.com/in/clayton-young-b86a49148
   pubmed_name: "Young JC"
 
 - name: Sheila Tran
@@ -154,7 +154,7 @@
 - name: Danielle Hart
   degrees: MD
   previously: Medical Student
-  now: Intern, UCSF; Resident Physician, UCSF Department of Neurology
+  now: Resident Physician, UCSF Department of Neurology
   email:
   twitter:
   website:
@@ -193,7 +193,7 @@
   now: Graduate Student, Northern Arizona University College of Social and Behavioral Sciences
   email:
   twitter:
-  website:
+  website: https://scholar.google.com/citations?user=J7XgG_wAAAAJ&hl=en
   pubmed_name: "Antoniou R"
 
 - name: Emily Yang Liu
@@ -202,7 +202,7 @@
   now: Assistant Professor, University of Colorado Department of Neurology
   email:
   twitter:
-  website:
+  website: https://som.cuanschutz.edu/Profiles/Faculty/Profile/39599
   pubmed_name: "Liu EY"
 
 - name: Narayan Sankaran
@@ -231,3 +231,21 @@
   twitter:
   website: 
   pubmed_name: "Sanches C"
+
+- name: Noah Cryns
+  degrees: 
+  previously: Research Coordinator
+  now: Graduate Student, The Wright Institute (Berkeley)
+  email:
+  twitter:
+  website: 
+  pubmed_name: "Cryns NG"
+
+- name: Chenyu Wang
+  degrees: 
+  previously: Master's Student
+  now: Research Assistant, Hamilos Lab, MIT
+  email:
+  twitter:
+  website: 
+  pubmed_name: "Wang C"
