@@ -2,6 +2,30 @@
 # file-type options: "pdf - published version" 
 #                  "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "Schwartz NU, Dietz CD, Prufer Araújo I, Villanueva-Meyer JE, **Chiong W**,
+Lane-Donovan C, Vandevrede L, Ljubenkov PA, Wang Y, Soleimani-Meigooni DN, La Joie R,
+Rojas JC. Guterman EL."
+  title: "Changes of a cerebral cavernous malformation associated with lecanemab therapy
+  in a patient with alzheimer disease."
+  details: "Neurol Clin Pract 2025 Aug;15(4):e200508." 
+  year: 2025
+  image: pubs_2025_lecanemab-changes-cerebral-cavernous.jpg
+  image-alt: "Figure 1. Evolution of left orbitofrontal cavernous malformation."
+  image-credit: 
+  pmid: 40584633
+  pmcid:  PMC12204771
+  open-access: https://www.neurology.org/doi/10.1212/CPJ.0000000000200508  
+  doi: 10.1212/CPJ.0000000000200508
+  file: 
+  file-type: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  content-share: 
+  preregistered: 
+  open-data: 
+  open-materials: 
+
 - authors: "**Hart DM**, **Leggins B**, **Sanches C**, Guterman EL, **Chiong W**."
   title: "Financial toxicity in dementia caregiving: Sociodemographic predictors in a U.S.
           nationally representative survey."
