@@ -2,12 +2,35 @@
 # file-type options: "pdf - published version" 
 #                  "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "White EM, Wagner J, Stewart K, Guyer H, Nelson S, **Chiong W**, Muench U,
+Sideman A, Gerlach LB, Possin K, Pettit AR, Rothstein J, Marcus SC, Spetz J, Maust DT."
+  title: "The national dementia workforce study: Methods for surveying community 
+  clinicians who provide care to people with dementia."
+  details: "Journal of the American Geriatric Society. 2025;1-9." 
+  year: 2025
+  image: pubs_2025_national-dementia-workforce-study.jpg
+  image-alt: "Figure 1. Survey development process."
+  image-credit: 
+  pmid: 40776848
+  pmcid:  
+  open-access:  https://agsjournals.onlinelibrary.wiley.com/doi/10.1111/jgs.70037 
+  doi: 10.1111/jgs.70037 
+  file: 
+  file-type: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  content-share: 
+  preregistered: 
+  open-data: 
+  open-materials: 
+
 - authors: "Schwartz NU, Dietz CD, Prufer Araújo I, Villanueva-Meyer JE, **Chiong W**,
 Lane-Donovan C, Vandevrede L, Ljubenkov PA, Wang Y, Soleimani-Meigooni DN, La Joie R,
 Rojas JC. Guterman EL."
   title: "Changes of a cerebral cavernous malformation associated with lecanemab therapy
   in a patient with alzheimer disease."
-  details: "Neurol Clin Pract 2025 Aug;15(4):e200508." 
+  details: "Neurology Clinical Practice 2025 Aug;15(4):e200508." 
   year: 2025
   image: pubs_2025_lecanemab-changes-cerebral-cavernous.jpg
   image-alt: "Figure 1. Evolution of left orbitofrontal cavernous malformation."
