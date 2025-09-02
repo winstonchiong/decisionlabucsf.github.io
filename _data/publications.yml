@@ -2,9 +2,32 @@
 # file-type options: "pdf - published version" 
 #                  "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "Hunt LJ, Harrison KL, Kiekhofer R, Merrilees J, Sideman AB, Dulaney S,
+Allen IE, Lee K, **Chiong W**, Hooper SM, Bonasera SJ, Braley TL, Miller BL, Possin KL."
+  title: "The effect of the Care Ecosystem Collaborative Care Model on 
+  end-of-life outcomes for people with dementia and their caregivers"
+  details: "American Journal of Hospital Palliative Medicine. 2025;0(0)." 
+  year: 2025
+  image: pubs_2025_collaborative-care-ecosystem.jpg
+  image-alt: "photo of two hands holding, one has a gold wedding band."
+  image-credit: "Photo by National Cancer Institute on Unsplash"
+  pmid: 40827842
+  pmcid:  
+  open-access:  
+  doi: 10.1177/10499091251367311 
+  file: 
+  file-type: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  content-share: 
+  preregistered: 
+  open-data: 
+  open-materials: 
+
 - authors: "White EM, Wagner J, Stewart K, Guyer H, Nelson S, **Chiong W**, Muench U,
 Sideman A, Gerlach LB, Possin K, Pettit AR, Rothstein J, Marcus SC, Spetz J, Maust DT."
-  title: "The national dementia workforce study: Methods for surveying community 
+  title: "The National Dementia Workforce Study: Methods for surveying community 
   clinicians who provide care to people with dementia."
   details: "Journal of the American Geriatric Society. 2025;1-9." 
   year: 2025
