@@ -2,6 +2,32 @@
 # file-type options: "pdf - published version" 
 #                  "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "Spetz J, Wagner LM, White EM, Chapman SA, **Chiong W**, Friedman EM,
+Gerlach LB, Harrison KL, Hunt LJ, Lee SJ, Muench U, Possin K, Sideman A, Hickey
+JVTS, Putthinun P, Yeh J, Sandoval S, Rose A, Rothstein J, Pettit AR, Maust DT,
+Zimmerman S."
+  title: "The National Dementia Workforce Study: development of questionnaires
+  for home care, assisted living, and nursing home settings"
+  details: "Journal of the American Geriatrics Society. 2025;2.10" 
+  year: 2025
+  image: pubs_2025_national-dementia-workforce-study-nursing-home.png 
+  image-alt: "expressionist art representing The dissonance between individuality and commonality,
+  between the self as unique and life as patterned with warm colors"
+  image-credit: Principia Banalitica by William F Hertha courtesy of Google Images
+  pmid: 40891824 
+  pmcid: PMC12407246 
+  open-access: https://agsjournals.onlinelibrary.wiley.com/doi/10.1111/jgs.70048   
+  doi: 10.1111/jgs.70048
+  file: 
+  file-type: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  content-share: 
+  preregistered: 
+  open-data: 
+  open-materials: 
+
 - authors: "Hunt LJ, Harrison KL, Kiekhofer R, Merrilees J, Sideman AB, Dulaney S,
 Allen IE, Lee K, **Chiong W**, Hooper SM, Bonasera SJ, Braley TL, Miller BL, Possin KL."
   title: "The effect of the Care Ecosystem collaborative care model on 
