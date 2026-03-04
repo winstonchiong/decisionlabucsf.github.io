@@ -369,7 +369,7 @@ Open RStudio and go to
 “File &gt; New File &gt; New R Markdown…”. Give the new file a title (“Untitled” is
 fine for now), put in your name, and select HTML as the default output format.
 Now you’ll see an RStudio screen with four windows:</p>
-<p><img src="img/handbook_09_rstudio-01-windows.png" /></p>
+<p><img src="img/handbook_09_rstudio-01-windows.png" alt="Screenshot of the RStudio interface showing an R Markdown document titled Untitled with code and text in the editor pane" /></p>
 <ul>
 <li><p>The top left window is the source window, used for editing code. Here we’re
 editing an R Markdown (.Rmd) file. (If you’re familiar with Stata, this is like
@@ -406,11 +406,11 @@ followed by special parameters for the code chunk.)</p>
 <p>To make RStudio use your code, you have two options: <strong>run</strong> and <strong>knit</strong>. Often
 when you’re working on your code you’ll use <strong>run</strong>. To explore options, pull
 down the menu for “Run” at the top of the source window:</p>
-<p><img src="img/handbook_09_rstudio-02-run-menu.png" /></p>
+<p><img src="img/handbook_09_rstudio-02-run-menu.png" alt="Screenshot of RStudio with the Run dropdown menu open, showing options to run selected lines, current chunk, or all chunks in an R Markdown document" /></p>
 <p>Now click inside the source window and navigate so that your cursor is inside of
 the second code chunk (named “cars”)–that is, on on lines 18-20. Pull down on
 “Run” and select Run Current Chunk”.</p>
-<p><img src="img/handbook_09_rstudio-03-run-curr-chunk.png" /></p>
+<p><img src="img/handbook_09_rstudio-03-run-curr-chunk.png" alt="Screenshot of RStudio showing summary statistics output for the cars dataset in an R Markdown document" /></p>
 <p>Look in the console window at bottom left–there you’ll see that RStudio behaves
 as if you had typed <code>summary(cars)</code> into the console, and displays the output.
 In the source window at top left, the chunk output is also displayed immediately
@@ -433,7 +433,7 @@ collaboratively across multiple computers. Go to “Tools &gt; Global Options…
 General” and uncheck “Restore most recently opened project at startup,” “Restore
 previously open source documents at startup,” and “Restore .RData into workspace
 at startup,” and change “Save workspace to .RData on exit:” to “Never.”</p>
-<p><img src="img/handbook_09_rstudio-04-rstudio-restore.png" /></p>
+<p><img src="img/handbook_09_rstudio-04-rstudio-restore.png" alt="screenshot of Rstudio tools" /></p>
 <p>Also, we will try to keep the line length of our code less
 than 80 characters. Go to “Tools &gt; Global Options… &gt; Code &gt; Display” and check
 the box for “Show margin” with “margin column” set to 80. This will draw a
@@ -503,7 +503,7 @@ repository from the GitHub website (remember, you want the private
 repo here, not the public “decisionlabucsf” repo that we use for the website)
 by finding the green button for “&lt; &gt; Code” and copying the URL for the
 repository:</p>
-<p><img src="img/handbook_09_rstudio-05-clone.png" /></p>
+<p><img src="img/handbook_09_rstudio-05-clone.png" alt="Screenshot of the URL for cloning a repository from the GitHub website to sourcetree" /></p>
 <p>Now open SourceTree, and go to File &gt; Clone/New… This will open a window as
 seen below. For “Source Path/URL:” paste in the URL from GitHub for cloning. For
 “Destination Path:” give the address of the local folder you’ve just created.
@@ -513,7 +513,7 @@ CredentialHelperSelector asking you to select a credential helper. I don’t
 really know what this is, but I chose “manager” and “Always use this from now
 on” and it seems to be working fine. Based on some discussions online it sounds
 like “manager-core” should work also.)</p>
-<p><img src="img/handbook_09_rstudio-06-sourcetree.png" /></p>
+<p><img src="img/handbook_09_rstudio-06-sourcetree.png" alt="screenshot of sourcetree clone page" /></p>
 <p>Now you’ll have a local copy of the repository on your computer, and everyone
 else in lab will have a local copy of the repository on their computers.
 (Another reason why we don’t want to put huge files in the repository–they will
@@ -541,13 +541,13 @@ everything in local repository and the online repository should match again</li>
 <p>To help you remember, when you look at the top of SourceTree, you’ll see the
 last 3 operations in order: <strong>Commit-Pull-Push</strong>. This is what you always do
 when saving your work to GitHub:</p>
-<p><img src="img/handbook_09_rstudio-07-commit-pull-push.png" /></p>
+<p><img src="img/handbook_09_rstudio-07-commit-pull-push.png" alt="screenshot of the push and pull functions in sourcetree" /></p>
 <p>Now that you’ve set up your local repo, let’s take a look at it and the R:
 drive. Let’s suppose you’ve just collected data for a new task we’ll just call
 “blah.” Right now, because this is the first time you’ll be looking at the data,
 you make a new folder for your data on the R: drive and create a new
 folder for “blah” inside your local GitHub repo:</p>
-<p><img src="img/handbook_09_rstudio-08-empty-folders.png" /></p>
+<p><img src="img/handbook_09_rstudio-08-empty-folders.png" alt="screenshot of empty folders in the R drive" /></p>
 </div>
 <div id="step-2-save-the-original-dataset-to-the-r-drive" class="section level2 hasAnchor" number="9.4">
 <h2><span class="header-section-number">9.4</span> Step 2: Save the original dataset to the R: drive<a href="rstudio-analysis-pathway.html#step-2-save-the-original-dataset-to-the-r-drive" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -555,7 +555,7 @@ folder for “blah” inside your local GitHub repo:</p>
 e.g. directly from Qualtrics, in your new folder on the R: drive. Usually this
 will either be in CSV or Excel format. (Qualtrics will export the CSV file using
 its own ugly naming convention, which you don’t need to change.)</p>
-<p><img src="img/handbook_09_rstudio-09-orig-dataset.png" /></p>
+<p><img src="img/handbook_09_rstudio-09-orig-dataset.png" alt="screenshot of an excel data set in the R drive" /></p>
 <p>From now on we <strong>only read</strong> this data file. We don’t save any changes to it. If
 we ever had to re-download the data file from Qualtrics to the R: drive again
 (e.g., if there was some crash or a data loss), we could reproduce every step in
@@ -614,18 +614,18 @@ the decisionlab repo local folder on your computer, which you created in Step 1.
 (From where it can then be pushed to the lab GitHub repo.)
 Now you’ll have two files: your original data file on the R: drive, and the
 .Rmd file that you’re currently working on in your local repo:</p>
-<p><img src="img/handbook_09_rstudio-10-cleaning-rmd.png" /></p>
+<p><img src="img/handbook_09_rstudio-10-cleaning-rmd.png" alt="screenshot of a raw data set and a cleaned data set in the R drive" /></p>
 <p>Note that, since you haven’t actually knit this file yet, you haven’t
 created an .html file. Select “Knit” from the top of the source window. You’ll
 see some output run by in an “R Markdown” tab of the console window, and then
 R will display an .html file based upon your R Markdown file, displaying the two
 code blocks we have so far:</p>
-<p><img src="img/handbook_09_rstudio-11-html.png" /></p>
+<p><img src="img/handbook_09_rstudio-11-html.png" alt="screenshot of an html file derived from an R Markdown file" /></p>
 <p>Note the white box in which it displays the output from <code>Sys.time()</code>–this is a
 timestamp of exactly when the .html was knit from the .Rmd file. This .html file
 will also show up in your local repo subfolder, preserving a log of what you’ve
 done:</p>
-<p><img src="img/handbook_09_rstudio-12-cleaning-html.png" /></p>
+<p><img src="img/handbook_09_rstudio-12-cleaning-html.png" alt="screenshot of raw data, cleaned data, and and html file of clean data in the R drive" /></p>
 <p>Okay, let’s keep working on your .Rmd file. Again, see the example file for
 moral-dilemma in AgingCog for an example. In general, what you’ll do is test out
 code in the console and check that the code does what you want it to do (e.g.,
@@ -654,20 +654,20 @@ your R Markdown script.</li>
 select “More &gt; Go To Working Directory.” This should show you the datafolder
 that you’ve specified.</li>
 </ol>
-<p><img src="img/handbook_09_rstudio-13-setw.png" /></p>
+<p><img src="img/handbook_09_rstudio-13-setw.png" alt="screenshot of the GUI in RStudio performing some operations" /></p>
 <p>The next step is to import the Qualtrics data into RStudio so that you can start
 cleaning the dataset. Here, you’ll use the GUI in RStudio to perform some
 operations, for which the corresponding code will show up in the console window.
 Now the panel at bottom right should show your datafolder, which includes the
 CSV file that you imported from Qualtrics. Click on this file and select
 “Import Dataset…”</p>
-<p><img src="img/handbook_09_rstudio-14-import-dataset.png" /></p>
+<p><img src="img/handbook_09_rstudio-14-import-dataset.png" alt="screenshot of Rstudio importing a data set" /></p>
 <p>This will open a new window with options for importing this dataset, and a handy
 preview of what the dataset will look like with those options once imported.
 More importantly, on the bottom right is a “Code Preview” window–this shows you
 what you would need to write in R code in order to perform the same operation.
 Also, there’s a clipboard icon that will copy out this code for you to use:</p>
-<p><img src="img/handbook_09_rstudio-15-import-text-data.png" /></p>
+<p><img src="img/handbook_09_rstudio-15-import-text-data.png" alt="screenshot of a new window with options for importing a dataset in Rstudio, and what the dataset will look like with those options once imported" /></p>
 <p>Change the “Name” to something more reasonable, like “blah_qualtrics_df.” (The
 suffix “_df” is a useful convention for marking an object in the workspace as a
 dataframe.) You
@@ -682,13 +682,13 @@ window.</p>
 <p>Now you can paste this code into the console window to make sure that the code
 works as intended. Press Enter, and you should see the dataframe
 “blah_qualtrics_df” in your workspace:</p>
-<p><img src="img/handbook_09_rstudio-16-imported.png" /></p>
+<p><img src="img/handbook_09_rstudio-16-imported.png" alt="screenshot of data frame in Rstudio" /></p>
 <p>If you like the code and want to keep it, paste it into the R Markdown file.
 Below the “setup” code chunk, start a new section with a header such as
 “Data cleaning.” After this you can write a description of what the next code
 chunk is supposed to do, and you can create a new code chunk–call it
 “file-import”:</p>
-<p><img src="img/handbook_09_rstudio-17-import-code-block.png" /></p>
+<p><img src="img/handbook_09_rstudio-17-import-code-block.png" alt="screenshot of Rstudio and imported code block" /></p>
 <p>There will be a lot of other cleaning to do before the data can be analyzed. For
 instance, when Qualtrics exports CSV files the first three rows are different
 versions of the header (info about the columns), but R will assume that the
@@ -737,7 +737,7 @@ save(blah_qualtrics_df, file=&quot;blah_clean_qualtrics_df.Rda&quot;)
 and will also re-write the .html file to your local repository in your user
 folder. (This is good, now you also have a timestamp of when the .Rda file on
 the R: drive was most recently created.)</p>
-<p><img src="img/handbook_09_rstudio-18-clean-datafile.png" /></p>
+<p><img src="img/handbook_09_rstudio-18-clean-datafile.png" alt="screenshot of csv file, rmd file, rda file, and html file in the R drive" /></p>
 <p>Don’t forget to save your completed .Rmd file, and <strong>commit-pull-push</strong> to get
 your updated .Rmd and .html files on to the shared GitHub repository.</p>
 </div>
@@ -750,7 +750,7 @@ We always want to be able to retrace our steps, so if these new .Rmd files
 include manipulations of the data that we want to keep (like parameter estimates
 from a regression), then we save these in a new .Rda file on the R: drive. For
 instance:</p>
-<p><img src="img/handbook_09_rstudio-19-new-datafile.png" /></p>
+<p><img src="img/handbook_09_rstudio-19-new-datafile.png" alt="screenshot of csv file, rmd file, rda file, and html file in the R drive with arrows denoting data flow" /></p>
 <p>As a general principle, if an R Markdown script reads data from a given .Rda
 file, then that .Rmd should not also save changes to that same .Rda file.
 Instead, if there are any manipulations made to the data that need to be saved,
@@ -764,7 +764,7 @@ repository, explaining what order the R Markdown scritps should be knit in to
 re-create the data sets, and how all the files are related to one another.)</p>
 <p>Just to complete the illustration, here’s a hypothetical later stage of the
 project:</p>
-<p><img src="img/handbook_09_rstudio-20-more-files.png" /></p>
+<p><img src="img/handbook_09_rstudio-20-more-files.png" alt="screenshot of various types of files in in the R drive with arrows denoting data flow" /></p>
 <p>For these later stages (creating the tables and figures), there are no
 manipulations of the data that need to be recorded, so there’s no need to create
 more .Rda files. In the first stage (in purple), we read out the original .Rda
