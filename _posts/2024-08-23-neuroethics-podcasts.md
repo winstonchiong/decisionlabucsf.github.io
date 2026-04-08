@@ -28,8 +28,8 @@ wrote:
 
 Second, I got to have a fun conversation for the 
 [GeriPal](https://geripal.org/) (Geriatrics and Palliative Care) podcast with 
-Sean Aas, prompted by Sean's thought-provoking recent 
-[article](https://academic.oup.com/jmp/article-abstract/49/4/399/7665406?redirectedFrom=fulltext) 
+Sean Aas, prompted by Sean's  
+[thought-provoking recent article](https://academic.oup.com/jmp/article-abstract/49/4/399/7665406?redirectedFrom=fulltext) 
 on philosophical and conceptual problems with brain death. (A topic I haven't 
 written about in a long time, but which I may need to return to...)
 
