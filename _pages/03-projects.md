@@ -8,7 +8,7 @@ description:
 <h2>current projects</h2>
 
 <div id="dfo" class="project-container" style="margin-top: 0px">
-  <img src="{{ site.baseurl }}/assets/img/projects-dfo.jpg" alt="Background image for Making Decisions for Other People. Two inversed mountains in front of a starry blue sky." title="Photo by Mark Basarab on Unsplash." style="width: 100%;">
+  <img src="{{ site.baseurl }}/assets/img/projects-dfo.jpg" alt="Background for Making Decisions for Other People. Two inversed mountains in front of a starry blue sky." title="Photo by Mark Basarab on Unsplash." style="width: 100%;">
   <div class="project-title" style="color: #E266AE">Making Decisions for Other People</div>
 </div>
 Decisional impairments in people with dementia have been well studied, but the 
@@ -33,7 +33,7 @@ care recipient with dementia, and group (3) for a healthy older adult in group (
 
 
 <div id="personal-values" class="project-container" style="margin-top: 0px">
-  <img src="{{ site.baseurl }}/assets/img/projects-personalvalues.jpg" alt="Background image for Dementia Experience and Caregiving. Seven leaves hanging on a string. The leaves are arranged to show the change in color that occurs between late summer and the end of fall. The two leaves on the left are green/yellow, the three leaves in the middle are yellow/orange, and the two leaves on the right are red." title="Photo by Chris Lawton on Unsplash." style="width: 100%;">
+  <img src="{{ site.baseurl }}/assets/img/projects-personalvalues.jpg" alt="Background for Dementia Experience and Caregiving. Seven leaves hanging on a string. The leaves are arranged to show the change in color that occurs between late summer and the end of fall. The two leaves on the left are green/yellow, the three leaves in the middle are yellow/orange, and the two leaves on the right are red." title="Photo by Chris Lawton on Unsplash." style="width: 100%;">
   <div class="project-title" style="color: #000000">Dementia Experience and Caregiving</div>
 </div>
 
@@ -65,7 +65,7 @@ changes in care recipients.
 <br><br>
 
 <div id="hcd" class="project-container" style="margin-top: 0px">
-  <img src="{{ site.baseurl }}/assets/img/projects-hcd.jpg" alt="Background image for Designing Devices for Human Needs. This image shows a photo-realistic silhouette of an adult male’s bust in profile in front of a large, light blue dot." title="Photo by Ben Sweet on Unsplash." style="width: 100%;">
+  <img src="{{ site.baseurl }}/assets/img/projects-hcd.jpg" alt="Background for Designing Devices for Human Needs. This shows a silhouette of an adult male’s bust in profile in front of a large, light blue dot." title="Photo by Ben Sweet on Unsplash." style="width: 100%;">
   <div class="project-title" style="color: #FFDD00">Designing Devices for Human Needs</div>
 </div>
 
@@ -93,7 +93,7 @@ neurotechnology design.
 <h2>past projects</h2>
 
 <div id="gbd" class="project-container" style="margin-top: 0px">
-  <img src="{{ site.baseurl }}/assets/img/projects-gbd.jpg" alt="Background image for Genes, Brains and Decisions. Photo by Robbin Huang on Unsplash." style="width: 100%;">
+  <img src="{{ site.baseurl }}/assets/img/projects-gbd.jpg" alt="Background for Genes, Brains and Decisions. By Robbin Huang on Unsplash." style="width: 100%;">
   <div class="project-title" style="color: #052049">Genes, Brains and Decisions</div>
 </div>
 Patients with frontotemporal dementia (FTD) are prone to making bad decisions; unfortunately, FTD is often only diagnosed after patients have made significant errors. Such delays reflect the absence of objective clinical tests for decision-making, and represent missed opportunities to prevent serious harms. 
@@ -101,7 +101,7 @@ Patients with frontotemporal dementia (FTD) are prone to making bad decisions; u
 We are studying decision-making in familial FTD kindreds from two large NIH-funded multicenter networks spanning the US and Canada. We hypothesize that early behavioral and physiological changes in FTD mutation carriers will reveal initial signs and mechanisms of impaired judgment in FTD, potentially also elucidating neural mechanisms of impaired decision-making in other neuropsychiatric disorders. Presymptomatic mutation carriers and noncarrier family members from these multicenter networks are recruited to perform tests of decision-making on a secure web-enabled platform that enables rapid and flexible data collection from participants across North America. Linking our behavioral measures to a rich dataset of cognitive and neuroimaging measures already being collected across network sites allows us to combine the strengths of traditional on-site evaluation with the flexibility and scaling advantages of newer online methods.
 
 <div id="neurotech" class="project-container">
-  <img src="{{ site.baseurl }}/assets/img/projects-neurotech.jpg" alt="Background iamge for Neuroethics in Novel Neurotechnologies. Photo by Tim Marshall on Unsplash." style="width: 100%;">
+  <img src="{{ site.baseurl }}/assets/img/projects-neurotech.jpg" alt="Background iamge for Neuroethics in Novel Neurotechnologies. by Tim Marshall on Unsplash." style="width: 100%;">
   <span class="project-transparency" style="background: rgba(128,60,0,0.3);"></span>
   <div class="project-title" style="color: #007cbe">Neuroethics in Novel Neurotechnologies</div>
 </div>
@@ -110,7 +110,7 @@ New technologies that modulate brain function have tremendous potential for alle
 To address these issues, we have built a cohesive interdisciplinary team with expertise in neuroscience, clinical care, law, philosophy and social science. Our work focuses on the development of implantable “closed-loop” devices that can both monitor and adaptively modify brain systems involved in mood and behavior regulation. We are observing and interviewing patients undergoing novel closed-loop interventions for epilepsy, Parkinson's disease, and mood disorders, along with their family members. We are also studying how their experiences and concerns can be incorporated in clinicians’ and researchers’ views about the ethical development of neurotechnology. 
 
 <div id="dma" class="project-container">
-  <img src="{{ site.baseurl }}/assets/img/projects-dma.jpg" alt="Background image for Decision-Making in Alzheimer's and Related Dementias. Photo by Oliver Roos on Unsplash." style="width: 100%;">
+  <img src="{{ site.baseurl }}/assets/img/projects-dma.jpg" alt="Background for Decision-Making in Alzheimer's and Related Dementias. by Oliver Roos on Unsplash." style="width: 100%;">
   <span class="project-transparency" style="background: rgba(0,40,90,.2);"></span>
   <div class="project-title" style="color: #f26d04">Decision-Making in Alzheimer's and Related Dementias</div>
 </div>
@@ -121,7 +121,7 @@ We address this gap by linking current decision neuroscience to clinical standar
 Our work links these accepted clinical standards to current constructs in decision neuroscience, utilizing task-based functional MRI and computational modeling of decision-making in well-characterized cohorts of patients with Alzheimer’s disease, patients with frontotemporal dementia, and healthy older controls, all with linked clinical and neuroimaging data. We aim to advance our understanding of mechanisms of clinical decision-making impairments, ultimately resulting in improved assessment tools and in targets for future interventions to prevent serious harms to patients.
 
 <div id="agingcog" class="project-container">
-  <img src="{{ site.baseurl }}/assets/img/projects-agingcog.jpg" alt="Background image for Aging and Cognitive Decline Study. Photo by Thomas Kelley on Unsplash." style="width: 100%;">
+  <img src="{{ site.baseurl }}/assets/img/projects-agingcog.jpg" alt="Background for Aging and Cognitive Decline Study. by Thomas Kelley on Unsplash." style="width: 100%;">
   <span class="project-transparency" style="background: rgba(0,0,0,0.4);"></span>
   <div class="project-title" style="color: #d1d3d3">Online Studies of Decision-Making in Healthy Aging</div>
 </div>
@@ -132,7 +132,7 @@ Our research program combines the detailed subject characterization enabled by o
 
 <!---
 <div id="seminar" class="project-container">
-  <img src="{{ site.baseurl }}/assets/img/projects-neuroethics.jpg" alt="Background image for Neuroethics Seminar. Photo by Michael Podger on Unsplash." style="width: 100%;">
+  <img src="{{ site.baseurl }}/assets/img/projects-neuroethics.jpg" alt="Background for Neuroethics Seminar. by Michael Podger on Unsplash." style="width: 100%;">
   <span class="project-transparency" style="background: rgba(0.5,0.5,0.5,0.4);"></span>
   <div class="project-title" style="color: #ffdd00">Neuroethics Seminar</div>
 </div>

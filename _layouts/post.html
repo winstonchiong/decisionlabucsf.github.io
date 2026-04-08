@@ -11,7 +11,7 @@ layout: default
   {% if page.image %}
     <div class="sem-image-container">
     <img style="width: 80%;" src="{{ page.image | prepend: '/assets/img/' | 
-    prepend: site.baseurl | prepend: site.url }}" alt="photo of {{page.title}}">
+    prepend: site.baseurl | prepend: site.url }}" alt="{{page.title}}">
     {% if page.caption %}
     <div class="image-caption">{{ page.caption }}</div>
     {% endif %}
