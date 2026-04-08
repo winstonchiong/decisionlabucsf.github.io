@@ -14,7 +14,15 @@ considerations around the diagnosis of prodromal Parkinson's disease, a companio
 to an [editorial](https://doi.org/10.1212/WNL.0000000000209522) that Colin and I 
 wrote: 
 
-<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/32449797/height/90/theme/custom/thumbnail/yes/direction/forward/render-playlist/no/custom-color/006d48/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe> 
+<iframe 
+  title="AAN podcast player prodromal Parkinson's" 
+  style="border: none" 
+  src="//html5-player.libsyn.com/embed/episode/id/32449797/height/90/theme/custom/thumbnail/yes/direction/forward/render-playlist/no/custom-color/006d48/" 
+  height="90" 
+  width="100%" 
+  scrolling="no"  
+  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen>
+</iframe> 
 
 
 
@@ -25,4 +33,12 @@ Sean Aas, prompted by Sean's thought-provoking recent
 on philosophical and conceptual problems with brain death. (A topic I haven't 
 written about in a long time, but which I may need to return to...)
 
-<iframe width="490" height="276" src="https://www.youtube.com/embed/pumMqvQBkLo?si=ee1Nsb126JyJzrWa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe 
+  width="490" 
+  height="276" 
+  src="https://www.youtube.com/embed/pumMqvQBkLo?si=ee1Nsb126JyJzrWa" 
+  title="YouTube video player - Geripal brain death" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
