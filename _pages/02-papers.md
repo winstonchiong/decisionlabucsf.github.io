@@ -17,7 +17,7 @@ years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2014, 2013, 
 
 {% if y == paper.year %}
 <div id = "{{ paper.title | replace: ' ', '-' | remove: '.' }}" class="clearfix" width="100%" style="padding-top: 5px; padding-bottom: 15px; clear: both;">
-<img style="float: left; width: 25%; padding-right: 20px; padding-bottom:40px;" src="{{ paper.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="{% if paper.image-alt %}{{paper.image-alt}}{% endif %}" title="{% if paper.image-credit %}{{paper.image-credit}}{% endif %}"> 
+<img style="float: left; width: 25%; padding-right: 20px; padding-bottom:40px;" src="{{ paper.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="{% if paper.image-alt %}{{paper.image-alt}}{% else %}{{paper.title}}{% endif %}" title="{% if paper.image-credit %}{{paper.image-credit}}{% endif %}"> 
 <div valign="top" style="overflow: hidden">
   {{paper.authors | markdownify | remove: '<p>' | remove: '</p>'}}<br>
   {% if paper.pmid %}
