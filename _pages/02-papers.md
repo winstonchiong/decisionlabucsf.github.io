@@ -42,7 +42,8 @@ years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2014, 2013, 
   {% if paper.doi %}
   <div style="display: table;"><div style="display: table-row; height: 6px"></div>
   <div style="display: table-row;"><div style="display: table-cell; width: 10px;"></div>
-  <div style="display: table-cell;" class="__dimensions_badge_embed__" data-doi="{{paper.doi}}" data-hide-zero-citations="true" data-legend="hover-right" data-style="small_circle"></div> <div style="display: table-cell;" data-badge-popover="right" data-badge-type="donut" data-doi="{{paper.doi}}" data-hide-no-mentions="true" class="altmetric-embed"></div>
+  <div style="display: table-cell;" class="__dimensions_badge_embed__" data-doi="{{paper.doi}}" data-hide-zero-citations="true" data-legend="hover-right" data-style="small_circle"></div> 
+  <div style="display: table-cell;" data-badge-popover="right" data-badge-type="donut" data-doi="{{paper.doi}}" data-hide-no-mentions="true" class="altmetric-embed" alt="Altmetric score for {{paper.title}}"></div>
   </div><div style="display: table-row; height: 22px"></div>
   </div>
   {% elsif paper.pmid %}
