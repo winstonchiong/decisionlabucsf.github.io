@@ -2,6 +2,27 @@
 # file-type options: "pdf - published version" 
 #                  "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "Hutchinson N, James J, **Chiong, W**."
+  title: "Toward inclusive clinical trials"
+  details: "JAMA Internal Medicine. June 22, 2026;2168-6106"
+  year: 2026
+  image: ""
+  image-alt: ""
+  image-credit: 
+  pmid: 
+  pmcid: 
+  open-access:   
+  doi: 10.1001/jamainternmed.2026.2515 
+  file: 
+  file-type: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  content-share: 
+  preregistered: 
+  open-data: 
+  open-materials: 
+
 - authors: "Eslami-Amirabadi M, Scheffler A, Kramer JH, Gorno-Tempini ML, Seeley WW,
 Rosen H, Rabinovici GD, Miller BL, **Chiong W**, Rankin KP."
   title: "Additive effect of patient anosognosia and theory of mind deficit on dementia caregiver distress"
@@ -14,6 +35,27 @@ Rosen H, Rabinovici GD, Miller BL, **Chiong W**, Rankin KP."
   pmcid: PMC13065238
   open-access:   
   doi: 10.3389/fneur.2026.1724172 
+  file: 
+  file-type: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  content-share: 
+  preregistered: 
+  open-data: 
+  open-materials: 
+
+  - authors: "Black V, Hunt M, Stiles N, Milionis C, Dzeng E, **Chiong, W**."
+  title: "The Ambiguously Experimental Position of Argus II Recipients"
+  details: "2025 12th International IEEE/EMBS Conference on Neural Engineering; 307-313"
+  year: 2025
+  image: ""
+  image-alt: ""
+  image-credit: 
+  pmid: 
+  pmcid: 
+  open-access:   
+  doi: 10.1109/NER61569.2025.11588983.
   file: 
   file-type: 
   github:
