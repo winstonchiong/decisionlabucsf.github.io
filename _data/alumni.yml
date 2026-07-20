@@ -258,15 +258,15 @@
   website: https://www.linkedin.com/in/hoycw/
   pubmed_name: "Hoy CW"
 
-  - name: Carleigh Williams
+- name: Carleigh Williams
   degrees: MD
   previously: Medical Student
   now: 
   email: 
   website: 
-  pubmed_name: "" 
+  pubmed_name:  
 
-  - name: Jaaie Varshney
+- name: Jaaie Varshney
   degrees: MD
   previously: Medical Student
   now: Psychiatric Resident, California Pacific Medical Center
@@ -274,10 +274,10 @@
   website: https://www.linkedin.com/in/jaaie-varshney-2a9433180/ 
   pubmed_name: "Varshney J"
 
-  - name: Pongpat Putthinun
+- name: Pongpat Putthinun
   degrees: PhD
   previously: Postdoc & Atlantic Fellow in Equity and Brain Health
   now: 
   email: 
   website: 
-  pubmed_name: " Putthinun P" 
+  pubmed_name: "Putthinun P" 
