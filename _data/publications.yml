@@ -2,7 +2,29 @@
 # file-type options: "pdf - published version" 
 #                  "pdf - author manuscript version (peer-reviewed & edited)"...
 
-- authors: "Hutchinson N, James J, **Chiong, W**."
+- authors: "**Friend J**, **Black V**, **Chiong W**."
+  title: "AI use in dementia care requires engagement with patient and caregiver perspectives."
+  details: "American Journal of Bioethics. 2026; 26(9):4-8"
+  year: 2026
+  image: 
+  image-alt: ""
+  image-credit: 
+  pmid: 42657713
+  pmcid: 
+  open-access: https://www.tandfonline.com/doi/full/10.1080/15265161.2026.2715910#d1e179   
+  doi: 10.1080/15265161.2026.2715910.
+  file: 
+  file-type: 
+  github:
+  biorxiv:
+  psyarxiv: 
+  content-share: 
+  preregistered: 
+  open-data: 
+  open-materials:
+  escholarship: 
+
+- authors: "Hutchinson N, James J, **Chiong W**."
   title: "Toward inclusive clinical trials"
   details: "JAMA Internal Medicine. June 22, 2026;2168-6106. Online ahead of print."
   year: 2026
