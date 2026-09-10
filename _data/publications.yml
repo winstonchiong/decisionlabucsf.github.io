@@ -21,7 +21,8 @@
   content-share: 
   preregistered: 
   open-data: 
-  open-materials: 
+  open-materials:
+  escholarship: 
 
 - authors: "Eslami-Amirabadi M, Scheffler A, Kramer JH, Gorno-Tempini ML, Seeley WW,
 Rosen H, Rabinovici GD, Miller BL, **Chiong W**, Rankin KP."
@@ -43,7 +44,8 @@ Rosen H, Rabinovici GD, Miller BL, **Chiong W**, Rankin KP."
   content-share: 
   preregistered: 
   open-data: 
-  open-materials: 
+  open-materials:
+  escholarship: 
 
 - authors: "**Black V**, **Hunt M**, Stiles N, Milionis C, Dzeng E, **Chiong W**"
   title: "The Ambiguously Experimental Position of Argus II Recipients"
@@ -64,7 +66,8 @@ Rosen H, Rabinovici GD, Miller BL, **Chiong W**, Rankin KP."
   content-share: 
   preregistered: 
   open-data: 
-  open-materials: 
+  open-materials:
+  escholarship: 
 
 - authors: "Spetz J, Wagner LM, White EM, Chapman SA, **Chiong W**, Friedman EM,
 Gerlach LB, Harrison KL, Hunt LJ, Lee SJ, Muench U, Possin K, Sideman A, Hickey
@@ -90,7 +93,8 @@ Zimmerman S."
   content-share: 
   preregistered: 
   open-data: 
-  open-materials: 
+  open-materials:
+  escholarship: 
 
 - authors: "Hunt LJ, Harrison KL, Kiekhofer R, Merrilees J, Sideman AB, Dulaney S,
 Allen IE, Lee K, **Chiong W**, Hooper SM, Bonasera SJ, Braley TL, Miller BL, Possin KL."
@@ -113,7 +117,8 @@ Allen IE, Lee K, **Chiong W**, Hooper SM, Bonasera SJ, Braley TL, Miller BL, Pos
   content-share: 
   preregistered: 
   open-data: 
-  open-materials: 
+  open-materials:
+  escholarship: 
 
 - authors: "White EM, Wagner J, Stewart K, Guyer H, Nelson S, **Chiong W**, Muench U,
 Sideman A, Gerlach LB, Possin K, Pettit AR, Rothstein J, Marcus SC, Spetz J, Maust DT."
@@ -137,6 +142,7 @@ Sideman A, Gerlach LB, Possin K, Pettit AR, Rothstein J, Marcus SC, Spetz J, Mau
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "Schwartz NU, Dietz CD, Prufer Araújo I, Villanueva-Meyer JE, **Chiong W**,
 Lane-Donovan C, Vandevrede L, Ljubenkov PA, Wang Y, Soleimani-Meigooni DN, La Joie R,
@@ -160,7 +166,8 @@ Rojas JC. Guterman EL."
   content-share: 
   preregistered: 
   open-data: 
-  open-materials: 
+  open-materials:
+  escholarship: 
 
 - authors: "**Hart DM**, **Leggins B**, **Sanches C**, Guterman EL, **Chiong W**."
   title: "Financial toxicity in dementia giving: Sociodemographic predictors in a U.S.
@@ -184,6 +191,7 @@ Rojas JC. Guterman EL."
   preregistered: https://osf.io/ry2fc 
   open-data: https://osf.io/r3fsh/ 
   open-materials: https://osf.io/r3fsh/ 
+  escholarship: 
 
 - authors: "Brown JEH, **Chiong W**, Hutchinson N."
   title: "Integrating n-of-1 trials into learning health care systems."
@@ -205,6 +213,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "Matvey M, Kelley DP, Bradley ER, **Chiong W**, O'Donovan A, Woolley J."
   title: "Modifying informed consent to help address functional unmasking in 
@@ -227,7 +236,8 @@ Rojas JC. Guterman EL."
   content-share: 
   preregistered: 
   open-data: 
-  open-materials: 
+  open-materials:
+  escholarship: 
 
 - authors: "**Chen BB**, **Haeusermann T**, **Dada A**, Hamilton RH, James JE, 
            **Fong KC**, Dohan D, **Chiong W**."
@@ -252,6 +262,7 @@ Rojas JC. Guterman EL."
   preregistered: https://osf.io/ej9h2
   open-data: https://osf.io/3t2p6
   open-materials: https://osf.io/3t2p6
+  escholarship: 
 
 
 - authors: "**Leggins B**, Hart DM, **Jackson AJ**, Levenson RW, Windon CC, Merrilees J, **Chiong W**."
@@ -276,6 +287,7 @@ Rojas JC. Guterman EL."
   preregistered: https://osf.io/uk3g7
   open-data: https://osf.io/je7fs/
   open-materials: 
+  escholarship: 
   
 - authors: "**Antoniou R**, Callahan P, Kramer JH, Miller BL, **Chiong W**, Rankin KP." 
   title: "Socioemotional dysfunction and the greater good: a case study."
@@ -297,6 +309,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data:
   open-materials: 
+  escholarship: 
 
 - authors: "**Hoy CW**, **Chiong W**."
   title: "The ethical landscape of prodromal Parkinson disease: Considerations 
@@ -319,6 +332,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "**Ngo S**, **Jackson AJ**, **Manivannan M**, **Young JC**, 
             **Leggins B**, **Cryns NG**, **Tran ST**, Grant HE, Knudtson MV, 
@@ -343,6 +357,7 @@ Rojas JC. Guterman EL."
   preregistered: https://archive.org/details/osf-registrations-vupj7-v1
   open-data: 
   open-materials: https://osf.io/97vwd
+  escholarship: 
 
 - authors: "**Haeusermann T**꙳, **Liu EY**꙳, **Fong KC**, Dohan D, **Chiong W**. ꙳(*co-first authors*)"
   title: "Patient experiences of resection versus responsive neurostimulation for drug-resistant epilepsy."
@@ -364,6 +379,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "**Haeusermann T**, **Chiong W**."
   title: "Ethical considerations in rapid and novel treatments in psychiatry."
@@ -385,6 +401,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "**Sankaran N**, Moses D, **Chiong W**, Chang EF."
   title: "Recommendations for promoting user agency in the design of speech neuroprostheses."
@@ -406,6 +423,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "Guterman EL, Kiekhofer RE, Wood AJ, Allen IE, Kahn JG, Dulaney S, 
             Merrilees JJ, Lee K, **Chiong W**, Bonasera SJ, Braley TL, Hunt LJ, 
@@ -430,6 +448,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "**Hoy CW**, **Chiong W**."
   title: "Book Review: DeGrazia D, Millum J. A Theory of Bioethics. Cambridge University Press. 2021."
@@ -450,7 +469,8 @@ Rojas JC. Guterman EL."
   content-share: 
   preregistered:
   open-data: 
-  open-materials:  
+  open-materials: 
+  escholarship: 
 
 - authors: "**Hoy CW**, Little SJ, **Chiong W**."
   title: "Using neuroscientific and clinical context to assess and manage changes 
@@ -473,6 +493,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "**Antoniou R**, **Haeusermann T**, Bernstein Sideman A, **Fong KC**, 
             Callahan P, Miller BL, Kramer KL, **Chiong W**, Rankin KP."
@@ -496,6 +517,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data: 
   open-materials: 
+  escholarship: 
   
 - authors: "**Antoniou R**, **Romero-Kornblum H**, **Young CJ**, You M, Kramer 
             JH, Rankin KP, **Chiong W**."
@@ -518,6 +540,7 @@ Rojas JC. Guterman EL."
   preregistered: https://osf.io/m425d
   open-data: https://osf.io/hf9a5
   open-materials: 
+  escholarship: 
 
 - authors: "**Haeusermann T**, **Lechner CR**, **Fong KC**, Bernstein Sideman A, Jaworska A, **Chiong W**, Dohan D."
   title: "Closed-loop neuromodulation and self-perception in clinical treatment of refractory epilepsy."
@@ -539,6 +562,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "Sideman AB, Merrilees J, Dulaney S, Kiekhofer R, Braley T, Lee K, 
             **Chiong W**, Miller B, Bonasera SJ, Possin KL."
@@ -562,6 +586,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "Liu AK, Possin KL, Cook KM, Lynch S, Dulaney S, Merrilees JJ, 
             Braley T, Kiekhofer RE, Bonasera SJ, Allen IE, **Chiong W**, 
@@ -586,6 +611,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "**Haeusermann T**, **Romero-Kornblum H**, Dzeng E."
   title: "Of care, cure and the in-between: COVID-19 treatment in a New York City intensive care unit"
@@ -607,6 +633,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "**Manivannan M**, **Heunis J**, Hooper SM, Bernstein Sideman A, 
             Lui KP, Possin KL, **Chiong W**."
@@ -631,6 +658,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "**Chiong W**, Tolchin BD, Bonnie RJ, Busl K, Cruz-Flores S, 
             Epstein LG, Greene EP, Illes J, Kirschen M, Larriviere DG, Mantri S, 
@@ -658,6 +686,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "Sattin JA, **Chiong W**, Bonnie RJ, Kirschen MP, Russell JA, on 
             behalf of the Ethics, Law, and Humanities Committee (a joint 
@@ -682,6 +711,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "Jaworska A, **Chiong W**."
   title: "Supported decision-making for people with dementia should focus on their values."
@@ -703,6 +733,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "**Antoniou R**, **Romero-Kornblum H**, **Young JC**, You M, Kramer JH, **Chiong W**."
   title: "Reduced utilitarian willingness to violate personal rights during the COVID-19 pandemic."
@@ -724,6 +755,7 @@ Rojas JC. Guterman EL."
   preregistered: https://osf.io/g2wtp
   open-data: https://osf.io/d7raz/
   open-materials: https://osf.io/dktac/
+  escholarship: 
 
 - authors: "**Ma H**, Kiekhofer RE, Hooper SM, Dulaney S, Possin KL, **Chiong W.**"
   title: "Goals of care conversations and subsequent advance care planning 
@@ -746,6 +778,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "**Ngo S**, Kim AS, **Chiong W**."
   title: "Evidence for the ethics of incentivizing clinical trial enrollment?"
@@ -767,6 +800,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "Chiang S, Picard RW, **Chiong W**, Moss R, Worrell GA, Rao VR, 
             Goldenholz DM."
@@ -790,6 +824,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "**Chiong W**, Tsou AY, Simmons Z, Bonnie RJ, Russell JA, on behalf 
             of the Ethics, Law, and Humanities Committee (a joint committee of 
@@ -814,6 +849,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "Hrincu V, McDonald PJ, Connolly MB, Harrison MJ, Ibrahim GM, 
             Naftel RP, **Chiong W**, Alam A, Ribary U, Illes J."
@@ -837,6 +873,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "**Lindbergh CA**, **Romero-Kornblum H**, Weiner-Light S, **Young JC**, 
             Fonseca C, You M, Wolf A, Staffaroni AM, Daly R, Jeste DV, Kramer JH, 
@@ -860,6 +897,7 @@ Rojas JC. Guterman EL."
   preregistered: https://osf.io/h3pjx
   open-data: https://osf.io/efjnr
   open-materials: 
+  escholarship: 
 
 - authors: "Hegde M, **Chiong W**, Rao VR."
   title: "New ethical and clinical challenges in “closed-loop” neuromodulation."
@@ -881,6 +919,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
 
 - authors: "Mergenthaler JV, **Chiong W**, Dohan D, Feler J, **Lechner CR**, 
             Starr PA, Arias JJ."
@@ -904,6 +943,7 @@ Rojas JC. Guterman EL."
   preregistered: 
   open-data: 
   open-materials: 
+  escholarship: 
   
 - authors: "**Fong KC**, **Chiong W**."
   title: "Understanding advance directives as a component of advance care planning."
@@ -925,6 +965,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
 
 - authors: "Goss AL, **Chiong W**, Hemphill JC."
   title: "Neurologists' duties in planning for triage of critical care resources 
@@ -947,6 +988,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
 
 - authors: "**Chiong W**."
   title: "Insiders and outsiders: Lessons for neuroethics from the history of bioethics."
@@ -968,6 +1010,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
 
 - authors: "**Zahir A**, Staffaroni AM, Wickham RE, **Quinn CM**, Sapozhnikova A, 
             Seidman J, **Chiong W**."
@@ -990,6 +1033,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
 
 - authors: "Bernstein A, Merrilees J, Dulaney S, Harrison KL, **Chiong W**, 
             Ong P, **Heunis J**, Choi J, Walker R, Feuer JE, Lee K, Dohan D, 
@@ -1013,6 +1057,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
   
 - authors: "**Beagle AJ**, **Zahir A**, **Borzello M**, Kayser AS, Hsu M, 
             Miller BL, Kramer JH, **Chiong W**."
@@ -1036,6 +1081,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data: https://osf.io/fbgxq/
   open-materials: https://osf.io/x2v9z/
+  escholarship: 
 
 - authors: "**Haeusermann T**, **Fong KC**, **Lechner CR**."
   title: "Book Review: Lynch, JA. The Origins of Bioethics: Remembering When 
@@ -1059,6 +1105,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
 
 - authors: " **Chiong W**, **Haeusermann T**."
   title: "Commentary 1: Researcher integrity and contrasting obligations in 
@@ -1081,6 +1128,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
 
 - authors: "Hendriks S, Grady C, Ramos KM, **Chiong W**, Fins JJ, Ford P, 
             Goering S, Greely HT, Hutchison K, Kelly ML, Kim SYH, Klein E, 
@@ -1106,6 +1154,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
 
 - authors: "Possin KL, Merrilees JJ, Dulaney S, Bonasera SJ, **Chiong W**, Lee KP, 
             Hooper SM, Allen IE, Braley T, Bernstein A, Rosa TD, Harrison K, 
@@ -1132,6 +1181,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
 
 - authors: "**Quinn CM**, **Borzello M**, **Zahir A**, Kramer JH, **Chiong W**." 
   title: "COMT Val158Met polymorphism associated with greater susceptibility to 
@@ -1155,6 +1205,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
 
 - authors: "Butler PM, **Chiong W.**"
   title: "Neurodegenerative disorders of the human frontal lobes."
@@ -1175,6 +1226,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
 
 - authors: "Rosa TD, Possin KL, Bernstein A, Merrilees J, Dulaney S, Matuoka J, 
             Lee KP, **Chiong W**, Bonasera SJ, Harrison KL, Kahn JG."
@@ -1194,6 +1246,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
 
 - authors: "Bernstein A, Harrison KL, Dulaney S, Merrilees J, Bowhay A, **Heunis J**, 
             Choi J, Feuer JE, Clark AM, **Chiong W**, Lee K, Braley TL, Bonasera SJ, 
@@ -1216,6 +1269,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
   
 - authors: "Guterman EL, Allen IE, Josephson SA, Merrilees JJ, Dulaney S, 
             **Chiong W**, Lee K, Bonasera SJ, Miller BL, Possin KL."
@@ -1238,6 +1292,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
 
 - authors: "Chen Y, Wilson L, Kornak J, Dudley RA, Merrilees J, Bonasera SJ, 
             Byrne CM, Lee K, **Chiong W**, Miller BL, Possin KL."
@@ -1259,6 +1314,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
   
 - authors: "Thomas ML, Martin AS, Eyler L, Lee EE, Macagno E, Devereaux M, 
             **Chiong W**, Jeste DV."
@@ -1282,6 +1338,7 @@ Rojas JC. Guterman EL."
   preregistered:
   open-data:
   open-materials:
+  escholarship: 
 
 - authors: "Butler PM, **Chiong W**, Perry DC, Miller ZA, Gennatas ED, Brown JA, 
             Pasquini L, Karydas A, Dokuru D, Coppola G, Sturm VE, Boxer AL, 
@@ -1301,6 +1358,7 @@ Rojas JC. Guterman EL."
   file:
   file-type: 
   github:
+  escholarship: 
   
 - authors: "Ramos KM, Grady C, Greely HT, **Chiong W**, Eberwine J, Farahany NA, 
             Johnson LS, Hyman SE, Rommelfanger KS, Serrano EE, Churchill JD, Gordon JA, Koroshetz WJ."
@@ -1317,6 +1375,7 @@ Rojas JC. Guterman EL."
   file:
   file-type: 
   github:
+  escholarship: 
 
 - authors: "Greely HT, Grady C, Ramos KM, **Chiong W**, Eberwine J, Farahany NA, 
             Johnson LS, Hyman BT, Hyman SE, Rommelfanger KS, Serrano EE."
@@ -1333,6 +1392,7 @@ Rojas JC. Guterman EL."
   file:
   file-type: 
   github:
+  escholarship: 
   
 - authors: "Merrilees JJ, Bernstein A, Dulaney S, **Heunis J**, Walker R, Rah E, 
             Choi J, Gawlas K, Carroll S, Ong P, Feuer J, Braley T, Clark AM, 
@@ -1349,6 +1409,7 @@ Rojas JC. Guterman EL."
   file:
   file-type: 
   github:
+  escholarship: 
 
 - authors: "**Vaishnav NH**, **Chiong W**."
   title: "Informed consent for the human research subject with a neurologic disorder."
@@ -1363,6 +1424,7 @@ Rojas JC. Guterman EL."
   file: 
   file-type: 
   github:
+  escholarship: 
 
 - authors: "**Chiong W**, Leonard MK, Chang EF."
   title: "Neurosurgical patients as human research subjects: 
@@ -1378,6 +1440,7 @@ Rojas JC. Guterman EL."
   file: 
   file-type:
   github:
+  escholarship: 
 
 - authors: "**Chiong W**."
   title: "Challenges in communicating and understanding predictive biomarker
@@ -1392,6 +1455,7 @@ Rojas JC. Guterman EL."
   doi: 10.1001/jamaneurol.2017.2558
   file: 
   github:
+  escholarship: 
 
 - authors: "Possin KL, Merrilees J, Bonasera SJ, Bernstein A, **Chiong W**, Lee K, Wilson L,
             Hooper SM, Dulaney S, Braley T, Laohavanich S, Feuer JE, Clark AM, Schaffer MW,
@@ -1410,6 +1474,7 @@ Rojas JC. Guterman EL."
   doi: 10.1371/journal.pmed.1002260
   file:
   github:
+  escholarship: 
 
 - authors: "**Feldman WB**, Kim AS, **Chiong W**."
   title: "Trends in recruitment rates for acute stroke trials, 1990-2014."
@@ -1424,6 +1489,7 @@ Rojas JC. Guterman EL."
   doi: 10.1161/STROKEAHA.116.014458
   file:
   github:
+  escholarship: 
 
 - authors: "Xian Y, **Chiong W**."
   title: "Failures to discuss and document preferences: Preventable medical errors in stroke care."
@@ -1438,6 +1504,7 @@ Rojas JC. Guterman EL."
   file: 
   file-type:
   github:
+  escholarship: 
 
 
 - authors: "**Feldman WB**, Kim AS, Josephson SA, Lowenstein DH, **Chiong W**."
@@ -1453,6 +1520,7 @@ Rojas JC. Guterman EL."
   file:
   github:
   preregistered: https://www.crd.york.ac.uk/PROSPERO/display_record.php?RecordID=10204
+  escholarship: 
   
 - authors: "**Huang IA**, Neuhaus JM, **Chiong W**."
   title: "Racial and ethnic differences in advance directive possession: Role of demographic factors, religious affiliation, and personal health values in a national survey of older adults."
@@ -1467,6 +1535,7 @@ Rojas JC. Guterman EL."
   file:
   github:
   open-data: https://osf.io/m8dtk/
+  escholarship: 
 
 - authors: "**Chiong W**, Wood KA, **Beagle AJ**, Hsu M, Kayser AS, Miller BL, Kramer JH."
   title: "Neuroeconomic dissociation of semantic dementia and behavioural variant frontotemporal dementia."
@@ -1481,6 +1550,7 @@ Rojas JC. Guterman EL."
   doi: 10.1093/brain/awv344
   file:
   github:
+  escholarship: 
   
 - authors: "**Chiong W**, Kim AS, **Huang IA**, Farahany NA, Josephson SA."
   title: "Inability to consent does not diminish the desirability of stroke thrombolysis."
@@ -1498,6 +1568,7 @@ Rojas JC. Guterman EL."
   preregistered: https://osf.io/ny3je/
   open-data: https://osf.io/m8dtk/
   open-materials: https://osf.io/m8dtk/
+  escholarship: 
 
 - authors: "**Chiong W**, Hsu M, Wudka D, Miller BL, Rosen HJ."
   title: "Financial errors in dementia: Testing a neuroeconomic conceptual framework."
@@ -1511,6 +1582,7 @@ Rojas JC. Guterman EL."
   doi: 10.1080/13554794.2013.770886
   file:
   github:
+  escholarship: 
   
 - authors: "**Chiong W**, Kim AS, **Huang IA**, Farahany NA, Josephson SA."
   title: "Testing the presumption of consent to emergency treatment for acute ischemic stroke."
@@ -1532,6 +1604,7 @@ Rojas JC. Guterman EL."
   preregistered: https://osf.io/ny3je/
   open-data: https://osf.io/m8dtk/
   open-materials: https://osf.io/m8dtk/
+  escholarship: 
   
 - authors: "**Chiong W**."
   title: "Dementia and personal identity: Implications for decision-making."
@@ -1546,6 +1619,7 @@ Rojas JC. Guterman EL."
   file: 
   file-type: 
   github:
+  escholarship: 
 
 - authors: "**Chiong W**, Wilson SM, D'Esposito M, Kayser AS, Grossman SN, Poorzand P, Seeley WW, Miller BL, Rankin KP."
   title: "The salience network causally influences default mode network activity during moral reasoning."
@@ -1560,6 +1634,7 @@ Rojas JC. Guterman EL."
   doi: 10.1093/brain/awt066
   file:
   github:
+  escholarship: 
   
 - authors: "**Chiong W**."
   title: "The self: From philosophy to cognitive neuroscience."
@@ -1574,6 +1649,7 @@ Rojas JC. Guterman EL."
   file: 
   file-type: 
   github:
+  escholarship: 
 
 - authors: "**Chiong W**."
   title: "Therapeutic misconceptions and moral conflict in clinical research."
@@ -1588,6 +1664,7 @@ Rojas JC. Guterman EL."
   file: 
   file-type: 
   github:
+  escholarship: 
 
 - authors: "**Chiong W**."
   title: "Justifying patient risks associated with medical education."
@@ -1602,6 +1679,7 @@ Rojas JC. Guterman EL."
   file: 
   file-type: 
   github:
+  escholarship: 
   
 - authors: "**Chiong W**."
   title: "The real problem with equipoise."
@@ -1616,6 +1694,7 @@ Rojas JC. Guterman EL."
   file: 
   file-type: 
   github:
+  escholarship: 
 
 - authors: "**Chiong W**."
   title: "Brain death without definitions."
@@ -1630,3 +1709,4 @@ Rojas JC. Guterman EL."
   file: 
   file-type: 
   github:
+  escholarship: 
