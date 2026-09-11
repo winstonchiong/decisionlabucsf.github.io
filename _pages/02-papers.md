@@ -29,7 +29,7 @@ years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2014, 
   {% endif %}
   {{paper.details | markdownify}}
   {% if paper.open-access %}<i class="ai ai-open-access ai-fw"></i> <a href="{{paper.open-access}}" target="_blank">Open Access</a><br>{% endif %}
-  {% if paper.file %}<i class="far fa-file-alt fa-fw"></i> <a href="{{ paper.file | prepend: '/assets/papers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">{{paper.file-type}}</a><br>{% endif %}
+  {% if paper.escholarship %}<i class="far fa-file-alt fa-fw"></i> <a href="{{ paper.escholarship }}" target="_blank">escholarship</a><br>{% endif %}
   {% if paper.pmcid %}<i class="fas fa-landmark fa-fw"></i> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{paper.pmcid}}" target="_blank">PubMed Central {{paper.pmcid}}</a><br>{% endif %}
   {% if paper.contentshare %}<i class="fas fa-door-open fa-fw"></i> <a href="{{paper.contentshare}}" target="_blank">Content Sharing link</a><br>{% endif %}
   {% if paper.doi %}<i class="ai ai-doi ai-fw"></i>&#160;<a href="https://doi.org/{{paper.doi}}" target="_blank">{{paper.doi}}</a><br>{% endif %}
